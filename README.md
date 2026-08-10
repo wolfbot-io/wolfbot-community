@@ -1,7 +1,7 @@
 # WolfBot Community
 
 <p align="center">
-  <img src=".github/assets/social-preview.png" alt="WolfBot Community — One Platform. Every Market." width="640" />
+  <img src=".github/assets/social-preview.png" alt="WolfBot Community — One Platform. Every Market." width="160" />
 </p>
 
 <h3 align="center">One Platform. Every Market.</h3>
