@@ -27,6 +27,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'WolfBot.io', url: 'https://wolfbot.io' }],
   creator: 'WolfBot.io',
   publisher: 'WolfBot.io',
+  icons: {
+    icon: '/wolfbot-logo.png',
+    apple: '/wolfbot-logo.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -34,13 +38,13 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
-    images: [{ url: '/assets/social-preview.png', width: 1280, height: 640 }],
+    images: [{ url: '/wolfbot-logo.png', width: 1024, height: 1024 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
-    images: ['/assets/social-preview.png'],
+    images: ['/wolfbot-logo.png'],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE.url },
@@ -49,7 +53,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head><StructuredData data={websiteSchema} /></head>
+      <head>
+        <link rel="icon" href="/wolfbot-logo.png" sizes="any" />
+        <StructuredData data={websiteSchema} />
+      </head>
       <body>
         <Header />
         <main>{children}</main>

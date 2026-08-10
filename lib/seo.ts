@@ -1,9 +1,11 @@
 /** Shared SEO helpers for page-level metadata */
+
+export const OG_IMAGE = 'https://community.wolfbot.io/wolfbot-logo.png'
+
 export function ogImage(title: string, subtitle?: string): string {
-  // In production, use an OG image generation service or static template
-  return `https://community.wolfbot.io/api/og?title=${encodeURIComponent(title)}${subtitle ? `&subtitle=${encodeURIComponent(subtitle)}` : ''}`
+  return OG_IMAGE
 }
 
 export function pageKeywords(base: string[]): string {
-  return ['wolfbot', 'wolfbot community', 'trading bot', 'crypto trading', 'self-hosted', ...base].join(', ')
+  return ['wolfbot', 'wolfbot community', 'unified trading platform', 'crypto trading', 'mt5', 'self-hosted', ...base].join(', ')
 }
