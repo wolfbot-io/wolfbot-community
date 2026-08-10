@@ -28,3 +28,7 @@ analytics/*.json
 
 # scripts output
 scripts/output/
+
+# Next.js build cache
+next-env.d.ts
+*.tsbuildinfo

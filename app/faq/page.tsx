@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { FAQPage } from '@/components/landing/FAQSection'
+import { FAQSection } from '@/components/landing/FAQSection'
 import { faqSchema } from '@/lib/structured-data/faq'
 import { StructuredData } from '@/components/seo/StructuredData'
 
@@ -12,7 +12,7 @@ export default function FAQRoute() {
   return (
     <>
       <StructuredData data={faqSchema} />
-      <FAQPage standalone />
+      <FAQSection standalone />
     </>
   )
 }

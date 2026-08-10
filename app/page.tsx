@@ -15,9 +15,9 @@ import { FAQSection } from '@/components/landing/FAQSection'
 import { FinalCTA } from '@/components/landing/FinalCTA'
 
 export const metadata: Metadata = {
-  title: 'WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
+  title: 'WolfBot Community — One Platform. Every Market.',
   description:
-    'Run WolfBot on your own machine. Free. Download WolfBot Community for Windows or Linux and run trading automation on infrastructure you control.',
+    'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures and MT5 markets through one intelligent interface.',
 }
 
 export default function HomePage() {
