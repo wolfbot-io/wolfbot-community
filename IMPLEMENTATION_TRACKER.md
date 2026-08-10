@@ -113,6 +113,13 @@ wolfbot-community/                  # Git submodule → GitHub public repo
 | COMMUNITY-G8 | Discussion/issue templates ready | ✅ |
 | ANALYTICS-G9 | Metrics collector script | ✅ |
 | BRAND-G10 | wolfbot.io link (needs main site) | ⬜ |
+| DEPLOY-G11 | Deployment guide created + git push | ✅ |
+| YT-G12 | YouTube channel setup guide | ✅ |
+| SOCIAL-G13 | Release social templates | ✅ |
+| ANALYTICS-G14 | Analytics architecture documented | ✅ |
+| GROWTH-G15 | Growth playbook created | ✅ |
+| STATUS-G16 | Community status page | ✅ |
+| RSS-G17 | RSS feed generator script | ✅ |
 
 ---
 
@@ -139,6 +146,7 @@ wolfbot-community/                  # Git submodule → GitHub public repo
 | 18 | Self-Hosted Explained | `content/docs/self-hosted-explained.md` | ✅ |
 | 19 | Troubleshooting | `content/docs/troubleshooting.md` | ✅ |
 | 20 | Release Channels | `content/releases/channels.md` | ✅ |
+| 21 | Community Status | `content/docs/community-status.md` | ✅ |
 
 ---
 
@@ -192,4 +200,42 @@ cd wolfbot-community
 npm install
 npm run dev
 # → http://localhost:3000
+
+# 5. Deploy to Cloudflare Pages
+#    See docs/DEPLOYMENT.md
+
+# 6. Setup DNS: CNAME community → pages.dev
+#    See docs/DEPLOYMENT.md §2
 ```
+
+---
+
+## Strategy Documents (new)
+
+| Doc | Sections Covered | Status |
+|---|---|---|
+| docs/DEPLOYMENT.md | DNS + Cloudflare Pages + Vercel | ✅ |
+| docs/YOUTUBE_CHANNEL_SETUP.md | 71-73: YouTube channel + 32 videos + Shorts | ✅ |
+| docs/SOCIAL_TEMPLATES.md | 75-76, 123-124: Release social automation | ✅ |
+| docs/ANALYTICS_SETUP.md | 101-109: Analytics architecture + KPIs | ✅ |
+| docs/30DAY_LAUNCH_ROADMAP.md | 154: 30-day launch plan | ✅ |
+| docs/GROWTH_PLAYBOOK.md | 84-90, 129-130: Stars, HN, PH, directories, backlinks | ✅ |
+| content/docs/community-status.md | 100: Community status page | ✅ |
+| scripts/generate-rss.ts | 78: RSS/Changelog feed | ✅ |
+
+## Build Status
+
+- TypeScript: no errors (npx tsc --noEmit)
+- Next.js build: 27 static pages generated
+- Dev server: http://localhost:3000 (200 OK)
+- Git pushed: github.com/wolfbot-io/wolfbot-community (3 commits)
+
+## Next Actions
+
+1. Cloudflare DNS: CNAME community to pages.dev
+2. Cloudflare Pages: connect repo then deploy
+3. Google Search Console: add property then submit sitemap
+4. YouTube: create channel then record Video 1
+5. GitHub: enable Discussions then pin 5 topics
+
+
