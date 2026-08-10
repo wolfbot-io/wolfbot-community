@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://community.wolfbot.io/schemas/release-manifest-v2.json",
+  "title": "WolfBot Community — Public Release Manifest Schema",
+  "description": "Schema for wolfbot-release.json distributed with each public release. Implements Section 95.20 of the GitHub Release Factory plan.",
+  "type": "object",
+  "required": ["schema_version", "channel", "version", "build_id", "source_commit"],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 2
+    },
+    "channel": {
+      "type": "string",
+      "enum": ["dev-preview", "alpha", "beta", "rc", "stable"]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(-[a-z0-9.]+)?$"
+    },
+    "build_id": {
+      "type": "string",
+      "description": "Unique build identifier (e.g., wb-20260810-a1b2c3d)"
+    },
+    "source_commit": {
+      "type": "string",
+      "description": "Source commit SHA (private repo)"
+    },
+    "minimum_updater": {
+      "type": "string",
+      "description": "Minimum WolfBot updater version required"
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "highlights": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "features": {
+      "type": "object",
+      "properties": {
+        "terminal": {"type": "boolean"},
+        "broker": {"type": "boolean"},
+        "installer": {"type": "boolean"},
+        "risk": {"type": "boolean"},
+        "signal": {"type": "boolean"},
+        "snapshot": {"type": "boolean"},
+        "update": {"type": "boolean"},
+        "strategy": {"type": "boolean"}
+      }
+    },
+    "known_issues": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "linux": {
+      "type": "object",
+      "properties": {
+        "installer": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "sha256": {"type": "string"},
+            "size": {"type": "integer"}
+          }
+        },
+        "images": {
+          "type": "object",
+          "properties": {
+            "engine_live": {"type": "string", "pattern": "^ghcr\\.io/.*@sha256:.*$"},
+            "engine_simulate": {"type": "string"},
+            "control_api": {"type": "string"},
+            "signal_gateway": {"type": "string"},
+            "snapshot_manager": {"type": "string"}
+          }
+        }
+      }
+    },
+    "windows": {
+      "type": "object",
+      "properties": {
+        "installer": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "sha256": {"type": "string"},
+            "size": {"type": "integer"},
+            "authenticode_signed": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "version": {"type": "string"},
+        "sha256": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+# GitHub Discussions Categories for wolfbot-io/wolfbot-community
+#
+# Apply these via: Settings → Features → Discussions → Set up discussions
+# Documented for reproducibility.
+
+categories:
+  - name: Announcements
+    description: Official WolfBot Community announcements and release notifications
+    format: announcement
+    emoji: 📢
+
+  - name: Q&A
+    description: Ask questions and get answers from the community
+    format: q-and-a
+    emoji: 🙋
+
+  - name: Installation Help
+    description: Get help installing WolfBot Community on Windows or Linux
+    format: q-and-a
+    emoji: 💿
+
+  - name: Broker Help
+    description: Get help connecting brokers/exchanges to WolfBot Community
+    format: q-and-a
+    emoji: 🔗
+
+  - name: Ideas
+    description: Share and discuss ideas for new features
+    format: idea
+    emoji: 💡
+
+  - name: Strategies & Workflows
+    description: Discuss trading strategies, automation workflows, and setups
+    format: open
+    emoji: 📊
+
+  - name: Show & Tell
+    description: Share your WolfBot Community setup, results, or experience
+    format: open
+    emoji: 🎉
+
+  - name: General
+    description: Anything else WolfBot Community related
+    format: open
+    emoji: 💬
+
+# Pinned discussions to create after enabling Discussions:
+pinned_discussions:
+  - title: "Welcome to WolfBot Community 👋"
+    category: Announcements
+    content: |
+      Welcome to the WolfBot Community!
+
+      WolfBot Community is the free, self-hosted edition of WolfBot — automated
+      trading software that runs on YOUR machine.
+
+      **Quick links:**
+      - [Download WolfBot Community](https://community.wolfbot.io/download)
+      - [Getting Started Guide](https://community.wolfbot.io/getting-started)
+      - [Documentation](https://community.wolfbot.io/docs)
+
+      Introduce yourself below! Tell us what you're trading and what brought you here.
+
+  - title: "How to Install WolfBot Community"
+    category: Q&A
+    content: |
+      Quick installation reference:
+
+      **Windows:** Download [Setup.exe](https://community.wolfbot.io/download) → Run → Open WolfBot
+
+      **Linux:** Download [.deb](https://community.wolfbot.io/download) → `sudo dpkg -i wolfbot-setup-*.deb` → Open WolfBot
+
+      For detailed steps: [Windows Guide](https://community.wolfbot.io/install/windows) | [Linux Guide](https://community.wolfbot.io/install/linux)
+
+      Having trouble? Ask below with your OS and version.
+
+  - title: "Current Public Preview Status"
+    category: Announcements
+    content: |
+      WolfBot Community is currently in Public Preview.
+
+      Current version: [check latest release](https://github.com/wolfbot-io/wolfbot-community/releases/latest)
+
+      See [Release Channels Explained](https://community.wolfbot.io/releases) for what this means.
+
+  - title: "Supported Brokers and Status"
+    category: Q&A
+    content: |
+      Current broker support: [community.wolfbot.io/brokers](https://community.wolfbot.io/brokers)
+
+      | Broker | Status |
+      |---|---|
+      | Binance | Stable |
+      | Bybit | Stable |
+      | BingX | Stable |
+      | KuCoin | Beta |
+      | Bitget | Beta |
+      | MT5 | Beta |
+
+      Ask broker-specific questions in the [Broker Help category](https://github.com/wolfbot-io/wolfbot-community/discussions/categories/broker-help).
+
+  - title: "Feature Roadmap"
+    category: Ideas
+    content: |
+      See the [WolfBot Community Roadmap](https://github.com/orgs/wolfbot-io/projects/1) for what we're working on.
+
+      Have a feature idea? Open a discussion in the [Ideas category](https://github.com/wolfbot-io/wolfbot-community/discussions/categories/ideas).
+
+  - title: "Show Your WolfBot Setup"
+    category: Show & Tell
+    content: |
+      Share screenshots of your WolfBot Community setup!
+
+      What are you running? Windows or Linux? Which brokers? What strategies?
+
+      (Remember to blur/redact any sensitive information before sharing.)

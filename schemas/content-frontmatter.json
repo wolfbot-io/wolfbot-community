@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://community.wolfbot.io/schemas/content-frontmatter-v1.json",
+  "title": "WolfBot Community Content Frontmatter Schema",
+  "description": "Frontmatter schema for WolfBot Community documentation/tutorial pages. Implements Section 66 of the Community Brand/SEO/Growth Master Plan V2.",
+  "type": "object",
+  "required": ["title", "tested_version", "last_updated"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Page title (used for <title> and <h1>)",
+      "examples": ["Install WolfBot Community on Windows"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Meta description for SEO (150-160 chars)",
+      "maxLength": 160
+    },
+    "tested_version": {
+      "type": "string",
+      "description": "WolfBot Community version this guide was tested with",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(-[a-z0-9.]+)?$",
+      "examples": ["0.8.0-beta.2", "1.0.0"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this content was last reviewed/updated (YYYY-MM-DD)"
+    },
+    "platforms": {
+      "type": "array",
+      "description": "Target platforms this content applies to",
+      "items": {
+        "type": "string",
+        "enum": ["windows", "linux"]
+      },
+      "minItems": 1
+    },
+    "brokers": {
+      "type": "array",
+      "description": "Brokers referenced in this content (for auto-flagging when connector changes)",
+      "items": {
+        "type": "string",
+        "enum": ["binance", "bybit", "bingx", "kucoin", "bitget", "mt5"]
+      }
+    },
+    "category": {
+      "type": "string",
+      "description": "Content category for site navigation",
+      "enum": [
+        "install",
+        "getting-started",
+        "broker-setup",
+        "simulation",
+        "live-trading",
+        "risk-controls",
+        "smart-terminal",
+        "external-signals",
+        "custom-strategies",
+        "updates",
+        "backup",
+        "troubleshooting",
+        "academy",
+        "security",
+        "faq",
+        "release"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Target user skill level",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "estimated_time": {
+      "type": "string",
+      "description": "Estimated time to complete (e.g., '5 minutes')",
+      "examples": ["5 minutes", "15 minutes", "30 minutes"]
+    },
+    "video_id": {
+      "type": "string",
+      "description": "YouTube video ID if a tutorial video exists"
+    },
+    "next_guide": {
+      "type": "string",
+      "description": "URL path to the next logical guide in the user journey",
+      "examples": ["/docs/simulation"]
+    },
+    "previous_guide": {
+      "type": "string",
+      "description": "URL path to the previous guide"
+    },
+    "related_guides": {
+      "type": "array",
+      "description": "Related guide URLs",
+      "items": {"type": "string"}
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Target SEO keywords for this page",
+      "items": {"type": "string"}
+    },
+    "og_image": {
+      "type": "string",
+      "description": "Custom Open Graph image path for this page"
+    },
+    "noindex": {
+      "type": "boolean",
+      "description": "Set to true to exclude from search indexing",
+      "default": false
+    },
+    "sitemap_priority": {
+      "type": "number",
+      "description": "Sitemap priority (0.0 - 1.0)",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "default": 0.5
+    },
+    "os_tested": {
+      "type": "array",
+      "description": "Specific OS versions tested for this guide",
+      "items": {
+        "type": "string",
+        "examples": ["Windows 11 23H2", "Ubuntu 24.04 LTS"]
+      }
+    }
+  }
+}

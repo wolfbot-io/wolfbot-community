@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  body {
+    @apply bg-zinc-950 text-zinc-300 antialiased;
+  }
+}
+
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #09090b; }
+::-webkit-scrollbar-thumb { background: #27272a; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
+
+/* ── Content page prose ── */
+@layer components {
+  .prose-content {
+    @apply max-w-3xl mx-auto;
+  }
+  .prose-content h1 {
+    @apply text-3xl sm:text-4xl font-bold text-white mt-8 mb-4;
+  }
+  .prose-content h2 {
+    @apply text-2xl font-bold text-white mt-10 mb-4 border-b border-zinc-800 pb-2;
+  }
+  .prose-content h3 {
+    @apply text-xl font-semibold text-white mt-8 mb-3;
+  }
+  .prose-content p {
+    @apply text-zinc-400 leading-relaxed mb-4;
+  }
+  .prose-content a {
+    @apply text-blue-400 hover:underline;
+  }
+  .prose-content ul,
+  .prose-content ol {
+    @apply text-zinc-400 mb-4 pl-6 space-y-1;
+  }
+  .prose-content ul { @apply list-disc; }
+  .prose-content ol { @apply list-decimal; }
+  .prose-content li { @apply leading-relaxed; }
+  .prose-content code {
+    @apply bg-zinc-800 text-zinc-300 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+  .prose-content pre {
+    @apply bg-zinc-900 border border-zinc-800 rounded-xl p-4 overflow-x-auto mb-4;
+  }
+  .prose-content pre code {
+    @apply bg-transparent p-0 text-sm;
+  }
+  .prose-content blockquote {
+    @apply border-l-4 border-blue-600/50 pl-4 py-1 mb-4 text-zinc-500 italic;
+  }
+  .prose-content table {
+    @apply w-full border-collapse mb-4;
+  }
+  .prose-content th {
+    @apply text-left text-white font-semibold p-3 border-b border-zinc-800 bg-zinc-900/50 text-sm;
+  }
+  .prose-content td {
+    @apply p-3 border-b border-zinc-800 text-sm text-zinc-400;
+  }
+  .prose-content hr {
+    @apply border-zinc-800 my-8;
+  }
+  .prose-content .frontmatter-banner {
+    @apply bg-zinc-900 border border-zinc-800 rounded-xl p-4 mb-8 text-sm text-zinc-500;
+  }
+  .prose-content .next-guide {
+    @apply mt-8 p-6 border border-blue-900/50 rounded-xl bg-blue-950/10;
+  }
+  .prose-content .next-guide a {
+    @apply text-blue-400 font-semibold;
+  }
+}

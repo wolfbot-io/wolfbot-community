@@ -1,0 +1,79 @@
+name: Installation Problem
+description: Report an issue installing WolfBot Community
+title: "[Install]: "
+labels: ["installation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report installation problems here. Check the [installation guides](https://community.wolfbot.io/install/windows) first.
+
+  - type: input
+    id: version
+    attributes:
+      label: WolfBot Version
+      placeholder: "e.g., 0.8.0-beta.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu 24.04
+        - Ubuntu 22.04
+        - Other Linux
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Installer type
+      options:
+        - Setup.exe (Windows)
+        - .deb (Linux)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong?
+      description: Describe the installation failure
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error output
+      description: Paste the exact error message
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_info
+    attributes:
+      label: System information
+      description: |
+        Windows: Windows version, 32/64-bit, antivirus
+        Linux: `lsb_release -a`, `uname -a`, Docker version if installed
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-check
+      options:
+        - label: I have read the [installation guide](https://community.wolfbot.io/install/windows)
+          required: true
+        - label: I have verified the download checksum
+          required: false
+        - label: I have sufficient disk space (at least 2 GB free)
+          required: false

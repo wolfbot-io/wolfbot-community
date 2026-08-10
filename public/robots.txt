@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://community.wolfbot.io/sitemap.xml
+
+# Disallow internal/admin paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /debug/
+Disallow: /internal/

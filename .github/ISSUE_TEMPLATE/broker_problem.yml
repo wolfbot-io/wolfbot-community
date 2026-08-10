@@ -1,0 +1,85 @@
+name: Broker Connection Problem
+description: Report an issue connecting a broker/exchange to WolfBot Community
+title: "[Broker]: "
+labels: ["broker", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report broker connection issues here. Check the [broker setup guides](https://community.wolfbot.io/brokers) first.
+        > ⚠️ **Never share your API keys, secret keys, or passwords.**
+
+  - type: input
+    id: version
+    attributes:
+      label: WolfBot Version
+    validations:
+      required: true
+
+  - type: dropdown
+    id: broker
+    attributes:
+      label: Broker
+      options:
+        - Binance
+        - Bybit
+        - BingX
+        - KuCoin
+        - Bitget
+        - MT5
+    validations:
+      required: true
+
+  - type: dropdown
+    id: account_type
+    attributes:
+      label: Account type
+      options:
+        - Demo/Testnet
+        - Live
+        - Both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu 24.04
+        - Ubuntu 22.04
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the connection problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or log
+      description: Paste the error. Redact any API keys.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: api_permissions
+    attributes:
+      label: API Key Permissions
+      description: Have you verified your API key has the correct permissions?
+      options:
+        - label: Trade permission is enabled
+          required: true
+        - label: Withdrawal permission is disabled
+          required: false
+        - label: API key IP restrictions match my machine (if set)
+          required: false
+        - label: I have read the [broker API key setup guide](https://community.wolfbot.io/brokers)
+          required: true

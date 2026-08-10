@@ -1,0 +1,30 @@
+# wolfbot-community git submodule
+# This repo is the public-facing GitHub repository for WolfBot Community.
+
+# dependencies
+node_modules/
+.next/
+
+# build output
+out/
+dist/
+
+# env
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# analytics data (local snapshots)
+analytics/*.json
+!analytics/.gitkeep
+
+# scripts output
+scripts/output/

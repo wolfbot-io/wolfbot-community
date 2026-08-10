@@ -1,0 +1,59 @@
+# Repository Configuration for wolfbot-io/wolfbot-community
+#
+# Apply these settings manually on the GitHub repo (Settings tab).
+# This file documents the target state for reproducibility.
+
+repo:
+  description: >
+    WolfBot Community — free self-hosted trading automation for Windows & Linux.
+    Download official releases, follow development and join the community.
+
+  website: "https://community.wolfbot.io"
+
+  topics:
+    - wolfbot
+    - trading-bot
+    - crypto-trading
+    - algorithmic-trading
+    - automated-trading
+    - trading-automation
+    - self-hosted
+    - self-hosting
+    - windows
+    - linux
+    - binance
+    - bybit
+    - mt5
+    - risk-management
+
+  social_preview: ".github/assets/social-preview.png"
+
+  # Features to enable
+  features:
+    discussions: true
+    issues: true
+    projects: true
+    wiki: false
+
+  # Branch protection (main)
+  branch_protection:
+    branch: main
+    required_reviews: 1
+    dismiss_stale_reviews: true
+    require_status_checks: true
+
+  # Release immutability
+  release_immutability: true
+
+  # Actions permissions
+  actions:
+    default_permissions: read
+    allowed_actions: all
+
+  # Environments
+  environments:
+    - name: release-stable
+      reviewers:
+        - maintainer
+      wait_timer: 0
+      deployment_branch: main

@@ -1,0 +1,49 @@
+name: Feature Request
+description: Suggest a new feature for WolfBot Community
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please check the [roadmap](https://github.com/orgs/wolfbot-io/projects/1) first to see if it's already planned.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: What would you like WolfBot Community to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: How would you use this feature?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or alternatives you've tried?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature category
+      options:
+        - Trading / Execution
+        - Broker / Exchange Support
+        - Risk Management
+        - UI / User Experience
+        - Automation / Signals
+        - Installation / Updates
+        - Documentation
+        - Other
+    validations:
+      required: true

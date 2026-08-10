@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "WolfBot Community",
+  "alternateName": [
+    "WolfBot Community by WolfBot.io",
+    "WolfBot Community Edition"
+  ],
+  "url": "https://community.wolfbot.io",
+  "description": "Free self-hosted trading automation for Windows & Linux. WolfBot Community is the free Community edition of WolfBot.io.",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "WolfBot.io",
+    "url": "https://wolfbot.io",
+    "sameAs": [
+      "https://github.com/wolfbot-io",
+      "https://github.com/wolfbot-io/wolfbot-community"
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://community.wolfbot.io/docs/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}

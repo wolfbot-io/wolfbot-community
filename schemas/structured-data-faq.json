@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is WolfBot Community free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WolfBot Community is completely free. It's the self-hosted Community edition of WolfBot.io — no subscription, no cloud account required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I install WolfBot Community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Download the installer for your platform from community.wolfbot.io/download. Windows: run Setup.exe. Linux: install the .deb package. Full guides are available for Windows and Linux."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does WolfBot Community work on Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WolfBot Community supports Windows 10 and Windows 11 (64-bit). Download the Setup.exe installer from the download page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does WolfBot Community work on Ubuntu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WolfBot Community supports Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, and Debian 12+. Download the .deb package from the download page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a VPS to run WolfBot Community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. WolfBot Community runs on your personal Windows or Linux machine. A VPS is optional if you want 24/7 operation without keeping your PC on. Many users start on their desktop and move to a VPS later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when my PC shuts down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When WolfBot Community stops, your positions remain on the exchange—WolfBot is non-custodial and never holds your funds. After restart, WolfBot recovers your positions and resumes monitoring. For 24/7 operation, consider running on a VPS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I start with Simulation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WolfBot Community defaults to Simulation mode after installation. You can test strategies against real market data without risking real funds. Switch to live trading only when you're ready."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which brokers are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WolfBot Community supports Binance, Bybit, BingX, KuCoin, Bitget, and MT5. Some brokers are in Stable status, others in Beta. See the broker matrix at community.wolfbot.io/brokers for current certification status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do updates work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WolfBot Community includes an automatic updater. You can choose between Stable (recommended), Beta, and Dev Preview channels. When a new version is available, you'll be notified and can update with one click."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between WolfBot Community and WolfBot Cloud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WolfBot Community is free and self-hosted — you install and manage it on your own machine. WolfBot Cloud is a managed service where we handle hosting, infrastructure, and provide direct support. Community is ideal if you want full control and zero cost; Cloud is ideal if you want a ready-to-use managed experience."
+      }
+    }
+  ]
+}

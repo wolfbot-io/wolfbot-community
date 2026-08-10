@@ -1,0 +1,119 @@
+name: Bug Report
+description: Report a problem with WolfBot Community
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below.
+        > ⚠️ **Never include API keys, secret keys, or passwords.**
+
+  - type: input
+    id: version
+    attributes:
+      label: WolfBot Version
+      description: Found in Settings → About
+      placeholder: "e.g., 0.8.0-beta.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu 24.04
+        - Ubuntu 22.04
+        - Other Linux
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Installation Type
+      options:
+        - Setup.exe (Windows)
+        - .deb (Linux)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Release Channel
+      options:
+        - Stable
+        - Beta
+        - Dev Preview
+        - Unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened? What did you expect to happen?
+      placeholder: "A clear description of the problem..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or screenshot
+      description: Paste the error message, log output, or attach a screenshot
+      placeholder: "Error code WB-WIN-004: ..."
+    validations:
+      required: false
+
+  - type: input
+    id: diagnostics_id
+    attributes:
+      label: Diagnostics ID
+      description: If shown in the error dialog
+      placeholder: "WB-..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: broker
+    attributes:
+      label: Broker (if applicable)
+      options:
+        - Not using a broker
+        - Binance
+        - Bybit
+        - BingX
+        - KuCoin
+        - Bitget
+        - MT5
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else we should know?
+    validations:
+      required: false

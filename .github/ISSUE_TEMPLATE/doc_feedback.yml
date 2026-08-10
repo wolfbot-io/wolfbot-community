@@ -1,0 +1,40 @@
+name: Documentation Feedback
+description: Report an error or suggest improvements for WolfBot Community docs
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve WolfBot Community documentation.
+
+  - type: input
+    id: page
+    attributes:
+      label: Documentation page URL
+      description: Which page needs attention?
+      placeholder: "https://community.wolfbot.io/docs/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      options:
+        - Error / incorrect information
+        - Missing information
+        - Unclear explanation
+        - Outdated / wrong version
+        - Typo or formatting
+        - Suggestion for new doc
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be fixed or added?
+    validations:
+      required: true
