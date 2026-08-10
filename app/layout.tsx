@@ -7,9 +7,9 @@ import '@/styles/globals.css'
 
 const SITE = {
   name: 'WolfBot Community',
-  tagline: 'Free Self-Hosted Trading Automation',
+  tagline: 'One Platform. Every Market.',
   url: 'https://community.wolfbot.io',
-  description: 'Run WolfBot on your own machine. Free. Download WolfBot Community for Windows or Linux and run trading automation on infrastructure you control.',
+  description: 'WolfBot Community is a free self-hosted unified trading platform for Windows and Linux, bringing crypto exchanges, futures and MT5 markets into one interface for automated trading, smart execution, portfolio monitoring and risk management.',
 }
 
 export const metadata: Metadata = {
@@ -20,14 +20,13 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   keywords: [
-    'wolfbot', 'wolfbot community', 'trading bot', 'crypto trading',
-    'automated trading', 'self-hosted', 'free trading bot',
-    'windows trading bot', 'linux trading bot',
+    'wolfbot', 'wolfbot community', 'unified trading platform',
+    'crypto trading', 'mt5 automation', 'forex trading bot',
+    'self-hosted trading', 'multi-market trading', 'trading automation',
   ],
   authors: [{ name: 'WolfBot.io', url: 'https://wolfbot.io' }],
   creator: 'WolfBot.io',
   publisher: 'WolfBot.io',
-  formatDetection: { telephone: false },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -43,24 +42,14 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: ['/assets/social-preview.png'],
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  alternates: {
-    canonical: SITE.url,
-  },
-  icons: {
-    icon: '/favicon.ico',
-  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: SITE.url },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <StructuredData data={websiteSchema} />
-      </head>
+      <head><StructuredData data={websiteSchema} /></head>
       <body>
         <Header />
         <main>{children}</main>

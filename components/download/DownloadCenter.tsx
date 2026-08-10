@@ -4,7 +4,8 @@ export function DownloadCenter() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <h1 className="text-4xl font-bold text-white text-center mb-2">Download WolfBot Community</h1>
-      <p className="text-zinc-400 text-center mb-12">Free self-hosted edition.</p>
+      <p className="text-zinc-400 text-center mb-2">Free self-hosted unified trading platform.</p>
+      <p className="text-blue-400 text-center mb-12 text-sm font-medium">Crypto + Futures + MT5 — One Platform. Every Market.</p>
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div className="border border-blue-900/50 rounded-xl p-8 bg-blue-950/10">
           <span className="text-xs font-semibold bg-blue-600/20 text-blue-400 px-2 py-0.5 rounded">RECOMMENDED</span>

@@ -1,6 +1,6 @@
 ---
 title: "Install WolfBot Community on Windows — Step-by-Step"
-description: "How to install WolfBot Community on Windows 10 or Windows 11. Download Setup.exe, install in minutes, and start with Simulation."
+description: "How to install WolfBot Community on Windows 10 or Windows 11. Download Setup.exe, install in minutes, and start trading across crypto and MT5 markets."
 tested_version: "0.8.0-beta.2"
 last_updated: "2026-08-11"
 platforms: ["windows"]
@@ -14,7 +14,7 @@ keywords: [
   "wolfbot community windows setup",
   "crypto trading bot windows",
   "trading bot windows 11",
-  "free trading software windows"
+  "windows trading platform"
 ]
 os_tested: ["Windows 11 23H2", "Windows 10 22H2"]
 sitemap_priority: 0.9
@@ -26,7 +26,7 @@ sitemap_priority: 0.9
 
 ## Who this guide is for
 
-This guide is for anyone who wants to install WolfBot Community on a Windows 10 or Windows 11 computer. No coding or Docker experience required.
+This guide is for anyone who wants to install WolfBot Community on a Windows 10 or Windows 11 computer. No coding or Docker experience required. After installation, you'll have a unified trading platform for crypto exchanges and MT5 brokers — one interface, every market.
 
 ## What you need
 
@@ -36,7 +36,7 @@ This guide is for anyone who wants to install WolfBot Community on a Windows 10 
 - Internet connection
 - Administrator access to install software
 
-> ⚠️ **Antivirus note:** Some antivirus may flag new software. WolfBot Community installers are safe. If your antivirus blocks the installer, add an exception or temporarily pause it.
+> ⚠️ **Antivirus note:** Some antivirus may flag new software. WolfBot Community installers are safe — they are official builds from WolfBot.io. If your antivirus blocks the installer, add an exception or temporarily pause it.
 
 ## Step 1: Download
 

@@ -5,11 +5,11 @@ export function TrustStrip() {
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-zinc-500">
           <span>✅ Free Community Edition</span>
           <span className="hidden sm:inline text-zinc-700">·</span>
-          <span>☁️ No Cloud subscription required</span>
+          <span>🖥️ Self-Hosted on Windows & Linux</span>
           <span className="hidden sm:inline text-zinc-700">·</span>
-          <span>🪟🐧 Windows &amp; Linux</span>
+          <span>🌐 Crypto + Futures + MT5</span>
           <span className="hidden sm:inline text-zinc-700">·</span>
-          <span>🔒 Official WolfBot.io release</span>
+          <span>🔒 Official WolfBot.io Release</span>
         </div>
       </div>
     </div>

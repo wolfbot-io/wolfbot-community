@@ -1,6 +1,6 @@
 ---
-title: "Connect Bybit to WolfBot Community — Setup Guide"
-description: "Step-by-step guide to connect Bybit (Demo and Live) to WolfBot Community. Create trade-only API keys, test connection, and start trading."
+title: "Connect Bybit to WolfBot Community — Step-by-Step"
+description: "Connect Bybit to WolfBot Community — create trade-only API keys and start automated trading on Spot, Futures and Demo."
 tested_version: "0.8.0-beta.2"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
@@ -16,7 +16,7 @@ keywords: [
   "bybit self hosted bot",
   "bybit api trading automation",
   "connect bybit to wolfbot",
-  "bybit automated trading"
+  "bybit unified trading"
 ]
 sitemap_priority: 0.85
 ---
@@ -29,7 +29,7 @@ sitemap_priority: 0.85
 
 ## Who this guide is for
 
-Anyone who wants to connect a Bybit account (Demo or Live) to WolfBot Community for automated or manual trading.
+Anyone who wants to connect a Bybit account (Demo or Live) to WolfBot Community for automated trading.
 
 ## What you need
 

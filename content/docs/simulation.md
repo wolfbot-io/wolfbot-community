@@ -1,6 +1,6 @@
 ---
 title: "Start WolfBot Community with Simulation"
-description: "Learn how to use WolfBot Community Simulation mode. Paper-trade against real market data without risking real funds."
+description: "Learn how to use WolfBot Community Simulation mode. Paper-trade against real market data across crypto and MT5 markets without risking real funds."
 tested_version: "0.8.0-beta.2"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
@@ -26,14 +26,14 @@ sitemap_priority: 0.85
 
 ## What is Simulation?
 
-Simulation mode lets you paper-trade using real market data without risking any funds. WolfBot processes real price feeds and executes simulated orders — exactly like live trading, but with virtual money.
+Simulation mode lets you paper-trade using real market data without risking any funds — across all markets WolfBot connects to. WolfBot processes real-time prices from crypto exchanges and MT5 brokers, executing simulated orders exactly like live trading, but with virtual money.
 
 ## Why start with Simulation?
 
 1. **Zero risk** — No real money involved
-2. **Learn the interface** — Understand orders, positions, risk controls
-3. **Test strategies** — Validate your approach before going live
-4. **Build confidence** — See how WolfBot reacts to market movements
+2. **Learn the interface** — Understand orders, positions, risk controls across markets
+3. **Test strategies** — Validate your approach on crypto and MT5 instruments before going live
+4. **Build confidence** — See how WolfBot reacts to market movements across different asset classes
 
 ## Step 1: Enable Simulation
 
@@ -46,10 +46,10 @@ Simulation mode lets you paper-trade using real market data without risking any 
 
 ## Step 2: Explore the Smart Terminal
 
-The Smart Terminal is your manual trading interface.
+The Smart Terminal is your manual trading interface — the same one you'll use for live trading later.
 
 1. Go to **Smart Terminal**
-2. Select a trading pair (e.g., BTC/USDT)
+2. Select a trading pair (e.g., BTC/USDT for crypto, or XAU/USD for gold via MT5)
 3. Notice the pre-filled risk parameters:
    - Position size
    - Stop-loss
@@ -74,6 +74,8 @@ Even in Simulation, practice good risk management:
 3. **Cooldowns** — Minimum time between trades
 4. **Daily Limits** — Max number of trades per day
 
+> 🛡️ Risk controls work the same way in Simulation and Live mode. Configure them now so you're ready when you go live.
+
 See [Risk Controls Guide →](/docs/risk-controls)
 
 ## Step 5: Try Automated Bots
@@ -82,7 +84,7 @@ See [Risk Controls Guide →](/docs/risk-controls)
 2. Choose a strategy template
 3. Configure parameters
 4. Start the bot in Simulation mode
-5. Watch it execute trades automatically
+5. Watch it execute trades automatically — the same logic runs for crypto and MT5 instruments
 
 ## Switching to Live Trading
 
@@ -92,18 +94,18 @@ When you're confident:
 3. Keep tight stop-losses
 4. Gradually increase as you verify behavior
 
-> ⚠️ Never skip Simulation. Even experienced traders should test new strategies in Simulation first.
+> ⚠️ Never skip Simulation. Even experienced traders should test new strategies in Simulation first — especially when trading across different market types.
 
 ## Common Questions
 
 **Q: Does Simulation use real market data?**
-Yes. WolfBot fetches real-time prices from exchanges.
+Yes. WolfBot fetches real-time prices from exchanges and MT5 brokers.
 
 **Q: Can I lose money in Simulation?**
 No. All trades are simulated with virtual funds.
 
 **Q: How realistic is Simulation vs Live?**
-Simulation uses the same order logic as live trading. The main difference is no real execution slippage.
+Simulation uses the same order logic as live trading. The main difference is no real execution slippage. This is true whether you're trading crypto, forex, or gold.
 
 **Q: Can I reset my Simulation balance?**
 Yes. Settings → Simulation → Reset Balance.

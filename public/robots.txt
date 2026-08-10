@@ -3,7 +3,7 @@ Allow: /
 
 Sitemap: https://community.wolfbot.io/sitemap.xml
 
-# Disallow internal/admin paths
+# Disallow internal paths
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
