@@ -2,12 +2,13 @@
 import createMDX from '@next/mdx'
 
 const nextConfig = {
-  // Static export: Cloudflare Pages serves this as pure HTML/CSS/JS, no Node.js
-  // server or edge adapter required. Every route is fully static (see
-  // app/[...slug]/page.tsx generateStaticParams, no app/api/*, no middleware.ts),
-  // so export mode is safe. Cache headers and redirects moved to
-  // public/_headers and public/_redirects because Next.js does not support
-  // headers()/redirects() config functions in output: 'export' mode.
+  // Static export: the Dockerfile copies the resulting out/ into an
+  // nginx:alpine runtime image (see docker/nginx.conf), no Node.js server
+  // at runtime. Every route is fully static (see app/[...slug]/page.tsx
+  // generateStaticParams, no app/api/*, no middleware.ts), so export mode
+  // is safe. Cache headers and redirects live in docker/nginx.conf instead
+  // of headers()/redirects() here, which Next.js does not support in
+  // output: 'export' mode.
   output: 'export',
   pageExtensions: ['ts', 'tsx', 'mdx'],
   images: {

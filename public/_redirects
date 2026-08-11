@@ -1,7 +1,0 @@
-# Cloudflare Pages redirects config.
-# https://developers.cloudflare.com/pages/configuration/redirects/
-# Equivalent of the old next.config.mjs redirects() (unsupported with output: 'export').
-
-/docs               /getting-started                                                    301
-/github             https://github.com/wolfbot-io/wolfbot-community                     302
-/releases/latest    https://github.com/wolfbot-io/wolfbot-community/releases/latest      302
