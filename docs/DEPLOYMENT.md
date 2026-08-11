@@ -26,12 +26,15 @@ compose build/up`).
 
 **Hiện tại (đúng, khớp pattern có sẵn):** đóng gói `wolfbot-community` thành
 1 Docker image tự chứa (multi-stage: Node build → nginx:alpine runtime),
-thêm làm 1 service trong chính `wolfbot-platform/docker-compose.yml` —
-y hệt cách `frontend`/`backend` đã được build từ source. Build diễn ra
-**trong Docker trên VPS** (`docker compose build community`), không phải
-build tay trên máy local rồi rsync. Gắn thêm vào webhook listener đang chạy
-sẵn cho `wolfbot.io` để `git push` vào repo `wolfbot-community` cũng tự
-kích hoạt rebuild, y hệt trải nghiệm bạn đang có với webUI.
+build từ chính `wolfbot-community/docker-compose.yml` — y hệt cách
+`frontend`/`backend` trong `wolfbot-platform` đã được build từ source, chỉ
+khác là **compose project riêng** (không nằm trong
+`wolfbot-platform/docker-compose.yml`, xem lý do ở mục 2.0 — tránh mỗi lần
+push code platform không liên quan cũng vô tình rebuild theo `community`).
+Build diễn ra **trong Docker trên VPS** (`docker compose build community`),
+không phải build tay trên máy local rồi rsync. Gắn thêm vào webhook listener
+đang chạy sẵn cho `wolfbot.io` để `git push` vào repo `wolfbot-community`
+cũng tự kích hoạt rebuild, y hệt trải nghiệm bạn đang có với webUI.
 
 ```text
         GitHub: wolfbot-io/wolfbot-community (push)
@@ -64,9 +67,10 @@ tại) — không phải nơi host code.
 |---|---|
 | `wolfbot-community/Dockerfile` | Multi-stage: `npm run sitemap && npm run build` → copy `out/` vào nginx:alpine |
 | `wolfbot-community/docker/nginx.conf` | Nginx bên trong container: redirect `/docs`, `/github`, `/releases/latest`, cache `_next/static` + ảnh, `try_files $uri $uri.html $uri/ =404` (Next export ghi `<route>.html` phẳng, không phải `<route>/index.html`) |
-| `wolfbot-community/scripts/rebuild_community.sh` | `git fetch/reset --hard` + `docker compose build/up community` — chạy trên VPS, do webhook gọi |
-| `wolfbot-platform/docker-compose.yml` | Service `community` mới (build từ `../wolfbot-community`); `nginx` service `depends_on: community` |
-| `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (giống hệt block `frontend`) |
+| `wolfbot-community/docker-compose.yml` | Compose project **riêng** (`COMPOSE_PROJECT_NAME=wolfbot-community`), chỉ join network `wolfbot_platform_net` (external) — không nằm trong compose project của `wolfbot-platform`, xem mục 2.0 |
+| `wolfbot-community/scripts/rebuild_community.sh` | `git fetch/reset --hard` (có guard chặn nếu có file track chưa commit) + `docker compose build/up community` trên project riêng — chạy trên VPS, do webhook gọi |
+| `wolfbot-platform/docker-compose.yml` | Service `community` đã **gỡ khỏi** file này (từng ở đây, gây rủi ro rebuild chéo — xem mục 2.0); `nginx` chỉ còn share network để `proxy_pass` |
+| `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (resolve qua network dùng chung, không phải `depends_on` cùng compose project) |
 | `host_tools/webhook/webhook_listener.py` | Thêm nhánh: nếu `repository.full_name == "wolfbot-io/wolfbot-community"` → chạy `rebuild_community.sh` thay vì flow pull-toàn-monorepo cũ |
 
 **Verify đã chạy (local, không đụng VPS):**
@@ -75,9 +79,17 @@ tại) — không phải nơi host code.
   `/sitemap.xml` → 200; `/docs` → 301; `/github` → 302; route lạ → 404;
   ảnh → `Cache-Control: max-age=31536000, immutable`.
 - Test end-to-end thật: dựng outer nginx (đúng `nginx.conf` mới) +
-  container `community` trên cùng Docker network, outer nginx
-  `proxy_pass` qua Host header `community.wolfbot.io` → tất cả route trên
-  đều đúng qua 2 lớp proxy, giống hệt topology production.
+  container `community` (chạy từ compose project riêng
+  `wolfbot-community/docker-compose.yml`) trên cùng external Docker network
+  `wolfbot_platform_net`, outer nginx `proxy_pass` qua Host header
+  `community.wolfbot.io` → tất cả route trên đều đúng qua 2 lớp proxy,
+  giống hệt topology production.
+- Verify riêng cho việc tách compose project (mục 2.0): tạo 1 service giả
+  trong 1 project tên `wolfbot-platform` trên cùng network, chạy
+  `compose down --remove-orphans` trên project đó → container `community`
+  (project khác) **sống sót nguyên vẹn**, chỉ service giả bị xoá; và
+  `curl http://community:80` từ container ở project khác vẫn resolve đúng
+  qua Docker DNS của network dùng chung.
 - `nginx -t` với `nginx.conf` mới (cert giả) → syntax OK.
 - `python3 -m py_compile webhook_listener.py` → syntax OK. (Không chạy
   `rebuild_community.sh` thật vì nó `git reset --hard` — sẽ xoá các file
@@ -87,11 +99,35 @@ tại) — không phải nơi host code.
 
 ## 2. Việc cần làm 1 LẦN DUY NHẤT (sau đó push là xong mãi mãi)
 
+### 2.0 Vì sao `community` là 1 compose project RIÊNG, không chung với frontend/backend
+
+`wolfbot-platform/rebuild_platform.sh` chạy `compose down --remove-orphans` /
+`compose build` / `compose up -d` **không giới hạn service** trên project
+`wolfbot-platform`. Nếu `community` là 1 service trong cùng
+`wolfbot-platform/docker-compose.yml`, thì **mỗi lần có push bất kỳ vào
+monorepo** (kể cả không đụng gì tới `wolfbot-community`) cũng sẽ tự tắt/rebuild
+lại `community` theo — 2 vòng đời deploy độc lập bị dính vào nhau.
+
+Vì vậy `wolfbot-community/docker-compose.yml` là **1 file/project compose
+riêng** (`COMPOSE_PROJECT_NAME=wolfbot-community`), chỉ dùng chung 1 external
+Docker network (`wolfbot_platform_net`) để nginx của `wolfbot-platform` vẫn
+`proxy_pass http://community:80` được — Docker DNS resolve tên container qua
+network dùng chung, bất kể khác compose project. Đã verify thật: container
+`community` **sống sót nguyên vẹn** qua `compose down --remove-orphans` chạy
+trên project `wolfbot-platform`, và vẫn `curl` được từ container ở project
+khác qua đúng tên `community`.
+
+Network `wolfbot_platform_net` đã được tạo sẵn lúc setup VPS ban đầu
+(`scripts/install_new_vps_full.sh`, `scripts/rebuild_all.sh` đều
+`docker network create wolfbot_platform_net` một cách idempotent) — không
+cần tạo lại.
+
 ### 2.1 Trên VPS — pull code + bootstrap cert + khởi động service mới
 
 ```bash
+# --- Phần wolfbot-platform: chỉ cần nginx.conf mới ---
 cd /path/to/WolfBot_Dockerized/wolfbot-platform
-git pull   # lấy docker-compose.yml + nginx.conf mới
+git pull   # lấy nginx.conf mới (không còn service `community` ở đây nữa)
 
 # Nginx sẽ từ chối reload nếu cert community.wolfbot.io chưa tồn tại.
 # 1) Comment tạm khối `server { listen 443 ... community.wolfbot.io }`
@@ -103,14 +139,20 @@ docker compose run --rm certbot certonly --webroot \
   -w /var/www/certbot -d community.wolfbot.io \
   --email <admin-email> --agree-tos --no-eff-email
 
-# 3) Bỏ comment lại khối 443, build + start service community lần đầu
-docker compose build community
-docker compose up -d community
+# 3) Bỏ comment lại khối 443, reload
 docker compose exec nginx nginx -s reload
+
+# --- Phần wolfbot-community: build + start container riêng ---
+cd ../wolfbot-community
+git pull
+COMPOSE_PROJECT_NAME=wolfbot-community docker compose build community
+COMPOSE_PROJECT_NAME=wolfbot-community docker compose up -d community
 ```
 
 Cert renew tự động về sau nhờ vòng lặp `certbot renew` đã chạy sẵn trong
-service `certbot` — không cần thêm cron/job mới.
+service `certbot` — không cần thêm cron/job mới. `rebuild_community.sh`
+(mục 3) đã tự set `COMPOSE_PROJECT_NAME=wolfbot-community` nên các lần sau
+không cần gõ tay.
 
 ### 2.2 DNS — Cloudflare
 
@@ -189,11 +231,12 @@ file → submit `https://community.wolfbot.io/sitemap.xml`.
 
 ```bash
 # Trên VPS
-cd wolfbot-platform
-docker compose logs community          # xem lỗi
-git -C ../wolfbot-community log --oneline -5
-git -C ../wolfbot-community reset --hard <commit-tốt-trước-đó>
-docker compose build community && docker compose up -d community
+cd wolfbot-community
+COMPOSE_PROJECT_NAME=wolfbot-community docker compose logs community   # xem lỗi
+git log --oneline -5
+git reset --hard <commit-tốt-trước-đó>
+COMPOSE_PROJECT_NAME=wolfbot-community docker compose build community
+COMPOSE_PROJECT_NAME=wolfbot-community docker compose up -d community
 ```
 
 `webhook_listener.py` cho path monorepo có auto-rollback (lưu

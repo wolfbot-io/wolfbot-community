@@ -1,0 +1,26 @@
+# Deliberately a SEPARATE compose project from wolfbot-platform/docker-compose.yml
+# (own COMPOSE_PROJECT_NAME=wolfbot-community, see scripts/rebuild_community.sh) --
+# joins the same wolfbot_platform_net external network only for connectivity,
+# so wolfbot-platform's rebuild_platform.sh (which runs unscoped `compose
+# down --remove-orphans` / `compose build` / `compose up -d` over its own
+# project) never sees, stops, or rebuilds this container as a side effect of
+# an unrelated wolfbot.io platform deploy. Two independent lifecycles, one
+# shared network for nginx's proxy_pass http://community:80.
+
+services:
+  community:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wolfbot-community:latest
+    container_name: community
+    restart: unless-stopped
+    networks:
+      wolfbot-network:
+        aliases:
+          - community
+
+networks:
+  wolfbot-network:
+    external: true
+    name: wolfbot_platform_net
