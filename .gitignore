@@ -29,6 +29,10 @@ analytics/*.json
 # scripts output
 scripts/output/
 
+# generated at build time by `npm run sitemap` (scripts/generate-sitemap.ts)
+# — regenerated on every Cloudflare Pages build, do not commit a stale copy
+public/sitemap.xml
+
 # Next.js build cache
 next-env.d.ts
 *.tsbuildinfo
