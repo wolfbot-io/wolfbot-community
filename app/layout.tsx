@@ -12,6 +12,13 @@ const SITE = {
   description: 'WolfBot Community is a free self-hosted unified trading platform for Windows and Linux, bringing crypto exchanges, futures and MT5 markets into one interface for automated trading, smart execution, portfolio monitoring and risk management.',
 }
 
+// Cloudflare Web Analytics (privacy-conscious, no cookies) -- site
+// registered as "community.wolfbot.io" in the Cloudflare dashboard under
+// Analytics & Logs -> Web Analytics. This token is not a secret (it's
+// pasted into a public <script> tag by design, same as any Cloudflare
+// beacon token), just an identifier for that dashboard entry.
+const CLOUDFLARE_BEACON_TOKEN = '8d9f9006aa4d4e519b0523eb68a8ed02'
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
@@ -56,6 +63,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/wolfbot-logo.png" sizes="any" />
         <StructuredData data={websiteSchema} />
+        <script
+          type="module"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${CLOUDFLARE_BEACON_TOKEN}"}`}
+        />
       </head>
       <body>
         <Header />
