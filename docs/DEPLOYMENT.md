@@ -3,14 +3,15 @@
 **Ngày cập nhật:** 2026-08-11
 **Stack:** Next.js 14, `output: 'export'` (static), đóng gói bằng Docker
 **Domain:** community.wolfbot.io
-**Hosting:** cùng VPS đang chạy wolfbot.io, cùng cơ chế auto-deploy qua
-webhook (`host_tools/webhook/webhook_listener.py`) mà `wolfbot-platform`
-(frontend/backend của wolfbot.io) đang dùng — **push code là xong, không cần
-build/rsync thủ công.**
+**Hosting:** cùng VPS đang chạy wolfbot.io, deploy tự động qua GitHub webhook
+khi push code — **push code là xong, không cần build/rsync thủ công.** Dùng
+listener **riêng**, port **riêng** (`host_tools/webhook/community_webhook_listener.py`,
+mặc định port 5001) — KHÔNG dùng chung listener/port 5000 của
+`wolfbot-platform` (`webhook_listener.py`), xem lý do ở mục 0/Lần 3.
 
 ---
 
-## 0. Kiến trúc — vì sao lại thế này (2 lần đổi hướng, ghi lại để khỏi lặp lại)
+## 0. Kiến trúc — vì sao lại thế này (3 lần đổi hướng, ghi lại để khỏi lặp lại)
 
 **Lần 1 — Cloudflare Pages/Workers:** thử deploy qua Cloudflare git
 integration, Cloudflare tự nhận diện `next` trong `package.json` và chạy
@@ -32,16 +33,35 @@ khác là **compose project riêng** (không nằm trong
 `wolfbot-platform/docker-compose.yml`, xem lý do ở mục 2.0 — tránh mỗi lần
 push code platform không liên quan cũng vô tình rebuild theo `community`).
 Build diễn ra **trong Docker trên VPS** (`docker compose build community`),
-không phải build tay trên máy local rồi rsync. Gắn thêm vào webhook listener
-đang chạy sẵn cho `wolfbot.io` để `git push` vào repo `wolfbot-community`
-cũng tự kích hoạt rebuild, y hệt trải nghiệm bạn đang có với webUI.
+không phải build tay trên máy local rồi rsync. `git push` vào repo
+`wolfbot-community` tự kích hoạt rebuild, y hệt trải nghiệm bạn đang có với
+webUI.
+
+**Lần 3 — dùng chung port 5000 với webhook monorepo:** ban đầu gắn thêm 1
+nhánh `if repo == "wolfbot-io/wolfbot-community"` vào chính
+`webhook_listener.py` (port 5000, service `webhook_listener` có sẵn cho
+`WolfBot_Dockerized`). Trước khi kịp deploy bản này lên VPS, có push gần
+nhau vào cả 2 repo — do VPS còn chạy bản `webhook_listener.py` **cũ** (chưa
+có nhánh trên), push vào `wolfbot-community` bị hiểu nhầm thành push
+monorepo, chạy `rebuild_all.sh` (rebuild toàn bộ trading engine, không liên
+quan `community`) 2 lần liên tiếp cách nhau ~30s → lần 2 fail → code cũ tự
+`git reset --hard` (rollback) monorepo. Không mất code (rollback chỉ ảnh
+hưởng checkout monorepo trên VPS, không đụng lịch sử Git thật của
+`wolfbot-community`), nhưng cho thấy 1 file listener/1 port dùng chung vẫn
+có thể gây nhầm lẫn nếu quên đồng bộ deploy. Chuyển hẳn sang **1 process
+Flask riêng, 1 port riêng** (`community_webhook_listener.py`, port 5001) —
+loại bỏ khả năng nhầm lẫn giữa 2 luồng, và loại luôn giới hạn xếp-hàng-chờ
+của Flask dev server đơn luồng (`app.run()` không `threaded=True` — 1 push
+monorepo chạy nhiều phút sẽ chặn push community phải đợi nếu dùng chung 1
+process).
 
 ```text
         GitHub: wolfbot-io/wolfbot-community (push)
                        │  webhook POST
                        ▼
-        VPS :5000  host_tools/webhook/webhook_listener.py
-                       │  repo == "wolfbot-io/wolfbot-community"
+        VPS :5001  host_tools/webhook/community_webhook_listener.py
+                       │  (process/port RIÊNG, không chung với :5000
+                       │   webhook_listener.py của monorepo)
                        ▼
         wolfbot-community/scripts/rebuild_community.sh
           git fetch + reset --hard origin/main
@@ -71,7 +91,9 @@ tại) — không phải nơi host code.
 | `wolfbot-community/scripts/rebuild_community.sh` | `git fetch/reset --hard` (có guard chặn nếu có file track chưa commit) + `docker compose build/up community` trên project riêng — chạy trên VPS, do webhook gọi |
 | `wolfbot-platform/docker-compose.yml` | Service `community` đã **gỡ khỏi** file này (từng ở đây, gây rủi ro rebuild chéo — xem mục 2.0); `nginx` chỉ còn share network để `proxy_pass` |
 | `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (resolve qua network dùng chung, không phải `depends_on` cùng compose project) |
-| `host_tools/webhook/webhook_listener.py` | Thêm nhánh: nếu `repository.full_name == "wolfbot-io/wolfbot-community"` → chạy `rebuild_community.sh` thay vì flow pull-toàn-monorepo cũ |
+| `host_tools/webhook/community_webhook_listener.py` | Flask app **riêng**, port riêng (mặc định 5001, đổi qua env `COMMUNITY_WEBHOOK_PORT`) — chỉ nhận push từ `wolfbot-io/wolfbot-community`, gọi `rebuild_community.sh`. KHÔNG chung process/port với `webhook_listener.py` (port 5000, monorepo) — xem mục 0/Lần 3 |
+| `host_tools/webhook/setup_community_webhook_listener.sh` | Cài systemd service `community_webhook_listener` cho listener trên |
+| `host_tools/webhook/webhook_listener.py` | Đã revert về đúng bản gốc (không còn nhánh xử lý community) — chỉ còn xử lý push cho `WolfBot_Dockerized` |
 
 **Verify đã chạy (local, không đụng VPS):**
 - `docker build` image `wolfbot-community` → thành công (multi-stage, 0 lỗi).
@@ -91,9 +113,21 @@ tại) — không phải nơi host code.
   `curl http://community:80` từ container ở project khác vẫn resolve đúng
   qua Docker DNS của network dùng chung.
 - `nginx -t` với `nginx.conf` mới (cert giả) → syntax OK.
-- `python3 -m py_compile webhook_listener.py` → syntax OK. (Không chạy
-  `rebuild_community.sh` thật vì nó `git reset --hard` — sẽ xoá các file
-  chưa commit.)
+- `python3 -m py_compile webhook_listener.py community_webhook_listener.py` → syntax OK.
+- Test `community_webhook_listener.py` bằng Flask test client thật (không
+  qua mạng, không chạy `rebuild_community.sh` thật — trỏ tạm
+  `REBUILD_COMMUNITY_SCRIPT` sang 1 script giả để không đụng `git reset
+  --hard` trên working tree thật):
+  - Payload không có `repository` → `Ignored`.
+  - Push từ repo khác `wolfbot-io/wolfbot-community` → bị bỏ qua, **không**
+    gọi rebuild.
+  - Push đúng repo, script giả exit 0 → chạy + trả về "Community site
+    rebuilt".
+  - Push đúng repo, script giả exit 1 → trả lỗi rõ ràng, **không** crash
+    500.
+  - `COMMUNITY_WEBHOOK_PORT` override qua env var hoạt động đúng (mặc định
+    5001).
+  - Tất cả 5 case PASS.
 
 ---
 
@@ -166,19 +200,30 @@ Proxy:  ✅ Orange cloud
 TTL:    Auto
 ```
 
-### 2.3 Đăng ký GitHub webhook cho repo wolfbot-community
+### 2.3 Cài listener riêng + đăng ký GitHub webhook cho repo wolfbot-community
+
+Listener này **độc lập hoàn toàn** với `webhook_listener` (port 5000) đang
+chạy cho monorepo — cài thêm 1 systemd service mới, port mới (mặc định
+5001), không sửa gì service cũ.
+
+```bash
+# Trên VPS
+cd /path/to/WolfBot_Dockerized
+bash host_tools/webhook/setup_community_webhook_listener.sh
+# (đổi port: COMMUNITY_WEBHOOK_PORT=5002 bash host_tools/webhook/setup_community_webhook_listener.sh)
+
+# Mở port trên firewall/security group VPS (giống cách port 5000 đã mở)
+sudo ufw allow 5001/tcp   # hoặc đúng công cụ firewall VPS đang dùng
+```
 
 Repo `github.com/wolfbot-io/wolfbot-community` → **Settings → Webhooks →
 Add webhook**:
 
 ```text
-Payload URL:   http://<VPS_IP>:5000/webhook
+Payload URL:   http://<VPS_IP>:5001/webhook   ← port RIÊNG, khác port 5000 của monorepo
 Content type:  application/json
 Events:        Just the push event
 ```
-
-Đây là **URL webhook y hệt** đang dùng cho monorepo (`wolfbot_listener.py`
-đọc `repository.full_name` để tự phân biệt, không cần port/URL riêng).
 
 ---
 
