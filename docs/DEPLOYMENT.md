@@ -55,6 +55,18 @@ của Flask dev server đơn luồng (`app.run()` không `threaded=True` — 1 p
 monorepo chạy nhiều phút sẽ chặn push community phải đợi nếu dùng chung 1
 process).
 
+**Lần 3.1 — submodule chưa init trên VPS lần đầu chạy `community_webhook_listener.py`
+mới:** ngay lần webhook đầu tiên chạy trên listener mới (port 5001), lỗi
+thật ghi nhận: `rebuild_community.sh: No such file or directory`. Nguyên
+nhân: `wolfbot-community/` trên VPS chưa từng `git submodule update --init`
+— submodule không tự có nội dung chỉ nhờ `git pull` ở repo cha (đã giải
+thích ở lượt review trước), nên chính file cần chạy để tự deploy còn chưa
+tồn tại trên đĩa. Fix: `community_webhook_listener.py` tự kiểm tra
+`wolfbot-community/.git` có tồn tại chưa trước khi gọi
+`rebuild_community.sh`; nếu chưa, tự chạy `git submodule update --init
+--recursive -- wolfbot-community` một lần rồi mới tiếp tục — không cần
+thao tác tay trên VPS nữa, kể cả lần đầu tiên trên 1 VPS hoàn toàn mới.
+
 ```text
         GitHub: wolfbot-io/wolfbot-community (push)
                        │  webhook POST
@@ -91,7 +103,7 @@ tại) — không phải nơi host code.
 | `wolfbot-community/scripts/rebuild_community.sh` | `git fetch/reset --hard` (có guard chặn nếu có file track chưa commit) + `docker compose build/up community` trên project riêng — chạy trên VPS, do webhook gọi |
 | `wolfbot-platform/docker-compose.yml` | Service `community` đã **gỡ khỏi** file này (từng ở đây, gây rủi ro rebuild chéo — xem mục 2.0); `nginx` chỉ còn share network để `proxy_pass` |
 | `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (resolve qua network dùng chung, không phải `depends_on` cùng compose project) |
-| `host_tools/webhook/community_webhook_listener.py` | Flask app **riêng**, port riêng (mặc định 5001, đổi qua env `COMMUNITY_WEBHOOK_PORT`) — chỉ nhận push từ `wolfbot-io/wolfbot-community`, gọi `rebuild_community.sh`. KHÔNG chung process/port với `webhook_listener.py` (port 5000, monorepo) — xem mục 0/Lần 3 |
+| `host_tools/webhook/community_webhook_listener.py` | Flask app **riêng**, port riêng (mặc định 5001, đổi qua env `COMMUNITY_WEBHOOK_PORT`) — chỉ nhận push từ `wolfbot-io/wolfbot-community`, **tự `git submodule update --init` nếu submodule chưa có** (VPS mới/lần đầu), rồi mới gọi `rebuild_community.sh`. KHÔNG chung process/port với `webhook_listener.py` (port 5000, monorepo) — xem mục 0/Lần 3 |
 | `host_tools/webhook/setup_community_webhook_listener.sh` | Cài systemd service `community_webhook_listener` cho listener trên |
 | `host_tools/webhook/webhook_listener.py` | Đã revert về đúng bản gốc (không còn nhánh xử lý community) — chỉ còn xử lý push cho `WolfBot_Dockerized` |
 
@@ -128,6 +140,19 @@ tại) — không phải nơi host code.
   - `COMMUNITY_WEBHOOK_PORT` override qua env var hoạt động đúng (mặc định
     5001).
   - Tất cả 5 case PASS.
+- Test riêng self-heal submodule (`_ensure_community_submodule_initialized`,
+  mục Lần 3.1) — mock `subprocess.run` để kiểm soát từng nhánh:
+  - Chưa có `.git` → gọi đúng `git submodule update --init --recursive --
+    wolfbot-community`.
+  - Đã có `.git` → **không** gọi lại lệnh init.
+  - Lệnh init thất bại → raise lỗi rõ ràng thay vì âm thầm crash.
+  - Flow đầy đủ qua Flask test client: chưa init → tự init → **rồi mới**
+    gọi `rebuild_community.sh`, đúng thứ tự.
+  - Tất cả 4 case PASS.
+  - Verify thêm bằng **git thật** (không mock) trên 1 cặp repo test tách
+    biệt hoàn toàn khỏi repo chính: dựng submodule thật, xoá rỗng thư mục
+    con (mô phỏng VPS chưa init), chạy đúng câu lệnh trên → `.git` xuất
+    hiện, checkout đúng nội dung, exit code 0.
 
 ---
 
