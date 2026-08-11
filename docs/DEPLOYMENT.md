@@ -102,7 +102,8 @@ tại) — không phải nơi host code.
 | `wolfbot-community/docker-compose.yml` | Compose project **riêng** (`COMPOSE_PROJECT_NAME=wolfbot-community`), chỉ join network `wolfbot_platform_net` (external) — không nằm trong compose project của `wolfbot-platform`, xem mục 2.0 |
 | `wolfbot-community/scripts/rebuild_community.sh` | `git fetch/reset --hard` (có guard chặn nếu có file track chưa commit) + `docker compose build/up community` trên project riêng — chạy trên VPS, do webhook gọi |
 | `wolfbot-platform/docker-compose.yml` | Service `community` đã **gỡ khỏi** file này (từng ở đây, gây rủi ro rebuild chéo — xem mục 2.0); `nginx` chỉ còn share network để `proxy_pass` |
-| `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (resolve qua network dùng chung, không phải `depends_on` cùng compose project) |
+| `wolfbot-platform/nginx/nginx.conf` | Server block 443 `community.wolfbot.io` → `proxy_pass http://community:80` (resolve qua network dùng chung, không phải `depends_on` cùng compose project). Block này **luôn active**, không cần comment/uncomment tay nữa |
+| `wolfbot-platform/bootstrap_community_tls.sh` | Tự động hoá toàn bộ bước xin cert lần đầu: seed dummy cert → reload nginx → xoá dummy → xin cert thật qua certbot (đã fix `--entrypoint certbot`) → reload lại. An toàn chạy lại nhiều lần |
 | `host_tools/webhook/community_webhook_listener.py` | Flask app **riêng**, port riêng (mặc định 5001, đổi qua env `COMMUNITY_WEBHOOK_PORT`) — chỉ nhận push từ `wolfbot-io/wolfbot-community`, **tự `git submodule update --init` nếu submodule chưa có** (VPS mới/lần đầu), rồi mới gọi `rebuild_community.sh`. KHÔNG chung process/port với `webhook_listener.py` (port 5000, monorepo) — xem mục 0/Lần 3 |
 | `host_tools/webhook/setup_community_webhook_listener.sh` | Cài systemd service `community_webhook_listener` cho listener trên |
 | `host_tools/webhook/webhook_listener.py` | Đã revert về đúng bản gốc (không còn nhánh xử lý community) — chỉ còn xử lý push cho `WolfBot_Dockerized` |
@@ -153,6 +154,19 @@ tại) — không phải nơi host code.
     biệt hoàn toàn khỏi repo chính: dựng submodule thật, xoá rỗng thư mục
     con (mô phỏng VPS chưa init), chạy đúng câu lệnh trên → `.git` xuất
     hiện, checkout đúng nội dung, exit code 0.
+- Phát hiện + verify riêng: lệnh `docker compose run --rm certbot certonly
+  ...` cũ (không có `--entrypoint`) test thật bằng Docker → lỗi thật
+  `sh: can't open 'certonly'` (vì service `certbot` có sẵn `entrypoint:
+  /bin/sh`). Xác nhận `--entrypoint certbot` sửa đúng bằng
+  `certbot --version` chạy thành công qua `docker compose run`.
+- `bootstrap_community_tls.sh`: test toàn bộ flow (trừ bước gọi Let's
+  Encrypt thật, vì cần DNS/internet công khai) bằng docker compose local,
+  dùng **đúng** `wolfbot-platform/nginx/nginx.conf` thật — seed dummy cert
+  qua certbot container → **nginx khởi động/reload thành công** với block
+  443 `community.wolfbot.io` active dùng dummy cert (điểm mấu chốt: trước
+  đây không có cert nào thì nginx sẽ crash hẳn, không chỉ riêng domain đó
+  mà toàn bộ file config) → `nginx -t` pass → xoá dummy cert sạch, sẵn sàng
+  cho certbot thật.
 
 ---
 
@@ -181,25 +195,26 @@ Network `wolfbot_platform_net` đã được tạo sẵn lúc setup VPS ban đ�
 `docker network create wolfbot_platform_net` một cách idempotent) — không
 cần tạo lại.
 
-### 2.1 Trên VPS — pull code + bootstrap cert + khởi động service mới
+### 2.1 Trên VPS — pull code + bootstrap cert (tự động, 1 lệnh) + khởi động service mới
+
+**Lưu ý quan trọng đã sửa:** lệnh `docker compose run --rm certbot certonly
+...` KHÔNG chạy đúng như tưởng — service `certbot` trong
+`docker-compose.yml` có sẵn `entrypoint: /bin/sh`, nên chạy thẳng
+`certonly ...` như vậy sẽ bị `sh: can't open 'certonly'`. Đã verify thật
+(local) lỗi này xảy ra, và cách đúng là thêm `--entrypoint certbot`. Script
+`bootstrap_community_tls.sh` bên dưới đã làm đúng việc này, không cần tự
+gõ tay lệnh certbot nữa.
 
 ```bash
-# --- Phần wolfbot-platform: chỉ cần nginx.conf mới ---
+# --- Phần wolfbot-platform ---
 cd /path/to/WolfBot_Dockerized/wolfbot-platform
-git pull   # lấy nginx.conf mới (không còn service `community` ở đây nữa)
+git pull   # lấy nginx.conf + bootstrap_community_tls.sh mới
 
-# Nginx sẽ từ chối reload nếu cert community.wolfbot.io chưa tồn tại.
-# 1) Comment tạm khối `server { listen 443 ... community.wolfbot.io }`
-#    trong nginx/nginx.conf, rồi:
-docker compose exec nginx nginx -s reload
-
-# 2) Xin cert qua webroot (service certbot đã có sẵn)
-docker compose run --rm certbot certonly --webroot \
-  -w /var/www/certbot -d community.wolfbot.io \
-  --email <admin-email> --agree-tos --no-eff-email
-
-# 3) Bỏ comment lại khối 443, reload
-docker compose exec nginx nginx -s reload
+# 1 lệnh duy nhất: tự seed dummy cert (để nginx sống được ngay), reload,
+# xin cert thật qua certbot (cần DNS community.wolfbot.io đã trỏ đúng VPS
+# trước bước này), rồi reload lại với cert thật. An toàn chạy lại nhiều
+# lần -- không làm gì nếu cert thật đã có sẵn.
+bash bootstrap_community_tls.sh you@example.com
 
 # --- Phần wolfbot-community: build + start container riêng ---
 cd ../wolfbot-community
