@@ -120,6 +120,9 @@ wolfbot-community/                  # Git submodule → GitHub public repo
 | GROWTH-G15 | Growth playbook created | ✅ |
 | STATUS-G16 | Community status page | ✅ |
 | RSS-G17 | RSS feed generator script | ✅ |
+| SEARCH-G18 | Client-side docs search (SearchBar) | ✅ |
+| FEEDBACK-G19 | Page feedback widget (Yes/No) | ✅ |
+| ERROR-G20 | Custom 404 page | ✅ |
 
 ---
 
@@ -224,6 +227,15 @@ npm run dev
 | scripts/generate-rss.ts | 78: RSS/Changelog feed | ✅ |
 
 ## Build Status
+
+- TypeScript: 0 errors (npx tsc --noEmit)
+- Next.js build: 28 static pages generated
+- Dev server: http://localhost:3000 (200 OK)
+- SearchBar: Header + static content index (21 items)
+- FeedbackWidget: Yes/No + GitHub issue link on every doc page
+- 404 page: branded, links to Home / Getting Started / Docs
+
+## Build Status (archive)
 
 - TypeScript: no errors (npx tsc --noEmit)
 - Next.js build: 27 static pages generated

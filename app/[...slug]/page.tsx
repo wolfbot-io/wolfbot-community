@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { loadContent, listContent, slugToBreadcrumbs } from '@/lib/content'
 import { ContentRenderer } from '@/components/docs/ContentRenderer'
 import { StructuredData } from '@/components/seo/StructuredData'
+import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
 
 interface Props {
   params: { slug: string[] }
@@ -89,6 +90,9 @@ export default async function ContentPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* Feedback widget */}
+        <FeedbackWidget slug={slug} />
       </div>
     </div>
   )

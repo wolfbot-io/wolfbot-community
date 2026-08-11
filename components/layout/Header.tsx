@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SearchBar } from '@/components/docs/SearchBar'
 
 const NAV_ITEMS = [
   { href: '/download', label: 'Download' },
@@ -14,16 +15,22 @@ export function Header() {
   return (
     <header className="border-b border-zinc-800 bg-zinc-950/80 backdrop-blur sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2.5 font-bold text-lg">
+        <div className="flex items-center justify-between h-16 gap-4">
+          <Link href="/" className="flex items-center gap-2.5 font-bold text-lg shrink-0">
             <img
               src="/wolfbot-logo.png"
               alt="WolfBot"
               className="h-8 w-8 rounded-lg"
             />
-            <span className="text-white">WolfBot</span>
-            <span className="text-zinc-500 font-normal text-sm">COMMUNITY</span>
+            <span className="text-white hidden sm:inline">WolfBot</span>
+            <span className="text-zinc-500 font-normal text-sm hidden sm:inline">COMMUNITY</span>
           </Link>
+
+          {/* Search bar — hidden on mobile */}
+          <div className="hidden md:block flex-1 max-w-xs mx-4">
+            <SearchBar />
+          </div>
+
           <nav className="hidden lg:flex items-center gap-1">
             {NAV_ITEMS.map((item) => (
               <Link key={item.href} href={item.href} className="px-3 py-2 text-sm text-zinc-400 hover:text-white rounded-md hover:bg-zinc-800 transition-colors">
@@ -31,7 +38,7 @@ export function Header() {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 shrink-0">
             <a href="https://github.com/wolfbot-io/wolfbot-community" target="_blank" rel="noopener noreferrer" className="hidden sm:flex text-sm text-zinc-400 hover:text-white">GitHub</a>
             <a href="https://wolfbot.io" target="_blank" rel="noopener noreferrer" className="hidden sm:flex text-sm text-zinc-400 hover:text-white">WolfBot Cloud</a>
             <Link href="/download" className="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-4 py-2 rounded-lg">Download</Link>
