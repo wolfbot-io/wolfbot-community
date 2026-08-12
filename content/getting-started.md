@@ -1,8 +1,8 @@
 ---
 title: "Getting Started with WolfBot Community"
-description: "First steps after installing WolfBot Community. Start with Simulation, explore the Dashboard, and connect crypto exchanges or MT5 brokers."
+description: "First steps after installing WolfBot Community. Connect a Demo account, explore the Dashboard, and add your crypto exchanges or MT5 broker."
 tested_version: "0.1.0-p12-ghcr-rc8"
-last_updated: "2026-08-11"
+last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "getting-started"
 difficulty: "beginner"
@@ -16,22 +16,17 @@ sitemap_priority: 0.9
 
 # Getting Started with WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12
 
 ## Welcome! 👋
 
-WolfBot Community is a unified trading platform — one interface for crypto exchanges and MT5 brokers. After installing, follow these steps in order.
+WolfBot Community is a unified trading platform — one interface for crypto exchanges and MT5 brokers. Installing it doesn't create any exchange account or place any trade — nothing is connected until you add one. Follow these steps in order.
 
 > **One Platform. Every Market.** — Crypto + Futures + MT5, unified by WolfBot.
 
-## Step 1: Setup Wizard
+## Step 1: Open the Dashboard
 
-On first launch, the Setup Wizard guides you through:
-1. **Welcome** — Introduction to WolfBot
-2. **Mode Selection** — Choose Simulation (recommended)
-3. **Dashboard Tour** — Quick overview of the interface
-
-> ✅ Start with Simulation to test safely without real funds — across all supported markets.
+Launch WolfBot Community. You'll land on the **Capability Status** page — it shows which brokers and features are available on your install, and confirms nothing is connected yet.
 
 ## Step 2: Explore the Dashboard
 
@@ -43,19 +38,22 @@ On first launch, the Setup Wizard guides you through:
 | **Risk Controls** | Position limits, drawdown guards |
 | **Exchange Accounts** | Broker connections and API keys |
 
-## Step 3: Start Simulation
+## Step 3: Connect a Demo Account — Zero Risk
 
-Simulation lets you paper-trade against real market data — for crypto pairs and MT5 instruments alike.
+WolfBot has no separate "Simulation mode" toggle. Instead, you connect a broker's own **Demo/testnet account** — real market data, virtual funds, the exact same interface and risk engine you'll use for live trading later.
 
-1. Settings → Mode → Simulation
-2. Try the Smart Terminal with a simulated order
-3. Watch how positions appear in Dashboard
+1. Go to **Exchange Accounts → Add Account**
+2. Choose **Bybit** and follow the [Bybit Demo setup steps](/brokers/bybit) — WolfBot auto-detects Demo vs. Live from the API key you paste in
+3. Try the **Smart Terminal** with your Demo account
+4. Watch how positions appear in the Dashboard
 
-[Full Simulation Guide →](/docs/simulation)
+> ✅ A Demo account costs nothing and never touches real funds — the safest way to learn WolfBot across every supported market.
 
-## Step 4: Connect Your Markets
+[Full Demo/Simulation Guide →](/docs/simulation)
 
-When ready for real trading:
+## Step 4: Connect Your Markets for Real Trading
+
+When ready to go live:
 1. Create a trade-only API key on your exchange
 2. Exchange Accounts → Add Account → Select broker → Enter keys
 3. Start with small positions and tight risk controls
@@ -66,12 +64,12 @@ Broker guides: [Bybit](/brokers/bybit) · [Binance](/brokers/binance) · [BingX]
 
 ## First Week Checklist
 
-- [ ] Complete the Setup Wizard
 - [ ] Explore the Dashboard
-- [ ] Run Simulation for 1–2 days
-- [ ] Try the Smart Terminal in Simulation
+- [ ] Connect a Demo account (Bybit Demo or MT5 demo)
+- [ ] Trade on Demo for 1–2 days
+- [ ] Try the Smart Terminal with your Demo account
 - [ ] Read [Risk Controls Guide](/docs/risk-controls)
-- [ ] (Optional) Connect a broker demo account
+- [ ] Connect a Live account when you're ready
 
 ## Need Help?
 
@@ -82,4 +80,4 @@ Broker guides: [Bybit](/brokers/bybit) · [Binance](/brokers/binance) · [BingX]
 
 ## Next step
 
-> **[Start with Simulation →](/docs/simulation)**
+> **[Connect a Demo Account →](/docs/simulation)**

@@ -6,7 +6,7 @@ const FAQS = [
   { q: 'Which markets does WolfBot support?', a: 'Crypto (Binance, Bybit, BingX, KuCoin, Bitget), Crypto Futures, and MT5 markets (Forex, Gold, Indices, Stocks/CFDs). One platform across modern and traditional finance.' },
   { q: 'Is WolfBot Community free?', a: 'Yes — completely free. No subscription, no cloud account required. Self-host on your own Windows or Linux machine.' },
   { q: 'How is WolfBot different from a typical trading bot?', a: 'A typical bot connects to one exchange. WolfBot is a unified platform — it connects multiple exchanges AND MT5 brokers, provides one execution engine, one risk layer, and one portfolio view across all markets.' },
-  { q: 'Can I start with Simulation?', a: 'Yes. Simulation is the default mode. Test strategies across markets without risking funds.' },
+  { q: 'Can I start with Simulation?', a: 'Yes. Connect a broker Demo/testnet account (e.g. a Bybit Demo key — WolfBot auto-detects it) and trade risk-free with real market data and virtual funds, across every supported market.' },
   { q: 'What is the difference from WolfBot Cloud?', a: 'Community is free and self-hosted. Cloud is a managed service. Same platform, same markets — different hosting.' },
 ]
 

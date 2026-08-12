@@ -113,14 +113,27 @@ textarea:focus-visible,
   .prose-content blockquote {
     @apply border-l-4 border-wolf-accent/30 pl-4 py-1 mb-4 text-wolf-text2 italic;
   }
+  /* GFM pipe tables (react-markdown + remark-gfm) -- wrapped in a
+     horizontal-scroll container so a wide table (many columns) scrolls in
+     place instead of forcing the whole page to scroll sideways. */
   .prose-content table {
-    @apply w-full border-collapse mb-4;
+    @apply w-full border-collapse mb-4 block overflow-x-auto;
   }
   .prose-content th {
-    @apply text-left text-wolf-text font-semibold p-3 border-b border-wolf-border bg-wolf-surface text-sm;
+    @apply text-left text-wolf-text font-semibold p-3 border-b border-wolf-border bg-wolf-surface text-sm whitespace-nowrap;
   }
   .prose-content td {
     @apply p-3 border-b border-wolf-border text-sm text-wolf-text2;
+  }
+  /* GFM task lists (- [ ] / - [x]) */
+  .prose-content li:has(input[type="checkbox"]) {
+    @apply list-none -ml-6 flex items-start gap-2;
+  }
+  .prose-content input[type="checkbox"] {
+    @apply mt-1.5 h-3.5 w-3.5 rounded border-wolf-border2 bg-wolf-surface accent-wolf-accent shrink-0;
+  }
+  .prose-content del {
+    @apply text-wolf-text3;
   }
   .prose-content hr {
     @apply border-wolf-border my-8;

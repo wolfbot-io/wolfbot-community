@@ -58,7 +58,7 @@ Anyone connecting a Bitget account to WolfBot Community.
 ## Step 3: Test
 
 1. Smart Terminal → select trading pair
-2. Simulation first → small live limit order
+2. Start with your Demo API key → then a small live limit order
 3. Verify on Bitget → cancel
 
 ---

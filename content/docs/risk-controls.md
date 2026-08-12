@@ -22,7 +22,7 @@ sitemap_priority: 0.85
 
 Risk controls act as a safety net across your entire trading environment — they prevent over-trading, limit losses, and protect your account whether you're trading crypto on Binance, futures on Bybit, or gold via MT5. The same risk rules apply consistently no matter which market you're trading.
 
-> 🛡️ Risk controls are active in both Simulation and Live modes. Configure them before you start trading.
+> 🛡️ Risk controls are active identically on Demo and Live accounts. Configure them before you start trading.
 
 ## Risk Control Layers
 
@@ -114,7 +114,7 @@ Resets at midnight UTC.
 
 ## Quick Start: Recommended Risk Profiles
 
-### Beginner (Simulation / First Live)
+### Beginner (Demo / First Live)
 
 ```
 Max position: 2% of balance

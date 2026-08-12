@@ -55,13 +55,13 @@ This guide is for anyone who wants to install WolfBot Community on a Windows 10 
 ## Step 3: Launch WolfBot
 
 1. Double-click the **WolfBot** icon on your desktop (or Start menu)
-2. The Setup Wizard appears, guiding you through Simulation mode and dashboard overview
+2. WolfBot opens to the Dashboard — no exchange account is connected yet, so there's nothing to configure before you explore
 
 ## Expected result
 
 - WolfBot icon in system tray
 - Dashboard window opens
-- Setup Wizard welcomes you
+- The Dashboard's Capability Status page shows which brokers you can connect
 
 ## Common mistakes
 

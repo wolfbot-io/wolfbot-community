@@ -63,7 +63,7 @@ Anyone connecting a KuCoin account to WolfBot Community.
 ## Step 3: Test
 
 1. Smart Terminal → select trading pair
-2. Start in Simulation → then small live order
+2. Start with your Demo API key → then a small live order
 3. Verify on KuCoin → cancel
 
 ---

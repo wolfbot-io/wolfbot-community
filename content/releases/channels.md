@@ -97,7 +97,7 @@ This means:
 - The software is functional and installable
 - Features are being tested broadly
 - Breaking changes may occur between versions
-- Simulation is recommended default mode
+- A Demo account is recommended while testing
 
 ---
 
@@ -109,7 +109,7 @@ This means:
 
 When switching to a more experimental channel:
 - A warning appears
-- Simulation mode is recommended
+- Testing on a Demo account is recommended
 
 ---
 

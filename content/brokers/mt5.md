@@ -9,7 +9,7 @@ category: "broker-setup"
 difficulty: "intermediate"
 estimated_time: "15 minutes"
 related_guides: ["/brokers/api-key-guide", "/docs/risk-controls", "/install/windows"]
-keywords: ["mt5 automation", "mt5 trading bot", "self hosted mt5 bot", "metatrader 5 automation", "gMT5 traders who want to automate their trading with WolfBot Community — your unified platform for crypto and traditional markets. Requires MT5 installed on the same Windows machine. trading automation"]
+keywords: ["mt5 automation", "mt5 trading bot", "self hosted mt5 bot", "metatrader 5 automation", "gold trading automation"]
 sitemap_priority: 0.80
 ---
 
@@ -86,8 +86,8 @@ The MT5 bridge runs locally and communicates with your MT5 terminal. It does NOT
 1. Ensure MT5 is open and logged in
 2. In WolfBot: Smart Terminal → select MT5
 3. Available symbols should appear from MT5
-4. Place a small simulated order first
-5. Switch to Live and place a minimum-size order
+4. Place a small test order on your Demo account first
+5. Switch to your Live MT5 account and place a minimum-size order
 6. Verify the order appears in MT5
 7. Cancel the test order
 
@@ -96,10 +96,18 @@ The MT5 bridge runs locally and communicates with your MT5 terminal. It does NOT
 ## MT5-Specific Notes
 
 ### Supported Instruments
-- Forex pairs (EUR/USD, GBP/USD, etc.)
-- Commodities (XAU/USD — GMT5 traders who want to automate their trading with WolfBot Community — your unified platform for crypto and traditional markets. Requires MT5 installed on the same Windows machine., XAG/USD — Silver)
-- Indices (US30, NAS100, etc.)
-- Crypto CFDs (where offered by broker)
+
+WolfBot's MT5 bridge is symbol-agnostic — it trades whatever instruments your broker's MT5 terminal lists, not a fixed WolfBot whitelist. MT5 brokers typically cover nearly every asset class:
+
+- **Forex** — EUR/USD, GBP/USD, USD/JPY, and 50+ more pairs
+- **Metals** — XAU/USD (Gold), XAG/USD (Silver), often Platinum and Palladium too
+- **Energies** — WTI/Brent Crude Oil, Natural Gas (broker-dependent)
+- **Indices** — US30, NAS100, S&P 500, DAX, and more
+- **Stocks/CFDs** — individual company shares, often thousands of symbols (broker-dependent)
+- **Agricultural commodities** — Wheat, Corn, Coffee, Sugar and others (broker-dependent)
+- **Crypto CFDs** — where offered by your broker
+
+> Exact instrument availability depends on your MT5 broker, not on WolfBot — check **Market Watch** in your MT5 terminal for the full symbol list your account can trade.
 
 ### Not Supported (Yet)
 - Linux native (Windows only currently)
@@ -113,14 +121,14 @@ The MT5 bridge runs locally and communicates with your MT5 terminal. It does NOT
 
 ---
 
-## MT5 for GMT5 traders who want to automate their trading with WolfBot Community — your unified platform for crypto and traditional markets. Requires MT5 installed on the same Windows machine. Trading
+## MT5 for Gold Trading
 
-GMT5 traders who want to automate their trading with WolfBot Community — your unified platform for crypto and traditional markets. Requires MT5 installed on the same Windows machine. (XAU/USD) is one of the most popular MT5 instruments for automation:
+Gold (XAU/USD) is one of the most popular MT5 instruments for automation:
 
 1. Connect your MT5 broker with XAU/USD
 2. In WolfBot: Smart Terminal → XAU/USD
-3. Configure risk (gMT5 traders who want to automate their trading with WolfBot Community — your unified platform for crypto and traditional markets. Requires MT5 installed on the same Windows machine. is volatile — start with small sizes)
-4. Use Simulation to test strategies
+3. Configure risk (gold is volatile — start with small sizes)
+4. Test on a Demo account before going live
 
 ---
 

@@ -13,7 +13,7 @@ const BROKERS = [
   { name: 'BingX', status: 'Stable', slug: 'bingx', desc: 'Standard and Perpetual Futures supported.' },
   { name: 'KuCoin', status: 'Stable', slug: 'kucoin', desc: 'Wide altcoin selection. Passphrase required.' },
   { name: 'Bitget', status: 'Stable', slug: 'bitget', desc: 'Spot and Futures. Growing exchange.' },
-  { name: 'MT5', status: 'Stable', slug: 'mt5', desc: 'MetaTrader 5 bridge. Forex, Gold, Indices. Windows only.' },
+  { name: 'MT5', status: 'Stable', slug: 'mt5', desc: 'MetaTrader 5 bridge. Forex, Metals, Indices, Stocks/CFDs and more — whatever your broker offers. Windows only.' },
 ]
 
 const STATUS_STYLE: Record<string, { color: string; background: string }> = {

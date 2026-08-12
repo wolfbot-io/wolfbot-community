@@ -59,7 +59,7 @@ Anyone who wants to connect a BingX account to WolfBot Community for automated t
 ## Step 3: Test
 
 1. Smart Terminal → select trading pair (e.g., BTC/USDT)
-2. Start in Simulation → then small live limit order
+2. Start with your Demo API key → then a small live limit order
 3. Verify on BingX → cancel test order
 
 ---

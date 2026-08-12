@@ -76,14 +76,18 @@ The Smart Terminal automatically enforces:
 
 See [Risk Controls →](/docs/risk-controls) to configure your safety parameters.
 
-## Simulation vs Live
+## Demo vs Live Accounts
 
-| Mode | How It Works |
+There's no separate terminal mode to switch — which account you select in Step 1 decides it:
+
+| Account type | How It Works |
 |---|---|
-| **Simulation** | Orders execute against simulated market data — zero risk |
+| **Demo** | Orders execute against a broker's testnet with virtual funds — zero risk |
 | **Live** | Orders execute on your real exchange or MT5 broker account |
 
-> ⚠️ Always test in Simulation before switching to Live. See [Simulation Guide →](/docs/simulation)
+The Smart Terminal behaves identically either way — same risk controls, same order logic.
+
+> ⚠️ Always test on a Demo account before switching to Live. See [Demo Account Guide →](/docs/simulation)
 
 ## Order Types
 

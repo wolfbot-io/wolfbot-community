@@ -46,7 +46,7 @@ sitemap_priority: 0.60
 
 | Feature | Status |
 |---|---|
-| Simulation Mode | 🟢 Stable |
+| Demo Accounts | 🟢 Stable |
 | Smart Terminal | 🟢 Stable |
 | Automated Strategies | 🟢 Stable |
 | Risk Controls | 🟢 Stable |

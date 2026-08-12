@@ -138,7 +138,7 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 ```powershell
 # 1. Download Setup.exe from community.wolfbot.io/download
 # 2. Double-click → Install → Open WolfBot
-# 3. Setup Wizard guides you through Simulation mode
+# 3. Connect a Demo account first — real market data, zero risk, no real funds
 ```
 
 ### Linux (Ubuntu/Debian)
@@ -196,7 +196,7 @@ Running on your own machine isn't just more convenient, it removes an entire cat
 - 🔑 **Trade-only API keys** — withdrawal and transfer permissions disabled at the exchange level, not just a software toggle. Even a compromised key can't move funds.
 - 💻 **Self-hosted** — API keys, trading data and strategies stay on your machine. No cloud database, no third party in the loop.
 - ✍️ **Signed releases** — every installer is cryptographically signed. Checksums are published so you can verify before installing.
-- 🧪 **Simulation-first** — default mode is paper trading. Test strategies across every market before risking real funds.
+- 🧪 **Demo-friendly** — connect a broker Demo/testnet account first (real market data, virtual funds). Test strategies across every market before ever adding a Live key.
 - 🔒 **Non-custodial** — WolfBot never holds your funds. Your money stays on the exchange, and you can revoke access at any time.
 
 [Read our full security policy →](https://community.wolfbot.io/security)

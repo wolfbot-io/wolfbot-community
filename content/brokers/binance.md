@@ -66,8 +66,8 @@ Anyone who wants to connect a Binance account to WolfBot Community for trading a
 ## Step 3: Test
 
 1. Go to **Smart Terminal** → select BTC/USDT
-2. Start in **Simulation** first
-3. Then switch to **Live** and place a small limit order
+2. Start with a **Demo** account first
+3. Then switch to a **Live** account and place a small limit order
 4. Verify on Binance that the order appears → Cancel it
 
 ---

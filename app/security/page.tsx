@@ -29,8 +29,8 @@ export default function SecurityPage() {
       <h2>Local Data</h2>
       <p>Configuration, trading history, and strategies stay on your machine. Nothing is sent to WolfBot.io unless you explicitly opt in.</p>
 
-      <h2>Simulation-First</h2>
-      <p>WolfBot defaults to Simulation mode. You must explicitly switch to live trading. Test everything risk-free first.</p>
+      <h2>Demo-Friendly by Default</h2>
+      <p>Installing WolfBot connects nothing automatically — no exchange account exists until you add one. Connect a broker&apos;s Demo/testnet account first and test everything risk-free before ever adding a Live, trade-only key.</p>
 
       <h2>Reporting a Vulnerability</h2>
       <p>If you discover a security issue, please email <strong>security@wolfbot.io</strong>. Do not open a public issue. We respond within 48 hours.</p>
@@ -41,7 +41,7 @@ export default function SecurityPage() {
         <li>Bind API keys to your IP address where supported</li>
         <li>Keep WolfBot updated to the latest stable version</li>
         <li>Verify installer checksums before installation</li>
-        <li>Start with Simulation before live trading</li>
+        <li>Start with a Demo account before live trading</li>
       </ul>
     </div>
   )

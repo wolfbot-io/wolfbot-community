@@ -133,7 +133,7 @@ Yes. The Windows installer is a standard setup wizard — double-click, install,
 1. [Download WolfBot Community](/download)
 2. [Install on Windows](/install/windows) or [Linux](/install/linux)
 3. [Read Getting Started](/getting-started)
-4. Start with Simulation — zero risk, test across all markets
+4. Connect a Demo account — zero risk, test across all markets
 
 ---
 

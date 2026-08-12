@@ -16,7 +16,7 @@ export function CommunityVsCloud() {
             <li>✅ Self-hosted on your machine</li>
             <li>✅ Crypto + Futures + MT5</li>
             <li>✅ Full unified trading platform</li>
-            <li>✅ Simulation mode</li>
+            <li>✅ Demo account support</li>
             <li>✅ Community support</li>
             <li style={{ color: '#475569' }}>— You manage infrastructure</li>
             <li style={{ color: '#475569' }}>— You handle updates</li>
@@ -29,7 +29,7 @@ export function CommunityVsCloud() {
             <li>✅ Fully managed hosting</li>
             <li>✅ Crypto + Futures + MT5</li>
             <li>✅ Full unified trading platform</li>
-            <li>✅ Simulation mode</li>
+            <li>✅ Demo account support</li>
             <li>✅ Priority support</li>
             <li>✅ Automatic updates</li>
             <li>✅ No infrastructure maintenance</li>

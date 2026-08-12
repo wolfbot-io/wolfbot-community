@@ -79,7 +79,7 @@ That's it — no terminal needed.
 
 - A WolfBot icon appears in your Applications menu
 - Clicking it opens the Dashboard in your browser
-- The Setup Wizard welcomes you and offers to start with Simulation
+- The Dashboard's Capability Status page shows which brokers you can connect — start with a [Demo account](/docs/simulation) for zero-risk trading
 
 ## Common mistakes
 

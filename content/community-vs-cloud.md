@@ -98,7 +98,7 @@ Both editions share the same unified trading engine. Crypto + Futures + MT5 — 
 | MT5 Trading | ✅ | ✅ |
 | Smart Terminal | ✅ | ✅ |
 | Risk Controls | ✅ | ✅ |
-| Simulation Mode | ✅ | ✅ |
+| Demo Accounts | ✅ | ✅ |
 | Multi-Broker | ✅ | ✅ |
 | TradingView Signals | ✅ | ✅ |
 | Custom Strategies | ✅ | ✅ |
@@ -117,7 +117,7 @@ Both editions share the same unified trading engine. Crypto + Futures + MT5 — 
 ### Start Community → Go Cloud
 
 Many users start with Community to:
-1. Test WolfBot risk-free (free, simulation)
+1. Test WolfBot risk-free (free, Demo account)
 2. Validate strategies across crypto and MT5 markets
 3. Get comfortable with the unified interface
 4. Move to Cloud when ready for managed 24/7 trading
