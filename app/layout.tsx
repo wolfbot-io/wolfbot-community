@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/seo/StructuredData'
@@ -45,16 +45,27 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
-    images: [{ url: '/wolfbot-logo.png', width: 1024, height: 1024 }],
+    // No explicit `images` here on purpose: app/opengraph-image.tsx (a
+    // proper 1200x630 banner, Section 96-97) is picked up automatically by
+    // Next.js's file convention and takes priority over any square-logo
+    // fallback set here.
   },
   twitter: {
     card: 'summary_large_image',
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
-    images: ['/wolfbot-logo.png'],
+    // Same reasoning as openGraph above -- falls back to
+    // app/opengraph-image.tsx instead of a hardcoded square image.
   },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE.url },
+}
+
+// Mobile browser chrome (address bar / task switcher) color — matches the
+// wolf-bg dark theme (prototypes/figma-make design language) instead of
+// leaving it to default to white, which would flash against the dark page.
+export const viewport: Viewport = {
+  themeColor: '#060A14',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -62,6 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/wolfbot-logo.png" sizes="any" />
+        <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — Releases & Docs`} href="/rss.xml" />
         <StructuredData data={websiteSchema} />
         <script
           type="module"

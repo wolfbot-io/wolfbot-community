@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+// Dark theme per prototypes/figma-make design language.
 const FAQS = [
   { q: 'What is WolfBot Community?', a: 'WolfBot Community is a free self-hosted unified trading platform. It connects crypto exchanges and MT5 brokers into one interface for automation, execution, portfolio monitoring and risk management.' },
   { q: 'Which markets does WolfBot support?', a: 'Crypto (Binance, Bybit, BingX, KuCoin, Bitget), Crypto Futures, and MT5 markets (Forex, Gold, Indices, Stocks/CFDs). One platform across modern and traditional finance.' },
@@ -11,21 +12,29 @@ const FAQS = [
 
 export function FAQSection({ standalone = false }: { standalone?: boolean }) {
   const Wrapper = standalone ? 'div' : 'section'
-  const borderClass = standalone ? '' : 'border-t border-zinc-800'
+  const borderStyle = standalone ? {} : { borderColor: 'rgba(255,255,255,0.07)' }
+  const borderClass = standalone ? '' : 'border-t'
   return (
-    <Wrapper className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 ${borderClass}`}>
+    <Wrapper className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 ${borderClass}`} style={borderStyle}>
       <h2 className="text-3xl font-bold text-white text-center mb-12">Frequently Asked Questions</h2>
       <div className="max-w-2xl mx-auto space-y-4">
         {FAQS.map((faq) => (
-          <details key={faq.q} className="border border-zinc-800 rounded-xl bg-zinc-900/50 group">
+          <details
+            key={faq.q}
+            className="rounded-xl border group"
+            style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}
+          >
             <summary className="px-6 py-4 cursor-pointer text-white font-medium text-sm list-none flex items-center justify-between">
-              {faq.q}<span className="text-zinc-600 group-open:rotate-180 transition-transform">▾</span>
+              {faq.q}
+              <span style={{ color: '#94A3B8' }} className="group-open:rotate-180 transition-transform">▾</span>
             </summary>
-            <div className="px-6 pb-4 text-sm text-zinc-400">{faq.a}</div>
+            <div className="px-6 pb-4 text-sm" style={{ color: '#94A3B8' }}>{faq.a}</div>
           </details>
         ))}
       </div>
-      <div className="text-center mt-8"><Link href="/faq" className="text-blue-400 hover:underline text-sm">View all FAQs →</Link></div>
+      <div className="text-center mt-8">
+        <Link href="/faq" className="hover:underline text-sm" style={{ color: '#00C9E8' }}>View all FAQs →</Link>
+      </div>
     </Wrapper>
   )
 }

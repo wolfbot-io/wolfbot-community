@@ -14,9 +14,10 @@ COPY package.json package-lock.json ./
 RUN npm ci
 
 COPY . .
-# sitemap.xml must exist in public/ BEFORE `next build` copies public/ into
-# out/ (see scripts/generate-sitemap.ts) — order matters here.
-RUN npm run sitemap && npm run build
+# sitemap.xml and rss.xml must exist in public/ BEFORE `next build` copies
+# public/ into out/ (see scripts/generate-sitemap.ts, scripts/generate-rss.ts)
+# -- order matters here.
+RUN npm run prebuild-content && npm run build
 
 FROM nginx:alpine
 COPY --from=build /app/out /usr/share/nginx/html

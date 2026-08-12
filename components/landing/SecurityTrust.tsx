@@ -1,10 +1,11 @@
 import Link from 'next/link'
 
+// Dark theme per prototypes/figma-make design language.
 export function SecurityTrust() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-zinc-800">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t" style={{ borderColor: 'rgba(255,255,255,0.07)' }}>
       <h2 className="text-3xl font-bold text-white text-center mb-4">Built for Trust</h2>
-      <p className="text-zinc-400 text-center mb-12 max-w-lg mx-auto">
+      <p className="text-center mb-12 max-w-lg mx-auto" style={{ color: '#94A3B8' }}>
         WolfBot Community is non-custodial and self-hosted — you control your keys, your infrastructure, your data.
       </p>
       <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -16,12 +17,12 @@ export function SecurityTrust() {
           <div key={item.title} className="text-center">
             <div className="text-2xl mb-3">{item.icon}</div>
             <h3 className="text-white font-semibold mb-2 text-sm">{item.title}</h3>
-            <p className="text-xs text-zinc-500">{item.desc}</p>
+            <p className="text-xs" style={{ color: '#94A3B8' }}>{item.desc}</p>
           </div>
         ))}
       </div>
       <div className="text-center mt-8">
-        <Link href="/security" className="text-blue-400 hover:underline text-sm">Learn more →</Link>
+        <Link href="/security" className="hover:underline text-sm" style={{ color: '#00C9E8' }}>Learn more →</Link>
       </div>
     </section>
   )

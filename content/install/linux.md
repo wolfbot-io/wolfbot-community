@@ -1,8 +1,8 @@
 ---
 title: "Install WolfBot Community on Ubuntu/Linux — Step-by-Step"
-description: "How to install WolfBot Community on Ubuntu 22.04, Ubuntu 24.04, or Debian 12. Download the .deb package and start trading across crypto and MT5 markets."
-tested_version: "0.8.0-beta.2"
-last_updated: "2026-08-11"
+description: "How to install WolfBot Community on Ubuntu 22.04, Ubuntu 24.04, or Debian 12. Download the .deb package and start trading across crypto and MT5 markets — no command line required."
+tested_version: "0.1.0-p12-ghcr-rc8"
+last_updated: "2026-08-12"
 platforms: ["linux"]
 category: "install"
 difficulty: "beginner"
@@ -23,76 +23,118 @@ sitemap_priority: 0.9
 
 # Install WolfBot Community on Ubuntu/Linux
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
 
 ## Who this guide is for
 
-Anyone who wants to install WolfBot Community on Ubuntu or Debian. The installer handles Docker automatically — no manual setup required. After installation, you'll have a unified trading platform covering crypto exchanges and MT5 brokers from one interface.
+Anyone who wants to install WolfBot Community on Ubuntu or Debian — **you do
+not need to know the terminal or Docker.** Everything below uses the same
+double-click install you'd use for any other application; a command-line
+alternative is included further down for anyone who prefers it.
 
 ## What you need
 
 - Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, or Debian 12 (64-bit)
-- At least 4 GB RAM, 4 GB disk space
+- At least 4 GB RAM, 4 GB free disk space
 - Internet connection
-- `sudo` access
+- Your account password (you'll be asked for it once, to allow the install
+  — this is completely normal, every app installer on Linux asks for this)
 
-> ℹ️ Docker is installed automatically by the WolfBot installer. No manual Docker setup needed.
+> ℹ️ WolfBot needs Docker to run. If it isn't installed yet, the installer
+> installs it for you automatically — nothing to set up by hand.
 
 ## Step 1: Download
 
 1. Go to [community.wolfbot.io/download](https://community.wolfbot.io/download)
 2. Click **Download for Linux**
-3. File: `WolfBot-Setup-{version}-linux-amd64.deb`
+3. The file `WolfBot-Setup-linux-amd64.deb` downloads to your **Downloads**
+   folder
 
-> **Verify:** `sha256sum WolfBot-Setup-*.deb` — compare with checksum on download page.
+## Step 2: Install (double-click, like any other app)
 
-## Step 2: Install
+1. Open your **Downloads** folder and **double-click**
+   `WolfBot-Setup-linux-amd64.deb`
+2. Your system's app installer window opens (usually called "Software
+   Install" or "Package Installer")
+3. Click **Install**
+4. Type your password when asked, then press Enter/click OK
+5. Wait for it to finish — this can take a minute or two the first time,
+   since it also sets up Docker in the background
+
+That's it — no terminal needed.
+
+> **Didn't get an install window?** Some Ubuntu versions open `.deb` files
+> in a file archive viewer instead of the installer by default.
+> Right-click the file → **Open With** → choose **Software Install** (or
+> **GDebi Package Installer** if you have it) → then click **Install**.
+
+## Step 3: Launch WolfBot
+
+1. Open your **Applications** menu (or press the Windows/Super key and
+   type "WolfBot")
+2. Click the **WolfBot** icon
+3. Your browser opens automatically to the WolfBot Dashboard
+
+## Expected result
+
+- A WolfBot icon appears in your Applications menu
+- Clicking it opens the Dashboard in your browser
+- The Setup Wizard welcomes you and offers to start with Simulation
+
+## Common mistakes
+
+| Mistake | Fix |
+|---|---|
+| Double-clicking opens a file archive instead of installing | Right-click the file → Open With → Software Install |
+| "Authentication required" prompt | This is normal — enter your regular login password |
+| Nothing happens after clicking Install | Give it a minute — Docker setup runs in the background the first time |
+| Can't find WolfBot after install | Log out and back in once, or search "WolfBot" in the Applications menu |
+
+## Prefer the command line?
+
+If you're comfortable with a terminal, this does the same thing as the
+steps above:
 
 ```bash
 cd ~/Downloads
-sudo dpkg -i WolfBot-Setup-*.deb
-sudo apt-get install -f    # if dependency issues (rare)
+sudo apt install ./WolfBot-Setup-linux-amd64.deb
 ```
 
-The installer automatically checks/installs Docker, pulls WolfBot images, and configures services.
+Using `apt install ./file.deb` (rather than `dpkg -i`) resolves any missing
+dependencies automatically in one step.
 
-## Step 3: Launch
+Useful commands once installed:
 
-**GUI:** Find **WolfBot** in your application menu → click to launch → Dashboard opens in browser.
-
-**CLI:**
 ```bash
 wolfbot status     # check services
 wolfbot start      # start WolfBot
-wolfbot open        # open Dashboard
+wolfbot open       # open the Dashboard in your browser
+wolfbot logs       # view logs
 ```
 
-Dashboard opens at `http://127.0.0.1:8765`.
-
-## Common issues
-
-| Issue | Solution |
-|---|---|
-| Docker not found | Installer handles it; or `sudo apt-get install docker.io` |
-| Port in use | `sudo lsof -i :8765`, stop conflicting service |
-| Permission denied | Use `sudo dpkg -i` |
-| Dependency error | `sudo apt-get install -f` |
+Dashboard address: `http://127.0.0.1:8765`
 
 ## Troubleshooting
 
-```bash
-wolfbot logs       # view logs
-wolfbot restart    # restart services
-wolfbot setup      # re-run setup
-```
-
-See [Troubleshooting Guide](/docs/troubleshooting).
+- **Nothing opens when I click the WolfBot icon** — give it a minute after
+  a fresh install (Docker containers are still starting), then try again.
+- **"Port in use" or the Dashboard won't load** — something else on your
+  computer may be using port 8765. See the
+  [Troubleshooting Guide](/docs/troubleshooting) for how to check.
+- Still stuck? See the full [Troubleshooting Guide](/docs/troubleshooting)
+  or ask in [GitHub Discussions](https://github.com/wolfbot-io/wolfbot-community/discussions).
 
 ## Uninstall
 
+Open your system's app store (e.g. **Ubuntu Software**), search for
+"WolfBot", and click **Remove** — the same way you'd uninstall any other
+app you installed via a `.deb` file.
+
+Or via the terminal:
+
 ```bash
-sudo dpkg -r wolfbot-community
-rm -rf ~/.wolfbot    # optionally remove data
+sudo apt remove wolfbot-community
+rm -rf ~/.wolfbot    # optional: also delete your local WolfBot data
 ```
 
 ## Next step

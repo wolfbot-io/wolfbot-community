@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'WolfBot Community Security — How We Keep Your Trading Safe',
   description: 'WolfBot Community security principles: non-custodial, trade-only API keys, self-hosted, signed releases.',
+  alternates: { canonical: 'https://community.wolfbot.io/security' },
 }
 
 export default function SecurityPage() {

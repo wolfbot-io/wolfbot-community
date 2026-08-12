@@ -1,0 +1,18 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+#
+# blank_issues_enabled: false forces reporters through one of the 5 issue
+# forms (bug/install/broker/feature/docs) instead of an unstructured blank
+# issue -- matches plan section 40's "structured reports, lower support
+# effort" goal. General questions aren't bug reports, so they're routed to
+# Discussions instead via contact_links below.
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/wolfbot-io/wolfbot-community/discussions/categories/q-a
+    about: Not a bug? Ask in Discussions Q&A instead of opening an issue.
+  - name: Documentation
+    url: https://community.wolfbot.io/docs
+    about: Installation guides, broker setup, and troubleshooting.
+  - name: Report a security vulnerability
+    url: https://github.com/wolfbot-io/wolfbot-community/security/policy
+    about: Do not open a public issue for security reports -- see SECURITY.md.

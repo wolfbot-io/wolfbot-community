@@ -10,6 +10,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "sitemap": "tsx scripts/generate-sitemap.ts",
+    "rss": "tsx scripts/generate-rss.ts > public/rss.xml",
+    "prebuild-content": "npm run sitemap && npm run rss",
     "metrics": "python3 scripts/collect_github_metrics.py"
   },
   "dependencies": {

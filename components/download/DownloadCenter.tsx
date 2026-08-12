@@ -1,32 +1,67 @@
 import Link from 'next/link'
 
+// Real release info -- was `href="#"` on both buttons before (100% dead,
+// unrelated to draft/publish state). GitHub's `/releases/latest` alias
+// (and `/releases/latest/download/<file>`) only ever resolves to the most
+// recent release that is NEITHER a draft NOR a prerelease -- this release
+// is intentionally `prerelease: true` (Public Preview / dev-preview
+// channel), so `latest` would silently never match it even once
+// published. Link the exact tag instead; update RELEASE_TAG on each new
+// release (matches the existing per-page `tested_version` frontmatter
+// pattern already used elsewhere on this site -- this repo has no
+// server-side rendering to look this up dynamically, see next.config.mjs
+// output: 'export').
+const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc8'
+const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc8 (Public Preview)'
+const LINUX_DEB_SHA256 = 'b02ff9b4fb677ef354ad502ae5101e7256d3254126efa542c69d79d5d032f94c'
+const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
+const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
+
+// Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <h1 className="text-4xl font-bold text-white text-center mb-2">Download WolfBot Community</h1>
-      <p className="text-zinc-400 text-center mb-2">Free self-hosted unified trading platform.</p>
-      <p className="text-blue-400 text-center mb-12 text-sm font-medium">Crypto + Futures + MT5 — One Platform. Every Market.</p>
+      <p className="text-center mb-2" style={{ color: '#94A3B8' }}>Free self-hosted unified trading platform.</p>
+      <p className="text-center mb-12 text-sm font-medium" style={{ color: '#00C9E8' }}>Crypto + Futures + MT5 — One Platform. Every Market.</p>
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-        <div className="border border-blue-900/50 rounded-xl p-8 bg-blue-950/10">
-          <span className="text-xs font-semibold bg-blue-600/20 text-blue-400 px-2 py-0.5 rounded">RECOMMENDED</span>
+        <div className="rounded-xl p-8 border opacity-60" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Windows x64</h2>
-          <p className="text-sm text-zinc-500 mb-4">WolfBot Community v0.8.0-beta.2</p>
-          <Link href="#" className="block text-center bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-xl">Download Setup.exe</Link>
-          <div className="mt-4 space-y-1 text-xs text-zinc-600"><p>Release channel: Public Preview</p><p>SHA256: coming soon</p></div>
+          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Not built yet</p>
+          <span
+            className="block text-center border font-semibold px-6 py-3 rounded-xl cursor-not-allowed"
+            style={{ borderColor: 'rgba(255,255,255,0.12)', color: '#94A3B8' }}
+            aria-disabled="true"
+          >
+            Coming soon
+          </span>
+          <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
+            <p>No Windows build in this release yet — Linux is first.</p>
+          </div>
         </div>
-        <div className="border border-zinc-800 rounded-xl p-8 bg-zinc-900/50">
-          <h2 className="text-xl font-bold text-white mb-1">Linux x64</h2>
-          <p className="text-sm text-zinc-500 mb-4">Ubuntu/Debian · v0.8.0-beta.2</p>
-          <Link href="#" className="block text-center border border-zinc-700 hover:border-zinc-500 text-white font-semibold px-6 py-3 rounded-xl">Download .deb</Link>
-          <div className="mt-4 space-y-1 text-xs text-zinc-600"><p>Release channel: Public Preview</p><p>SHA256: coming soon</p></div>
+        <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>AVAILABLE NOW</span>
+          <h2 className="text-xl font-bold text-white mt-2 mb-1">Linux x64</h2>
+          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Ubuntu/Debian · v{RELEASE_VERSION_LABEL}</p>
+          <a
+            href={LINUX_DEB_URL}
+            className="block text-center font-semibold px-6 py-3 rounded-xl accent-glow"
+            style={{ background: '#00C9E8', color: '#050C18' }}
+          >
+            Download .deb
+          </a>
+          <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
+            <p>Release channel: Public Preview</p>
+            <p className="break-all">SHA256: {LINUX_DEB_SHA256}</p>
+          </div>
         </div>
       </div>
       <div className="max-w-3xl mx-auto mt-8 flex flex-wrap items-center justify-center gap-4 text-sm">
-        <Link href="/releases" className="text-blue-400 hover:underline">Release Notes</Link>
-        <span className="text-zinc-700">·</span>
-        <a href="https://github.com/wolfbot-io/wolfbot-community/releases/latest" className="text-blue-400 hover:underline">GitHub Release</a>
-        <span className="text-zinc-700">·</span>
-        <Link href="/getting-started" className="text-zinc-400 hover:text-white">Not sure? Read Getting Started →</Link>
+        <Link href="/releases" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
+        <span style={{ color: '#475569' }}>·</span>
+        <a href={GITHUB_RELEASE_URL} className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
+        <span style={{ color: '#475569' }}>·</span>
+        <Link href="/getting-started" style={{ color: '#94A3B8' }} className="hover:text-white transition-colors">Not sure? Read Getting Started →</Link>
       </div>
     </section>
   )

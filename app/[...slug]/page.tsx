@@ -4,6 +4,7 @@ import { loadContent, listContent, slugToBreadcrumbs } from '@/lib/content'
 import { ContentRenderer } from '@/components/docs/ContentRenderer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
+import { breadcrumbSchema } from '@/lib/structured-data/breadcrumb'
 
 interface Props {
   params: { slug: string[] }
@@ -47,17 +48,19 @@ export default async function ContentPage({ params }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <StructuredData data={breadcrumbSchema(breadcrumbs)} />
+
       {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
+      <nav className="flex items-center gap-2 text-sm text-wolf-text2 mb-8">
         {breadcrumbs.map((crumb, i) => (
           <span key={crumb.href} className="flex items-center gap-2">
-            {i > 0 && <span className="text-zinc-700">/</span>}
+            {i > 0 && <span className="text-wolf-text2">/</span>}
             {i < breadcrumbs.length - 1 ? (
               <a href={crumb.href} className="hover:text-white transition-colors">
                 {crumb.label}
               </a>
             ) : (
-              <span className="text-zinc-300">{crumb.label}</span>
+              <span className="text-wolf-text">{crumb.label}</span>
             )}
           </span>
         ))}
@@ -79,7 +82,7 @@ export default async function ContentPage({ params }: Props) {
         {/* Next guide CTA */}
         {page.meta.next_guide && (
           <div className="next-guide">
-            <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide">Next step</span>
+            <span className="text-xs font-semibold text-wolf-accent uppercase tracking-wide">Next step</span>
             <div className="mt-1">
               <a href={page.meta.next_guide} className="text-lg">
                 {(() => {

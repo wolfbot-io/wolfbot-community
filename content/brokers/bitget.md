@@ -1,7 +1,7 @@
 ---
 title: "Connect Bitget to WolfBot Community — Step-by-Step"
 description: "Connect Bitget to WolfBot Community — create trade-only API keys and start automated trading on Spot and Futures."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Connect Bitget to WolfBot Community
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 **Bitget support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 

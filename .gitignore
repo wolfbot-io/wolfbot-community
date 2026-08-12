@@ -29,9 +29,11 @@ analytics/*.json
 # scripts output
 scripts/output/
 
-# generated at build time by `npm run sitemap` (scripts/generate-sitemap.ts)
-# — regenerated on every Cloudflare Pages build, do not commit a stale copy
+# generated at build time by `npm run prebuild-content`
+# (scripts/generate-sitemap.ts, scripts/generate-rss.ts) — regenerated on
+# every deploy build, do not commit a stale copy
 public/sitemap.xml
+public/rss.xml
 
 # Next.js build cache
 next-env.d.ts

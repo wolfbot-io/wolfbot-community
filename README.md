@@ -7,12 +7,15 @@
 <h3 align="center">One Platform. Every Market.</h3>
 
 <p align="center">
-  <strong>Crypto. Futures. MT5. One platform. One interface. One trading workflow.</strong>
+  <strong>Crypto exchanges and MT5 — Forex, Gold, Indices — unified in one trading platform: one interface, one risk engine, one portfolio.</strong>
+</p>
+<p align="center">
+  The same trading engine as WolfBot Cloud. Free. Self-hosted on your own Windows or Linux machine.
 </p>
 
 <p align="center">
   <a href="https://community.wolfbot.io/download">
-    <img src="https://img.shields.io/badge/Download-WolfBot%20Community-2563eb?style=for-the-badge" alt="Download WolfBot Community" />
+    <img src="https://img.shields.io/badge/Download-WolfBot%20Community-00C9E8?style=for-the-badge" alt="Download WolfBot Community" />
   </a>
 </p>
 
@@ -20,18 +23,18 @@
   <a href="https://community.wolfbot.io">Website</a> ·
   <a href="https://community.wolfbot.io/getting-started">Getting Started</a> ·
   <a href="https://community.wolfbot.io/docs">Documentation</a> ·
-  <a href="https://github.com/wolfbot-io/wolfbot-community/releases/latest">Latest Release</a> ·
+  <a href="https://github.com/wolfbot-io/wolfbot-community/releases">Latest Release</a> ·
   <a href="https://github.com/wolfbot-io/wolfbot-community/discussions">Discussions</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/channel-public%20preview-blue" alt="Public Preview" />
+  <img src="https://img.shields.io/badge/channel-public%20preview-00C9E8" alt="Public Preview" />
   <img src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows" alt="Windows" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
   <img src="https://img.shields.io/github/downloads/wolfbot-io/wolfbot-community/total" alt="Downloads" />
   <img src="https://img.shields.io/github/discussions/wolfbot-io/wolfbot-community" alt="Discussions" />
-  <img src="https://img.shields.io/badge/license-Proprietary-lightgrey" alt="License" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT" /></a>
 </p>
 
 ---
@@ -40,11 +43,11 @@
 
 Trading infrastructure is fragmented.
 
-One exchange app for crypto. Another for futures. MT5 terminal for traditional markets. Different dashboards for every account. Different bots for every platform. Separate risk tools scattered everywhere.
+One exchange app for crypto. Another for futures. MT5 terminal for Forex, Gold and Indices. Different dashboards for every account. Different bots for every platform. Separate risk tools scattered everywhere.
 
 **WolfBot changes that.**
 
-WolfBot Community brings modern digital markets and traditional financial markets into one unified trading environment — free and self-hosted on Windows or Linux. Connect your crypto exchanges and MT5 brokers once, then manage everything from one interface.
+WolfBot is a **unified crypto and MT5 trading platform**: it connects your crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget) and your MT5 broker (Forex, Gold, Indices, Stocks/CFDs) into the exact same interface, the same risk engine, and the same portfolio view — no more juggling separate apps per market. **WolfBot Community is that exact same platform, free to install and run on your own Windows or Linux machine.**
 
 ```text
                   CRYPTO EXCHANGES
@@ -75,6 +78,29 @@ Binance ──── Bybit ──── BingX ──── KuCoin ──── B
                     MT5 BROKERS
 ```
 
+---
+
+## The Same WolfBot — Just Running on Your Machine
+
+WolfBot Community isn't a stripped-down trial. It's **the identical trading engine, strategies and broker support as WolfBot Cloud** — the only real difference is *where it runs*. Cloud runs it on WolfBot's managed servers; Community runs it on the computer sitting in front of you. That one difference is what makes Community more convenient and more secure for a lot of traders:
+
+|  | |
+|---|---|
+| ⚡ **More convenient** | No signup, no subscription, nothing to wait on. Download, install, connect a broker, and you're trading — on hardware you already own and control, on your own schedule. |
+| 🔒 **More secure** | Your API keys, trading data and strategies never leave your machine — there's no cloud database, no shared infrastructure, no third party in the loop. Combined with trade-only API keys, your funds stay on the exchange no matter what. |
+| 💸 **Zero cost, forever** | The full unified platform — crypto, futures and MT5 — for $0. No per-trade fees, no subscription tiers. Your only cost is the electricity your machine already uses. |
+| 🛠️ **Full control** | Your machine, your rules. Nobody can pause your trading, force an update, or discontinue a service on you. Open development on GitHub — inspect, extend, or self-host indefinitely. |
+
+```text
+WolfBot Cloud:
+Your browser → WolfBot's managed server → Exchange
+
+WolfBot Community:
+Your machine → Exchange (directly — nothing in between)
+```
+
+Not sure which fits you? **[Community has the identical trading engine as Cloud](https://community.wolfbot.io/community-vs-cloud)** — the honest breakdown is a two-minute read, not a sales pitch.
+
 ### WolfBot vs a Typical Trading Bot
 
 A typical trading bot connects to **one exchange → one API → one strategy → one market**.
@@ -92,14 +118,17 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 
 ---
 
-## Four Brand Pillars
+## What's Inside
 
-| Pillar | What It Means |
-|---|---|
-| 🌐 **Unified Markets** | Crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget) and MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) — one platform |
-| 🖥️ **One Interface** | Accounts, positions, orders, bots, strategies, portfolio — one dashboard |
-| 🎯 **One Trading Layer** | Unified order routing across exchanges and brokers — consistent workflow regardless of market |
-| 🛡️ **Unified Risk** | Position limits, drawdown guards, cooldowns — apply identically across all connected markets |
+| Feature | | Feature | |
+|---|---|---|---|
+| 🌐 **Unified Markets** | Crypto exchanges + MT5 (Forex, Gold, Indices). One platform. | 🎯 **Smart Execution** | Unified order routing across all markets. |
+| 🖥️ **One Interface** | Accounts, positions, orders — one dashboard. | 🛡️ **Unified Risk** | Position limits and drawdown guards across everything. |
+| 📊 **One Portfolio** | Single portfolio view over all connected markets. | 🤖 **Automation** | Multi-strategy bots, TradingView signals, pipelines. |
+| 🧪 **Simulation** | Paper-trade across markets risk-free. | 💻 **Smart Terminal** | Manual trading with risk-aware execution. |
+| 🔄 **Auto Updates** | Stay current with signed channel updates. | 💾 **Backup & Restore** | Snapshot-based backup and recovery. |
+
+[Full feature breakdown →](https://community.wolfbot.io/features)
 
 ---
 
@@ -129,9 +158,10 @@ wolfbot start                  # launch
 ## Screenshots
 
 <p align="center">
-  <em>Dashboard · Smart Terminal · Portfolio · Risk Controls</em>
+  <img src="public/screenshots/wolfbot-community-dashboard.webp" alt="WolfBot Community dashboard overview showing connected accounts and quick links to Portfolio, Strategies, Bots and Risk Center" width="49%" />
+  <img src="public/screenshots/wolfbot-community-accounts.webp" alt="WolfBot Community account status page showing PnL, fees and per-account permissions" width="49%" />
   <br/>
-  <sub>Screenshots coming in the next release</sub>
+  <sub>Dashboard · Account Status — captured from a real self-hosted WolfBot Community instance</sub>
 </p>
 
 ---
@@ -159,31 +189,41 @@ wolfbot start                  # launch
 
 ---
 
-## Security
+## Security — Non-Custodial by Design
 
-WolfBot Community is built with security-first principles:
+Running on your own machine isn't just more convenient, it removes an entire category of risk that cloud-hosted tools carry: there is no third-party server holding your keys, and no shared infrastructure for an attacker to target.
 
-- 🔑 **Trade-only API keys** — No withdrawal permissions. Funds cannot leave your exchange.
-- 💻 **Self-hosted** — Runs on your machine. API keys and trading data stay local.
-- ✍️ **Signed releases** — Cryptographically signed installers. Verify checksums before installing.
-- 🧪 **Simulation-first** — Default mode is paper trading. Test strategies without risking funds.
-- 🔒 **Non-custodial** — WolfBot never holds your funds. You control your exchange accounts.
+- 🔑 **Trade-only API keys** — withdrawal and transfer permissions disabled at the exchange level, not just a software toggle. Even a compromised key can't move funds.
+- 💻 **Self-hosted** — API keys, trading data and strategies stay on your machine. No cloud database, no third party in the loop.
+- ✍️ **Signed releases** — every installer is cryptographically signed. Checksums are published so you can verify before installing.
+- 🧪 **Simulation-first** — default mode is paper trading. Test strategies across every market before risking real funds.
+- 🔒 **Non-custodial** — WolfBot never holds your funds. Your money stays on the exchange, and you can revoke access at any time.
 
 [Read our full security policy →](https://community.wolfbot.io/security)
 
 ---
 
-## Community vs Cloud
+## Community vs Cloud — Same Engine, Different Hosting
+
+**Is Community a "limited" version of Cloud? No.** Community runs the identical trading engine, strategies and broker support as Cloud — crypto, futures and MT5, all included. The only real difference is who manages the infrastructure.
 
 | | WolfBot Community | WolfBot Cloud |
 |---|---|---|
-| **Cost** | Free forever | Subscription |
-| **Hosting** | Self-hosted — your machine or VPS | Managed by WolfBot.io |
-| **Markets** | Crypto + Futures + MT5 | Crypto + Futures + MT5 |
-| **Setup** | Install & configure | Ready immediately |
+| **Cost** | Free | Subscription |
+| **Hosting** | Your machine | Managed by WolfBot.io |
+| **Setup** | Install & configure | Ready in minutes |
 | **Updates** | Channel-based auto-update | Automatic |
 | **Support** | Community (Discussions) | Direct support |
 | **Customization** | Full access — your machine, your rules | Within platform |
+
+| Feature | Community | Cloud |
+|---|---|---|
+| Crypto / Futures / MT5 Trading | ✅ | ✅ |
+| Smart Terminal · Risk Controls · Simulation | ✅ | ✅ |
+| Multi-Broker · TradingView Signals · Custom Strategies | ✅ | ✅ |
+| Auto Updates · Backup & Restore | ✅ | ✅ |
+| 24/7 Operation | ✅ (while your machine is on) | ✅ Always |
+| Managed hosting, team features, direct support | ❌ | ✅ |
 
 [Detailed comparison →](https://community.wolfbot.io/community-vs-cloud)
 
@@ -234,6 +274,6 @@ WolfBot Community is built with security-first principles:
 
 <p align="center">
   <strong>WolfBot Community</strong> — <em>One Platform. Every Market.</em><br/>
-  <sub>Free · Self-Hosted · Windows & Linux · Crypto + Futures + MT5</sub><br/>
+  <sub>The same WolfBot, running on your machine — free, private, and yours to control.</sub><br/>
   <sub>Built with ❤️ by <a href="https://wolfbot.io">WolfBot.io</a></sub>
 </p>

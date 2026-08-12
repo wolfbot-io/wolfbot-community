@@ -1,7 +1,7 @@
 ---
 title: "Connect MT5 to WolfBot Community — Step-by-Step"
 description: "Step-by-step guide to connect MetaTrader 5 (MT5) to WolfBot Community. Configure MT5 bridge and start trading across crypto and MT5 markets from one platform."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows"]
 brokers: ["mt5"]
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Connect MT5 to WolfBot Community
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 **MT5 support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 

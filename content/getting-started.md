@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with WolfBot Community"
 description: "First steps after installing WolfBot Community. Start with Simulation, explore the Dashboard, and connect crypto exchanges or MT5 brokers."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -16,7 +16,7 @@ sitemap_priority: 0.9
 
 # Getting Started with WolfBot Community
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 ## Welcome! 👋
 

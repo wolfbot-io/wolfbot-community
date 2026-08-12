@@ -11,7 +11,7 @@ export function ContentRenderer({ body }: { body: string }) {
         ),
         img: ({ src, alt, ...props }) => (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={src} alt={alt || ''} loading="lazy" className="rounded-xl border border-zinc-800 my-4" {...props} />
+          <img src={src} alt={alt || ''} loading="lazy" className="rounded-xl border border-wolf-border my-4" {...props} />
         ),
       }}
     >

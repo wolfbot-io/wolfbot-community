@@ -13,7 +13,6 @@ Include: description, steps to reproduce, affected versions, potential impact. W
 | Version | Supported |
 |---|---|
 | Latest Stable | ✅ |
-| Latest Stable | ✅ |
 | Development Preview | ⚠️ Best-effort |
 
 ## Security Principles

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Release Channels Explained"
 description: "Understand WolfBot Community release channels: Stable, Beta, RC, Alpha, and Dev Preview. Choose the right channel."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "release"
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Release Channels Explained
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 ## Available Channels
 
@@ -90,7 +90,7 @@ WolfBot Community is currently in **Public Preview** (Beta phase).
 
 ```text
 Stable: Not yet released
-Current public: v0.8.0-beta.2
+Current public: v0.1.0-p12-ghcr-rc8
 ```
 
 This means:
@@ -118,7 +118,7 @@ When switching to a more experimental channel:
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.8.0-beta.2
+0.1.0-p12-ghcr-rc8
 │   │  │
 │   │  └── Channel: beta, build 2
 │   └───── Minor version (feature releases)

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Backup & Restore — Data Protection Guide"
 description: "How to backup and restore WolfBot Community — protect your unified platform configuration and trading data."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -16,7 +16,7 @@ sitemap_priority: 0.80
 
 # Backup & Restore Guide
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 ## Why Backup?
 
@@ -51,7 +51,7 @@ wolfbot backup list
 
 ### Backup File Format
 ```
-wolfbot-backup-2026-08-11-v0.8.0-beta.2.wbbackup
+wolfbot-backup-2026-08-11-v0.1.0-p12-ghcr-rc8.wbbackup
 ```
 This is an encrypted, compressed archive.
 
@@ -66,7 +66,7 @@ This is an encrypted, compressed archive.
 
 ### Via CLI
 ```bash
-wolfbot backup restore wolfbot-backup-2026-08-11-v0.8.0-beta.2.wbbackup
+wolfbot backup restore wolfbot-backup-2026-08-11-v0.1.0-p12-ghcr-rc8.wbbackup
 ```
 
 ### Import External Backup

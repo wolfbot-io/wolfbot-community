@@ -1,7 +1,7 @@
 ---
 title: "Connect Bybit to WolfBot Community — Step-by-Step"
 description: "Connect Bybit to WolfBot Community — create trade-only API keys and start automated trading on Spot, Futures and Demo."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -23,7 +23,7 @@ sitemap_priority: 0.85
 
 # Connect Bybit to WolfBot Community
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 **Bybit support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
@@ -146,7 +146,7 @@ After successful setup:
 ## Troubleshooting
 
 For persistent issues:
-1. Check [Bybit API Status](https://status.bybit.com)
+1. Check [Bybit API System Status](https://bybit-exchange.github.io/docs/v5/system-status)
 2. Verify API key permissions on Bybit
 3. Regenerate API key and re-add in WolfBot
 4. Check WolfBot logs: `wolfbot logs` (Linux) or `C:\Program Files\WolfBot\logs\` (Windows)

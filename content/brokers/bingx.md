@@ -1,7 +1,7 @@
 ---
 title: "Connect BingX to WolfBot Community — Step-by-Step"
 description: "Connect BingX to WolfBot Community — create trade-only API keys and start automated trading on Standard and Perpetual Futures."
-tested_version: "0.8.0-beta.2"
+tested_version: "0.1.0-p12-ghcr-rc8"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Connect BingX to WolfBot Community
 
-**Tested with WolfBot Community v0.8.0-beta.2** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
 
 **BingX support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
@@ -66,7 +66,7 @@ Anyone who wants to connect a BingX account to WolfBot Community for automated t
 
 ## BingX-Specific Notes
 
-- **Demo trading:** Available at [bingx.com/demo](https://www.bingx.com/demo) — separate API keys
+- **Demo trading:** Available in-app under Derivatives → Perpetual Futures → Demo Trading (uses virtual funds) — [how it works](https://bingx.com/en/wiki/detail/demo-trading) — separate API keys
 - **Futures:** Use Perpetual Futures account type in WolfBot
 - **Copy trading:** WolfBot does not interact with BingX copy trading
 
