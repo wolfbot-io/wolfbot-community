@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/seo/StructuredData'
@@ -18,6 +19,14 @@ const SITE = {
 // pasted into a public <script> tag by design, same as any Cloudflare
 // beacon token), just an identifier for that dashboard entry.
 const CLOUDFLARE_BEACON_TOKEN = '8d9f9006aa4d4e519b0523eb68a8ed02'
+
+// Google Analytics 4 -- separate GA4 property from wolfbot.io's own
+// (community.wolfbot.io is a distinct product: free/self-hosted vs Cloud),
+// so traffic isn't mixed between the two. Same gtag.js pattern as
+// wolfbot-platform/frontend/app/layout.tsx for consistency. Not a secret --
+// a GA Measurement ID is meant to be public, it's pasted into every page's
+// HTML by design.
+const GA_MEASUREMENT_ID = 'G-TPQZ9X224P'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -80,6 +89,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon={`{"token": "${CLOUDFLARE_BEACON_TOKEN}"}`}
         />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');
+`}
+        </Script>
       </head>
       <body>
         <Header />
