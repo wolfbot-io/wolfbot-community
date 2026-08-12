@@ -177,15 +177,15 @@ wolfbot start                  # launch
 | **KuCoin** | ✅ Stable | Spot, Futures, Demo, Terminal, Strategies |
 | **Bitget** | ✅ Stable | Spot, Futures, Demo, Terminal, Strategies |
 
-### Traditional Markets via MT5 (Windows)
+### Traditional Markets via MT5 (Windows & Linux)
 | Market | Status | Instruments |
 |---|---|---|
 | **Forex** | ✅ Stable | EUR/USD, GBP/USD, USD/JPY, etc. |
-| **Gold** | ✅ Stable | XAU/USD |
+| **Metals** | ✅ Stable | XAU/USD Gold, XAG/USD Silver, and more |
 | **Indices** | ✅ Stable | US30, NAS100, S&P 500, etc. |
 | **Stocks/CFDs** | ✅ Stable | Broker-dependent |
 
-> MT5 bridge currently requires Windows. Linux support is planned.
+> MT5 works on both platforms: natively on Windows, or via WolfBot's built-in MT5 terminal container (browser VNC access) on Linux — no separate Windows machine needed. See the [MT5 connect guide](https://community.wolfbot.io/brokers/mt5) for both paths.
 
 ---
 

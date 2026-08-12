@@ -20,6 +20,7 @@ sitemap_priority: 0.60
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
 | Windows Installer | 🟢 Stable | Windows 10/11 64-bit, Setup.exe |
 | Linux Installer | 🟢 Stable | Ubuntu 22.04+, Debian 12, .deb |
+| MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
 ## Supported Markets
 
@@ -36,11 +37,11 @@ sitemap_priority: 0.60
 | Market | Status | Instruments |
 |---|---|---|
 | Forex | 🟢 Stable | EUR/USD, GBP/USD, USD/JPY, etc. |
-| Gold | 🟢 Stable | XAU/USD |
+| Metals | 🟢 Stable | XAU/USD Gold, XAG/USD Silver, and more |
 | Indices | 🟢 Stable | US30, NAS100, S&P 500 |
 | Stocks/CFDs | 🟢 Stable | Broker-dependent |
 
-> MT5 bridge available on Windows only. Linux support planned.
+> MT5 bridge available on **both Windows and Linux** — natively on Windows, or via WolfBot's built-in MT5 terminal container (browser VNC access) on Linux.
 
 ## Features
 
@@ -65,7 +66,6 @@ sitemap_priority: 0.60
 
 | Issue | Status | Workaround |
 |---|---|---|
-| MT5 Linux not supported | 🟡 Planned | Use Windows or Windows VPS |
 | No mobile app | ℹ️ Not planned | Use browser on mobile |
 
 ## Roadmap
@@ -74,7 +74,6 @@ sitemap_priority: 0.60
 |---|---|
 | v0.9.0 — First Release Candidate | Q3 2026 |
 | v1.0.0 — Stable Release | Q4 2026 |
-| MT5 Linux support | Q4 2026 |
 | Additional broker support | Ongoing |
 
 ## Incident History

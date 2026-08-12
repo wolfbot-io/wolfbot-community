@@ -83,10 +83,10 @@ textarea:focus-visible,
     @apply text-3xl sm:text-4xl font-bold text-wolf-text mt-8 mb-4;
   }
   .prose-content h2 {
-    @apply text-2xl font-bold text-wolf-text mt-10 mb-4 border-b border-wolf-border pb-2;
+    @apply text-2xl font-bold text-wolf-text mt-10 mb-4 border-b border-wolf-border pb-2 scroll-mt-24;
   }
   .prose-content h3 {
-    @apply text-xl font-semibold text-wolf-text mt-8 mb-3;
+    @apply text-xl font-semibold text-wolf-text mt-8 mb-3 scroll-mt-24;
   }
   .prose-content p {
     @apply text-wolf-text2 leading-relaxed mb-4;

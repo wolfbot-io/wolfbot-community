@@ -81,6 +81,10 @@ That's it — no terminal needed.
 - Clicking it opens the Dashboard in your browser
 - The Dashboard's Capability Status page shows which brokers you can connect — start with a [Demo account](/docs/simulation) for zero-risk trading
 
+## Optional: Trade Forex, Gold and Indices via MT5
+
+WolfBot Community on Linux also trades MT5 markets (Forex, Gold, Indices, Stocks/CFDs) — no separate Windows machine needed. It's an optional extra step (not turned on by default), and you control the MT5 terminal from your own browser. See the [MT5 connect guide](/brokers/mt5) for the exact steps.
+
 ## Common mistakes
 
 | Mistake | Fix |
