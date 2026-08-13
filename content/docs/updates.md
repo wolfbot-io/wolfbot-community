@@ -2,7 +2,7 @@
 title: "WolfBot Community Update Guide — Auto-Update & Channels"
 description: "How WolfBot Community updates work. Stable, Beta, and Dev Preview channels. Keep your unified platform current."
 tested_version: "0.1.0-p12-ghcr-rc8"
-last_updated: "2026-08-11"
+last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "updates"
 difficulty: "beginner"
@@ -15,11 +15,11 @@ sitemap_priority: 0.80
 
 # Update WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12
 
 ## How Updates Work
 
-WolfBot Community uses channel-based updates with automatic notifications.
+WolfBot Community ships on channels — which release you download decides how fresh (and how tested) your build is.
 
 | Channel | Description | Update Frequency | Risk Level |
 |---|---|---|---|
@@ -31,35 +31,29 @@ See [Release Channels Explained →](/releases/channels)
 
 ---
 
-## Automatic Updates
-
-When a new version is available:
-1. A notification appears: "New version available"
-2. Click **Update Now** or schedule for later
-3. WolfBot downloads the signed update
-4. The installer runs (upgrades in-place)
-5. WolfBot restarts with the new version
-
-**Linux CLI:**
-```bash
-wolfbot update check
-wolfbot update apply
-```
-
----
-
-## Manual Update
+## Updating
 
 ### Windows
+
 1. Go to [community.wolfbot.io/download](https://community.wolfbot.io/download)
 2. Download the latest Setup.exe
-3. Run the installer (upgrades in-place, preserves data)
+3. Run the installer — it upgrades in place and keeps your data, accounts and settings
 
 ### Linux
+
+Every install includes a signed updater, run from a terminal:
+
 ```bash
-wget https://community.wolfbot.io/download/latest-linux
-sudo dpkg -i WolfBot-Setup-*.deb
+# Check what's currently installed
+/opt/wolfbot/launcher/wolfbot-updater.sh check
+
+# Apply a specific release (see community.wolfbot.io/releases for manifest links)
+/opt/wolfbot/launcher/wolfbot-updater.sh apply <release-manifest-url>
 ```
+
+The updater verifies the new release's signature before pulling anything, and stops your current stack only after the new one has been staged.
+
+> ℹ️ There's no in-app "update available" popup today — check [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) or run the check command above to see what's current.
 
 ---
 
@@ -76,13 +70,11 @@ sudo dpkg -i WolfBot-Setup-*.deb
 
 ---
 
-## Changing Your Channel
+## Choosing a Channel
 
-1. Go to **Settings → Updates → Release Channel**
-2. Select: **Stable** (live trading), **Beta** (new features), or **Dev Preview** (latest)
-3. Click **Save**
+There's no in-app channel switch — you choose a channel by which release you download. Grab a Beta or Dev Preview build directly from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) instead of the Stable link on the download page when you want to try newer features.
 
-> ⚠️ Dev Preview shows a warning: "May contain incomplete features."
+> ⚠️ Dev Preview builds may contain incomplete features — expect rougher edges than Stable.
 
 ---
 
@@ -90,11 +82,13 @@ sudo dpkg -i WolfBot-Setup-*.deb
 
 If an update causes issues:
 
-**Windows:** Settings → Updates → Previous Versions → Rollback
+**Linux:**
+```bash
+/opt/wolfbot/launcher/wolfbot-updater.sh rollback
+```
+This restores the previous release's manifest and restarts the stack on it.
 
-**Linux:** `wolfbot update rollback`
-
-Or download previous version from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases).
+**Windows:** download and reinstall the previous version's Setup.exe from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) — installing over the current version upgrades or downgrades in place either way.
 
 ---
 
@@ -112,7 +106,7 @@ Or download previous version from [GitHub Releases](https://github.com/wolfbot-i
 |---|---|
 | "Update check failed" | Check internet connection |
 | "Signature verification failed" | Download manually from website |
-| "Update stuck" | Restart WolfBot and retry |
+| Update stuck partway | Re-run the updater command, or reinstall from a fresh download |
 
 ---
 

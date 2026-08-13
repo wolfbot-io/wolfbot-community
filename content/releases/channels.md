@@ -103,13 +103,9 @@ This means:
 
 ## Changing Your Channel
 
-1. Open WolfBot → **Settings → Updates**
-2. Select your preferred channel
-3. Click **Save**
+There's no in-app channel switch — your channel is simply whichever release you download and install. Grab a Beta or Dev Preview build from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) instead of the Stable link on the download page when you want to try newer features; the installer upgrades your existing install in place either way.
 
-When switching to a more experimental channel:
-- A warning appears
-- Testing on a Demo account is recommended
+When trying a more experimental channel, testing on a Demo account first is recommended.
 
 ---
 

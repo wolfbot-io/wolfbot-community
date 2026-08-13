@@ -43,7 +43,7 @@ Prevents any single trade from risking too much capital — applies across crypt
 
 ### Settings
 
-1. Go to **Settings → Risk Controls**
+1. Go to **Risk** in the sidebar
 2. Find **Position Sizing**
 3. Configure:
 
@@ -153,7 +153,7 @@ Max trades/day: 30
 
 If you need to stop everything immediately:
 
-1. Go to **Settings → Risk Controls**
+1. Go to **Risk** in the sidebar
 2. Click **Emergency Stop**
 3. This:
    - Pauses all bots
@@ -176,7 +176,7 @@ The Dashboard shows your risk status at a glance:
 ## Common Questions
 
 **Q: Can I override risk controls for a specific trade?**
-Risk controls are enforced globally. You can adjust parameters in Settings before trading.
+Risk controls are enforced globally. You can adjust parameters on the Risk page before trading.
 
 **Q: What happens if my balance changes?**
 Position size limits auto-adjust to your current balance.

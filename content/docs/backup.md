@@ -2,7 +2,7 @@
 title: "WolfBot Community Backup & Restore — Data Protection Guide"
 description: "How to backup and restore WolfBot Community — protect your unified platform configuration and trading data."
 tested_version: "0.1.0-p12-ghcr-rc8"
-last_updated: "2026-08-11"
+last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "backup"
 difficulty: "beginner"
@@ -16,7 +16,7 @@ sitemap_priority: 0.80
 
 # Backup & Restore Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12
 
 ## Why Backup?
 
@@ -24,87 +24,50 @@ WolfBot stores your configuration locally: broker API connections, strategy sett
 
 ---
 
-## Automatic Backup (Recommended)
+## Backup (Linux)
 
-WolfBot automatically creates snapshots:
-- After any configuration change
-- Before applying an update
-- Daily at midnight
+Backups run from a terminal, and default to a **dry run** — they show you what would be backed up without writing anything, until you add `--execute`:
 
-**Storage locations:**
-- Windows: `C:\Users\<You>\AppData\Local\WolfBot\backups\`
-- Linux: `~/.wolfbot/backups/`
-
----
-
-## Manual Backup
-
-### Via Dashboard
-1. Go to **Settings → Backup & Restore**
-2. Click **Create Backup** → enter a name → **Create**
-
-### Via CLI (Linux)
 ```bash
-wolfbot backup create "before-weekend"
-wolfbot backup list
+# See what a backup would include, without writing anything
+wolfbot backup --install-root /opt/wolfbot --data-root /var/lib/wolfbot
+
+# Actually write the backup archive
+wolfbot backup --install-root /opt/wolfbot --data-root /var/lib/wolfbot --execute
 ```
 
-### Backup File Format
-```
-wolfbot-backup-2026-08-11-v0.1.0-p12-ghcr-rc8.wbbackup
-```
-This is an encrypted, compressed archive.
+Add `--label "before-weekend"` to tag a backup with a name you'll recognize later. The resulting archive is written with restricted file permissions (readable only by your own user account) alongside a receipt describing what it contains.
+
+> Run `wolfbot backup --help` for the full, current list of options — flags can change between releases.
+
+### Windows
+
+A dedicated backup command isn't available yet on Windows — for now, the safest option is copying your WolfBot data folder somewhere safe before a major change (see [Troubleshooting](/docs/troubleshooting) if you're not sure where that is).
 
 ---
 
 ## Restore from Backup
 
-### Via Dashboard
-1. Settings → Backup & Restore → find the backup → **Restore**
-2. Confirm: "This will replace current configuration"
-3. WolfBot restarts with restored settings
-
-### Via CLI
 ```bash
-wolfbot backup restore wolfbot-backup-2026-08-11-v0.1.0-p12-ghcr-rc8.wbbackup
+wolfbot restore-backup --install-root /opt/wolfbot --data-root /var/lib/wolfbot --backup <path-to-archive>
 ```
 
-### Import External Backup
-1. Copy `.wbbackup` file to your machine
-2. Settings → Backup & Restore → **Import Backup**
-3. Select file → verify → **Restore**
+Like backup, this defaults to a dry run so you can see what would change before committing with `--execute`. Use `wolfbot inspect-backup <path-to-archive>` first if you just want to check what's inside an archive without restoring anything.
 
 ---
 
 ## What Gets Backed Up
 
-| Data | Included? | Notes |
-|---|---|---|
-| API connections | ✅ | Encrypted |
-| Strategy configs | ✅ | All bot settings |
-| Risk parameters | ✅ | Your guardrails |
-| Trading history | ✅ | Past orders |
-| Dashboard layout | ✅ | UI preferences |
-| Exchange credentials | ❌ | Never exported in plain text |
-
-Because API secrets are never exported, you'll need to re-enter them after restoring to a new machine.
-
----
-
-## Best Practices
-
-- **Before major changes:** Create a named manual backup
-- **External storage:** Copy important backups to cloud storage (encrypted, safe anywhere)
-- **Retention:** Keep last 7 automatic + all manual backups
+Your configuration, strategy settings, risk parameters and trading history live in WolfBot's data directory and are included in a backup. Broker API secrets are handled carefully — check the output of `wolfbot backup` (even in dry-run) if you need to confirm exactly what a given release includes before relying on it for a machine migration.
 
 ---
 
 ## Migrating to a New Machine
 
-1. Create a manual backup on old machine
-2. Copy `.wbbackup` to new machine
-3. Install WolfBot Community on new machine
-4. Import backup → re-enter API keys → verify settings
+1. Create a backup on the old machine (`wolfbot backup ... --execute`)
+2. Copy the resulting archive to the new machine
+3. Install WolfBot Community on the new machine
+4. Restore the archive (`wolfbot restore-backup ...`), then verify your accounts and settings — re-enter any API keys that didn't carry over
 
 ---
 
@@ -112,9 +75,9 @@ Because API secrets are never exported, you'll need to re-enter them after resto
 
 | Issue | Solution |
 |---|---|
-| "Backup creation failed" | Check disk space |
-| "Restore failed — version mismatch" | Update to same version first |
-| "Backup file corrupted" | Try an earlier backup |
+| "Backup creation failed" | Check disk space and that `--install-root`/`--data-root` point at your real WolfBot paths |
+| Restore looks wrong after a version change | Update WolfBot to the same version the backup was taken on first, then retry |
+| Not sure a backup succeeded | Run `wolfbot inspect-backup <path>` to check its contents before you need it |
 
 ---
 

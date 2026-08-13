@@ -18,13 +18,13 @@ sitemap_priority: 0.80
 
 ## Quick Diagnostic
 
-Run the built-in diagnostic tool:
+Run the built-in diagnostic tool from a terminal (Command Prompt/PowerShell on Windows, a regular terminal on Linux), from your WolfBot install folder:
 
-**Windows:** Settings → About → **Run Diagnostics**
+```bash
+wolfbot doctor
+```
 
-**Linux:** `wolfbot doctor`
-
-It checks: installation integrity, service status, network, broker connections.
+It's read-only — it checks installation integrity, service status, network and broker connections without changing anything.
 
 ---
 
@@ -89,7 +89,7 @@ WolfBot handles this automatically. If persistent, reduce bot frequency.
 | Update check fails | Check internet; firewall might block update server |
 | Signature verification fails | Download manually from [download page](/download) |
 | Update stuck | Restart WolfBot and retry |
-| After update, WolfBot won't start | Rollback to previous version in Settings → Updates |
+| After update, WolfBot won't start | Linux: `wolfbot-updater.sh rollback`. Windows: reinstall the previous version's Setup.exe — see [Update Guide](/docs/updates) |
 
 ---
 
@@ -114,18 +114,14 @@ WolfBot handles this automatically. If persistent, reduce bot frequency.
 ## Data & Configuration
 
 ### Lost Configuration
-1. Check **Settings → Backup & Restore**
-2. Restore from latest automatic backup
-3. If no backup: reconfigure manually
+1. If you have a backup archive, restore it — see the [Backup & Restore Guide](/docs/backup)
+2. If not: reconfigure manually
 
 ### Database Corruption
 ```bash
-# Linux
-wolfbot repair-db
-
-# Windows
-# Settings → Advanced → Repair Database
+wolfbot repair
 ```
+This is a dedicated, fail-closed repair command — it never repairs automatically without you running it, and it won't touch anything it isn't sure about.
 
 ---
 
