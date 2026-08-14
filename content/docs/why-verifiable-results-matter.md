@@ -24,6 +24,14 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you want to know you can trust the software you run** — this explains,
+  without jargon, how to tell real verifiable safety from marketing screenshots.
+- **If you're technically inclined** — you'll get the concrete mechanisms
+  (checksums, digest-pinned releases, trade-only keys) and how to check them
+  yourself.
+
 ## A screenshot is not proof
 
 A green PnL chart on a website proves exactly one thing: someone could produce a green PnL chart. It doesn't tell you whether the software is safe to run, whether the numbers were edited, or whether the download you're about to install is the same one everyone else got.
@@ -35,6 +43,13 @@ In trading software, "trust" has to be built out of things that can actually be 
 Every WolfBot Community release is cryptographically signed, and checksums are published alongside each installer. That means you can independently confirm that the file you downloaded is the exact file that was built and shipped — not a modified copy swapped in somewhere along the way.
 
 This is a small step that catches a real category of risk: a tampered installer is one of the classic ways malware gets onto a machine, and a published checksum is how you verify it didn't happen to you.
+
+> 🔎 **For technical readers:** it goes a step further than a checksummed
+> installer. Each container image in a WolfBot Community release manifest is
+> **digest-pinned** — the reference carries its SHA256 digest (`@sha256:…`),
+> and the updater refuses to apply a manifest whose declared digest doesn't
+> match the image it actually pulls. So a release is not just signed once;
+> every component is pinned to an exact, independently verifiable hash.
 
 ## 2. Non-custodial — there's nothing to steal by design
 

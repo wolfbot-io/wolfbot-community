@@ -1,0 +1,74 @@
+# WolfBot Community
+
+> Free, self-hosted unified trading platform for Windows and Linux. Connects crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget) and MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) into one interface, one risk engine, one portfolio.
+
+WolfBot Community is the free, self-hosted edition of WolfBot by [WolfBot.io](https://wolfbot.io). The source is open at [github.com/wolfbot-io/wolfbot-community](https://github.com/wolfbot-io/wolfbot-community).
+
+## Core
+- [Home](https://community.wolfbot.io/): Overview of WolfBot Community and its markets
+- [Download](https://community.wolfbot.io/download): Installers, checksums, and release channel
+- [Getting Started](https://community.wolfbot.io/getting-started): First-run walkthrough
+- [Supported Brokers](https://community.wolfbot.io/brokers): Broker/status matrix
+- [Features](https://community.wolfbot.io/features): Full feature list
+- [Academy](https://community.wolfbot.io/academy): All tutorials and guides
+- [Security](https://community.wolfbot.io/security): Non-custodial design, signed releases
+- [FAQ](https://community.wolfbot.io/faq): Frequently asked questions
+- [Community vs Cloud](https://community.wolfbot.io/community-vs-cloud): Comparison of the two editions
+
+## Getting Started
+- [Self-Hosted Trading Platform Explained — Why Run WolfBot on Your Machine](https://community.wolfbot.io/docs/self-hosted-explained): What is a self-hosted unified trading platform? Benefits of running WolfBot Community on your own machine: full control, maximum privacy, zero cost — across crypto and MT5 markets.
+- [Getting Started with WolfBot Community](https://community.wolfbot.io/getting-started): First steps after installing WolfBot Community. Connect a Demo account, explore the Dashboard, and add your crypto exchanges or MT5 broker.
+
+## Installation
+- [Run WolfBot Community 24/7 on a VPS — Self-Hosted Trading on Your Own Server](https://community.wolfbot.io/docs/run-24-7-on-a-vps): Run WolfBot Community around the clock on an Ubuntu VPS. Install the .deb, keep your dashboard private with an SSH tunnel, back up on the server, and trade non-custodially.
+- [Install WolfBot Community on Ubuntu/Linux — Step-by-Step](https://community.wolfbot.io/install/linux): How to install WolfBot Community on Ubuntu 22.04, Ubuntu 24.04, or Debian 12. Download the .deb package and start trading across crypto and MT5 markets — no command line required.
+- [Install WolfBot Community on Windows — Step-by-Step](https://community.wolfbot.io/install/windows): How to install WolfBot Community on Windows 10 or Windows 11. Download Setup.exe, install in minutes, and start trading across crypto and MT5 markets.
+
+## Broker Setup
+- [Connect Binance to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/binance): Connect Binance to WolfBot Community — create trade-only API keys and start automated trading on Spot and Futures.
+- [Connect BingX to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/bingx): Connect BingX to WolfBot Community — create trade-only API keys and start automated trading on Standard and Perpetual Futures.
+- [Connect Bitget to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/bitget): Connect Bitget to WolfBot Community — create trade-only API keys and start automated trading on Spot and Futures.
+- [Connect Bybit to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/bybit): Connect Bybit to WolfBot Community — create trade-only API keys and start automated trading on Spot, Futures and Demo.
+- [Connect KuCoin to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/kucoin): Connect KuCoin to WolfBot Community — create API keys with passphrase and start automated trading on Spot and Futures.
+- [Connect MT5 to WolfBot Community — Step-by-Step](https://community.wolfbot.io/brokers/mt5): WolfBot Community includes MT5 — trade Forex, Gold, Indices and Stocks/CFDs on Windows or Linux, no separate Windows machine needed. Step-by-step connect guide.
+- [Run MT5 Without a Windows VPS — How WolfBot Community Does It on Linux](https://community.wolfbot.io/docs/mt5-without-windows-vps): MT5 normally means renting a Windows VPS just to keep a terminal running. WolfBot Community skips that entirely — here's exactly how the Linux MT5 bridge works and why no Windows machine is needed.
+
+## Simulation & Demo
+- [Start WolfBot Community with a Demo Account](https://community.wolfbot.io/docs/simulation): Learn how to test WolfBot Community risk-free with a broker Demo account. Paper-trade against real market data across crypto and MT5 markets without risking real funds.
+
+## Smart Terminal
+- [WolfBot Community Smart Terminal — Manual Trading Guide](https://community.wolfbot.io/docs/smart-terminal): How to use the WolfBot Community Smart Terminal for manual trading. Place orders with automatic risk controls across all your connected crypto exchanges and MT5 brokers.
+
+## Risk Controls
+- [How to Read Trading Performance Responsibly](https://community.wolfbot.io/docs/how-to-read-trading-performance): A great-looking equity curve can hide survivorship bias, cherry-picked timeframes, and unreported drawdown. Here's how to read trading results without fooling yourself.
+- [How to Reduce Drawdown in Trading](https://community.wolfbot.io/docs/how-to-reduce-drawdown): Drawdown is unavoidable — but how deep it goes is under your control. A practical guide to limiting drawdown with position sizing, loss limits, and cooldowns in WolfBot Community.
+- [WolfBot Community Risk Controls — Complete Guide](https://community.wolfbot.io/docs/risk-controls): Configure unified risk controls in WolfBot Community — position limits, drawdown guards, cooldowns, and daily trade limits that apply across all your connected crypto exchanges and MT5 brokers.
+- [Take-Profit and Stop-Loss — The Two Orders That Protect Every Trade](https://community.wolfbot.io/docs/take-profit-stop-loss): Take-profit (TP) and stop-loss (SL) are the two orders that decide how much you win and how much you can lose. Here's how WolfBot Community places them automatically and how to tune them.
+- [Why Most Trading Bots Fail at Risk Management](https://community.wolfbot.io/docs/why-bots-fail-risk-management): Most trading bots lose money for the same few reasons — no position sizing, no drawdown guard, no cooldown. Here's what actually goes wrong and how a unified risk layer fixes it.
+
+## Backup & Restore
+- [WolfBot Community Backup & Restore — Data Protection Guide](https://community.wolfbot.io/docs/backup): How to backup and restore WolfBot Community — protect your unified platform configuration and trading data.
+
+## Updates
+- [WolfBot Community Update Guide — Auto-Update & Channels](https://community.wolfbot.io/docs/updates): How WolfBot Community updates work. Stable, Beta, and Dev Preview channels. Keep your unified platform current.
+
+## Releases
+- [WolfBot Community Release Channels Explained](https://community.wolfbot.io/releases/channels): Understand WolfBot Community release channels: Stable, Beta, RC, Alpha, and Dev Preview. Choose the right channel.
+
+## Status
+- [WolfBot Community Status](https://community.wolfbot.io/docs/community-status): Current status of WolfBot Community — supported markets, platform availability, known issues, and roadmap.
+
+## Security
+- [Trade-Only API Key Guide — Security Best Practices](https://community.wolfbot.io/brokers/api-key-guide): How to create secure trade-only API keys for WolfBot Community. Never enable withdrawal permissions. Guide for Binance, Bybit, BingX, KuCoin, Bitget.
+- [Trade-Only API Keys Explained — Why Your Bot Should Never Be Able to Withdraw](https://community.wolfbot.io/docs/trade-only-api-keys-explained): The single most important setting when connecting any exchange to a trading bot: disabling withdrawal permissions. Here's exactly what a trade-only API key can and can't do, and why it matters.
+- [Why Verifiable Results Matter](https://community.wolfbot.io/docs/why-verifiable-results-matter): Anyone can screenshot a winning trade. Verifiable results — signed releases, published checksums, and non-custodial access — are what actually let you trust trading software.
+
+## Troubleshooting
+- [WolfBot Community Troubleshooting — Common Problems & Solutions](https://community.wolfbot.io/docs/troubleshooting): Fix common WolfBot Community issues. Installation errors, market connection problems, update failures, and error codes.
+
+## FAQ
+- [WolfBot Community vs WolfBot Cloud — Comparison](https://community.wolfbot.io/community-vs-cloud): Compare WolfBot Community (free self-hosted) and WolfBot Cloud (managed). Same unified trading platform, same markets — different hosting.
+
+## automation
+- [Automated Trading with WolfBot Community — From Strategy to Execution](https://community.wolfbot.io/docs/automated-trading-workflow): How automated trading works in WolfBot Community: configure a bot, choose a strategy template, test on a Demo account, and let the same risk engine protect every automated order across crypto and MT5.
+- [Dollar-Cost Averaging (DCA) in WolfBot Community](https://community.wolfbot.io/docs/dca-strategy): Dollar-cost averaging (DCA) spreads a position into smaller entries instead of one big buy. Here's how WolfBot Community supports DCA and how it fits the same risk engine as every other order.

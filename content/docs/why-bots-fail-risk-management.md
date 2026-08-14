@@ -23,6 +23,15 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you trade and want to protect your money** — this explains, in plain
+  language, why bots lose money and the four simple settings that stop it, so
+  you can judge any bot (and configure WolfBot) with confidence.
+- **If you're technically inclined** — you'll see exactly which risk layers
+  matter and why enforcing them across *all* accounts at once is what
+  actually protects a portfolio.
+
 ## The uncomfortable truth about trading bots
 
 Most trading bots are not defeated by a bad strategy. They're defeated by a missing risk layer. A strategy that's right 55% of the time can still blow up an account if nothing limits how much a single losing streak is allowed to cost.

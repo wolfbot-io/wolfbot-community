@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackEvent } from '@/lib/analytics'
 
 // Dark theme per prototypes/figma-make design language.
 export function FeedbackWidget({ slug }: { slug: string }) {
@@ -10,6 +11,10 @@ export function FeedbackWidget({ slug }: { slug: string }) {
   const handleVote = (vote: 'yes' | 'no') => {
     setVoted(vote)
     setSubmitted(true)
+    // PLAN §147 — record the vote so "not helpful" pages can be
+    // prioritized for improvement (the static export has no backend, so
+    // GA4 is the store of record).
+    trackEvent('docs_feedback', { page: slug, helpful: vote === 'yes' })
   }
 
   if (submitted && voted) {

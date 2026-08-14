@@ -2,8 +2,12 @@
 
 **Plan:** Community Brand/SEO/Growth Master Plan V2 (162 sections)  
 **Git submodule:** `github.com/wolfbot-io/wolfbot-community`  
-**Date:** 2026-08-11  
+**Date:** 2026-08-14  
 **Status:** 🚀 IN PROGRESS
+
+> Last updated 2026-08-14 — reflects the SEO/AI-search/content work done this
+> session (title-dup fix, structured-data fixes, llms.txt, search index,
+> docs search + feedback analytics, and the Month-3 automation articles).
 
 ---
 
@@ -124,9 +128,27 @@ wolfbot-community/                  # Git submodule → GitHub public repo
 | FEEDBACK-G19 | Page feedback widget (Yes/No) | ✅ |
 | ERROR-G20 | Custom 404 page | ✅ |
 
+### Session work (2026-08-14) — added beyond the original gates
+
+| Item | What | Status |
+|---|---|---|
+| SEO-dup | Title tag brand duplication removed (`title.template` → plain string) | ✅ |
+| SD-version | `softwareVersion` corrected to `0.1.0-p12-ghcr-rc8` in SoftwareApplication | ✅ |
+| SD-org | Standalone Organization schema (`lib/structured-data/organization.ts`) rendered site-wide | ✅ |
+| OG-image | `og:image`/`og:url` now present on all content pages | ✅ |
+| llms.txt | `scripts/generate-llms-txt.ts` → `public/llms.txt` (36 links, AI search) | ✅ |
+| search-index | `scripts/generate-search-index.ts` → `public/search-index.json` (27→30 pages) | ✅ |
+| DocsSearch | `components/search/DocsSearch.tsx` (auto-synced, tracks `docs_search`/zero-result) on /academy | ✅ |
+| feedback-GA4 | `FeedbackWidget` now fires `docs_feedback` GA4 event | ✅ |
+| GA4-events | `lib/analytics.ts` `trackEvent` + download/CTA tracking | ✅ |
+| broker-SSOT | `lib/brokers.ts` single source of truth for broker roster | ✅ |
+| Academy ×6 | 6 risk/trust Academy articles (why-bots-fail, reduce-drawdown, verifiable-results, read-performance, mt5-linux, trade-only-keys) | ✅ |
+| Month3 ×3 | automation-workflow, take-profit-stop-loss, dca-strategy | ✅ |
+| 2-audience | "Who this guide is for" (non-technical + technical) applied to all new/retrofitted articles | ✅ |
+
 ---
 
-## Content Pages Progress (20/20) ✅
+## Content Pages Progress (30) ✅
 
 | # | Page | File | Status |
 |---|---|---|---|
@@ -150,6 +172,16 @@ wolfbot-community/                  # Git submodule → GitHub public repo
 | 19 | Troubleshooting | `content/docs/troubleshooting.md` | ✅ |
 | 20 | Release Channels | `content/releases/channels.md` | ✅ |
 | 21 | Community Status | `content/docs/community-status.md` | ✅ |
+| 22 | Run 24/7 on a VPS | `content/docs/run-24-7-on-a-vps.md` | ✅ |
+| 23 | Why Bots Fail (risk) | `content/docs/why-bots-fail-risk-management.md` | ✅ |
+| 24 | How to Reduce Drawdown | `content/docs/how-to-reduce-drawdown.md` | ✅ |
+| 25 | Why Verifiable Results Matter | `content/docs/why-verifiable-results-matter.md` | ✅ |
+| 26 | Read Trading Performance | `content/docs/how-to-read-trading-performance.md` | ✅ |
+| 27 | MT5 Without Windows VPS | `content/docs/mt5-without-windows-vps.md` | ✅ |
+| 28 | Trade-Only API Keys Explained | `content/docs/trade-only-api-keys-explained.md` | ✅ |
+| 29 | Automated Trading Workflow | `content/docs/automated-trading-workflow.md` | ✅ |
+| 30 | Take-Profit and Stop-Loss | `content/docs/take-profit-stop-loss.md` | ✅ |
+| 31 | Dollar-Cost Averaging (DCA) | `content/docs/dca-strategy.md` | ✅ |
 
 ---
 
@@ -228,12 +260,14 @@ npm run dev
 
 ## Build Status
 
-- TypeScript: 0 errors (npx tsc --noEmit)
-- Next.js build: 28 static pages generated
-- Dev server: http://localhost:3000 (200 OK)
-- SearchBar: Header + static content index (21 items)
-- FeedbackWidget: Yes/No + GitHub issue link on every doc page
-- 404 page: branded, links to Home / Getting Started / Docs
+- TypeScript: 0 errors (`npm run typecheck`)
+- Next.js build: 41 static pages generated (`npm run build`)
+- Sitemap: 37 URLs (`public/sitemap.xml`)
+- llms.txt: 39 links (`public/llms.txt`)
+- search-index.json: 30 pages (`public/search-index.json`)
+- DocsSearch: auto-synced from search-index.json on /academy
+- FeedbackWidget: Yes/No + GA4 `docs_feedback` event on every doc page
+- Link crawl: 0 broken internal links
 
 ## Build Status (archive)
 

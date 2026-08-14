@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { listContent } from '@/lib/content'
+import { DocsSearch } from '@/components/search/DocsSearch'
 
 export const metadata: Metadata = {
   title: 'WolfBot Community Academy — Tutorials & Guides',
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const SECTIONS: { title: string; categories: string[] }[] = [
   { title: 'Getting Started', categories: ['getting-started', 'install'] },
   { title: 'Broker Setup', categories: ['broker-setup'] },
-  { title: 'Using WolfBot', categories: ['simulation', 'smart-terminal', 'risk-controls', 'backup', 'updates'] },
+  { title: 'Using WolfBot', categories: ['simulation', 'smart-terminal', 'risk-controls', 'automation', 'backup', 'updates'] },
   { title: 'Reference', categories: ['release', 'status', 'troubleshooting', 'faq', 'security'] },
 ]
 
@@ -26,6 +27,8 @@ export default function AcademyPage() {
         Every guide below is tested against a specific WolfBot Community
         release — check the &quot;Tested with&quot; line on each page.
       </p>
+
+      <DocsSearch />
 
       {SECTIONS.map((section) => {
         const items = pages.filter((p) => section.categories.includes(p.meta.category))

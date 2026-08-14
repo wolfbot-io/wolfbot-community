@@ -24,6 +24,15 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you want to evaluate results without fooling yourself** — this gives you
+  a short checklist of the numbers that actually matter, so a headline return
+  never misleads you again.
+- **If you're technically inclined** — you'll see why drawdown and timeframe
+  are the real signal, and how backtest, survivorship bias, and the risk layer
+  change what a number means.
+
 ## The numbers most people skip
 
 A trading result is usually presented as one headline number: total return, or a monthly percentage. By itself, that number tells you almost nothing. Two accounts can show the same 20% return while one of them nearly blew up twice along the way — and only one of those is a strategy you'd want to run.

@@ -24,6 +24,14 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you trade Forex, Gold, Indices or Stocks/CFDs and don't want to rent a
+  Windows server** — this explains, plainly, how you get MT5 running on Linux
+  and what that saves you.
+- **If you're technically inclined** — you'll see exactly how the Linux MT5
+  bridge is containerized and why no remote-desktop client is needed.
+
 ## The problem MT5 usually creates
 
 MetaTrader 5 is a Windows application. If you want to automate Forex, Gold, Indices or Stocks/CFDs through it, the traditional path is: rent a Windows VPS, install MT5 on it, keep it running 24/7, and now you're paying for and maintaining a whole second machine just to keep one terminal alive — on top of whatever you're already running your trading bot on.

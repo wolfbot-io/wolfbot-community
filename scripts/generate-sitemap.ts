@@ -20,7 +20,7 @@ const BASE_URL = 'https://community.wolfbot.io'
 const PRIORITY: Record<string, number> = {
   install: 0.9, 'getting-started': 0.9, 'broker-setup': 0.85,
   simulation: 0.85, 'live-trading': 0.8, 'risk-controls': 0.8,
-  'smart-terminal': 0.8, 'external-signals': 0.7, 'custom-strategies': 0.7,
+  automation: 0.8, 'smart-terminal': 0.8, 'external-signals': 0.7, 'custom-strategies': 0.7,
   updates: 0.7, backup: 0.7, troubleshooting: 0.8, academy: 0.7,
   security: 0.8, faq: 0.8, release: 0.85,
 }
@@ -29,7 +29,7 @@ const CHANGEFREQ: Record<string, string> = {
   updates: 'daily', release: 'daily',
   install: 'weekly', 'getting-started': 'weekly', 'broker-setup': 'weekly',
   simulation: 'weekly', 'live-trading': 'weekly', 'risk-controls': 'weekly',
-  'smart-terminal': 'weekly', troubleshooting: 'weekly',
+  automation: 'weekly', 'smart-terminal': 'weekly', troubleshooting: 'weekly',
   academy: 'monthly', security: 'monthly', faq: 'monthly',
   backup: 'monthly', 'external-signals': 'monthly', 'custom-strategies': 'monthly',
 }

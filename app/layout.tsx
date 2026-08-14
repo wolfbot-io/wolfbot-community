@@ -4,6 +4,7 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { websiteSchema } from '@/lib/structured-data/website'
+import { organizationSchema } from '@/lib/structured-data/organization'
 import '@/styles/globals.css'
 
 const SITE = {
@@ -94,6 +95,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/wolfbot-logo.png" sizes="any" />
         <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — Releases & Docs`} href="/rss.xml" />
         <StructuredData data={websiteSchema} />
+        <StructuredData data={organizationSchema} />
         <script
           type="module"
           src="https://static.cloudflareinsights.com/beacon.min.js"

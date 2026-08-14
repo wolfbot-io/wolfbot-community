@@ -23,6 +23,14 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you want to connect an exchange without putting your funds at risk** —
+  this shows you the one permission to always turn off, in plain language, so
+  a leaked key can never empty your account.
+- **If you're technically inclined** — you'll get the exact permission model
+  (Read/Trade vs Withdraw/Transfer) and the second layer of IP restriction.
+
 ## The one setting that matters most
 
 Every exchange lets you create an API key with a specific set of permissions attached to it — not "your whole account," a narrower slice of it. When you connect an exchange to any trading bot, including WolfBot, the single most important decision you make is which permissions that key has.

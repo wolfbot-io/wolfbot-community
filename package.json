@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "sitemap": "tsx scripts/generate-sitemap.ts",
     "rss": "tsx scripts/generate-rss.ts > public/rss.xml",
-    "prebuild-content": "npm run sitemap && npm run rss",
+    "llms": "tsx scripts/generate-llms-txt.ts",
+    "search-index": "tsx scripts/generate-search-index.ts",
+    "prebuild-content": "npm run sitemap && npm run rss && npm run llms && npm run search-index",
     "metrics": "python3 scripts/collect_github_metrics.py"
   },
   "dependencies": {

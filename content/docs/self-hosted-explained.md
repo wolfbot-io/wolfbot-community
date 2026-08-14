@@ -96,7 +96,7 @@ Your machine → Exchange (directly)
 ## Common Concerns
 
 ### "Do I need a server?"
-No. WolfBot Community runs fine on a regular Windows or Linux PC. A VPS is only needed if you want 24/7 trading without keeping your PC on. It handles crypto exchanges and MT5 brokers equally well from any environment.
+No. WolfBot Community runs fine on a regular Windows or Linux PC. A [VPS is only needed if you want 24/7 trading](/docs/run-24-7-on-a-vps) without keeping your PC on. It handles crypto exchanges and MT5 brokers equally well from any environment.
 
 ### "What if my PC crashes?"
 Your positions are on the exchange, not your PC. WolfBot Community is non-custodial. When you restart, it recovers your positions automatically — whether they're crypto pairs or MT5 instruments.

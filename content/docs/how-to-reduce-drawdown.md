@@ -24,6 +24,14 @@ sitemap_priority: 0.75
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-14
 
+## Who this guide is for
+
+- **If you want your account to survive losing streaks** — this gives you a
+  copy-paste set of numbers that keep drawdown shallow, without any theory.
+- **If you like to know *why*** — each section explains the mechanism (why
+  smaller positions, a pause threshold, and a cooldown each do a different
+  job) so you can tune the values instead of just copying them.
+
 ## Drawdown is not the enemy — uncontrolled drawdown is
 
 Every trading account draws down. Markets move against positions; that's normal. What separates a survivable account from a blown one isn't whether drawdown happens, but how deep it's allowed to go before something stops it.
