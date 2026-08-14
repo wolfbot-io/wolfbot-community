@@ -24,6 +24,8 @@ sitemap_priority: 0.9
 
 **Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12 · Windows 11 / Windows 10
 
+> ℹ️ **Availability:** the first public release (v0.1.0-p12-ghcr-rc8) ships the Linux installer. The Windows installer is documented here ahead of its follow-up release — check the [download page](/download) for the current status, and this guide will walk you through it the moment it's available.
+
 ## Who this guide is for
 
 This guide is for anyone who wants to install WolfBot Community on a Windows 10 or Windows 11 computer. No coding or Docker experience required. After installation, you'll have a unified trading platform for crypto exchanges and MT5 brokers — one interface, every market.

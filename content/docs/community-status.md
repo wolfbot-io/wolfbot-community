@@ -18,8 +18,8 @@ sitemap_priority: 0.60
 |---|---|---|
 | Website (community.wolfbot.io) | 🟢 Online | Next.js 14, Cloudflare Pages |
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
-| Windows Installer | 🟢 Stable | Windows 10/11 64-bit, Setup.exe |
 | Linux Installer | 🟢 Stable | Ubuntu 22.04+, Debian 12, .deb |
+| Windows Installer | 🟡 In progress | Guide published; installer ships in a follow-up release |
 | MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
 ## Supported Markets

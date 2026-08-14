@@ -5,8 +5,12 @@ const FAQS = [
   { q: 'What is WolfBot Community?', a: 'WolfBot Community is a free self-hosted unified trading platform. It connects crypto exchanges and MT5 brokers into one interface for automation, execution, portfolio monitoring and risk management.' },
   { q: 'Which markets does WolfBot support?', a: 'Crypto (Binance, Bybit, BingX, KuCoin, Bitget), Crypto Futures, and MT5 markets (Forex, Gold, Indices, Stocks/CFDs). One platform across modern and traditional finance.' },
   { q: 'Is WolfBot Community free?', a: 'Yes — completely free. No subscription, no cloud account required. Self-host on your own Windows or Linux machine.' },
+  { q: 'How do I install it?', a: 'Download the installer from the Download page and run it. Linux ships a .deb that sets up Docker for you automatically; the Windows Setup.exe is documented and coming in a follow-up release. No terminal or Docker experience needed.' },
+  { q: 'Do I need a VPS or a cloud server?', a: 'No. WolfBot Community runs on your own computer. You only need a VPS if you want it trading 24/7 while your personal machine is off.' },
+  { q: 'What happens when my PC shuts down?', a: 'Trading simply pauses — your accounts, strategies and settings are saved, and bots resume when the machine is back on. If you need round-the-clock operation, run it on an always-on Linux VPS instead.' },
   { q: 'How is WolfBot different from a typical trading bot?', a: 'A typical bot connects to one exchange. WolfBot is a unified platform — it connects multiple exchanges AND MT5 brokers, provides one execution engine, one risk layer, and one portfolio view across all markets.' },
   { q: 'Can I start with Simulation?', a: 'Yes. Connect a broker Demo/testnet account (e.g. a Bybit Demo key — WolfBot auto-detects it) and trade risk-free with real market data and virtual funds, across every supported market.' },
+  { q: 'How do updates work?', a: 'Releases are cryptographically signed and shipped on channels (Stable, Beta, Dev Preview). Linux updates run through the signed updater; checksums are published for every installer so you can verify before installing.' },
   { q: 'What is the difference from WolfBot Cloud?', a: 'Community is free and self-hosted. Cloud is a managed service. Same platform, same markets — different hosting.' },
 ]
 

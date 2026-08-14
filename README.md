@@ -136,7 +136,7 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 
 ## Install in Minutes
 
-### Windows
+### Windows (installer coming in a follow-up release)
 ```powershell
 # 1. Download Setup.exe from community.wolfbot.io/download
 # 2. Double-click → Install → Open WolfBot
