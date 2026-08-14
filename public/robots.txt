@@ -1,3 +1,6 @@
+# Cloudflare Managed robots.txt should stay OFF. This site-level file is
+# intentionally crawl-friendly for search and AI reference bots while keeping
+# internal surfaces out of crawl scope.
 User-agent: *
 Allow: /
 
@@ -5,7 +8,6 @@ Sitemap: https://community.wolfbot.io/sitemap.xml
 
 # Disallow internal paths
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 Disallow: /debug/
 Disallow: /internal/

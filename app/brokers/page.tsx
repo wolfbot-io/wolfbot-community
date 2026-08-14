@@ -1,23 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { BROKERS, STATUS_STYLE, brokerHref } from '@/lib/brokers'
 
 export const metadata: Metadata = {
   title: 'Supported Brokers & Exchanges',
   description: 'WolfBot Community broker support status — Binance, Bybit, BingX, KuCoin, Bitget and MT5. Trade-only API key setup guides for each.',
   alternates: { canonical: 'https://community.wolfbot.io/brokers' },
-}
-
-const BROKERS = [
-  { name: 'Binance', status: 'Stable', slug: 'binance', desc: 'Spot and Futures trading. Most liquid exchange.' },
-  { name: 'Bybit', status: 'Stable', slug: 'bybit', desc: 'Spot, Futures, Demo. Excellent API stability.' },
-  { name: 'BingX', status: 'Stable', slug: 'bingx', desc: 'Standard and Perpetual Futures supported.' },
-  { name: 'KuCoin', status: 'Stable', slug: 'kucoin', desc: 'Wide altcoin selection. Passphrase required.' },
-  { name: 'Bitget', status: 'Stable', slug: 'bitget', desc: 'Spot and Futures. Growing exchange.' },
-  { name: 'MT5', status: 'Stable', slug: 'mt5', desc: 'MetaTrader 5 bridge. Forex, Metals, Indices, Stocks/CFDs and more — whatever your broker offers. Windows and Linux.' },
-]
-
-const STATUS_STYLE: Record<string, { color: string; background: string }> = {
-  Stable: { color: '#10B981', background: 'rgba(16,185,129,0.12)' },
 }
 
 // Dark theme per prototypes/figma-make design language.
@@ -32,13 +20,13 @@ export default function BrokersIndexPage() {
         {BROKERS.map((b) => (
           <Link
             key={b.slug}
-            href={`/brokers/${b.slug}`}
+            href={brokerHref(b)}
             className="rounded-xl p-6 border card-hover"
             style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}
           >
             <div className="flex items-center justify-between mb-2">
               <h2 className="text-lg font-bold text-white">{b.name}</h2>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded" style={STATUS_STYLE[b.status] ?? { color: '#F59E0B', background: 'rgba(245,158,11,0.12)' }}>
+              <span className="text-xs font-semibold px-2 py-0.5 rounded capitalize" style={STATUS_STYLE[b.status]}>
                 {b.status}
               </span>
             </div>

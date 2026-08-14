@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { trackEvent } from '@/lib/analytics'
 
 // Visual language ported from prototypes/figma-make/src/landing/LandingPage.tsx
 // (HeroSection) — hero-glow radial backdrop, gradient-text headline accent,
@@ -33,6 +36,7 @@ export function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
                 href="/download"
+                onClick={() => trackEvent('cta_click', { label: 'download', location: 'hero' })}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold rounded-xl transition-all accent-glow text-center"
                 style={{ background: '#00C9E8', color: '#050C18' }}
               >
@@ -40,6 +44,7 @@ export function Hero() {
               </Link>
               <Link
                 href="/getting-started"
+                onClick={() => trackEvent('cta_click', { label: 'getting_started', location: 'hero' })}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold rounded-xl border transition-all text-center"
                 style={{ color: '#94A3B8', borderColor: 'rgba(255,255,255,0.12)' }}
               >

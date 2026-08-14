@@ -18,13 +18,14 @@ export default function SecurityPage() {
 
       <h2>Trade-Only API Keys</h2>
       <p>We recommend (and our guides show) creating API keys with trade-only permissions. No withdrawal, no transfer. Even if a key is compromised, funds cannot be stolen — only unwanted trades could be placed.</p>
-      <p><Link href="/brokers/api-key-guide">Read the API Key Guide →</Link></p>
+      <p><Link href="/brokers/api-key-guide">Read the API Key Guide →</Link> · <Link href="/docs/trade-only-api-keys-explained">Why this setting matters →</Link></p>
 
       <h2>Self-Hosted</h2>
       <p>WolfBot Community runs on your machine. No third party has access to your credentials or trading data. Your firewall, your security rules.</p>
 
       <h2>Signed Releases</h2>
       <p>All releases are cryptographically signed. Checksums are published for every installer. Verify before installing.</p>
+      <p><Link href="/docs/why-verifiable-results-matter">Why verifiable results matter →</Link></p>
 
       <h2>Local Data</h2>
       <p>Configuration, trading history, and strategies stay on your machine. Nothing is sent to WolfBot.io unless you explicitly opt in.</p>

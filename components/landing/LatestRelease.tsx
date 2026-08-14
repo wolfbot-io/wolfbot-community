@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { trackEvent } from '@/lib/analytics'
 
 // Same reasoning as components/download/DownloadCenter.tsx: this release
 // is `prerelease: true`, so GitHub's `/releases/latest` alias never
@@ -20,6 +23,7 @@ export function LatestRelease() {
         <div className="flex flex-wrap gap-4">
           <Link
             href="/download"
+            onClick={() => trackEvent('cta_click', { label: 'download', location: 'latest_release' })}
             className="text-sm font-medium px-4 py-2 rounded-lg accent-glow"
             style={{ background: '#00C9E8', color: '#050C18' }}
           >

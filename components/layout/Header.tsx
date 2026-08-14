@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { SearchBar } from '@/components/docs/SearchBar'
+import { trackEvent } from '@/lib/analytics'
 
 // Visual language ported from prototypes/figma-make/src/landing/LandingChrome.tsx
 // (LandingHeader) — sticky dark blurred header, wolf-accent CTA with glow,
@@ -76,6 +77,7 @@ export function Header() {
             </a>
             <Link
               href="/download"
+              onClick={() => trackEvent('cta_click', { label: 'download', location: 'header' })}
               className="bg-wolf-accent hover:bg-wolf-accent-soft text-[#050C18] text-sm font-semibold px-4 py-2 rounded-lg accent-glow transition-colors"
             >
               Download
@@ -139,7 +141,7 @@ export function Header() {
             </a>
             <Link
               href="/download"
-              onClick={() => setMobileOpen(false)}
+              onClick={() => { trackEvent('cta_click', { label: 'download', location: 'header_mobile' }); setMobileOpen(false) }}
               className="mx-3 text-center bg-wolf-accent text-[#050C18] text-sm font-semibold px-4 py-2.5 rounded-lg accent-glow"
             >
               Download

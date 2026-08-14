@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { trackEvent } from '@/lib/analytics'
 
 // Dark theme per prototypes/figma-make design language.
 export function FinalCTA() {
@@ -12,6 +15,7 @@ export function FinalCTA() {
         </p>
         <Link
           href="/download"
+          onClick={() => trackEvent('cta_click', { label: 'download', location: 'final_cta' })}
           className="inline-block font-bold px-10 py-5 rounded-xl text-lg transition-all accent-glow"
           style={{ background: '#00C9E8', color: '#050C18' }}
         >

@@ -189,6 +189,14 @@ Risk controls can be adjusted but we strongly recommend keeping them active. The
 
 ---
 
+## Further reading
+
+- [Why Most Trading Bots Fail at Risk Management →](/docs/why-bots-fail-risk-management) — the four ways bots lose money, and how each is prevented
+- [How to Reduce Drawdown in Trading →](/docs/how-to-reduce-drawdown) — a practical walkthrough of the exact settings above
+- [How to Read Trading Performance Responsibly →](/docs/how-to-read-trading-performance) — judge a result by its drawdown, not its headline return
+
+---
+
 ## Next step
 
 > **[Connect a Broker →](/brokers/bybit)**

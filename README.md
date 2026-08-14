@@ -29,6 +29,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/channel-public%20preview-00C9E8" alt="Public Preview" />
+  <img src="https://img.shields.io/badge/releases-signed-0e8a16" alt="Signed Releases" />
+  <img src="https://img.shields.io/badge/checksums-SHA256%20published-0e8a16" alt="SHA256 published" />
   <img src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows" alt="Windows" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />

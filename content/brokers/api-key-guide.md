@@ -8,7 +8,7 @@ brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
 category: "security"
 difficulty: "beginner"
 estimated_time: "5 minutes"
-related_guides: ["/brokers/bybit", "/brokers/binance", "/security"]
+related_guides: ["/brokers/bybit", "/brokers/binance", "/security", "/docs/trade-only-api-keys-explained"]
 keywords: [
   "trade only api key",
   "api key security trading bot",
@@ -27,7 +27,7 @@ sitemap_priority: 0.80
 
 WolfBot Community is **non-custodial** — it never holds your funds. It connects to exchanges via API keys that you control. You can revoke these keys at any time.
 
-**The golden rule:** Never enable Withdrawal or Transfer permissions on any API key used with trading software.
+**The golden rule:** Never enable Withdrawal or Transfer permissions on any API key used with trading software. See [Trade-Only API Keys Explained →](/docs/trade-only-api-keys-explained) for why this one setting matters more than any other.
 
 ## Required Permissions
 

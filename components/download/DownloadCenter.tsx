@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { TrackedLink } from '@/components/analytics/TrackedLink'
 
 // Real release info -- was `href="#"` on both buttons before (100% dead,
 // unrelated to draft/publish state). GitHub's `/releases/latest` alias
@@ -43,13 +44,15 @@ export function DownloadCenter() {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>AVAILABLE NOW</span>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Linux x64</h2>
           <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Ubuntu/Debian · v{RELEASE_VERSION_LABEL}</p>
-          <a
+          <TrackedLink
             href={LINUX_DEB_URL}
+            eventName="download_click"
+            eventParams={{ platform: 'linux', format: 'deb', release: RELEASE_TAG, location: 'download_page' }}
             className="block text-center font-semibold px-6 py-3 rounded-xl accent-glow"
             style={{ background: '#00C9E8', color: '#050C18' }}
           >
             Download .deb
-          </a>
+          </TrackedLink>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
             <p>Release channel: Public Preview</p>
             <p className="break-all">SHA256: {LINUX_DEB_SHA256}</p>
