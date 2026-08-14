@@ -18,18 +18,18 @@
   "releaseNotes": "https://community.wolfbot.io/releases/latest",
   "downloadUrl": "https://community.wolfbot.io/download",
   "browserRequirements": "Requires Windows 10/11 or Ubuntu 22.04+/Debian 12+",
-  "softwareVersion": "0.8.0-beta.2",
+  "softwareVersion": "0.1.0-p12-ghcr-rc8",
   "datePublished": "2026-08-01",
   "screenshot": [
     {
       "@type": "ImageObject",
-      "url": "https://community.wolfbot.io/assets/screenshots/dashboard.webp",
+      "url": "https://community.wolfbot.io/screenshots/wolfbot-community-dashboard.webp",
       "caption": "WolfBot Community trading dashboard"
     },
     {
       "@type": "ImageObject",
-      "url": "https://community.wolfbot.io/assets/screenshots/terminal.webp",
-      "caption": "WolfBot Community Smart Terminal"
+      "url": "https://community.wolfbot.io/screenshots/wolfbot-community-accounts.webp",
+      "caption": "WolfBot Community account status"
     }
   ],
   "featureList": [

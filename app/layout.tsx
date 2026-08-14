@@ -30,10 +30,16 @@ const GA_MEASUREMENT_ID = 'G-TPQZ9X224P'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: {
-    default: `${SITE.name} — ${SITE.tagline}`,
-    template: `%s — ${SITE.name}`,
-  },
+  // No `template` here on purpose: content frontmatter titles (and the
+  // homepage / download / security pages) already embed the "WolfBot
+  // Community" brand inside the title itself (e.g. "Connect Binance to
+  // WolfBot Community — Step-by-Step"). A `%s — WolfBot Community`
+  // template would append the brand a second time
+  // ("... — WolfBot Community — WolfBot Community"), which reads as
+  // spammy in search results and hurts click-through. A plain string here
+  // means child pages render their title exactly as authored, and this value
+  // is only the fallback for routes that don't set one.
+  title: 'WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
   description: SITE.description,
   keywords: [
     'wolfbot', 'wolfbot community', 'unified trading platform',
@@ -54,10 +60,14 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
-    // No explicit `images` here on purpose: app/opengraph-image.tsx (a
-    // proper 1200x630 banner, Section 96-97) is picked up automatically by
-    // Next.js's file convention and takes priority over any square-logo
-    // fallback set here.
+    // Shared 1200x630 banner (app/opengraph-image.tsx). Next.js's file
+    // convention only auto-injects og:image on the root `/` route -- child
+    // routes (docs, brokers, etc.) do NOT get it automatically, so we set it
+    // here so every page gets a valid social-preview image instead of a blank
+    // card. Content pages merge their own og:title/description/url on top.
+    images: [
+      { url: '/opengraph-image', width: 1200, height: 630, alt: `${SITE.name} — ${SITE.tagline}` },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

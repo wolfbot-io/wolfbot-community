@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BROKERS, STATUS_STYLE, brokerHref } from '@/lib/brokers'
 
 export const metadata: Metadata = {
-  title: 'Supported Brokers & Exchanges',
+  title: 'Supported Brokers & Exchanges — WolfBot Community',
   description: 'WolfBot Community broker support status — Binance, Bybit, BingX, KuCoin, Bitget and MT5. Trade-only API key setup guides for each.',
   alternates: { canonical: 'https://community.wolfbot.io/brokers' },
 }

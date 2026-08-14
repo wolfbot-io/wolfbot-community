@@ -32,7 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: meta.title,
       description: meta.description,
       type: 'article',
+      url: `https://community.wolfbot.io/${slug}`,
       modifiedTime: meta.last_updated,
+      images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: meta.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
     },
     robots: meta.sitemap_priority === 0 ? { index: false } : undefined,
   }

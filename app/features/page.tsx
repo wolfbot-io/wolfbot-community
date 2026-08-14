@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Features',
+  title: 'WolfBot Community Features — Unified Trading Platform',
   description: 'What WolfBot Community includes: unified crypto + MT5 trading, smart execution, risk controls, simulation, automation, and self-hosted infrastructure — all free.',
   alternates: { canonical: 'https://community.wolfbot.io/features' },
 }

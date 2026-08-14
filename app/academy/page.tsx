@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { listContent } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Academy',
+  title: 'WolfBot Community Academy — Tutorials & Guides',
   description: 'WolfBot Community tutorials and guides — installation, broker setup, simulation, risk controls and more, all tested against a specific release.',
   alternates: { canonical: 'https://community.wolfbot.io/academy' },
 }
