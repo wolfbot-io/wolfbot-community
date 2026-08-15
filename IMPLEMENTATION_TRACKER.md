@@ -19,6 +19,7 @@
 | CI | First `.github/workflows/ci.yml` for this repo — typecheck, `prebuild-content`, `next build`, and `npm run freshness` (PLAN §66/§151) on every push/PR to `main`; repo had **zero** CI before this | ✅ |
 | freshness script wired | `scripts/check-content-freshness.ts` existed but was never invoked by anything — added `npm run freshness` + wired into the new CI workflow; current run: 0 errors, 0 warnings across all 31 content pages | ✅ |
 | lint gap noted, not fixed | `npm run lint` is non-functional (`next lint` needs interactive ESLint setup that was never completed) — left out of CI rather than silently claiming lint coverage; flagged as a real, separate gap | 🟡 noted |
+| Vietnamese full coverage (PLAN §91) | Completed the remaining docs translations — `content/vi/*.md` now has **30 articles = 1:1 with all 30 EN content pages** (added risk-controls, simulation, smart-terminal, backup, updates, troubleshooting, community-status, self-hosted-explained, why-verifiable-results-matter, how-to-read-trading-performance, mt5-without-windows-vps, trade-only-api-keys-explained, releases/channels, community-vs-cloud). `security` + `faq` are React pages (no markdown). Build 71 pages (41 EN + 30 VI), sitemap 65 URLs, llms.txt 69 links, hreflang en/vi/x-default both directions. Fixed vi anchor `#cho-độc-giả-kỹ-thuật` in mt5-without-windows-vps | ✅ |
 
 ---
 

@@ -18,7 +18,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-6"
               style={{ background: 'rgba(0,201,232,0.1)', color: '#67E8F9', border: '1px solid rgba(0,201,232,0.18)' }}
             >
-              WolfBot Community · Free &amp; Self-Hosted
+              WolfBot Community by WolfBot.io · Free &amp; Self-Hosted
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-white">

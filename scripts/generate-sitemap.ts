@@ -36,6 +36,7 @@ const CHANGEFREQ: Record<string, string> = {
 
 interface Entry {
   url: string; lastmod: string; changefreq: string; priority: string
+  alternates?: { lang: string; href: string }[]
 }
 
 function* walkContent(dir: string): Generator<string> {
@@ -51,6 +52,28 @@ function resolveUrl(filepath: string, contentDir: string): string {
   rel = rel.replace(/\.md$/, '')
   if (rel === 'getting-started') return '/getting-started'
   return `/${rel}`
+}
+
+/** hreflang alternates for a content page (§91 multilingual): a Vietnamese
+ *  page always points back to English; an English page points to vi only when
+ *  a translation actually exists (so we never emit a dangling alternate). */
+function alternatesFor(filepath: string, contentDir: string): { lang: string; href: string }[] {
+  const rel = path.relative(contentDir, filepath).replace(/\\/g, '/')
+  const relNoExt = rel.replace(/\.md$/, '')
+  const url = resolveUrl(filepath, contentDir)
+  if (rel.startsWith('vi/')) {
+    return [
+      { lang: 'en', href: `${BASE_URL}/${relNoExt.replace(/^vi\//, '')}` },
+      { lang: 'vi', href: `${BASE_URL}${url}` },
+    ]
+  }
+  if (fs.existsSync(path.join(contentDir, 'vi', rel))) {
+    return [
+      { lang: 'en', href: `${BASE_URL}${url}` },
+      { lang: 'vi', href: `${BASE_URL}/vi/${relNoExt}` },
+    ]
+  }
+  return []
 }
 
 function generate(): string {
@@ -83,18 +106,48 @@ function generate(): string {
     const prio = data.sitemap_priority ?? PRIORITY[category] ?? 0.5
     const freq = CHANGEFREQ[category] || 'weekly'
     const lastmod: string = data.last_updated || '2026-08-11'
+    const alternates = alternatesFor(fp, contentDir)
 
-    entries.push({ url: `${BASE_URL}${url}`, lastmod, changefreq: freq, priority: prio.toFixed(1) })
+    entries.push({
+      url: `${BASE_URL}${url}`,
+      lastmod,
+      changefreq: freq,
+      priority: prio.toFixed(1),
+      alternates: alternates.length ? alternates : undefined,
+    })
   }
 
+  // Deduplicate by URL — a couple of pages exist both as an explicit static
+  // page AND as a content/*.md file (e.g. getting-started, community-vs-cloud).
+  // A sitemap must not repeat the same <loc>. Keep the first entry but merge in
+  // any hreflang alternates carried by the duplicate (the content-file entry).
+  const byUrl = new Map<string, Entry>()
+  for (const e of entries) {
+    const existing = byUrl.get(e.url)
+    if (!existing) {
+      byUrl.set(e.url, e)
+    } else if (e.alternates?.length) {
+      const merged = new Map<string, string>()
+      for (const a of [...(existing.alternates ?? []), ...e.alternates]) {
+        merged.set(a.lang, a.href)
+      }
+      existing.alternates = [...merged].map(([lang, href]) => ({ lang, href }))
+    }
+  }
+  const unique = [...byUrl.values()]
+
   // Sort by priority desc
-  entries.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority))
+  unique.sort((a, b) => parseFloat(b.priority) - parseFloat(a.priority))
 
-  const urlElements = entries.map(e =>
-    `  <url>\n    <loc>${e.url}</loc>\n    <lastmod>${e.lastmod}</lastmod>\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>\n  </url>`
-  ).join('\n')
+  const urlElements = unique.map(e => {
+    const alt = (e.alternates ?? [])
+      .map((a) => `    <xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.href}" />`)
+      .join('\n')
+    const altBlock = alt ? `\n${alt}\n  ` : ''
+    return `  <url>\n    <loc>${e.url}</loc>\n    <lastmod>${e.lastmod}</lastmod>\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>${altBlock}</url>`
+  }).join('\n')
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlElements}\n</urlset>\n`
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlElements}\n</urlset>\n`
 
   return xml
 }

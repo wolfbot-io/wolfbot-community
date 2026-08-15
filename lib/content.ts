@@ -18,6 +18,10 @@ export interface ContentMeta {
   keywords?: string[]
   os_tested?: string[]
   sitemap_priority?: number
+  /** ISO language code for the page ('en' implicit, 'vi' for Vietnamese). */
+  lang?: string
+  /** English slug this page translates (used for hreflang on vi pages). */
+  translation_of?: string
 }
 
 export interface ContentPage {
@@ -65,12 +69,41 @@ export function listContent(): ContentPage[] {
   return results
 }
 
+/** Whether a slug lives in the Vietnamese locale (`vi/...`). */
+export function isVietnameseSlug(slug: string): boolean {
+  return slug === 'vi' || slug.startsWith('vi/')
+}
+
+/** Strip the leading `vi/` locale segment to get the English counterpart slug. */
+export function toEnglishSlug(slug: string): string {
+  return slug.replace(/^vi\//, '')
+}
+
+/** Prefix an English slug with `vi/` to get the Vietnamese counterpart slug. */
+export function toViSlug(slug: string): string {
+  return `vi/${slug}`
+}
+
 /** Build breadcrumb segments from a content slug */
 export function slugToBreadcrumbs(slug: string): { label: string; href: string }[] {
+  const isVi = isVietnameseSlug(slug)
   const segments = slug.split('/')
   const crumbs: { label: string; href: string }[] = [
     { label: 'Home', href: '/' },
   ]
+
+  if (isVi) {
+    // Vietnamese pages have no localized hub pages (e.g. /vi/docs doesn't
+    // exist), so we can't emit the intermediate "Docs" crumb the way the
+    // English pages do (those rely on an Nginx redirect for /docs). Show just
+    // Home + the page title, with the leaf href set to the page's own URL.
+    const title = segments[segments.length - 1]
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, (c) => c.toUpperCase())
+    crumbs.push({ label: title, href: `/${segments.join('/')}` })
+    return crumbs
+  }
+
   let cumulative = ''
   for (const seg of segments) {
     cumulative += `/${seg}`

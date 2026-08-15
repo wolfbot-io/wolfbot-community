@@ -71,8 +71,14 @@ function generate(): Entry[] {
     const { data, content } = matter(raw)
     if (data.noindex) continue
 
+    const url = resolveUrl(fp, contentDir)
+    // Vietnamese pages live under /vi/ and have their own index surface; keep
+    // this (English) search index monolingual so DocsSearch on /academy doesn't
+    // surface mixed-language results.
+    if (url.startsWith('/vi/')) continue
+
     entries.push({
-      url: resolveUrl(fp, contentDir),
+      url,
       title: data.title || '',
       description: data.description || '',
       category: data.category || '',

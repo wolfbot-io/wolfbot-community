@@ -18,7 +18,7 @@ const SECTIONS: { title: string; categories: string[] }[] = [
 
 // Dark theme per prototypes/figma-make design language.
 export default function AcademyPage() {
-  const pages = listContent().filter((p) => p.meta?.title)
+  const pages = listContent().filter((p) => p.meta?.title && !p.slug.startsWith('vi/'))
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

@@ -90,11 +90,18 @@ function generate(): string {
 
   // Group content pages by category.
   const byCategory = new Map<string, { url: string; title: string; desc: string }[]>()
+  const viPages: { url: string; title: string; desc: string }[] = []
   for (const fp of walkContent(contentDir)) {
     const raw = fs.readFileSync(fp, 'utf-8')
     const { data } = matter(raw)
     if (data.noindex) continue
     const url = resolveUrl(fp, contentDir)
+    // Vietnamese pages are listed in their own section below, not mixed into
+    // the English category groups.
+    if (url.startsWith('/vi/')) {
+      viPages.push({ url, title: data.title || url, desc: data.description || '' })
+      continue
+    }
     const cat: string = data.category || 'other'
     if (!byCategory.has(cat)) byCategory.set(cat, [])
     byCategory.get(cat)!.push({
@@ -115,6 +122,14 @@ function generate(): string {
     if (!items || items.length === 0) continue
     lines.push(`## ${label}`)
     for (const item of items) {
+      lines.push(`- [${item.title}](${BASE_URL}${item.url}): ${item.desc}`)
+    }
+    lines.push('')
+  }
+
+  if (viPages.length > 0) {
+    lines.push('## Tiếng Việt (Vietnamese)')
+    for (const item of viPages) {
       lines.push(`- [${item.title}](${BASE_URL}${item.url}): ${item.desc}`)
     }
     lines.push('')
