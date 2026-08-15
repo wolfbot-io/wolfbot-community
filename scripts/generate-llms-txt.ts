@@ -20,6 +20,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { LOCALES } from '../lib/locales'
 
 const BASE_URL = 'https://community.wolfbot.io'
 
@@ -90,16 +91,18 @@ function generate(): string {
 
   // Group content pages by category.
   const byCategory = new Map<string, { url: string; title: string; desc: string }[]>()
-  const viPages: { url: string; title: string; desc: string }[] = []
+  const localizedPages = new Map<string, { url: string; title: string; desc: string }[]>()
   for (const fp of walkContent(contentDir)) {
     const raw = fs.readFileSync(fp, 'utf-8')
     const { data } = matter(raw)
     if (data.noindex) continue
     const url = resolveUrl(fp, contentDir)
-    // Vietnamese pages are listed in their own section below, not mixed into
-    // the English category groups.
-    if (url.startsWith('/vi/')) {
-      viPages.push({ url, title: data.title || url, desc: data.description || '' })
+    // Localized pages are listed in their own per-language section below,
+    // not mixed into the English category groups.
+    const localeHit = LOCALES.find((l) => url.startsWith(`/${l.urlSegment}/`))
+    if (localeHit) {
+      if (!localizedPages.has(localeHit.code)) localizedPages.set(localeHit.code, [])
+      localizedPages.get(localeHit.code)!.push({ url, title: data.title || url, desc: data.description || '' })
       continue
     }
     const cat: string = data.category || 'other'
@@ -127,9 +130,11 @@ function generate(): string {
     lines.push('')
   }
 
-  if (viPages.length > 0) {
-    lines.push('## Tiếng Việt (Vietnamese)')
-    for (const item of viPages) {
+  for (const l of LOCALES) {
+    const items = localizedPages.get(l.code)
+    if (!items || items.length === 0) continue
+    lines.push(`## ${l.label}`)
+    for (const item of items) {
       lines.push(`- [${item.title}](${BASE_URL}${item.url}): ${item.desc}`)
     }
     lines.push('')

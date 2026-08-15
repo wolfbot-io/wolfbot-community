@@ -33,7 +33,7 @@ Anyone connecting a Bitget account to WolfBot Community.
 
 ## Step 1: Create Bitget API Key
 
-1. Log in to [bitget.com](https://www.bitget.com)
+1. Log in to [bitget.com](https://partner.bitget.com/bg/WOLFBOT)
 2. Go to **Account → API Management**
 3. Click **Create API Key**
 4. Label it "WolfBot Community"

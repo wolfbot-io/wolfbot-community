@@ -33,7 +33,7 @@ Anyone connecting a KuCoin account to WolfBot Community.
 
 ## Step 1: Create KuCoin API Key
 
-1. Log in to [kucoin.com](https://www.kucoin.com)
+1. Log in to [kucoin.com](https://www.kucoin.com/r/broker/WOLFBOTIO)
 2. Go to **Account → API Management**
 3. Click **Create API**
 4. Label it "WolfBot Community"

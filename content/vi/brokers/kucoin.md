@@ -35,7 +35,7 @@ Bất kỳ ai kết nối tài khoản KuCoin với WolfBot Community.
 
 ## Bước 1: Tạo KuCoin API Key
 
-1. Đăng nhập vào [kucoin.com](https://www.kucoin.com)
+1. Đăng nhập vào [kucoin.com](https://www.kucoin.com/r/broker/WOLFBOTIO)
 2. Vào **Account → API Management**
 3. Bấm **Create API**
 4. Đặt tên "WolfBot Community"

@@ -5,8 +5,9 @@ import {
   listContent,
   slugToBreadcrumbs,
   toEnglishSlug,
-  toViSlug,
+  toLocaleSlug,
 } from '@/lib/content'
+import { LOCALES, localeForSlug } from '@/lib/locales'
 import { ContentRenderer } from '@/components/docs/ContentRenderer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
@@ -29,21 +30,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!page) return {}
 
   const { meta } = page
-  const isVi = meta.lang === 'vi'
+  const locale = localeForSlug(slug)
   const canonical = `https://community.wolfbot.io/${slug}`
+  const englishSlug = toEnglishSlug(slug)
 
-  // §91 Multilingual — hreflang alternates so Google treats /docs/x and
-  // /vi/docs/x as one page localized, instead of duplicate content.
+  // §91 Multilingual — hreflang alternates so Google treats /docs/x,
+  // /vi/docs/x, /zh/docs/x, etc. as one page localized, instead of
+  // duplicate content. An English page only advertises the locales that
+  // actually have a translated file (never a dangling alternate); a
+  // localized page always points back to English plus itself.
   const languages: Record<string, string> = {}
-  if (isVi) {
-    languages['en'] = `https://community.wolfbot.io/${toEnglishSlug(slug)}`
-    languages['vi'] = canonical
+  if (locale) {
+    languages['en'] = `https://community.wolfbot.io/${englishSlug}`
+    languages[locale.hreflang] = canonical
   } else {
-    const viPage = await loadContent(toViSlug(slug))
     languages['en'] = canonical
-    if (viPage) languages['vi'] = `https://community.wolfbot.io/${toViSlug(slug)}`
+    for (const l of LOCALES) {
+      const translated = await loadContent(toLocaleSlug(slug, l.urlSegment))
+      if (translated) languages[l.hreflang] = `https://community.wolfbot.io/${toLocaleSlug(slug, l.urlSegment)}`
+    }
   }
-  languages['x-default'] = `https://community.wolfbot.io/${toEnglishSlug(slug)}`
+  languages['x-default'] = `https://community.wolfbot.io/${englishSlug}`
 
   return {
     title: meta.title,
@@ -55,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: meta.description,
       type: 'article',
       url: canonical,
-      locale: isVi ? 'vi_VN' : 'en_US',
+      locale: locale ? locale.ogLocale : 'en_US',
       modifiedTime: meta.last_updated,
       images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: meta.title }],
     },
@@ -74,7 +81,7 @@ export default async function ContentPage({ params }: Props) {
 
   if (!page) notFound()
 
-  const isVi = page.meta.lang === 'vi'
+  const locale = localeForSlug(slug)
   const breadcrumbs = slugToBreadcrumbs(slug)
 
   return (
@@ -82,10 +89,11 @@ export default async function ContentPage({ params }: Props) {
       <StructuredData data={breadcrumbSchema(breadcrumbs)} />
 
       {/* The shared root <html> is static ("en"); correct it per page for
-          Vietnamese so assistive tech and rendered-DOM crawlers see the right
-          language. hreflang tags above remain the authoritative signal. */}
-      {isVi && (
-        <script dangerouslySetInnerHTML={{ __html: `document.documentElement.lang = 'vi';` }} />
+          localized content so assistive tech and rendered-DOM crawlers see
+          the right language. hreflang tags above remain the authoritative
+          signal for search engines either way. */}
+      {locale && (
+        <script dangerouslySetInnerHTML={{ __html: `document.documentElement.lang = '${locale.htmlLang}';` }} />
       )}
 
       {/* Breadcrumbs */}
@@ -108,11 +116,11 @@ export default async function ContentPage({ params }: Props) {
       <div className="prose-content">
         <div className="frontmatter-banner">
           <strong>
-            {isVi ? 'Đã kiểm thử với WolfBot Community v' : 'Tested with WolfBot Community v'}
+            {locale ? locale.ui.testedWith : 'Tested with WolfBot Community v'}
             {page.meta.tested_version}
           </strong>
           {' · '}
-          {isVi ? 'Cập nhật lần cuối' : 'Last updated'}: {page.meta.last_updated}
+          {locale ? locale.ui.lastUpdated : 'Last updated'}: {page.meta.last_updated}
           {page.meta.os_tested && <> · {page.meta.os_tested.join(' / ')}</>}
           {page.meta.estimated_time && <> · ⏱️ {page.meta.estimated_time}</>}
           {page.meta.difficulty && <> · {page.meta.difficulty}</>}
@@ -125,7 +133,7 @@ export default async function ContentPage({ params }: Props) {
         {page.meta.next_guide && (
           <div className="next-guide">
             <span className="text-xs font-semibold text-wolf-accent uppercase tracking-wide">
-              {isVi ? 'Bước tiếp theo' : 'Next step'}
+              {locale ? locale.ui.nextStep : 'Next step'}
             </span>
             <div className="mt-1">
               <a href={page.meta.next_guide} className="text-lg">

@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { localeForSlug, isLocalizedSlug, toEnglishSlug as toEnglishSlugGeneric, toLocaleSlug } from './locales'
 
 export interface ContentMeta {
   title: string
@@ -69,34 +70,27 @@ export function listContent(): ContentPage[] {
   return results
 }
 
-/** Whether a slug lives in the Vietnamese locale (`vi/...`). */
-export function isVietnameseSlug(slug: string): boolean {
-  return slug === 'vi' || slug.startsWith('vi/')
-}
-
-/** Strip the leading `vi/` locale segment to get the English counterpart slug. */
-export function toEnglishSlug(slug: string): string {
-  return slug.replace(/^vi\//, '')
-}
-
-/** Prefix an English slug with `vi/` to get the Vietnamese counterpart slug. */
-export function toViSlug(slug: string): string {
-  return `vi/${slug}`
-}
+// Re-exported for existing call sites (sitemap/llms-txt generators,
+// app/[...slug]/page.tsx, app/academy/page.tsx) -- see ./locales for the
+// full locale registry these are generalized over.
+export { isLocalizedSlug, toLocaleSlug } from './locales'
+export const toEnglishSlug = toEnglishSlugGeneric
 
 /** Build breadcrumb segments from a content slug */
 export function slugToBreadcrumbs(slug: string): { label: string; href: string }[] {
-  const isVi = isVietnameseSlug(slug)
+  const locale = localeForSlug(slug)
   const segments = slug.split('/')
   const crumbs: { label: string; href: string }[] = [
     { label: 'Home', href: '/' },
   ]
 
-  if (isVi) {
-    // Vietnamese pages have no localized hub pages (e.g. /vi/docs doesn't
-    // exist), so we can't emit the intermediate "Docs" crumb the way the
-    // English pages do (those rely on an Nginx redirect for /docs). Show just
-    // Home + the page title, with the leaf href set to the page's own URL.
+  if (locale) {
+    // Localized pages have no localized hub pages (e.g. /vi/docs, /zh/docs
+    // don't exist), so we can't emit the intermediate "Docs" crumb the way
+    // the English pages do (those rely on an Nginx redirect for /docs). Show
+    // just Home + the page title, with the leaf href set to the page's own
+    // URL. (The title here is derived from the English URL slug words, not
+    // translated -- matches this site's existing i18n-breadcrumb precedent.)
     const title = segments[segments.length - 1]
       .replace(/-/g, ' ')
       .replace(/\b\w/g, (c) => c.toUpperCase())

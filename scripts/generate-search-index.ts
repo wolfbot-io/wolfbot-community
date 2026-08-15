@@ -18,6 +18,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { LOCALES } from '../lib/locales'
 
 interface Entry {
   url: string
@@ -72,10 +73,10 @@ function generate(): Entry[] {
     if (data.noindex) continue
 
     const url = resolveUrl(fp, contentDir)
-    // Vietnamese pages live under /vi/ and have their own index surface; keep
-    // this (English) search index monolingual so DocsSearch on /academy doesn't
-    // surface mixed-language results.
-    if (url.startsWith('/vi/')) continue
+    // Localized pages live under /<locale>/ and have no client-search surface
+    // of their own yet; keep this (English) search index monolingual so
+    // DocsSearch on /academy doesn't surface mixed-language results.
+    if (LOCALES.some((l) => url.startsWith(`/${l.urlSegment}/`))) continue
 
     entries.push({
       url,

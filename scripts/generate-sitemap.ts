@@ -14,6 +14,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { LOCALES } from '../lib/locales'
 
 const BASE_URL = 'https://community.wolfbot.io'
 
@@ -54,26 +55,31 @@ function resolveUrl(filepath: string, contentDir: string): string {
   return `/${rel}`
 }
 
-/** hreflang alternates for a content page (§91 multilingual): a Vietnamese
- *  page always points back to English; an English page points to vi only when
- *  a translation actually exists (so we never emit a dangling alternate). */
+/** hreflang alternates for a content page (§91 multilingual): a localized
+ *  page always points back to English + itself; an English page points to
+ *  each locale only when that translation actually exists (so we never
+ *  emit a dangling alternate). */
 function alternatesFor(filepath: string, contentDir: string): { lang: string; href: string }[] {
   const rel = path.relative(contentDir, filepath).replace(/\\/g, '/')
   const relNoExt = rel.replace(/\.md$/, '')
   const url = resolveUrl(filepath, contentDir)
-  if (rel.startsWith('vi/')) {
+
+  const localeHit = LOCALES.find((l) => rel.startsWith(`${l.urlSegment}/`))
+  if (localeHit) {
     return [
-      { lang: 'en', href: `${BASE_URL}/${relNoExt.replace(/^vi\//, '')}` },
-      { lang: 'vi', href: `${BASE_URL}${url}` },
+      { lang: 'en', href: `${BASE_URL}/${relNoExt.slice(localeHit.urlSegment.length + 1)}` },
+      { lang: localeHit.hreflang, href: `${BASE_URL}${url}` },
     ]
   }
-  if (fs.existsSync(path.join(contentDir, 'vi', rel))) {
-    return [
-      { lang: 'en', href: `${BASE_URL}${url}` },
-      { lang: 'vi', href: `${BASE_URL}/vi/${relNoExt}` },
-    ]
+
+  const alternates: { lang: string; href: string }[] = []
+  for (const l of LOCALES) {
+    if (fs.existsSync(path.join(contentDir, l.urlSegment, rel))) {
+      alternates.push({ lang: l.hreflang, href: `${BASE_URL}/${l.urlSegment}/${relNoExt}` })
+    }
   }
-  return []
+  if (alternates.length > 0) alternates.unshift({ lang: 'en', href: `${BASE_URL}${url}` })
+  return alternates
 }
 
 function generate(): string {

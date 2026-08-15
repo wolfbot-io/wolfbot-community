@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { listContent } from '@/lib/content'
+import { isLocalizedSlug } from '@/lib/locales'
 import { DocsSearch } from '@/components/search/DocsSearch'
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ const SECTIONS: { title: string; categories: string[] }[] = [
 
 // Dark theme per prototypes/figma-make design language.
 export default function AcademyPage() {
-  const pages = listContent().filter((p) => p.meta?.title && !p.slug.startsWith('vi/'))
+  const pages = listContent().filter((p) => p.meta?.title && !isLocalizedSlug(p.slug))
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

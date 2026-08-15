@@ -37,7 +37,7 @@ Anyone who wants to connect a Binance account to WolfBot Community for trading a
 
 ### For Spot Trading
 
-1. Log in to [binance.com](https://www.binance.com)
+1. Log in to [binance.com](https://www.binance.com/register?ref=WOLFBOT)
 2. Go to **Profile → API Management**
 3. Click **Create API**
 4. Choose **System-generated** key type

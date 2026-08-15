@@ -35,7 +35,7 @@ Bất kỳ ai kết nối tài khoản Bitget với WolfBot Community.
 
 ## Bước 1: Tạo Bitget API Key
 
-1. Đăng nhập vào [bitget.com](https://www.bitget.com)
+1. Đăng nhập vào [bitget.com](https://partner.bitget.com/bg/WOLFBOT)
 2. Vào **Account → API Management**
 3. Bấm **Create API Key**
 4. Đặt tên "WolfBot Community"

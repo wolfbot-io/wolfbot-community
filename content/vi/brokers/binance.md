@@ -39,7 +39,7 @@ Bất kỳ ai muốn kết nối tài khoản Binance với WolfBot Community đ
 
 ### Cho giao dịch Spot
 
-1. Đăng nhập vào [binance.com](https://www.binance.com)
+1. Đăng nhập vào [binance.com](https://www.binance.com/register?ref=WOLFBOT)
 2. Vào **Profile → API Management**
 3. Bấm **Create API**
 4. Chọn loại key **System-generated**

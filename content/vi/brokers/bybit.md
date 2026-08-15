@@ -59,7 +59,7 @@ Bất kỳ ai muốn kết nối tài khoản Bybit (Demo hoặc Live) với Wol
 
 ### Cho giao dịch Live
 
-1. Vào [bybit.com](https://www.bybit.com) và đăng nhập
+1. Vào [bybit.com](https://partner.bybit.com/b/WOLFBOT) và đăng nhập
 2. Điều hướng tới **Account & Security → API Management**
 3. Làm theo các bước giống như Demo — luôn tắt Withdrawal và Transfer
 

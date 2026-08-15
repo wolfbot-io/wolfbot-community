@@ -35,7 +35,7 @@ Bất kỳ ai muốn kết nối tài khoản BingX với WolfBot Community đ�
 
 ## Bước 1: Tạo BingX API Key
 
-1. Đăng nhập vào [bingx.com](https://www.bingx.com)
+1. Đăng nhập vào [bingx.com](https://bingxdao.com/partner/Wolfbot/)
 2. Vào **API Management** (dưới profile/settings)
 3. Bấm **Create API Key**
 4. Đặt tên "WolfBot Community"

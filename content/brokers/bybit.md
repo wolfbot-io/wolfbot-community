@@ -57,7 +57,7 @@ Anyone who wants to connect a Bybit account (Demo or Live) to WolfBot Community 
 
 ### For Live Trading
 
-1. Go to [bybit.com](https://www.bybit.com) and log in
+1. Go to [bybit.com](https://partner.bybit.com/b/WOLFBOT) and log in
 2. Navigate to **Account & Security → API Management**
 3. Follow the same steps as Demo — always disable Withdrawal and Transfer
 
