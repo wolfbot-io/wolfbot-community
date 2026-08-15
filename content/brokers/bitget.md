@@ -25,7 +25,7 @@ Anyone connecting a Bitget account to WolfBot Community.
 
 ## What you need
 
-- A Bitget account ([sign up](https://www.bitget.com))
+- A Bitget account ([sign up](https://partner.bitget.com/bg/WOLFBOT))
 - WolfBot Community installed
 - 5 minutes
 

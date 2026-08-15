@@ -42,7 +42,7 @@ MetaTrader 5 là một ứng dụng Windows. Nếu bạn muốn tự động hó
 
 ## Cách WolfBot Community thực sự chạy MT5 trên Linux
 
-Thay vì yêu cầu bạn tự mang môi trường Windows, WolfBot Community đi kèm một **MT5 terminal được container hóa** như một add-on tùy chọn cho bản cài Linux hiện có của bạn. Đó là một terminal MetaTrader 5 thật, chạy trong Docker container trên cùng máy với phần còn lại của WolfBot — và bạn tương tác với nó qua trình duyệt của chính mình, không phải client remote desktop.
+Thay vì yêu cầu bạn tự mang môi trường Windows, WolfBot Community đã **tích hợp sẵn** hỗ trợ MT5 ngay trong bản cài Linux của bạn: một terminal MetaTrader 5 thật, chạy trong Docker container trên cùng máy với phần còn lại của WolfBot — kích hoạt chỉ với một lệnh, và bạn điều khiển nó qua trình duyệt của chính mình, không phải client remote desktop.
 
 ```text
 Máy Linux của bạn (hoặc Linux VPS)

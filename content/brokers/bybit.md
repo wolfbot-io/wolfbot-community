@@ -33,7 +33,7 @@ Anyone who wants to connect a Bybit account (Demo or Live) to WolfBot Community 
 
 ## What you need
 
-- A Bybit account ([sign up](https://www.bybit.com))
+- A Bybit account ([sign up](https://partner.bybit.com/b/WOLFBOT))
 - WolfBot Community installed and running
 - 5 minutes
 

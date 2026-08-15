@@ -27,7 +27,7 @@ Anyone who wants to connect a Binance account to WolfBot Community for trading a
 
 ## What you need
 
-- A Binance account ([sign up](https://www.binance.com))
+- A Binance account ([sign up](https://www.binance.com/register?ref=WOLFBOT))
 - WolfBot Community installed and running
 - 5 minutes
 

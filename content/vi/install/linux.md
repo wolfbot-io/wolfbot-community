@@ -80,9 +80,9 @@ Vậy là xong — không cần terminal.
 - Bấm vào nó mở Dashboard trong trình duyệt
 - Trang Capability Status của Dashboard cho thấy những broker bạn có thể kết nối — bắt đầu với một [tài khoản Demo](/docs/simulation) để giao dịch không rủi ro
 
-## Tùy chọn: Giao dịch Forex, Vàng và Chỉ số qua MT5
+## Giao dịch Forex, Vàng và Chỉ số qua MT5 — không cần Windows
 
-WolfBot Community trên Linux cũng giao dịch thị trường MT5 (Forex, Vàng, Chỉ số, Stocks/CFDs) — không cần một máy Windows riêng. Đây là một bước phụ tùy chọn (không bật theo mặc định), và bạn điều khiển terminal MT5 từ chính trình duyệt của mình. Xem [hướng dẫn kết nối MT5](/brokers/mt5) để biết các bước chính xác.
+WolfBot Community là một **nền tảng thống nhất**: sàn crypto và MT5 (Forex, Vàng, Chỉ số, Stocks/CFDs) trong cùng một giao diện, một risk engine, một portfolio duy nhất — kể cả trên Linux, không cần máy Windows hay VPS riêng. MT5 chạy như một terminal thật ngay bên cạnh phần còn lại của WolfBot, và bạn điều khiển nó từ chính trình duyệt của mình. Kích hoạt chỉ với một lệnh — xem [hướng dẫn kết nối MT5](/brokers/mt5) để biết các bước chính xác.
 
 ## Những sai lầm phổ biến
 

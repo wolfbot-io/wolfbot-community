@@ -27,7 +27,7 @@ Bất kỳ ai kết nối tài khoản Bitget với WolfBot Community.
 
 ## Bạn cần gì
 
-- Một tài khoản Bitget ([đăng ký](https://www.bitget.com))
+- Một tài khoản Bitget ([đăng ký](https://partner.bitget.com/bg/WOLFBOT))
 - WolfBot Community đã cài
 - 5 phút
 

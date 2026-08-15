@@ -35,7 +35,7 @@ Bất kỳ ai muốn kết nối tài khoản Bybit (Demo hoặc Live) với Wol
 
 ## Bạn cần gì
 
-- Một tài khoản Bybit ([đăng ký](https://www.bybit.com))
+- Một tài khoản Bybit ([đăng ký](https://partner.bybit.com/b/WOLFBOT))
 - WolfBot Community đã cài và đang chạy
 - 5 phút
 

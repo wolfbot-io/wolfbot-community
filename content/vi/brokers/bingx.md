@@ -27,7 +27,7 @@ Bất kỳ ai muốn kết nối tài khoản BingX với WolfBot Community đ�
 
 ## Bạn cần gì
 
-- Một tài khoản BingX ([đăng ký](https://www.bingx.com))
+- Một tài khoản BingX ([đăng ký](https://bingxdao.com/partner/Wolfbot/))
 - WolfBot Community đã cài
 - 5 phút
 

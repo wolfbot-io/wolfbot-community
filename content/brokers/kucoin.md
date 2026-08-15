@@ -25,7 +25,7 @@ Anyone connecting a KuCoin account to WolfBot Community.
 
 ## What you need
 
-- A KuCoin account ([sign up](https://www.kucoin.com))
+- A KuCoin account ([sign up](https://www.kucoin.com/r/broker/WOLFBOTIO))
 - WolfBot Community installed
 - 5 minutes
 

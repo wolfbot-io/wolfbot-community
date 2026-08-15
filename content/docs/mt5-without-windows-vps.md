@@ -40,7 +40,7 @@ That's the assumption most self-hosted trading tools leave in place. WolfBot Com
 
 ## How WolfBot Community actually runs MT5 on Linux
 
-Instead of asking you to bring your own Windows environment, WolfBot Community ships a **containerized MT5 terminal** as an optional add-on to your existing Linux install. It's a real MetaTrader 5 terminal, running inside a Docker container on the same machine as the rest of WolfBot — and you interact with it through your own browser, not a remote desktop client.
+Instead of asking you to bring your own Windows environment, WolfBot Community ships MT5 support **built into** your Linux install: a real MetaTrader 5 terminal, running inside a Docker container on the same machine as the rest of WolfBot — activated with one command, and controlled from your own browser, not a remote desktop client.
 
 ```text
 Your Linux machine (or Linux VPS)

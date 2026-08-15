@@ -29,7 +29,7 @@ Bất kỳ ai muốn kết nối tài khoản Binance với WolfBot Community đ
 
 ## Bạn cần gì
 
-- Một tài khoản Binance ([đăng ký](https://www.binance.com))
+- Một tài khoản Binance ([đăng ký](https://www.binance.com/register?ref=WOLFBOT))
 - WolfBot Community đã cài và đang chạy
 - 5 phút
 

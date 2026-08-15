@@ -27,7 +27,7 @@ Bất kỳ ai kết nối tài khoản KuCoin với WolfBot Community.
 
 ## Bạn cần gì
 
-- Một tài khoản KuCoin ([đăng ký](https://www.kucoin.com))
+- Một tài khoản KuCoin ([đăng ký](https://www.kucoin.com/r/broker/WOLFBOTIO))
 - WolfBot Community đã cài
 - 5 phút
 

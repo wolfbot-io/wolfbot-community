@@ -25,7 +25,7 @@ Anyone who wants to connect a BingX account to WolfBot Community for automated t
 
 ## What you need
 
-- A BingX account ([sign up](https://www.bingx.com))
+- A BingX account ([sign up](https://bingxdao.com/partner/Wolfbot/))
 - WolfBot Community installed
 - 5 minutes
 
