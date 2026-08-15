@@ -45,7 +45,7 @@ Traders de MT5 que querem automatizar suas operações com o WolfBot Community �
 2. Vá em **Contas em Exchanges → Adicionar Conta → MT5**
 3. Faça login na sua conta da corretora (Demo ou Live)
    - **Windows:** isso acontece no seu aplicativo MetaTrader 5
-   - **Linux:** isso acontece diretamente dentro da janela do navegador do WolfBot — apenas na primeira vez, há uma rápida etapa única de configuração (veja [Para Usuários Técnicos](#for-technical-users) abaixo)
+   - **Linux:** isso acontece diretamente dentro da janela do navegador do WolfBot — apenas na primeira vez, há uma rápida etapa única de configuração (veja [Para Usuários Técnicos](#para-usuários-técnicos) abaixo)
 4. O WolfBot detecta seus símbolos disponíveis automaticamente
 5. Comece a operar — Terminal Inteligente, Bots e Controles de Risco funcionam exatamente da mesma forma que com suas contas de cripto
 
@@ -100,7 +100,7 @@ Ouro (XAU/USD) é um dos instrumentos MT5 mais populares para automação:
 
 ## Para Usuários Técnicos
 
-Os detalhes abaixo são para quem quer entender exatamente como funciona a ponte (bridge) do MT5, ou prefere fazer a etapa de configuração do Linux pelo terminal. Nada disso é leitura obrigatória para usar o MT5 no WolfBot — veja [Conectar o MT5](#connect-mt5) acima para o fluxo normal.
+Os detalhes abaixo são para quem quer entender exatamente como funciona a ponte (bridge) do MT5, ou prefere fazer a etapa de configuração do Linux pelo terminal. Nada disso é leitura obrigatória para usar o MT5 no WolfBot — veja [Conectar o MT5](#conectar-o-mt5) acima para o fluxo normal.
 
 ### Como funciona a ponte
 

@@ -55,30 +55,23 @@ function resolveUrl(filepath: string, contentDir: string): string {
   return `/${rel}`
 }
 
-/** hreflang alternates for a content page (§91 multilingual): a localized
- *  page always points back to English + itself; an English page points to
- *  each locale only when that translation actually exists (so we never
- *  emit a dangling alternate). */
+/** hreflang alternates for a content page (§91 multilingual): every page
+ *  advertises English plus every locale that actually has a translated
+ *  file — a full, reciprocal cluster (never a dangling alternate). */
 function alternatesFor(filepath: string, contentDir: string): { lang: string; href: string }[] {
   const rel = path.relative(contentDir, filepath).replace(/\\/g, '/')
-  const relNoExt = rel.replace(/\.md$/, '')
-  const url = resolveUrl(filepath, contentDir)
-
   const localeHit = LOCALES.find((l) => rel.startsWith(`${l.urlSegment}/`))
-  if (localeHit) {
-    return [
-      { lang: 'en', href: `${BASE_URL}/${relNoExt.slice(localeHit.urlSegment.length + 1)}` },
-      { lang: localeHit.hreflang, href: `${BASE_URL}${url}` },
-    ]
-  }
+  const englishRel = localeHit ? rel.slice(localeHit.urlSegment.length + 1) : rel
+  const englishRelNoExt = englishRel.replace(/\.md$/, '')
 
-  const alternates: { lang: string; href: string }[] = []
+  const alternates: { lang: string; href: string }[] = [
+    { lang: 'en', href: `${BASE_URL}/${englishRelNoExt}` },
+  ]
   for (const l of LOCALES) {
-    if (fs.existsSync(path.join(contentDir, l.urlSegment, rel))) {
-      alternates.push({ lang: l.hreflang, href: `${BASE_URL}/${l.urlSegment}/${relNoExt}` })
+    if (fs.existsSync(path.join(contentDir, l.urlSegment, englishRel))) {
+      alternates.push({ lang: l.hreflang, href: `${BASE_URL}/${l.urlSegment}/${englishRelNoExt}` })
     }
   }
-  if (alternates.length > 0) alternates.unshift({ lang: 'en', href: `${BASE_URL}${url}` })
   return alternates
 }
 

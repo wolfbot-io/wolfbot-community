@@ -36,19 +36,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // §91 Multilingual — hreflang alternates so Google treats /docs/x,
   // /vi/docs/x, /zh/docs/x, etc. as one page localized, instead of
-  // duplicate content. An English page only advertises the locales that
-  // actually have a translated file (never a dangling alternate); a
-  // localized page always points back to English plus itself.
-  const languages: Record<string, string> = {}
-  if (locale) {
-    languages['en'] = `https://community.wolfbot.io/${englishSlug}`
-    languages[locale.hreflang] = canonical
-  } else {
-    languages['en'] = canonical
-    for (const l of LOCALES) {
-      const translated = await loadContent(toLocaleSlug(slug, l.urlSegment))
-      if (translated) languages[l.hreflang] = `https://community.wolfbot.io/${toLocaleSlug(slug, l.urlSegment)}`
-    }
+  // duplicate content. Every variant (English and localized) advertises
+  // the full reciprocal set of languages that actually have a translated
+  // file, plus x-default — so Google sees one complete language cluster
+  // from any page, never a dangling alternate.
+  const languages: Record<string, string> = {
+    en: `https://community.wolfbot.io/${englishSlug}`,
+  }
+  for (const l of LOCALES) {
+    const localizedSlug = toLocaleSlug(englishSlug, l.urlSegment)
+    const translated = await loadContent(localizedSlug)
+    if (translated) languages[l.hreflang] = `https://community.wolfbot.io/${localizedSlug}`
   }
   languages['x-default'] = `https://community.wolfbot.io/${englishSlug}`
 
