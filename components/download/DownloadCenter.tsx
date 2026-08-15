@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { TrackedLink } from '@/components/analytics/TrackedLink'
+import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice'
 
 // Real release info -- was `href="#"` on both buttons before (100% dead,
 // unrelated to draft/publish state). GitHub's `/releases/latest` alias
@@ -25,6 +26,7 @@ export function DownloadCenter() {
       <h1 className="text-4xl font-bold text-white text-center mb-2">Download WolfBot Community</h1>
       <p className="text-center mb-2" style={{ color: '#94A3B8' }}>Free self-hosted unified trading platform.</p>
       <p className="text-center mb-12 text-sm font-medium" style={{ color: '#00C9E8' }}>Crypto + Futures + MT5 — One Platform. Every Market.</p>
+      <MobileDownloadNotice />
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div className="rounded-xl p-8 border opacity-60" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Windows x64</h2>

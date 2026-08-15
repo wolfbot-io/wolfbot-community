@@ -2,12 +2,23 @@
 
 **Plan:** Community Brand/SEO/Growth Master Plan V2 (162 sections)  
 **Git submodule:** `github.com/wolfbot-io/wolfbot-community`  
-**Date:** 2026-08-14  
+**Date:** 2026-08-15  
 **Status:** 🚀 IN PROGRESS
 
-> Last updated 2026-08-14 — reflects the SEO/AI-search/content work done this
-> session (title-dup fix, structured-data fixes, llms.txt, search index,
-> docs search + feedback analytics, and the Month-3 automation articles).
+> Last updated 2026-08-15 — mobile-first download experience (PLAN §95) and
+> the first repo CI workflow (PLAN §66/§151) added on top of 2026-08-14's
+> SEO/AI-search/content work (title-dup fix, structured-data fixes,
+> llms.txt, search index, docs search + feedback analytics, Month-3
+> automation articles).
+
+### Session work (2026-08-15) — added beyond 2026-08-14
+
+| Item | What | Status |
+|---|---|---|
+| Mobile-download | `MobileDownloadNotice` (PLAN §95) — phone visitors to `/download` get an explicit "this installs on a computer, not a phone" notice + a Copy-link button (`mobile_download_link_copied` GA4 event) instead of a bare, context-free `.deb` button; hidden on `sm:` and up via CSS only, no hydration flicker | ✅ |
+| CI | First `.github/workflows/ci.yml` for this repo — typecheck, `prebuild-content`, `next build`, and `npm run freshness` (PLAN §66/§151) on every push/PR to `main`; repo had **zero** CI before this | ✅ |
+| freshness script wired | `scripts/check-content-freshness.ts` existed but was never invoked by anything — added `npm run freshness` + wired into the new CI workflow; current run: 0 errors, 0 warnings across all 31 content pages | ✅ |
+| lint gap noted, not fixed | `npm run lint` is non-functional (`next lint` needs interactive ESLint setup that was never completed) — left out of CI rather than silently claiming lint coverage; flagged as a real, separate gap | 🟡 noted |
 
 ---
 

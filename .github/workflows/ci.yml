@@ -1,0 +1,44 @@
+name: CI
+
+# PLAN §151 (Automation Stack) names "GitHub Actions/self-hosted publisher"
+# as part of the growth automation stack; this closes the §66 (Content
+# Maintenance Automation) gap noted as "partial" in the implementation
+# tracker — the freshness checker script existed but was never wired into
+# anything, so a stale/incomplete content page could ship unnoticed. This
+# also gives the repo its first real build/typecheck gate on PRs — until
+# now nothing verified a PR doesn't break the static export.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Generate sitemap / rss / llms.txt / search index
+        run: npm run prebuild-content
+
+      - name: Build static export
+        run: npm run build
+
+      # Fails the job only on real problems (missing required frontmatter
+      # fields) — a stale tested_version/last_updated is reported as a
+      # warning (exit 0) so it doesn't block unrelated PRs, matching the
+      # script's own existing severity model.
+      - name: Content freshness check (PLAN §66)
+        run: npx tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc8 --max-age 90

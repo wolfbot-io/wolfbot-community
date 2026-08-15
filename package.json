@@ -14,6 +14,7 @@
     "llms": "tsx scripts/generate-llms-txt.ts",
     "search-index": "tsx scripts/generate-search-index.ts",
     "prebuild-content": "npm run sitemap && npm run rss && npm run llms && npm run search-index",
+    "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc8 --max-age 90",
     "metrics": "python3 scripts/collect_github_metrics.py"
   },
   "dependencies": {

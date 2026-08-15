@@ -11,10 +11,13 @@
 # inside Docker, same as frontend/backend already do in wolfbot-platform.
 #
 # Deliberately NOT the wolfbot-platform compose project: rebuild_platform.sh
-# runs unscoped `compose down --remove-orphans` / `build` / `up -d` over
-# ITS project on every relevant wolfbot.io platform push -- if `community`
-# were a service inside that same project, every unrelated platform deploy
-# would also stop/rebuild/restart community.wolfbot.io as a side effect.
+# runs unscoped `compose build` / `up -d --remove-orphans` over ITS project
+# on every relevant wolfbot.io platform push -- if `community` were a
+# service inside that same project, every unrelated platform deploy would
+# also stop/rebuild/restart community.wolfbot.io as a side effect (this is
+# also why rebuild_platform.sh itself no longer runs a blanket `compose
+# down` before building -- see its own comment, 2026-08-15 fix -- but the
+# isolation here is what guarantees community is untouched regardless).
 # Keeping it a separate compose project (joined only via the shared
 # wolfbot-network external network, see docker-compose.yml) means the two
 # deploy lifecycles can never step on each other, regardless of how close

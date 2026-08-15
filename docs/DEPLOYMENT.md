@@ -174,21 +174,56 @@ tại) — không phải nơi host code.
 
 ### 2.0 Vì sao `community` là 1 compose project RIÊNG, không chung với frontend/backend
 
-`wolfbot-platform/rebuild_platform.sh` chạy `compose down --remove-orphans` /
-`compose build` / `compose up -d` **không giới hạn service** trên project
-`wolfbot-platform`. Nếu `community` là 1 service trong cùng
-`wolfbot-platform/docker-compose.yml`, thì **mỗi lần có push bất kỳ vào
-monorepo** (kể cả không đụng gì tới `wolfbot-community`) cũng sẽ tự tắt/rebuild
-lại `community` theo — 2 vòng đời deploy độc lập bị dính vào nhau.
+`wolfbot-platform/rebuild_platform.sh` chạy `compose build` /
+`compose up -d --remove-orphans` **không giới hạn service** trên project
+`wolfbot-platform` (trước 2026-08-15 còn có thêm 1 bước `compose down
+--remove-orphans` chạy TRƯỚC build — đã bỏ, xem mục 2.0.1 bên dưới). Nếu
+`community` là 1 service trong cùng `wolfbot-platform/docker-compose.yml`,
+thì **mỗi lần có push bất kỳ vào monorepo** (kể cả không đụng gì tới
+`wolfbot-community`) cũng sẽ tự tắt/rebuild lại `community` theo — 2 vòng đời
+deploy độc lập bị dính vào nhau.
 
 Vì vậy `wolfbot-community/docker-compose.yml` là **1 file/project compose
 riêng** (`COMPOSE_PROJECT_NAME=wolfbot-community`), chỉ dùng chung 1 external
 Docker network (`wolfbot_platform_net`) để nginx của `wolfbot-platform` vẫn
 `proxy_pass http://community:80` được — Docker DNS resolve tên container qua
 network dùng chung, bất kể khác compose project. Đã verify thật: container
-`community` **sống sót nguyên vẹn** qua `compose down --remove-orphans` chạy
-trên project `wolfbot-platform`, và vẫn `curl` được từ container ở project
-khác qua đúng tên `community`.
+`community` **sống sót nguyên vẹn** qua nhiều vòng
+`compose down --remove-orphans` + `compose up -d` chạy liên tiếp trên project
+`wolfbot-platform`, và vẫn `curl` được từ container ở project khác qua đúng
+tên `community` — mỗi lần đều `HTTP 200` ngay lập tức, không có lần nào fail
+(4 vòng lặp thật, không phải suy đoán).
+
+#### 2.0.1 Lần 4 (2026-08-15) — root cause thật của "cứ rebuild wolfbot-platform là community.wolfbot.io sập"
+
+User report: mỗi lần rebuild `wolfbot-platform` thì `community.wolfbot.io`
+không chạy được nữa. Điều tra kỹ (đọc code, không đoán) + verify thật bằng
+Docker cục bộ (4 vòng down/up liên tiếp qua network + resolver giống hệt
+production — xem mục 2.0 ở trên) loại trừ được cơ chế DNS/network — nó luôn
+hoạt động đúng.
+
+**Root cause thật**: `rebuild_platform.sh` (bản cũ) chạy theo thứ tự
+`compose down --remove-orphans` (dừng+xoá **toàn bộ** container của project,
+kể cả `nginx` — cửa ngõ duy nhất của cả `wolfbot.io` LẪN
+`community.wolfbot.io`) **TRƯỚC** khi `compose build`. Nếu `compose build`
+fail vì bất kỳ lý do gì (1 trong 5+ service ngày càng lớn: backend/frontend/
+public-web/customer-app/dashboard/admin — càng nhiều app mới thêm vào thì
+xác suất build fail thoáng qua càng cao), script `exit 1` ngay sau khi
+`down` đã chạy xong — nghĩa là **không có gì được khởi động lại**, `nginx`
+biến mất, cả `wolfbot.io` và `community.wolfbot.io` đều sập cho tới lần
+rebuild THÀNH CÔNG tiếp theo (hoặc can thiệp tay). Ngay cả khi build thành
+công, `down` riêng biệt cũng gây downtime toàn bộ stack không cần thiết thay
+vì để Docker Compose tự recreate incremental (chỉ service nào đổi mới bị
+restart).
+
+**Fix**: bỏ hẳn bước `compose down` riêng biệt. Thứ tự mới:
+`compose build` (không đụng container đang chạy — build fail thì `nginx`
+vẫn nguyên, 0 downtime) → chỉ khi build thành công mới
+`compose up -d --remove-orphans` (Compose tự nhận diện + chỉ recreate
+service nào đổi, `--remove-orphans` vẫn giữ nguyên tác dụng dọn container
+thừa như `down --remove-orphans` cũ). Verify thật: build giả cố tình lỗi
+(`RUN exit 1` trong 1 service test) với thứ tự mới → `nginx` vẫn `Up` +
+`curl` vẫn `200` xuyên suốt, không hề bị đụng tới.
 
 Network `wolfbot_platform_net` đã được tạo sẵn lúc setup VPS ban đầu
 (`scripts/install_new_vps_full.sh`, `scripts/rebuild_all.sh` đều
