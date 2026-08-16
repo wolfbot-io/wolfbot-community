@@ -72,6 +72,10 @@ Bất kỳ ai muốn kết nối tài khoản Binance với WolfBot Community đ
 3. Sau đó chuyển sang tài khoản **Live** và đặt một lệnh giới hạn nhỏ
 4. Xác minh trên Binance rằng lệnh xuất hiện → Hủy nó
 
+Tài khoản Binance của bạn xuất hiện trong Exchange Accounts với môi trường Live/Demo và trạng thái quyền:
+
+![WolfBot Exchange Accounts hiển thị tài khoản sàn đã kết nối cùng môi trường và quyền](/screenshots/wolfbot-accounts.webp)
+
 ---
 
 ## Ghi chú riêng về Binance

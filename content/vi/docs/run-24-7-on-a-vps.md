@@ -131,6 +131,8 @@ Xem [hướng dẫn Update](/docs/updates) để biết các bước áp dụng/
 - Bạn truy cập dashboard qua SSH tunnel (chỉ loopback, không cổng công cộng)
 - Bot tiếp tục giao dịch và chiến lược tiếp tục chạy khi máy tính của bạn tắt
 
+![Dashboard WolfBot Community truy cập qua SSH tunnel từ VPS — danh mục thống nhất và các tài khoản đã kết nối](/screenshots/wolfbot-community-dashboard.webp)
+
 ## Những sai lầm phổ biến
 
 | Sai lầm | Cách khắc phục |

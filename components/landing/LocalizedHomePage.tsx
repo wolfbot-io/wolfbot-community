@@ -54,7 +54,10 @@ export function LocalizedHomePage({ locale }: { locale: string }) {
   return <HomePageSections copy={copy} locale={locale} />
 }
 
-/** English homepage alias - same sections, no copy/locale override. */
+/** English homepage alias - same sections, matches HOME_COPY.en so the
+ *  English hero/metadata/section copy stays the single source of truth
+ *  (previously it fell back to hardcoded JSX defaults, which let the English
+ *  page and the /en dictionary drift, e.g. the H1 in plan §5). */
 export function EnglishHomePage() {
-  return <HomePageSections copy={undefined} locale={null} />
+  return <HomePageSections copy={HOME_COPY['en']} locale={null} />
 }

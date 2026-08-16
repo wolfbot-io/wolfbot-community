@@ -59,6 +59,10 @@ WolfBot Community chạy trên máy của chính bạn — đó là một lợi 
 
 Đây cũng là vì sao WolfBot là **phi lưu ký** — không lúc nào WolfBot, hay bất kỳ ai khác, nắm giữ tiền của bạn. Chúng ở lại trên sàn, dưới các quyền bạn kiểm soát, và bạn có thể thu hồi key ngay lập tức từ tài khoản sàn bất cứ lúc nào.
 
+Trong WolfBot, mỗi tài khoản đã kết nối hiển thị môi trường (Live/Demo), P&L và trạng thái quyền trong nháy mắt — giúp bạn xác minh key chỉ đọc-giao dịch:
+
+![WolfBot Exchange Accounts hiển thị trạng thái từng tài khoản, môi trường và quyền](/screenshots/wolfbot-accounts.webp)
+
 ## Hạn chế IP — lớp thứ hai
 
 Hầu hết các sàn cũng cho phép bạn khóa một API key vào một địa chỉ IP cụ thể. Nếu bạn chạy WolfBot trên một kết nối nhà cố định hoặc một VPS, điều này thêm một rào cản độc lập thứ hai: ngay cả một key bị rò rỉ với quyền chỉ cho phép giao dịch cũng trở nên vô dụng từ bất kỳ nơi nào khác. Không phải sàn nào cũng hỗ trợ điều này cho mọi cấp tài khoản, nhưng đáng bật ở bất cứ nơi nào nó được cung cấp.

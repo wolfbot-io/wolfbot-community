@@ -31,6 +31,7 @@ const FOOTER_SECTIONS = [
       { href: '/docs', field: 'docs' },
       { href: '/academy', field: 'academy' },
       { href: '/faq', field: 'faq' },
+      { href: '/support', field: 'support' },
     ],
   },
   {
@@ -48,6 +49,7 @@ const FOOTER_SECTIONS = [
       { href: 'https://wolfbot.io', field: 'wolfbotCloud' },
       { href: 'https://wolfbot.io', field: 'wolfbotDotIo' },
       { href: 'https://wolfbot.io/methodology', field: 'methodology' },
+      { href: '/about', field: 'about' },
       { href: '/security', field: 'security' },
     ],
   },

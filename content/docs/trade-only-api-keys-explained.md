@@ -57,6 +57,10 @@ WolfBot Community runs on your own machine — which is a genuine security advan
 
 This is also why WolfBot is **non-custodial** — at no point does WolfBot, or anyone else, ever hold your funds. They stay on the exchange, under permissions you control, and you can revoke the key instantly from your exchange account at any time.
 
+In WolfBot, each connected account shows its environment (Live/Demo), its P&L and its permission state at a glance — so you can verify a key is read-trade only:
+
+![WolfBot Exchange Accounts showing per-account status, environment and permission state](/screenshots/wolfbot-accounts.webp)
+
 ## IP restriction — the second layer
 
 Most exchanges also let you lock an API key to a specific IP address. If you're running WolfBot on a fixed home connection or a VPS, this adds a second independent barrier: even a leaked key with trade-only permissions becomes useless from anywhere else. Not every exchange supports this for every account tier, but it's worth enabling wherever it's offered.

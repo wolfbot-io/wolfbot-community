@@ -122,6 +122,10 @@ Sau khi thiết lập thành công:
 - Smart Terminal hiển thị số dư Bybit của bạn
 - Bạn có thể đặt lệnh xuất hiện trên Bybit
 
+Các tài khoản đã kết nối của bạn xuất hiện trong Exchange Accounts cùng trạng thái và quyền:
+
+![WolfBot Exchange Accounts hiển thị trạng thái tài khoản Bybit, môi trường (Live/Demo) và quyền](/screenshots/wolfbot-accounts.webp)
+
 ---
 
 ## Các vấn đề thường gặp

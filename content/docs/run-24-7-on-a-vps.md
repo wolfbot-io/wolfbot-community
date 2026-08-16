@@ -133,6 +133,8 @@ See the [Update guide](/docs/updates) for apply/rollback steps.
 - You reach the dashboard via an SSH tunnel (loopback-only, no public port)
 - Bots keep trading and strategies keep running while your computer is off
 
+![WolfBot Community dashboard accessible over the SSH tunnel from the VPS — unified portfolio and connected accounts](/screenshots/wolfbot-community-dashboard.webp)
+
 ## Common mistakes
 
 | Mistake | Fix |

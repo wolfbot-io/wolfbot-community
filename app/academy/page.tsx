@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { listContent } from '@/lib/content'
 import { isLocalizedSlug } from '@/lib/locales'
 import { DocsSearch } from '@/components/search/DocsSearch'
+import { TrackedLink } from '@/components/analytics/TrackedLink'
 
 export const metadata: Metadata = {
   title: 'WolfBot Community Academy — Tutorials & Guides',
@@ -41,15 +41,17 @@ export default function AcademyPage() {
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {items.map((p) => (
-                <Link
+                <TrackedLink
                   key={p.slug}
                   href={`/${p.slug}`}
+                  eventName="academy_click"
+                  eventParams={{ slug: p.slug, section: section.title }}
                   className="rounded-xl p-5 border card-hover"
                   style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}
                 >
                   <h3 className="text-white font-medium mb-1 text-sm">{p.meta.title}</h3>
                   <p className="text-xs line-clamp-2" style={{ color: '#94A3B8' }}>{p.meta.description}</p>
-                </Link>
+                </TrackedLink>
               ))}
             </div>
           </div>

@@ -46,6 +46,8 @@ export interface ChromeI18n {
   roadmap: string
   wolfbotDotIo: string
   methodology: string
+  about: string
+  support: string
   /* Footer contact + tagline + meta */
   contactIntro: string
   tagline: string // "One Platform. Every Market."
@@ -78,6 +80,8 @@ function c(data: Partial<ChromeI18n>): ChromeI18n {
     roadmap: 'Roadmap',
     wolfbotDotIo: 'WolfBot.io',
     methodology: 'Methodology',
+    about: 'About',
+    support: 'Support',
     contactIntro: 'For any inquiries, please send to:',
     tagline: 'One Platform. Every Market.',
     footerMeta: 'Free · Self-Hosted · Crypto + Futures + MT5',
@@ -112,6 +116,8 @@ export const CHROME_COPY: Record<string, ChromeI18n> = {
     roadmap: 'Lộ trình',
     wolfbotDotIo: 'WolfBot.io',
     methodology: 'Phương pháp',
+    about: 'Giới thiệu',
+    support: 'Hỗ trợ',
     contactIntro: 'Mọi thắc mắc, vui lòng gửi đến:',
     tagline: 'Một Nền Tảng. Mọi Thị Trường.',
     footerMeta: 'Miễn phí · Tự lưu trữ · Crypto + Futures + MT5',

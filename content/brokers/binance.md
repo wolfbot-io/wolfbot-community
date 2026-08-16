@@ -70,6 +70,10 @@ Anyone who wants to connect a Binance account to WolfBot Community for trading a
 3. Then switch to a **Live** account and place a small limit order
 4. Verify on Binance that the order appears → Cancel it
 
+Your Binance account appears in Exchange Accounts with Live/Demo environment and permission state:
+
+![WolfBot Exchange Accounts showing a connected exchange account with environment and permissions](/screenshots/wolfbot-accounts.webp)
+
 ---
 
 ## Binance-Specific Notes

@@ -95,6 +95,11 @@ manual trading does — crypto on Binance or Bybit, futures, or MT5 instruments
 (forex, gold, indices). The strategy logic and the risk engine don't change
 between markets; only the account the bot trades on does.
 
+You manage every bot — its lifecycle, paper state and risk snapshot — in the
+Bots view:
+
+![WolfBot My Bots view showing bot lifecycle and paper state](/screenshots/wolfbot-bots.webp)
+
 ## Common mistakes
 
 | Mistake | Fix |

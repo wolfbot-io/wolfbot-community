@@ -98,6 +98,10 @@ giống hệt như giao dịch thủ công — crypto trên Binance hoặc Bybit
 lai, hay các công cụ MT5 (forex, vàng, chỉ số). Logic chiến lược và bộ máy rủi ro
 không thay đổi giữa các thị trường; chỉ có tài khoản mà bot giao dịch là thay đổi.
 
+Bạn quản lý mọi bot — vòng đời, trạng thái paper và snapshot rủi ro — trong chế độ Bots:
+
+![WolfBot My Bots hiển thị vòng đời bot và trạng thái paper](/screenshots/wolfbot-bots.webp)
+
 ## Những sai lầm phổ biến
 
 | Sai lầm | Cách khắc phục |

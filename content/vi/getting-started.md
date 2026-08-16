@@ -40,6 +40,8 @@ Khởi chạy WolfBot Community. Bạn sẽ đến trang **Capability Status** �
 | **Risk Controls** | Giới hạn vị thế, bảo vệ drawdown |
 | **Exchange Accounts** | Kết nối broker và API key |
 
+![Tổng quan dashboard WolfBot Community hiển thị danh mục thống nhất, các tài khoản đã kết nối và liên kết nhanh tới Portfolio, Bots, Terminal và Risk](/screenshots/wolfbot-community-dashboard.webp)
+
 ## Bước 3: Kết nối tài khoản Demo — Không rủi ro
 
 WolfBot không có nút "Simulation mode" riêng. Thay vào đó, bạn kết nối tài khoản **Demo/testnet** của chính broker — dữ liệu thị trường thật, tiền ảo, cùng đúng giao diện và bộ máy rủi ro mà sau này bạn sẽ dùng cho giao dịch live.

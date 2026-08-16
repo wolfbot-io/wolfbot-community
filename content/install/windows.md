@@ -16,13 +16,13 @@ keywords: [
   "trading bot windows 11",
   "windows trading platform"
 ]
-os_tested: ["Windows 11 23H2", "Windows 10 22H2"]
+os_tested: []
 sitemap_priority: 0.9
 ---
 
 # Install WolfBot Community on Windows
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12 · Windows 11 / Windows 10
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12 · See availability note below
 
 > ℹ️ **Availability:** the first public release (v0.1.0-p12-ghcr-rc8) ships the Linux installer. The Windows installer is documented here ahead of its follow-up release — check the [download page](/download) for the current status, and this guide will walk you through it the moment it's available.
 
@@ -38,7 +38,16 @@ This guide is for anyone who wants to install WolfBot Community on a Windows 10 
 - Internet connection
 - Administrator access to install software
 
-> ⚠️ **Antivirus note:** Some antivirus may flag new software. WolfBot Community installers are safe — they are official builds from WolfBot.io. If your antivirus blocks the installer, add an exception or temporarily pause it.
+> ⚠️ **Antivirus note:** Public-preview self-hosted installers are often not yet
+> code-signed, so Windows SmartScreen and some antivirus tools may warn that the
+> publisher is unknown. That warning alone doesn't mean the file is unsafe —
+> verify the file before allowing it: download only from the official
+> [community.wolfbot.io/download](https://community.wolfbot.io/download) or the
+> wolfbot-io GitHub Releases page, and compare the SHA256 checksum shown on the
+> download page (see "verify your download" below) with what you got. Only
+> bypass SmartScreen for a build you've downloaded from those two official
+> sources. When future stable releases are properly signed, SmartScreen will
+> not prompt in the same way.
 
 ## Step 1: Download
 
@@ -49,7 +58,10 @@ This guide is for anyone who wants to install WolfBot Community on a Windows 10 
 ## Step 2: Install
 
 1. Double-click the downloaded `WolfBot-Setup-*.exe`
-2. If Windows SmartScreen appears, click **More info** → **Run anyway**
+2. If Windows SmartScreen shows "Windows protected your PC", first confirm you
+   downloaded from an official source and the checksum matches the download
+   page (see "verify your download" below). If so, click **More info** →
+   **Run anyway**
 3. Follow the setup wizard: choose folder → click **Install**
 4. Wait for installation to complete (typically 30–60 seconds)
 5. Click **Finish**
@@ -69,9 +81,9 @@ This guide is for anyone who wants to install WolfBot Community on a Windows 10 
 
 | Mistake | Fix |
 |---|---|
-| "Windows protected your PC" | Click "More info" → "Run anyway" |
+| "Windows protected your PC" | Verify the checksum against the official download page, then "More info" → "Run anyway" |
 | Installer won't start | Right-click → "Run as Administrator" |
-| Antivirus quarantine | Add `C:\Program Files\WolfBot` to exclusions |
+| Antivirus quarantine | Confirm you downloaded from the official download page or wolfbot-io GitHub, verify the checksum, then add `C:\Program Files\WolfBot` to exclusions |
 | "Missing DLL" error | Install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) — a small, free Microsoft component many Windows apps need; safe to install |
 
 ## Troubleshooting

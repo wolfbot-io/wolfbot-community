@@ -84,10 +84,14 @@ function generate(): string {
     ['/', '2026-08-11', 'daily', 1.0],
     ['/download', '2026-08-11', 'daily', 0.95],
     ['/getting-started', '2026-08-11', 'weekly', 0.9],
+    ['/features', '2026-08-11', 'monthly', 0.7],
+    ['/academy', '2026-08-11', 'weekly', 0.8],
     ['/community-vs-cloud', '2026-08-11', 'monthly', 0.8],
     ['/faq', '2026-08-11', 'monthly', 0.8],
     ['/security', '2026-08-11', 'monthly', 0.7],
     ['/brokers', '2026-08-11', 'weekly', 0.8],
+    ['/about', '2026-08-16', 'monthly', 0.6],
+    ['/support', '2026-08-16', 'monthly', 0.6],
   ]
 
   for (const [url, lastmod, freq, prio] of staticPages) {

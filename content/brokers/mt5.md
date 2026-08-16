@@ -8,7 +8,7 @@ brokers: ["mt5"]
 category: "broker-setup"
 difficulty: "beginner"
 estimated_time: "15 minutes"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls", "/install/windows", "/install/linux", "/docs/mt5-without-windows-vps"]
+related_guides: ["/brokers/api-key-guide", "/docs/risk-controls", "/install/windows", "/install/linux", "/docs/mt5-without-windows-vps", "/docs/mt5-symbol-mapping", "/docs/mt5-troubleshooting", "/docs/automate-forex-gold-with-mt5", "/docs/crypto-and-mt5-one-platform", "/docs/mt5-self-hosted-trading"]
 keywords: ["mt5 automation", "mt5 trading bot", "self hosted mt5 bot", "metatrader 5 automation", "gold trading automation", "mt5 on linux"]
 sitemap_priority: 0.80
 ---

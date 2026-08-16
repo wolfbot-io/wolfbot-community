@@ -3,7 +3,7 @@ export const softwareAppSchema = {
   '@type': 'SoftwareApplication',
   name: 'WolfBot Community',
   applicationCategory: 'FinanceApplication',
-  operatingSystem: 'Windows, Linux',
+  operatingSystem: 'Linux (Windows build in development)',
   description: 'Free self-hosted unified trading platform connecting crypto exchanges, futures and MT5 markets in one interface.',
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   author: { '@type': 'Organization', name: 'WolfBot.io', url: 'https://wolfbot.io' },

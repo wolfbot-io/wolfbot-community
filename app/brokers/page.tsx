@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BROKERS, STATUS_STYLE, brokerHref } from '@/lib/brokers'
+import { TrackedLink } from '@/components/analytics/TrackedLink'
 
 export const metadata: Metadata = {
   title: 'Supported Brokers & Exchanges — WolfBot Community',
@@ -18,9 +19,11 @@ export default function BrokersIndexPage() {
       </p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {BROKERS.map((b) => (
-          <Link
+          <TrackedLink
             key={b.slug}
             href={brokerHref(b)}
+            eventName="broker_click"
+            eventParams={{ broker: b.slug }}
             className="rounded-xl p-6 border card-hover"
             style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}
           >
@@ -31,7 +34,7 @@ export default function BrokersIndexPage() {
               </span>
             </div>
             <p className="text-sm" style={{ color: '#94A3B8' }}>{b.desc}</p>
-          </Link>
+          </TrackedLink>
         ))}
       </div>
       <div className="text-center mt-12">

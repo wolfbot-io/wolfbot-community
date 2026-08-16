@@ -5,7 +5,7 @@
   "description": "WolfBot Community — Free self-hosted trading automation website. Built with Next.js.",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run prebuild-content && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

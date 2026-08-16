@@ -120,6 +120,10 @@ After successful setup:
 - Smart Terminal shows your Bybit balance
 - You can place orders that appear on Bybit
 
+Your connected accounts appear in the Exchange Accounts view with their status and permissions:
+
+![WolfBot Exchange Accounts showing Bybit account status, environment (Live/Demo) and permission state](/screenshots/wolfbot-accounts.webp)
+
 ---
 
 ## Common Issues

@@ -37,7 +37,13 @@ See [Release Channels Explained →](/releases/channels)
 
 1. Go to [community.wolfbot.io/download](https://community.wolfbot.io/download)
 2. Download the latest Setup.exe
-3. Run the installer — it upgrades in place and keeps your data, accounts and settings
+
+   > ℹ️ **Availability:** the first public release ships the Linux installer;
+   > the Windows installer is documented ahead of its follow-up release. When a
+   > Windows build is published, download it here and run the installer — it
+   > upgrades in place and keeps your data, accounts and settings. Check the
+   > [download page](/download) for current status. There is no Windows build in
+   > this release yet.
 
 ### Linux
 
@@ -88,7 +94,7 @@ If an update causes issues:
 ```
 This restores the previous release's manifest and restarts the stack on it.
 
-**Windows:** download and reinstall the previous version's Setup.exe from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) — installing over the current version upgrades or downgrades in place either way.
+**Windows:** once a Windows build is available, download and reinstall the previous version's Setup.exe from [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) — installing over the current version upgrades or downgrades in place either way.
 
 ---
 

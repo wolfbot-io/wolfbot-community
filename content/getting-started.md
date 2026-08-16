@@ -38,6 +38,8 @@ Launch WolfBot Community. You'll land on the **Capability Status** page — it s
 | **Risk Controls** | Position limits, drawdown guards |
 | **Exchange Accounts** | Broker connections and API keys |
 
+![WolfBot Community dashboard overview showing the unified portfolio, connected accounts and quick links to Portfolio, Bots, Terminal and Risk](/screenshots/wolfbot-community-dashboard.webp)
+
 ## Step 3: Connect a Demo Account — Zero Risk
 
 WolfBot has no separate "Simulation mode" toggle. Instead, you connect a broker's own **Demo/testnet account** — real market data, virtual funds, the exact same interface and risk engine you'll use for live trading later.
