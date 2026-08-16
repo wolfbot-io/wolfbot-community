@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher'
 
 // Visual language ported from prototypes/figma-make/src/landing/LandingChrome.tsx
 // (Footer) — dark bg, uppercase muted column headings, wolf-text3 → wolf-text2
@@ -44,7 +45,13 @@ export function Footer() {
             </a>
           </div>
         </div>
-        <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
+        <div className="mt-8 flex items-center justify-between flex-wrap gap-4">
+          <p className="text-sm text-wolf-text2">Language · Ngôn ngữ · 语言 · Idioma · Язык · Sprache · 言語 · 언어 · भाषा</p>
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher />
+          </div>
+        </div>
+        <div className="mt-6 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
           <p className="text-sm text-wolf-text3">WolfBot Community — <span className="text-wolf-accent">One Platform. Every Market.</span> · by <a href="https://wolfbot.io" className="text-wolf-accent hover:underline">WolfBot.io</a></p>
           <p className="text-xs text-wolf-text3">Free · Self-Hosted · Crypto + Futures + MT5</p>
         </div>

@@ -20,6 +20,8 @@ export interface LocaleConfig {
   ogLocale: string
   /** Human label for llms.txt section headers, e.g. "Tiếng Việt (Vietnamese)". */
   label: string
+  /** Short English label for the language switcher menu (e.g. "Vietnamese"). */
+  labelEn: string
   /** BCP-47 tag for the <html lang> override on this locale's pages. */
   htmlLang: string
   /** Small UI microcopy dictionary used by the content-page chrome
@@ -41,6 +43,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'vi',
     ogLocale: 'vi_VN',
     label: 'Tiếng Việt (Vietnamese)',
+    labelEn: 'Tiếng Việt',
     htmlLang: 'vi',
     ui: { testedWith: 'Đã kiểm thử với WolfBot Community v', lastUpdated: 'Cập nhật lần cuối', nextStep: 'Bước tiếp theo' },
   },
@@ -50,6 +53,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'zh-CN',
     ogLocale: 'zh_CN',
     label: '中文 (Chinese)',
+    labelEn: '中文',
     htmlLang: 'zh-CN',
     ui: { testedWith: '已在 WolfBot Community v', lastUpdated: '最后更新', nextStep: '下一步' },
   },
@@ -59,6 +63,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'pt-BR',
     ogLocale: 'pt_BR',
     label: 'Português (Brasil)',
+    labelEn: 'Português',
     htmlLang: 'pt-BR',
     ui: { testedWith: 'Testado com WolfBot Community v', lastUpdated: 'Última atualização', nextStep: 'Próximo passo' },
   },
@@ -68,6 +73,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'ru',
     ogLocale: 'ru_RU',
     label: 'Русский (Russian)',
+    labelEn: 'Русский',
     htmlLang: 'ru',
     ui: { testedWith: 'Протестировано с WolfBot Community v', lastUpdated: 'Последнее обновление', nextStep: 'Следующий шаг' },
   },
@@ -77,6 +83,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'de',
     ogLocale: 'de_DE',
     label: 'Deutsch (German)',
+    labelEn: 'Deutsch',
     htmlLang: 'de',
     ui: { testedWith: 'Getestet mit WolfBot Community v', lastUpdated: 'Zuletzt aktualisiert', nextStep: 'Nächster Schritt' },
   },
@@ -86,6 +93,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'ja',
     ogLocale: 'ja_JP',
     label: '日本語 (Japanese)',
+    labelEn: '日本語',
     htmlLang: 'ja',
     ui: { testedWith: 'テスト済みバージョン: v', lastUpdated: '最終更新', nextStep: '次のステップ' },
   },
@@ -95,6 +103,7 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'ko',
     ogLocale: 'ko_KR',
     label: '한국어 (Korean)',
+    labelEn: '한국어',
     htmlLang: 'ko',
     ui: { testedWith: '테스트 버전: v', lastUpdated: '마지막 업데이트', nextStep: '다음 단계' },
   },
@@ -104,12 +113,29 @@ export const LOCALES: LocaleConfig[] = [
     hreflang: 'hi',
     ogLocale: 'hi_IN',
     label: 'हिन्दी (Hindi)',
+    labelEn: 'हिन्दी',
     htmlLang: 'hi',
     ui: { testedWith: 'टेस्ट किया गया संस्करण: v', lastUpdated: 'आखिरी अपडेट', nextStep: 'अगला कदम' },
   },
 ]
 
 const BY_SEGMENT = new Map(LOCALES.map((l) => [l.urlSegment, l]))
+
+/** Match a browser/navigator locale string (e.g. "de-DE", "pt-BR", "zh-CN",
+ *  "ko") to the locale segment that best represents it, or null when the
+ *  user's language isn't one of our translated locales (fall through to
+ *  English). Matching is by BCP-47 language-tag prefix so "pt-PT" correctly
+ *  maps to pt-BR and "zh-TW" maps to zh. */
+export function localeSegmentForBrowserLang(lang: string): string | null {
+  if (!lang) return null
+  const norm = lang.toLowerCase()
+  const base = norm.split(/[-_]/)[0]
+  const direct = LOCALES.find((l) => l.hreflang.toLowerCase() === norm)
+  if (direct) return direct.urlSegment
+  if (base === 'pt') return 'pt-br'
+  if (base === 'zh') return 'zh'
+  return LOCALES.find((l) => l.code.toLowerCase().split('-')[0] === base)?.urlSegment ?? null
+}
 
 /** The locale config for a slug's leading `<segment>/...` prefix, or null for English. */
 export function localeForSlug(slug: string): LocaleConfig | null {

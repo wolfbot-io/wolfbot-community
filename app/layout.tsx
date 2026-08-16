@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/Footer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { websiteSchema } from '@/lib/structured-data/website'
 import { organizationSchema } from '@/lib/structured-data/organization'
+import { LOCALES } from '@/lib/locales'
 import '@/styles/globals.css'
 
 const SITE = {
@@ -28,6 +29,41 @@ const CLOUDFLARE_BEACON_TOKEN = '8d9f9006aa4d4e519b0523eb68a8ed02'
 // a GA Measurement ID is meant to be public, it's pasted into every page's
 // HTML by design.
 const GA_MEASUREMENT_ID = 'G-TPQZ9X224P'
+
+// PLAN §91 — one-time language auto-detection. On a first visit (no stored
+// choice) to an English content page that has a real translation, gently
+// redirect to the visitor's browser-language version so non-English users
+// land on a page they can read instead of always English. Guards:
+//   - runs once per visitor (localStorage 'wolfbot_community_lang' set by
+//     the LanguageSwitcher, or 'en' written here so it never re-fires)
+//   - only on pages under a translated English content path (never `/`,
+//     the home landing, or static React pages without a translation)
+//   - the LanguageSwitcher always wins (it writes the choice key first)
+const LANG_KEY = 'wolfbot_community_lang'
+// Object literal mapping every locale segment/base to true, e.g. {vi:1,zh:1,...}
+const LANG_SEGMENTS_OBJ = `{${LOCALES.map((l) => `${JSON.stringify(l.urlSegment)}:1`).join(',')}}`
+const AUTO_DETECT_SCRIPT = (`
+(function(){
+  try {
+    var key = 'wolfbot_community_lang';
+    if (localStorage.getItem(key)) return;
+    var path = location.pathname.replace(/\\/$/, '') || '/';
+    if (path === '/' || /^\\/(docs|brokers|install|releases|getting-started|community-vs-cloud)(\\/|$)/.test(path) === false) return;
+    var lang = (navigator.language || (navigator.languages && navigator.languages[0]) || '').toLowerCase();
+    if (!lang) return;
+    var base = (lang.split('-')[0]).toLowerCase();
+    var seg = null;
+    var map = ` + LANG_SEGMENTS_OBJ + `;
+    if (map[lang]) seg = lang;
+    else if (lang === 'pt') seg = 'pt-br';
+    else if (lang === 'zh') seg = 'zh';
+    else if (map[base]) seg = base;
+    if (!seg || path.indexOf('/' + seg + '/') === 0) return;
+    var newPath = '/' + seg + path;
+    localStorage.setItem(key, 'en');
+    location.replace(newPath + location.search + location.hash);
+  } catch (e) {}
+})();`)
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -94,6 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/wolfbot-logo.png" sizes="any" />
         <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — Releases & Docs`} href="/rss.xml" />
+        <script dangerouslySetInnerHTML={{ __html: AUTO_DETECT_SCRIPT }} />
         <StructuredData data={websiteSchema} />
         <StructuredData data={organizationSchema} />
         <script

@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { SearchBar } from '@/components/docs/SearchBar'
 import { trackEvent } from '@/lib/analytics'
+import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher'
 
 // Visual language ported from prototypes/figma-make/src/landing/LandingChrome.tsx
 // (LandingHeader) — sticky dark blurred header, wolf-accent CTA with glow,
@@ -59,6 +60,7 @@ export function Header() {
             ))}
           </nav>
           <div className="hidden sm:flex items-center gap-3 shrink-0">
+            <LanguageSwitcher />
             <a
               href="https://github.com/wolfbot-io/wolfbot-community"
               target="_blank"
@@ -123,6 +125,7 @@ export function Header() {
             </Link>
           ))}
           <div className="pt-3 mt-3 border-t flex flex-col gap-3" style={{ borderColor: 'rgba(255,255,255,0.07)' }}>
+            <LanguageSwitcher onNavigate={() => setMobileOpen(false)} />
             <a
               href="https://github.com/wolfbot-io/wolfbot-community"
               target="_blank"
