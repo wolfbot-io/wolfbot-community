@@ -209,6 +209,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | hreflang EN/VI (now 8 locales) | ✅ | hreflang đầy đủ 10 tags/page. |
 | crawlable SSR/SSG HTML | ✅ | Static export. |
 | proper status codes | ✅ | 404 page; nginx redirects hợp lệ. |
+| cache headers đúng / non-hashed assets revalidate | ✅ | **2026-08-16 (fix vĩnh viễn):** `nginx.conf` chỉ giữ `immutable` cho `/_next/static/*` (file build có hash). Mọi media `public/` không-hash (`/screenshots/`, favicon, og:image, logo, thumbnail...) dùng `max-age=3600, stale-while-revalidate=604800` — hết bug "đổi ảnh nhưng web giữ ảnh cũ 1 năm" (trước đó regex áp `immutable`/31536000 cho cả ảnh không-hash, khóa cache theo URL 1 năm). HTML `location /` = `no-cache, must-revalidate` → deploy xong content hiện ngay. |
 | noindex low-value/internal | 🟡 | robots chặn /api,/admin,/internal. |
 | **Sitemap bao gồm mọi trang public quan trọng** | ✅ | **2026-08-16: đã thêm `/features`, `/academy`, `/about`, `/support`** (đang render nhưng bị thiếu từ trước). `/brokers/api-key-guide` ✅ có. |
 
