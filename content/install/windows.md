@@ -8,7 +8,7 @@ category: "install"
 difficulty: "beginner"
 estimated_time: "5 minutes"
 next_guide: "/getting-started"
-related_guides: ["/docs/simulation", "/docs/troubleshooting"]
+related_guides: ["/docs/simulation", "/docs/troubleshooting", "/docs/error-codes"]
 keywords: [
   "install wolfbot windows",
   "wolfbot community windows setup",

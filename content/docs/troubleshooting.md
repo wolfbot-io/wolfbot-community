@@ -7,7 +7,7 @@ platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "intermediate"
 estimated_time: "5 minutes"
-related_guides: ["/install/windows", "/install/linux", "/docs/updates", "/brokers/api-key-guide"]
+related_guides: ["/docs/error-codes", "/install/windows", "/install/linux", "/docs/updates", "/brokers/api-key-guide"]
 keywords: ["wolfbot troubleshooting", "wolfbot error codes", "fix wolfbot", "wolfbot installation error", "wolfbot connection problem"]
 sitemap_priority: 0.80
 ---
@@ -59,6 +59,8 @@ It's read-only — it checks installation integrity, service status, network and
 **Symptom:** "Port 8765 already in use"
 
 **Fix:** `sudo lsof -i :8765` → stop conflicting service → restart WolfBot
+
+> Looking for just the error codes? Use the [Error Codes quick reference](/docs/error-codes) for a one-line fix per code.
 
 ---
 

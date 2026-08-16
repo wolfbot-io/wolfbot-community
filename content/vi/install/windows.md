@@ -10,7 +10,7 @@ estimated_time: "5 minutes"
 lang: "vi"
 translation_of: "install/windows"
 next_guide: "/vi/getting-started"
-related_guides: ["/docs/simulation", "/docs/troubleshooting"]
+related_guides: ["/docs/simulation", "/docs/troubleshooting", "/docs/error-codes"]
 keywords: [
   "cài wolfbot windows",
   "cài đặt wolfbot community windows",

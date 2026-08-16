@@ -9,7 +9,7 @@ difficulty: "intermediate"
 estimated_time: "5 minutes"
 lang: "vi"
 translation_of: "docs/troubleshooting"
-related_guides: ["/install/windows", "/install/linux", "/vi/docs/updates", "/vi/brokers/api-key-guide"]
+related_guides: ["/vi/docs/error-codes", "/install/windows", "/install/linux", "/vi/docs/updates", "/vi/brokers/api-key-guide"]
 keywords: ["khắc phục sự cố wolfbot", "mã lỗi wolfbot", "sửa wolfbot", "lỗi cài đặt wolfbot", "vấn đề kết nối wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -61,6 +61,8 @@ Nó chỉ đọc — kiểm tra tính toàn vẹn của cài đặt, trạng th�
 **Triệu chứng:** "Port 8765 already in use"
 
 **Khắc phục:** `sudo lsof -i :8765` → dừng dịch vụ xung đột → khởi động lại WolfBot
+
+> Chỉ cần tra mã lỗi? Dùng [Bảng tra cứu nhanh mã lỗi](/vi/docs/error-codes) — mỗi mã có cách sửa một dòng.
 
 ---
 

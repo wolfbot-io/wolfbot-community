@@ -89,7 +89,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | Mục | Trạng thái | Ghi chú |
 |---|:---:|---|
 | Title gợi ý | ✅ | EN title = "WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux" (= plan §5). |
-| H1 gợi ý "Free Self-Hosted Trading Platform..." | ✅ | **Rồi (2026-08-16):** H1 EN + 8 locale = discovery phrase (EN: "Free Self-Hosted Trading Platform for Crypto, Futures & MT5"); support heading giữ "Trade Every Market From One Platform" (plan §5). | "Trade Every Market. From One Platform." **Chưa khớp khuyến nghị discovery-focused H1.** Cần đánh giá đổi hay giữ. |
+| H1 gợi ý "Free Self-Hosted Trading Platform..." | ✅ | **Rồi (2026-08-16):** H1 EN + 8 locale = discovery phrase (EN: "Free Self-Hosted Trading Platform for Crypto, Futures & MT5"); support heading giữ tagline "Trade Every Market From One Platform" (plan §5). H1 đã chuyển sang discovery-focused đúng khuyến nghị. |
 | 10 từ khóa trong 120 từ đầu | ✅ | MetaDescription + hero copy chứa đủ. |
 | CTA "Download WolfBot Community" + "Getting Started" | ✅ | Hero CTA. |
 
@@ -179,7 +179,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | Mục | Trạng thái | Ghi chú |
 |---|:---:|---|
 | Monthly: reoccurring problem → article; error code → troubleshooting | 🟡 | Có `troubleshooting.md` + `community-status`; quy trình flywheel = 🔒 User (vận hành Discussions). |
-| Error-to-SEO loop | 🟡 | Có troubleshooting trang; chưa có hệ thống error-code index riêng. |
+| Error-to-SEO loop | ✅ | **Rồi (2026-08-16):** thêm trang **`/docs/error-codes`** (EN `/docs/error-codes` + VI `/vi/docs/error-codes`) — index tra cứu mọi mã `WB-*` (WB-WIN-001..004, WB-LNX-001..002), mỗi mã 1 dòng fix + section chi tiết, cross-link từ `troubleshooting` + `install/windows` + `install/linux` (EN+VI). Đúng plan §18 "error-code docs" (data thật). Sitemap 311→313. |
 
 ---
 
@@ -201,7 +201,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | SoftwareApplication on download | ✅ | |
 | BreadcrumbList | ✅ | `lib/structured-data/breadcrumb.ts` trên content pages. |
 | canonical per page | ✅ | |
-| sitemap | ✅ | 311 URL (2026-08-16: thêm `/features`+`/academy`+`/about`+`/support`+13 docs mới). |
+| sitemap | ✅ | 313 URL (2026-08-16: thêm `/features`+`/academy`+`/about`+`/support`+13 docs mới+`docs/error-codes` EN/VI). |
 | robots.txt allow useful, disallow /api,/admin,/internal | ✅ | `Disallow: /_next/` đã gỡ. |
 | unique titles | ✅ | |
 | OG images | ✅ | `opengraph-image.tsx`. |
@@ -220,8 +220,8 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | Mục | Trạng thái | Ghi chú |
 |---|:---:|---|
 | Solve real tasks, screenshots, actual steps, accurate release info, update dates | ✅ | Content có `last_updated`/`tested_version` + `freshness` script. |
-| llms.txt | ✅ | 311 links (2026-08-16). |
-| search-index.json | ✅ | 42 EN pages (2026-08-16). |
+| llms.txt | ✅ | 313 links (2026-08-16). |
+| search-index.json | ✅ | 43 EN pages (2026-08-16, có `error-codes`). |
 | "For technical readers" expandable box (§2-audience) | ✅ | Applied trong articles. |
 
 ---
@@ -278,7 +278,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | Mục | Trạng thái | Ghi chú |
 |---|:---:|---|
 | Week1: titles/canonical/hreflang/SC/GitHub README/release claims | ✅ | Đã xong các mục trong repo. SC = 🔒 User. |
-| Week2: /download, install cluster, getting-started, simulation, error-code | ✅ | /download ✅, install cluster ✅ (/install/{windows,linux} + redir /install/vps), getting-started ✅, simulation ✅, error-code ✅ (`troubleshooting.md` WB-*). |
+| Week2: /download, install cluster, getting-started, simulation, error-code | ✅ | /download ✅, install cluster ✅ (/install/{windows,linux} + redir /install/vps), getting-started ✅, simulation ✅, error-code ✅ **(`troubleshooting.md` WB-* + trang `/docs/error-codes` index EN+VI, 2026-08-16)**. |
 | Week3: 6 brokers, MT5 pillar, community-vs-cloud, security/trust | ✅ | **Rồi (2026-08-16):** 6 broker pages ✅, MT5 cluster đầy đủ (§9: pillar + 2 docs kỹ thuật + 3 academy, EN+VI) ✅, community-vs-cloud ✅, security/trust ✅. |
 | Week4: 6 academy articles, 3 videos, GH Discussions, launch | 🔒 | Videos/Discussions publish = User. |
 
@@ -291,7 +291,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | Month1: foundation + install + brokers | ✅ | Foundation + install ✅ (/install/{windows,linux} + redir /install/vps) + 6 brokers ✅. |
 | Month2: MT5 cluster + self-hosted cluster + release cadence + video | 🟡 | MT5 cluster ✅ (§9 đầy đủ), self-hosted ✅ (`self-hosted-explained` + `run-24-7-on-a-vps`), release cadence ✅ (`releases/channels`). Video = 🔒 User. |
 | Month3: comparisons + stories + technical guides + link earning + vi optimization | 🟡 | VI đầy đủ ✅; story/link-earning = 🔒 User. |
-| ~35–60 quality URLs, không thin | ✅ | 311 sitemap URL (2026-08-16), content chất lượng. |
+| ~35–60 quality URLs, không thin | ✅ | 313 sitemap URL (2026-08-16), content chất lượng. |
 
 ---
 
