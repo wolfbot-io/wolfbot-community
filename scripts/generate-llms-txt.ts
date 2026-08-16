@@ -87,6 +87,11 @@ function generate(): string {
   for (const [url, title, desc] of corePages) {
     lines.push(`- [${title}](${BASE_URL}${url}): ${desc}`)
   }
+  // Localized homepages — one line per language so AI readers can find the
+  // translated home instead of landing only on the English `/`.
+  for (const l of LOCALES) {
+    lines.push(`- [${l.label}](${BASE_URL}/${l.urlSegment}): ${l.labelEn} localized homepage of WolfBot Community`)
+  }
   lines.push('')
 
   // Group content pages by category.

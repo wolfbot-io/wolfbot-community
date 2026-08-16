@@ -8,6 +8,8 @@ import {
   toLocaleSlug,
 } from '@/lib/content'
 import { LOCALES, localeForSlug } from '@/lib/locales'
+import { HOME_COPY } from '@/lib/home-page'
+import { LocalizedHomePage } from '@/components/landing/LocalizedHomePage'
 import { ContentRenderer } from '@/components/docs/ContentRenderer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
@@ -17,14 +19,55 @@ interface Props {
   params: { slug: string[] }
 }
 
-/** Generate static paths for all content pages */
-export function generateStaticParams() {
-  const pages = listContent()
-  return pages.map((p) => ({ slug: p.slug.split('/') }))
+function localeForRootSlug(slug: string[]): (typeof LOCALES)[number] | null {
+  if (slug.length !== 1) return null
+  return LOCALES.find((l) => l.urlSegment === slug[0]) ?? null
 }
 
-/** Generate metadata from frontmatter */
+/** Generate static paths for all content pages + localized homepage roots. */
+export function generateStaticParams() {
+  const pages = listContent().map((p) => ({ slug: p.slug.split('/') }))
+  const roots = LOCALES.map((l) => ({ slug: [l.urlSegment] }))
+  return [...pages, ...roots]
+}
+
+/** Generate metadata from frontmatter (or localized-homepage defaults). */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const localeConf = localeForRootSlug(params.slug ?? [])
+  if (localeConf) {
+    const copy = HOME_COPY[localeConf.urlSegment]
+    const title = copy?.metaTitle ?? 'WolfBot Community'
+    const description = copy?.metaDescription ?? 'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures and MT5 markets through one intelligent interface.'
+    // Localized homepage root — advertise the full language cluster.
+    const languages: Record<string, string> = {}
+    for (const l of LOCALES) {
+      languages[l.hreflang] = `https://community.wolfbot.io/${l.urlSegment}`
+    }
+    languages.en = 'https://community.wolfbot.io/'
+    languages['x-default'] = 'https://community.wolfbot.io/'
+    return {
+      title,
+      description,
+      alternates: {
+        canonical: `https://community.wolfbot.io/${localeConf.urlSegment}`,
+        languages,
+      },
+      openGraph: {
+        title,
+        description,
+        type: 'website',
+        url: `https://community.wolfbot.io/${localeConf.urlSegment}`,
+        locale: localeConf.ogLocale,
+        images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'WolfBot Community' }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
+      },
+    }
+  }
+
   const slug = (params.slug ?? []).join('/')
   const page = await loadContent(slug)
   if (!page) return {}
@@ -74,7 +117,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ContentPage({ params }: Props) {
-  const slug = (params.slug ?? []).join('/')
+  const slugParts = params.slug ?? []
+
+  // Localized homepage root: `/vi`, `/de`, `/pt-br`, ...
+  const localeConf = localeForRootSlug(slugParts)
+  if (localeConf) {
+    return (
+      <>
+        <script dangerouslySetInnerHTML={{ __html: `document.documentElement.lang = '${localeConf.htmlLang}';` }} />
+        <LocalizedHomePage locale={localeConf.urlSegment} />
+      </>
+    )
+  }
+
+  const slug = slugParts.join('/')
   const page = await loadContent(slug)
 
   if (!page) notFound()

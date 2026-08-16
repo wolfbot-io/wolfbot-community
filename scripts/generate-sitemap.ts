@@ -91,7 +91,38 @@ function generate(): string {
   ]
 
   for (const [url, lastmod, freq, prio] of staticPages) {
-    entries.push({ url: `${BASE_URL}${url}`, lastmod, changefreq: freq, priority: prio.toFixed(1) })
+    // English home `/` advertises the full multilingual home cluster so
+    // Google unifies `/` with `/vi`, `/de`, ... as one localized document.
+    const alternates =
+      url === '/'
+        ? [
+            { lang: 'en', href: `${BASE_URL}/` },
+            ...LOCALES.map((l) => ({ lang: l.hreflang, href: `${BASE_URL}/${l.urlSegment}` })),
+            { lang: 'x-default', href: `${BASE_URL}/` },
+          ]
+        : undefined
+    entries.push({ url: `${BASE_URL}${url}`, lastmod, changefreq: freq, priority: prio.toFixed(1), alternates })
+  }
+
+  // Localized homepage roots (/vi, /de, /pt-br, ...) — real static pages served
+  // by the catch-all route. Each advertises the full language cluster so Google
+  // treats the homepage + all its translations as one localized document.
+  for (const l of LOCALES) {
+    const rootUrl = `${BASE_URL}/${l.urlSegment}`
+    const alternates: { lang: string; href: string }[] = [
+      { lang: 'en', href: `${BASE_URL}/` },
+    ]
+    for (const l2 of LOCALES) {
+      alternates.push({ lang: l2.hreflang, href: `${BASE_URL}/${l2.urlSegment}` })
+    }
+    alternates.push({ lang: 'x-default', href: `${BASE_URL}/` })
+    entries.push({
+      url: rootUrl,
+      lastmod: '2026-08-11',
+      changefreq: 'daily',
+      priority: '0.9',
+      alternates,
+    })
   }
 
   // Content pages

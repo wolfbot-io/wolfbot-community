@@ -14,6 +14,14 @@ WolfBot Community is the free, self-hosted edition of WolfBot by [WolfBot.io](ht
 - [Security](https://community.wolfbot.io/security): Non-custodial design, signed releases
 - [FAQ](https://community.wolfbot.io/faq): Frequently asked questions
 - [Community vs Cloud](https://community.wolfbot.io/community-vs-cloud): Comparison of the two editions
+- [Tiếng Việt (Vietnamese)](https://community.wolfbot.io/vi): Tiếng Việt localized homepage of WolfBot Community
+- [中文 (Chinese)](https://community.wolfbot.io/zh): 中文 localized homepage of WolfBot Community
+- [Português (Brasil)](https://community.wolfbot.io/pt-br): Português localized homepage of WolfBot Community
+- [Русский (Russian)](https://community.wolfbot.io/ru): Русский localized homepage of WolfBot Community
+- [Deutsch (German)](https://community.wolfbot.io/de): Deutsch localized homepage of WolfBot Community
+- [日本語 (Japanese)](https://community.wolfbot.io/ja): 日本語 localized homepage of WolfBot Community
+- [한국어 (Korean)](https://community.wolfbot.io/ko): 한국어 localized homepage of WolfBot Community
+- [हिन्दी (Hindi)](https://community.wolfbot.io/hi): हिन्दी localized homepage of WolfBot Community
 
 ## Getting Started
 - [Self-Hosted Trading Platform Explained — Why Run WolfBot on Your Machine](https://community.wolfbot.io/docs/self-hosted-explained): What is a self-hosted unified trading platform? Benefits of running WolfBot Community on your own machine: full control, maximum privacy, zero cost — across crypto and MT5 markets.

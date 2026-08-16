@@ -2,20 +2,42 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
-import { LOCALES, localeForSlug, toEnglishSlug, toLocaleSlug } from '@/lib/locales'
+import { LOCALES, localeForSlug, toEnglishSlug } from '@/lib/locales'
+import { isLocalizable } from '@/lib/localized-links'
 
 // PLAN §91 — language switcher. Shows the 9 available languages (English +
 // the 8 translated locales) as a globe dropdown. Choosing a language jumps
 // to the localized URL of the *current English-equivalent page* when a
 // translation exists (e.g. /docs/risk-controls -> /vi/docs/risk-controls),
-// or to the English page otherwise. The path name is resolved purely from
-// the URL (split('%2F') preserves embedded slashes from locale segments).
+// to the matching localized homepage when on a homepage (/ -> /vi), or to
+// the English page otherwise. The path name is resolved purely from the URL
+// (split('%2F') preserves embedded slashes from locale segments).
+//
+// No-trailing-slash + no-prefix-for-unlocalized-hubs: the returned URL is
+// never allowed to 404. Content pages without a translation (download,
+// features, academy, security, faq) stay on their English URL; homepage
+// switches go straight to `/<segment>` (no trailing slash), which matches
+// the flat Next static-export files (out/<segment>.html).
 export function getSwitchedHref(langUrlSegment: string, pathname: string): string {
   const path = pathname.split('#')[0].split('?')[0]
   const currentLocale = localeForSlug(path.slice(1))
   const english = currentLocale ? toEnglishSlug(path.slice(1)) : path.slice(1)
+
+  // English is always the English-equivalent path (no locale prefix).
   if (langUrlSegment === 'en') return `/${english}`
-  return toLocaleSlug(english, langUrlSegment)
+
+  // On a homepage (English root or a locale root) -> the target locale's
+  // homepage. Deliberately no trailing slash: /vi maps to out/vi.html,
+  // while /vi/ would hit nginx `try_files ... $uri/ =404`.
+  if (english === '') return `/${langUrlSegment}`
+
+  // A content page that actually has a translation -> localized URL
+  // (absolute from root; a leading slash is required so the anchor resolves
+  // correctly no matter what path it is rendered on).
+  if (isLocalizable(english)) return `/${langUrlSegment}/${english}`
+
+  // Hubs with no localized page must stay English rather than 404.
+  return `/${english}`
 }
 
 const SELECTED_KEY = 'wolfbot_community_lang'
