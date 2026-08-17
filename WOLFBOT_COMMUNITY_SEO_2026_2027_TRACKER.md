@@ -72,7 +72,7 @@ Tham chiếu plan (mục tiêu) → hiện trạng thực tế.
 | `/docs/updates` | ✅ | |
 | `/docs/backup` | ✅ | |
 | `/docs/troubleshooting` | ✅ | |
-| `/docs/security` | 🟡 | Có trang tĩnh `/security` (React), không có content docs. |
+| `/docs/security` | ✅ | Có trang tĩnh `/security` (app/security/page.tsx) làm nguồn security content. `/docs/security` KO có content/docs/security.md (tránh duplicate §23) → **nginx `= /docs/security → 301 /security`** (2026-08-18) để URL plan không 404. |
 | `/releases/latest` | ✅ | nginx 302 → GitHub releases. |
 | `/releases/[version]` / `/releases/channels` | ✅ | `content/releases/channels.md`. Không có trang per-version tĩnh (đúng §12 — tránh thin pages). |
 | `/academy` | ✅ | `app/academy/page.tsx`. **Trước 2026-08-16 KHÔNG trong sitemap — đã thêm.** |
