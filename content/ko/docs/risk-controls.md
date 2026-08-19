@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 리스크 관리 — 전체 가이드"
 description: "WolfBot Community에서 통합 리스크 관리를 구성하세요 — 포지션 한도, 드로다운 보호, 쿨다운, 일일 거래 한도를 연결된 모든 암호화폐 거래소와 MT5 브로커에 적용합니다."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # 리스크 관리 가이드
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 리스크 관리가 중요한 이유
 

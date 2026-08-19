@@ -13,16 +13,16 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // pattern already used elsewhere on this site -- this repo has no
 // server-side rendering to look this up dynamically, see next.config.mjs
 // output: 'export').
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc17'
-const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc17 (Public Preview)'
+const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc19'
+const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc19 (Public Preview)'
 const RELEASE_DATE = '2026-08-19'
-const LINUX_DEB_SHA256 = '58875c5ecd08a7243d18b423b2c5338c71279a8059ddb1322d56391169cc5646'
+const LINUX_DEB_SHA256 = 'cf6fc715d26c31733e39b7bfe8575162276d77bd9ff12f0d6cd91a78c065bae3'
 const LINUX_DEB_SIZE_MB = '~85'
-const LINUX_RUN_SHA256 = '4e7d5040bec069c96c4d3cc6c191aa69772667e478d3fa7aab06395d08f2631c'
+const LINUX_RUN_SHA256 = '793f44c790d3048cf9071b0de0be10392e909876680f8c0e228a9fd3136799fb'
 const LINUX_RUN_SIZE_MB = '~112'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
-const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-p12-rc17-0.1.0.run`
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-ghcr-rc19-0.1.0.run`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -55,6 +55,8 @@ export function DownloadCenter() {
           <div className="grid grid-cols-2 gap-3">
             <TrackedLink
               href={LINUX_DEB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               eventName="download_click"
               eventParams={{ platform: 'linux', format: 'deb', release: RELEASE_TAG, location: 'download_page' }}
               className="block text-center font-semibold px-4 py-3 rounded-xl accent-glow"
@@ -64,6 +66,8 @@ export function DownloadCenter() {
             </TrackedLink>
             <TrackedLink
               href={LINUX_RUN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               eventName="download_click"
               eventParams={{ platform: 'linux', format: 'run', release: RELEASE_TAG, location: 'download_page' }}
               className="block text-center font-semibold px-4 py-3 rounded-xl border"
@@ -137,7 +141,7 @@ export function DownloadCenter() {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-white mb-1">Is this an official WolfBot download?</h3>
-            <p className="text-sm" style={{ color: '#94A3B8' }}>Yes. This page and the <a href={GITHUB_RELEASE_URL} className="hover:underline" style={{ color: '#00C9E8' }}>wolfbot-io GitHub Releases</a> are the only official sources.</p>
+            <p className="text-sm" style={{ color: '#94A3B8' }}>Yes. This page and the <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>wolfbot-io GitHub Releases</a> are the only official sources.</p>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-white mb-1">How do I verify the download isn't tampered with?</h3>
@@ -153,7 +157,7 @@ export function DownloadCenter() {
       <div className="max-w-3xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4 text-sm">
         <Link href="/releases" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
         <span style={{ color: '#475569' }}>·</span>
-        <a href={GITHUB_RELEASE_URL} className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
+        <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
         <span style={{ color: '#475569' }}>·</span>
         <Link href="/getting-started" style={{ color: '#94A3B8' }} className="hover:text-white transition-colors">Not sure? Read Getting Started →</Link>
       </div>

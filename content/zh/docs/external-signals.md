@@ -1,7 +1,7 @@
 ---
 title: "外部信号 —— 从任何来源向 WolfBot Community 发送市场信号"
 description: "将外部交易信号——TradingView 提醒、自定义 Webhook、信号服务——通过一条经过签名、受风控把关的通道,接入你自托管的 WolfBot Community 机器人。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # 外部信号
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

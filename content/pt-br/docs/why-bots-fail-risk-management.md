@@ -1,7 +1,7 @@
 ---
 title: "Por Que a Maioria dos Bots de Trading Falha no Gerenciamento de Risco"
 description: "A maioria dos bots de trading perde dinheiro pelos mesmos poucos motivos — sem dimensionamento de posição, sem proteção de drawdown, sem cooldown. Aqui está o que realmente dá errado e como uma camada de risco unificada resolve isso."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -23,7 +23,7 @@ translation_of: "docs/why-bots-fail-risk-management"
 
 # Por Que a Maioria dos Bots de Trading Falha no Gerenciamento de Risco
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

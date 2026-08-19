@@ -1,7 +1,7 @@
 ---
 title: "Smart Terminal ガイド — 統合取引ツール"
 description: "WolfBot Community Smart Terminal を学ぶ — 暗号通貨・先物・MT5 市場を1つのインターフェースで扱う統合コントロールセンター。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # Smart Terminal ガイド
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-15
 
 ## Smart Terminal とは?
 

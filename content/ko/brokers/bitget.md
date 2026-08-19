@@ -1,7 +1,7 @@
 ---
 title: "Bitget을 WolfBot Community에 연결 — 단계별"
 description: "Bitget을 WolfBot Community에 연결 — Trade-Only API 키를 만들고 현물 및 선물 자동 거래를 시작하세요."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bitget"
 
 # Bitget을 WolfBot Community에 연결
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 **Bitget 지원 상태:** 안정 · 데모 ✅ · 실계정 ✅ · 터미널 ✅ · 전략 ✅
 

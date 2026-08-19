@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 备份与恢复 —— 数据保护指南"
 description: "如何备份和恢复 WolfBot Community——保护你统一平台的配置和交易数据。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # 备份与恢复指南
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
 
 ## 为什么要备份?
 

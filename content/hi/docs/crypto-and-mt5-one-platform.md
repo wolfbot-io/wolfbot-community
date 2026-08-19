@@ -1,7 +1,7 @@
 ---
 title: "क्रिप्टो और MT5 एक प्लेटफ़ॉर्म पर — दोनों के लिए एक WolfBot इंटरफ़ेस"
 description: "क्यों एक ही सेल्फ-होस्टेड इंटरफ़ेस में क्रिप्टो फ्यूचर्स को MT5 फॉरेक्स और गोल्ड के साथ मिलाना WolfBot Community की सबसे बड़ी बढ़त है — एक लॉगिन, एक रिस्क इंजन, दोनों दुनिया में एक पोर्टफोलियो।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # क्रिप्टो और MT5 एक प्लेटफ़ॉर्म पर
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

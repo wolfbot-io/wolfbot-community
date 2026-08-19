@@ -1,7 +1,7 @@
 ---
 title: "Windows VPS 없이 Linux에서 MT5 — 설명"
 description: "WolfBot Community가 Windows VPS 없이 Linux에서 MT5를 실행하는 방법. 브라우저에서 직접 외환, 금, CFD를 거래하세요."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # Windows VPS 없이 Linux에서 MT5
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 일반적인 가정
 

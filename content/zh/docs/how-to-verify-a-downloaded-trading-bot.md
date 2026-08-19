@@ -1,7 +1,7 @@
 ---
 title: "如何验证下载的交易机器人 —— 检查你即将安装的内容"
 description: "在安装任何交易机器人之前,先验证来源和文件本身。以下是如何将下载文件与官方发布版本、摘要值和签名进行比对,确保你永远不会运行未经验证的交易软件。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 platforms: ["windows", "linux"]
 category: "security"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-verify-a-downloaded-trading-bot"
 
 # 如何验证下载的交易机器人
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

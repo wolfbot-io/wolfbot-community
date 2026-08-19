@@ -1,7 +1,7 @@
 ---
 title: "Vì sao kết quả có thể xác minh quan trọng"
 description: "Ai cũng có thể chụp màn hình một lệnh thắng. Kết quả có thể xác minh — bản phát hành có ký, checksum được công bố, và truy cập phi lưu ký — mới là thứ thực sự cho phép bạn tin tưởng phần mềm giao dịch."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ sitemap_priority: 0.75
 
 # Vì sao kết quả có thể xác minh quan trọng
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

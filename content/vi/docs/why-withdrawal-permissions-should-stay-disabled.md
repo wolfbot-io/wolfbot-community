@@ -1,7 +1,7 @@
 ---
 title: "Vì sao quyền Rút tiền nên được tắt — Bảo vệ tiền của bạn khỏi một key bị xâm phạm"
 description: "API key chỉ để giao dịch được thiết kế để tắt quyền rút tiền. Đây là lý do một key có quyền rút tiền là con đường chính biến một key sàn bị xâm phạm thành số dư bị đánh cắp, và cách kiểm tra key của bạn."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ sitemap_priority: 0.7
 
 # Vì sao quyền Rút tiền nên được tắt
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-16
 
 ## Câu trả lời một dòng
 

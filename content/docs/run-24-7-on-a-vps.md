@@ -1,7 +1,7 @@
 ---
 title: "Run WolfBot Community 24/7 on a VPS — Self-Hosted Trading on Your Own Server"
 description: "Run WolfBot Community around the clock on an Ubuntu VPS. Install the .deb, keep your dashboard private with an SSH tunnel, back up on the server, and trade non-custodially."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-14"
 platforms: ["linux"]
 category: "install"
@@ -22,7 +22,7 @@ sitemap_priority: 0.85
 
 # Run WolfBot Community 24/7 on a VPS
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc17** · Last updated: 2026-08-14 · Ubuntu 22.04 / 24.04
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-14 · Ubuntu 22.04 / 24.04
 
 ## Who this guide is for
 

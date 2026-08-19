@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community में डॉलर-कॉस्ट एवरेजिंग (DCA)"
 description: "डॉलर-कॉस्ट एवरेजिंग (DCA) एक बड़ी खरीद की जगह पोज़िशन को छोटे-छोटे हिस्सों में बांटता है। यहाँ बताया गया है कि WolfBot Community DCA को कैसे सपोर्ट करता है और यह बाकी हर ऑर्डर की तरह उसी रिस्क इंजन में कैसे फिट होता है।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/dca-strategy"
 
 # डॉलर-कॉस्ट एवरेजिंग (DCA)
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15
 
 ## यह गाइड किसके लिए है
 

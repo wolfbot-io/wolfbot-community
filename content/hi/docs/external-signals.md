@@ -1,7 +1,7 @@
 ---
 title: "एक्सटर्नल सिग्नल — किसी भी सोर्स से WolfBot Community में मार्केट सिग्नल भेजें"
 description: "एक्सटर्नल ट्रेडिंग सिग्नल — TradingView अलर्ट, कस्टम वेबहुक, सिग्नल सर्विस — को एक साइन किए गए, रिस्क-गेटेड पाइपलाइन के ज़रिए अपने सेल्फ-होस्टेड WolfBot Community बॉट में वायर करें।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # एक्सटर्नल सिग्नल
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

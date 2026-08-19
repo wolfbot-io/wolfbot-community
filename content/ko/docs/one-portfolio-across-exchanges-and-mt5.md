@@ -1,7 +1,7 @@
 ---
 title: "거래소와 MT5 전반에 걸친 하나의 포트폴리오 — 모든 포지션을 하나의 화면에서 보기"
 description: "각 거래소에 개별적으로 로그인하는 대신, 암호화폐와 MT5를 함께 아우르는 전체 포트폴리오가 하나의 셀프 호스팅 뷰에 표시됩니다. 통합 포트폴리오 가시성이 무엇인지, 그리고 이것이 리스크 관리 방식을 어떻게 바꾸는지 알아보세요."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/one-portfolio-across-exchanges-and-mt5"
 
 # 거래소와 MT5 전반에 걸친 하나의 포트폴리오
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

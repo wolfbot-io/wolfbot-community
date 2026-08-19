@@ -1,7 +1,7 @@
 ---
 title: "Smart Terminal Guide — dein einheitliches Handels-Tool"
 description: "Lerne das WolfBot Community Smart Terminal kennen — dein einheitliches Kontrollzentrum für Krypto-, Futures- und MT5-Märkte in einer Oberfläche."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # Smart-Terminal-Guide
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-15
 
 ## Was ist das Smart Terminal?
 

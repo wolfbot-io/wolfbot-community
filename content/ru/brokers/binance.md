@@ -1,7 +1,7 @@
 ---
 title: "Подключение Binance к WolfBot Community — пошаговая инструкция"
 description: "Подключите Binance к WolfBot Community — создайте API-ключи только для торговли и начните автоматическую торговлю на споте и фьючерсах."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
@@ -19,7 +19,7 @@ translation_of: "brokers/binance"
 
 # Подключение Binance к WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-15
 
 **Статус поддержки Binance:** Стабильно · Демо ✅ · Реальный счёт ✅ · Терминал ✅ · Стратегия ✅
 

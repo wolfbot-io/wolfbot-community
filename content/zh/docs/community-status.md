@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 状态"
 description: "WolfBot Community 当前状态——支持的市场、平台可用性、已知问题和路线图。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 category: "status"
 difficulty: "beginner"
@@ -60,7 +60,7 @@ translation_of: "docs/community-status"
 
 ## 当前版本
 
-- **最新公开预览版:** v0.1.0-p12-ghcr-rc17
+- **最新公开预览版:** v0.1.0-p12-ghcr-rc19
 - **渠道:** 公开预览版(Beta)
 - **发布日期:** 2026-08-11
 

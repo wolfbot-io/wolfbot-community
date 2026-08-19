@@ -1,7 +1,7 @@
 ---
 title: "Community-Status — aktiver Entwicklungsstand"
 description: "Der aktuelle Status des WolfBot Community-Projekts: Versionen, Plattform-Support, öffentliche Kanäle und was als Nächstes kommt."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "community"
@@ -17,7 +17,7 @@ translation_of: "docs/community-status"
 
 # Community-Status
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-15
 
 ## Aktueller Stand
 
@@ -25,7 +25,7 @@ WolfBot Community befindet sich in **Public Preview** (Beta-Phase).
 
 | Bereich | Status |
 |---|---|
-| **Aktuelle Version** | v0.1.0-p12-ghcr-rc17 |
+| **Aktuelle Version** | v0.1.0-p12-ghcr-rc19 |
 | **Windows** | ✅ Verfügbar |
 | **Linux** | ✅ Verfügbar |
 | **Krypto-Handel** | ✅ Verfügbar |
@@ -91,7 +91,7 @@ WolfBot Community ist offene Entwicklung:
 
 ## Versionsverlauf
 
-### v0.1.0-p12-ghcr-rc17 (aktuell)
+### v0.1.0-p12-ghcr-rc19 (aktuell)
 - Öffentliche Preview-Veröffentlichung
 - Einheitliche Krypto- + MT5-Plattform
 - Smart Terminal und Risk Controls

@@ -1,7 +1,7 @@
 ---
 title: "Conectar o MT5 ao WolfBot Community — Passo a Passo"
 description: "O WolfBot Community inclui MT5 — opere Forex, Ouro, Índices e Ações/CFDs no Windows ou Linux, sem precisar de uma máquina Windows separada. Guia de conexão passo a passo."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -17,7 +17,7 @@ translation_of: "brokers/mt5"
 
 # Conectar o MT5 ao WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
 
 **Status de suporte ao MT5:** Estável · Demo ✅ · Live ✅ · Terminal ✅ · Estratégia ✅ · Windows ✅ · Linux ✅
 

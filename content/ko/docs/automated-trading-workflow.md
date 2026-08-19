@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community의 자동 거래 워크플로"
 description: "자동 거래의 전체 워크플로: 전략 선택, 봇 구성, 데모 테스트, 실거래 전환, 모니터링."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # 자동 거래 워크플로
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 개요
 

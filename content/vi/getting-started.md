@@ -1,7 +1,7 @@
 ---
 title: "Bắt đầu với WolfBot Community"
 description: "Các bước đầu tiên sau khi cài WolfBot Community. Kết nối tài khoản Demo, khám phá Dashboard, và thêm các sàn crypto hoặc broker MT5 của bạn."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ sitemap_priority: 0.9
 
 # Bắt đầu với WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-12
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-12
 
 ## Chào mừng! 👋
 

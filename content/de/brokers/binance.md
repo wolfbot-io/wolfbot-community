@@ -1,7 +1,7 @@
 ---
 title: "Binance mit WolfBot Community verbinden — Schritt für Schritt"
 description: "Verbinde Binance mit WolfBot Community — erstelle Trade-Only-API-Schlüssel und starte den automatisierten Handel auf Spot und Futures."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
@@ -19,7 +19,7 @@ translation_of: "brokers/binance"
 
 # Binance mit WolfBot Community verbinden
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-15
 
 **Binance-Support-Status:** Stabil · Demo ✅ · Live ✅ · Terminal ✅ · Strategie ✅
 

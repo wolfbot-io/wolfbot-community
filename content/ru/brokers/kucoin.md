@@ -1,7 +1,7 @@
 ---
 title: "Подключение KuCoin к WolfBot Community — пошагово"
 description: "Подключите KuCoin к WolfBot Community — создайте API-ключи с passphrase и начните автоматическую торговлю на Spot и Futures."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
@@ -17,7 +17,7 @@ translation_of: "brokers/kucoin"
 
 # Подключение KuCoin к WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-15
 
 **Статус поддержки KuCoin:** Стабильно · Demo ✅ · Live ✅ · Терминал ✅ · Стратегия ✅
 

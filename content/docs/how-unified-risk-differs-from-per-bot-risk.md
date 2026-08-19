@@ -1,7 +1,7 @@
 ---
 title: "Unified Risk vs Per-Bot Risk — Why One Risk Engine Is Safer for Multi-Market Trading"
 description: "Running separate risk rules per bot leaves gaps between them. This explains how WolfBot Community's single unified risk engine treats crypto and MT5 positions as one portfolio, and why that stops a spread-out drawdown."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -22,7 +22,7 @@ sitemap_priority: 0.8
 
 # Unified Risk vs Per-Bot Risk
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc17** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

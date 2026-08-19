@@ -1,7 +1,7 @@
 ---
 title: "Резервное копирование и восстановление WolfBot Community — гайд по защите данных"
 description: "Как делать резервное копирование и восстановление WolfBot Community — защитите конфигурацию вашей единой платформы и торговые данные."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # Гайд по резервному копированию и восстановлению
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-15
 
 ## Зачем резервное копирование?
 

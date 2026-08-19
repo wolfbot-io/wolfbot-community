@@ -1,7 +1,7 @@
 ---
 title: "DCA-Strategie erklärt — Dollar-Cost Averaging im Trading"
 description: "Verstehe die DCA-Strategie (Dollar-Cost Averaging) — kaufe in Intervallen, um deinen Durchschnittspreis zu senken. Wie sie funktioniert und wie du sie in WolfBot nutzt."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/dca-strategy"
 
 # DCA-Strategie erklärt
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-15
 
 ## Was ist DCA?
 

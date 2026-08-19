@@ -1,7 +1,7 @@
 ---
 title: "टेक-प्रॉफ़िट और स्टॉप-लॉस — वे दो ऑर्डर जो हर ट्रेड की रक्षा करते हैं"
 description: "टेक-प्रॉफ़िट (TP) और स्टॉप-लॉस (SL) वे दो ऑर्डर हैं जो तय करते हैं कि आप कितना कमाते हैं और कितना गंवा सकते हैं। यहाँ बताया गया है कि WolfBot Community उन्हें अपने आप कैसे लगाता है और उन्हें कैसे ट्यून करें।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # टेक-प्रॉफ़िट और स्टॉप-लॉस
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15
 
 ## यह गाइड किसके लिए है
 

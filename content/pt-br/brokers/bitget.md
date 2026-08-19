@@ -1,7 +1,7 @@
 ---
 title: "Conectar a Bitget ao WolfBot Community — Passo a Passo"
 description: "Conecte a Bitget ao WolfBot Community — crie chaves de API somente-negociação e comece a operar automaticamente em Spot e Futuros."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bitget"
 
 # Conectar a Bitget ao WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
 
 **Status de suporte à Bitget:** Estável · Demo ✅ · Live ✅ · Terminal ✅ · Estratégia ✅
 

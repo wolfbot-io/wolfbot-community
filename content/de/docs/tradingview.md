@@ -1,7 +1,7 @@
 ---
 title: "TradingView zum Self-Hosted Trading-Bot — TradingView-Alerts mit WolfBot Community verbinden"
 description: "Sende einen TradingView-Alert-Webhook direkt an deinen self-hosted WolfBot-Community-Bot. Wie die Webhook-URL, die HMAC-Signatur und die gestuften Alert-Templates funktionieren, und wie du zuerst sicher in der Simulation testest."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/tradingview"
 
 # TradingView zum Self-Hosted Trading-Bot
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

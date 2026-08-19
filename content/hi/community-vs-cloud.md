@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community बनाम WolfBot Cloud — तुलना"
 description: "WolfBot Community (मुफ़्त सेल्फ-होस्टेड) और WolfBot Cloud (मैनेज्ड) की तुलना करें। वही एकीकृत ट्रेडिंग प्लेटफ़ॉर्म, वही मार्केट — अलग होस्टिंग।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"

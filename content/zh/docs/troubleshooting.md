@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 故障排查 —— 常见问题与解决方法"
 description: "解决 WolfBot Community 常见问题。安装错误、市场连接问题、更新失败和错误代码。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -16,7 +16,7 @@ translation_of: "docs/troubleshooting"
 
 # 故障排查指南
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
 
 ## 快速诊断
 

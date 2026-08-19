@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community の自動取引ワークフロー"
 description: "自動取引の完全なワークフロー: 戦略の選択、ボットの構成、デモテスト、実取引への切り替え、監視。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # 自動取引ワークフロー
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-15
 
 ## 概要
 

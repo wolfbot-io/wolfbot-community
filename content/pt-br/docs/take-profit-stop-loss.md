@@ -1,7 +1,7 @@
 ---
 title: "Take-Profit e Stop-Loss — As Duas Ordens Que Protegem Cada Operação"
 description: "Take-profit (TP) e stop-loss (SL) são as duas ordens que decidem quanto você ganha e quanto você pode perder. Veja como o WolfBot Community as coloca automaticamente e como ajustá-las."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # Take-Profit e Stop-Loss
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

@@ -1,7 +1,7 @@
 ---
 title: "Giải thích nền tảng giao dịch tự lưu trữ — Vì sao chạy WolfBot trên máy của bạn"
 description: "Nền tảng giao dịch thống nhất tự lưu trữ là gì? Lợi ích của việc chạy WolfBot Community trên máy của chính bạn: kiểm soát toàn phần, riêng tư tối đa, không tốn phí — trên crypto và MT5."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ sitemap_priority: 0.80
 
 # Giải thích nền tảng giao dịch tự lưu trữ
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-11
 
 ## "Tự lưu trữ" nghĩa là gì?
 

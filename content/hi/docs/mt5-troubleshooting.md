@@ -1,7 +1,7 @@
 ---
 title: "MT5 समस्या निवारण — WolfBot Community में आम MT5 कनेक्शन और सेटअप समस्याएं ठीक करें"
 description: "MT5 कनेक्ट नहीं हो रहा, अकाउंट प्रोविज़न नहीं हो पा रहा, या कोई सिंबल नहीं दिख रहा? यहां WolfBot Community में असली MT5 कनेक्शन और सेटअप एरर, और हर एक के लिए ठीक-ठीक क्या चेक करें, दिए गए हैं।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # MT5 समस्या निवारण
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

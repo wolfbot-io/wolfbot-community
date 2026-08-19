@@ -1,7 +1,7 @@
 ---
 title: "为什么可验证的结果很重要"
 description: "任何人都能截一张盈利的交易图。可验证的结果——签名发布、公开校验和、非托管访问——才是真正能让你信任交易软件的东西。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-verifiable-results-matter"
 
 # 为什么可验证的结果很重要
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

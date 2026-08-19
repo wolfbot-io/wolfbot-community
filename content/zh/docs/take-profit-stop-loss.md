@@ -1,7 +1,7 @@
 ---
 title: "止盈和止损 —— 保护每一笔交易的两个订单"
 description: "止盈(TP)和止损(SL)是决定你能赚多少、会亏多少的两个订单。以下是 WolfBot Community 如何自动为你设置它们,以及如何调整它们。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # 止盈和止损
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

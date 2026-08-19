@@ -1,7 +1,7 @@
 ---
 title: "Kết nối MT5 với WolfBot Community — Từng bước"
 description: "WolfBot Community đi kèm MT5 — giao dịch Forex, Vàng, Chỉ số và Stocks/CFDs trên Windows hoặc Linux, không cần máy Windows riêng. Hướng dẫn kết nối từng bước."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -17,7 +17,7 @@ sitemap_priority: 0.80
 
 # Kết nối MT5 với WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-12
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-12
 
 **Trạng thái hỗ trợ MT5:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅ · Windows ✅ · Linux ✅
 

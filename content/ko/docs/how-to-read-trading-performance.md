@@ -1,7 +1,7 @@
 ---
 title: "거래 성과를 책임감 있게 읽는 방법"
 description: "거래 성과를 올바르게 평가하는 방법 배우기: 수익률, 드로다운, 승률, 위험. 헤드라인 숫자에 속지 마세요."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/how-to-read-trading-performance"
 
 # 거래 성과를 책임감 있게 읽는 방법
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 헤드라인 함정
 

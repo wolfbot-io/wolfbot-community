@@ -1,7 +1,7 @@
 ---
 title: "VPS पर WolfBot Community को 24/7 चलाएँ — अपने ही सर्वर पर सेल्फ-होस्टेड ट्रेडिंग"
 description: "Ubuntu VPS पर WolfBot Community को चौबीसों घंटे चलाएँ। .deb इंस्टॉल करें, SSH टनल से अपना डैशबोर्ड निजी रखें, सर्वर पर बैकअप लें, और नॉन-कस्टोडियल तरीके से ट्रेड करें।"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -24,7 +24,7 @@ translation_of: "docs/run-24-7-on-a-vps"
 
 # VPS पर WolfBot Community को 24/7 चलाएँ
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15 · Ubuntu 22.04 / 24.04
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15 · Ubuntu 22.04 / 24.04
 
 ## यह गाइड किसके लिए है
 

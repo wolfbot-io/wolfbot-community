@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 更新指南 —— 自动更新与版本渠道"
 description: "WolfBot Community 的更新机制是怎样的。稳定版、Beta 版和开发预览版渠道。让你的统一平台保持最新。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -17,7 +17,7 @@ translation_of: "docs/updates"
 
 # 更新 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
 
 ## 更新机制是怎样的
 

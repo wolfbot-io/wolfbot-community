@@ -1,7 +1,7 @@
 ---
 title: "External Signals — отправляйте рыночные сигналы в WolfBot Community из любого источника"
 description: "Подключите внешние торговые сигналы — алерты TradingView, кастомные webhook-и, сервисы сигналов — к вашему self-hosted боту WolfBot Community через один подписанный, защищённый риском конвейер."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 platforms: ["windows", "linux"]
 category: "automation"
 difficulty: "intermediate"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # External Signals
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

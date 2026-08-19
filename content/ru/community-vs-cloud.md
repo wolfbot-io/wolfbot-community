@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community против WolfBot Cloud — сравнение"
 description: "Сравните WolfBot Community (бесплатный self-hosted) и WolfBot Cloud (управляемый). Одна и та же единая торговая платформа, те же рынки — разный хостинг."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"

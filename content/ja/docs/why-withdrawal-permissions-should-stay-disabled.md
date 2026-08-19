@@ -1,7 +1,7 @@
 ---
 title: "出金権限を無効のままにしておくべき理由 — 侵害された鍵から資金を守る"
 description: "Trade-only API キーは出金を無効のままにしておくためのものです。出金が有効な鍵が、侵害された取引所鍵を盗まれた残高に変えてしまう主な原因である理由と、自分の鍵を確認する方法を解説します。"
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-withdrawal-permissions-should-stay-disabled"
 
 # 出金権限を無効のままにしておくべき理由
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
 
 ## 一行で答えると
 

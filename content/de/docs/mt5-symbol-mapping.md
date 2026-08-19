@@ -1,7 +1,7 @@
 ---
 title: "MT5 Symbol-Mapping — Wie WolfBot Community Symbole zwischen MT5 und Krypto-Börsen routet"
 description: "MT5 verwendet USD-notierte Symbole (wie BTCUSD oder XAUUSD), während Krypto-Börsen USDT-Paare verwenden (BTCUSDT). Hier erfährst du genau, wie WolfBot Community sie mappt, damit ein Signal über MT5, Binance, Bybit und BingX hinweg funktioniert — ohne manuelles Umbenennen."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # MT5 Symbol-Mapping
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

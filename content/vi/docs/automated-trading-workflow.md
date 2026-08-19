@@ -1,7 +1,7 @@
 ---
 title: "Giao dịch tự động với WolfBot Community — Từ chiến lược đến khớp lệnh"
 description: "Cách giao dịch tự động hoạt động trong WolfBot Community: cấu hình bot, chọn mẫu chiến lược, thử trên tài khoản Demo, và để cùng một bộ máy rủi ro bảo vệ mọi lệnh tự động trên crypto và MT5."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -23,7 +23,7 @@ sitemap_priority: 0.80
 
 # Giao dịch tự động với WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

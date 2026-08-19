@@ -1,7 +1,7 @@
 ---
 title: "Guia de Chave de API Somente-Negociação — Melhores Práticas de Segurança"
 description: "Como criar chaves de API seguras somente-negociação para o WolfBot Community. Nunca habilite permissões de saque. Guia para Binance, Bybit, BingX, KuCoin, Bitget."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ translation_of: "brokers/api-key-guide"
 
 # Guia de Chave de API Somente-Negociação
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
 
 ## Por Que Somente-Negociação?
 

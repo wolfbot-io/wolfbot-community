@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 업데이트 — Windows & Linux"
 description: "채널과 롤백을 포함해 Windows와 Linux에서 WolfBot Community를 최신 버전으로 업데이트하는 방법."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -18,7 +18,7 @@ translation_of: "docs/updates"
 
 # 업데이트
 
-**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 업데이트 방법
 

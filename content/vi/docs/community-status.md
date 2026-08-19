@@ -1,7 +1,7 @@
 ---
 title: "Trạng thái WolfBot Community"
 description: "Trạng thái hiện tại của WolfBot Community — thị trường được hỗ trợ, khả dụng nền tảng, vấn đề đã biết, và lộ trình."
-tested_version: "0.1.0-p12-ghcr-rc17"
+tested_version: "0.1.0-p12-ghcr-rc19"
 last_updated: "2026-08-11"
 category: "status"
 difficulty: "beginner"
@@ -60,7 +60,7 @@ sitemap_priority: 0.60
 
 ## Phiên bản hiện tại
 
-- **Public Preview mới nhất:** v0.1.0-p12-ghcr-rc17
+- **Public Preview mới nhất:** v0.1.0-p12-ghcr-rc19
 - **Kênh:** Public Preview (Beta)
 - **Ngày phát hành:** 2026-08-11
 
