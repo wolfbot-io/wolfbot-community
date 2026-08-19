@@ -109,6 +109,21 @@ sudo apt install ./WolfBot-Setup-linux-amd64.deb
 Using `apt install ./file.deb` (rather than `dpkg -i`) resolves any missing
 dependencies automatically in one step.
 
+### Not on a Debian-based distro? Use the `.run` installer instead
+
+The [download page](/download) also offers a self-extracting `.run`
+installer — it doesn't need `apt`/`dpkg` at all, so it works on Linux
+distributions beyond Ubuntu/Debian too:
+
+```bash
+cd ~/Downloads
+chmod +x wolfbot-oneclick-*.run
+./wolfbot-oneclick-*.run
+```
+
+Both installers set up the exact same WolfBot Community stack — pick
+whichever fits your system; there's no functional difference afterward.
+
 Useful commands once installed:
 
 ```bash

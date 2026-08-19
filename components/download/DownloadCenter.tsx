@@ -18,8 +18,11 @@ const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc8 (Public Preview)'
 const RELEASE_DATE = '2026-08-12'
 const LINUX_DEB_SHA256 = 'b02ff9b4fb677ef354ad502ae5101e7256d3254126efa542c69d79d5d032f94c'
 const LINUX_DEB_SIZE_MB = '~83'
+const LINUX_RUN_SHA256 = '854fec030154381db45c6ee992a0f98520453693a696dcff2b17128650746de0'
+const LINUX_RUN_SIZE_MB = '~110'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-p12-ghcr-rc8.run`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -48,21 +51,43 @@ export function DownloadCenter() {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>AVAILABLE NOW</span>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Linux x64</h2>
           <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Ubuntu/Debian · v{RELEASE_VERSION_LABEL}</p>
-          <TrackedLink
-            href={LINUX_DEB_URL}
-            eventName="download_click"
-            eventParams={{ platform: 'linux', format: 'deb', release: RELEASE_TAG, location: 'download_page' }}
-            className="block text-center font-semibold px-6 py-3 rounded-xl accent-glow"
-            style={{ background: '#00C9E8', color: '#050C18' }}
-          >
-            Download .deb
-          </TrackedLink>
+          <p className="text-xs mb-3" style={{ color: '#94A3B8' }}>Two installer formats — pick whichever fits your system.</p>
+          <div className="grid grid-cols-2 gap-3">
+            <TrackedLink
+              href={LINUX_DEB_URL}
+              eventName="download_click"
+              eventParams={{ platform: 'linux', format: 'deb', release: RELEASE_TAG, location: 'download_page' }}
+              className="block text-center font-semibold px-4 py-3 rounded-xl accent-glow"
+              style={{ background: '#00C9E8', color: '#050C18' }}
+            >
+              Download .deb
+            </TrackedLink>
+            <TrackedLink
+              href={LINUX_RUN_URL}
+              eventName="download_click"
+              eventParams={{ platform: 'linux', format: 'run', release: RELEASE_TAG, location: 'download_page' }}
+              className="block text-center font-semibold px-4 py-3 rounded-xl border"
+              style={{ borderColor: 'rgba(0,201,232,0.4)', color: '#67E8F9' }}
+            >
+              Download .run
+            </TrackedLink>
+          </div>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
             <p>Release channel: Public Preview</p>
-            <p>Released: {RELEASE_DATE} · {LINUX_DEB_SIZE_MB} MB</p>
+            <p>Released: {RELEASE_DATE}</p>
             <p>Signature: Signed release ✓</p>
+          </div>
+          <div className="mt-3 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
+            <p className="font-semibold" style={{ color: '#CBD5E1' }}>.deb — Debian/Ubuntu package ({LINUX_DEB_SIZE_MB} MB)</p>
+            <p>Installs via <code>apt</code>/<code>dpkg</code>; uses your system's package manager for updates.</p>
             <p>File: WolfBot-Setup-linux-amd64.deb</p>
             <p className="break-all">SHA256: {LINUX_DEB_SHA256}</p>
+          </div>
+          <div className="mt-3 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
+            <p className="font-semibold" style={{ color: '#CBD5E1' }}>.run — self-extracting installer ({LINUX_RUN_SIZE_MB} MB)</p>
+            <p>No <code>.deb</code> packaging required; works on more Linux distributions beyond Debian/Ubuntu.</p>
+            <p className="break-all">File: {LINUX_RUN_URL.split('/').pop()}</p>
+            <p className="break-all">SHA256: {LINUX_RUN_SHA256}</p>
           </div>
         </div>
       </div>
