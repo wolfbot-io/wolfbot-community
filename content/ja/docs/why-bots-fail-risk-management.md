@@ -1,7 +1,7 @@
 ---
 title: "ほとんどの取引ボットがリスク管理で失敗する理由"
 description: "取引ボットがお金を失う4つの一般的な方法 — そして WolfBot のリスク管理がそれぞれを防ぐ方法。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/why-bots-fail-risk-management"
 
 # ほとんどの取引ボットがリスク管理で失敗する理由
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
 
 ## 取引ボットに関する真実
 

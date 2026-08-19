@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs WolfBot Cloud — 비교"
 description: "WolfBot Community(무료, 셀프 호스팅)와 WolfBot Cloud(관리형)를 비교하세요. 동일한 통합 거래 플랫폼, 동일한 시장 — 호스팅만 다릅니다."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"

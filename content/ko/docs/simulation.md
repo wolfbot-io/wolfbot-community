@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community에서 데모 계정으로 시작하기"
 description: "WolfBot Community를 브로커 데모 계정으로 위험 없이 테스트하는 방법. 실제 자금을 걸지 않고 암호화폐 및 MT5 시장에서 실시간 데이터로 페이퍼 트레이딩하세요."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -18,7 +18,7 @@ translation_of: "docs/simulation"
 
 # 데모 계정으로 시작하기
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## WolfBot의 "Simulation"이란?
 

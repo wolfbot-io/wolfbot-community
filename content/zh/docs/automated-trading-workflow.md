@@ -1,7 +1,7 @@
 ---
 title: "使用 WolfBot Community 自动化交易 —— 从策略到执行"
 description: "WolfBot Community 中自动化交易的工作原理:配置一个机器人,选择策略模板,在模拟账户上测试,让同一个风控引擎保护每一笔自动化订单——覆盖加密货币和 MT5。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # 使用 WolfBot Community 自动化交易
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc8 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

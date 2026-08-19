@@ -1,7 +1,7 @@
 ---
 title: "Гайд по API-ключам только для торговли — лучшие практики безопасности"
 description: "Как создать безопасные API-ключи только для торговли в WolfBot Community. Никогда не включайте разрешение на вывод средств. Гайд для Binance, Bybit, BingX, KuCoin, Bitget."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ translation_of: "brokers/api-key-guide"
 
 # Гайд по API-ключам только для торговли
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc8** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
 
 ## Почему только для торговли?
 

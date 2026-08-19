@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community リリースチャネルの説明"
 description: "WolfBot Community のリリースチャネルを理解する: Stable, Beta, RC, Alpha, Dev Preview。正しいチャネルを選びましょう。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ translation_of: "releases/channels"
 
 # リリースチャネルの説明
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
 
 ## 利用可能なチャネル
 
@@ -92,7 +92,7 @@ WolfBot Community は現在 **Public Preview**(Beta 段階)です。
 
 ```text
 Stable: 未公開
-現在の公開バージョン: v0.1.0-p12-ghcr-rc8
+現在の公開バージョン: v0.1.0-p12-ghcr-rc17
 ```
 
 意味:
@@ -116,7 +116,7 @@ Stable: 未公開
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-p12-ghcr-rc8
+0.1.0-p12-ghcr-rc17
 │   │  │
 │   │  └── チャネル: beta, ビルド 2
 │   └───── マイナーバージョン (機能リリース)

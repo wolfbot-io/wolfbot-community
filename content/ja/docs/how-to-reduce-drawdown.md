@@ -1,7 +1,7 @@
 ---
 title: "取引ドローダウンを減らす方法"
 description: "取引戦略の最大ドローダウンを下げる実践的な手順 — ポジションサイズ、ストップ、分散、クールダウン。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # 取引ドローダウンを減らす方法
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
 
 ## ドローダウンとは?
 

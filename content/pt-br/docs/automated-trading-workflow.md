@@ -1,7 +1,7 @@
 ---
 title: "Trading Automatizado com o WolfBot Community — Da Estratégia à Execução"
 description: "Como funciona o trading automatizado no WolfBot Community: configure um bot, escolha um modelo de estratégia, teste em uma conta Demo, e deixe o mesmo motor de risco proteger cada ordem automatizada em cripto e MT5."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # Trading Automatizado com o WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc8** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

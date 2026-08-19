@@ -1,7 +1,7 @@
 ---
 title: "TradingView đến Bot tự lưu trữ — Kết nối Alert TradingView với WolfBot Community"
 description: "Gửi alert TradingView qua webhook thẳng tới bot WolfBot Community tự lưu trữ của bạn. Webhook URL, chữ ký HMAC và các template alert phân tầng hoạt động thế nào, và cách kiểm thử an toàn trên Simulation trước."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # TradingView đến Bot tự lưu trữ
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

@@ -1,7 +1,7 @@
 ---
 title: "출금 권한을 비활성화 상태로 유지해야 하는 이유 — 침해된 키로부터 자금을 보호하세요"
 description: "Trade-only API 키는 출금이 꺼져 있어야 합니다. 출금이 활성화된 키가 침해된 거래소 키를 도난당한 잔액으로 바꾸는 주된 방법인 이유와, 여러분의 키를 확인하는 방법을 알아보세요."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-withdrawal-permissions-should-stay-disabled"
 
 # 출금 권한을 비활성화 상태로 유지해야 하는 이유
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 한 줄 답변
 

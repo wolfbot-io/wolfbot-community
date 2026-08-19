@@ -1,7 +1,7 @@
 ---
 title: "MT5 自托管交易 —— 在自己的机器上运行 MetaTrader 5,而非租用服务器"
 description: "自托管 MT5 交易意味着在你自己掌控的地方运行 MetaTrader 5 终端——在你的电脑或你自己的 VPS 上,而不是单独租一台 Windows 服务器。以下是具体的区别以及为什么这很重要。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 platforms: ["linux", "windows"]
 category: "broker-setup"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-self-hosted-trading"
 
 # MT5 自托管交易
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc8 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

@@ -1,7 +1,7 @@
 ---
 title: "Запуск MT5 без Windows VPS — как WolfBot Community делает это на Linux"
 description: "MT5 обычно означает аренду Windows VPS только для поддержания терминала. WolfBot Community полностью это обходит — вот как именно работает Linux-мост MT5 и почему Windows-машина не нужна."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # Запуск MT5 без Windows VPS
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc8** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
 
 ## Для кого этот гайд
 

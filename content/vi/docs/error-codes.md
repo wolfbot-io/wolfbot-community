@@ -1,7 +1,7 @@
 ---
 title: "Mã lỗi WolfBot Community — Tra cứu nhanh cách sửa"
 description: "Toàn bộ mã lỗi WolfBot Community được giải thích: WB-WIN-001 đến WB-WIN-004 và WB-LNX-001 đến WB-LNX-002. Tìm chính xác cách sửa lỗi cài đặt hoặc khởi động."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ sitemap_priority: 0.80
 
 # Mã lỗi WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
 
 Một mã lỗi — một cách sửa. Mã lỗi cho biết chính xác việc hỏng, nên bạn không
 phải đoán. Tìm mã lỗi của bạn dưới đây, áp dụng cách sửa, rồi tiếp tục với

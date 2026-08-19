@@ -1,7 +1,7 @@
 ---
 title: "एक डेमो अकाउंट के साथ WolfBot Community शुरू करें"
 description: "जानें कि ब्रोकर डेमो अकाउंट के साथ WolfBot Community को जोखिम-मुक्त कैसे टेस्ट करें। असली फंड जोखिम में डाले बिना क्रिप्टो और MT5 मार्केट में असली मार्केट डेटा के खिलाफ पेपर-ट्रेड करें।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -25,7 +25,7 @@ translation_of: "docs/simulation"
 
 # एक डेमो अकाउंट के साथ शुरुआत करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc8** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
 
 ## WolfBot में "सिमुलेशन" क्या है?
 

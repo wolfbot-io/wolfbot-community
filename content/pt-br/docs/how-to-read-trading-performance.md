@@ -1,7 +1,7 @@
 ---
 title: "Como Interpretar a Performance de Trading com Responsabilidade"
 description: "Uma curva de capital com boa aparência pode esconder viés de sobrevivência, períodos de tempo escolhidos a dedo e drawdown não relatado. Veja como interpretar resultados de trading sem se enganar."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-read-trading-performance"
 
 # Como Interpretar a Performance de Trading com Responsabilidade
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc8** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc17** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

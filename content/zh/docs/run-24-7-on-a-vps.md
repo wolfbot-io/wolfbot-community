@@ -1,7 +1,7 @@
 ---
 title: "在 VPS 上 24/7 运行 WolfBot Community —— 在自己的服务器上自托管交易"
 description: "在一台 Ubuntu VPS 上全天候运行 WolfBot Community。安装 .deb 包,通过 SSH 隧道保护控制面板隐私,在服务器上做好备份,并保持非托管交易。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -24,7 +24,7 @@ translation_of: "docs/run-24-7-on-a-vps"
 
 # 在 VPS 上 24/7 运行 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc8 上测试** · 最后更新: 2026-08-15 · Ubuntu 22.04 / 24.04
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15 · Ubuntu 22.04 / 24.04
 
 ## 本指南适合谁
 

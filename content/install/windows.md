@@ -1,7 +1,7 @@
 ---
 title: "Install WolfBot Community on Windows — Step-by-Step"
 description: "How to install WolfBot Community on Windows 10 or Windows 11. Download Setup.exe, install in minutes, and start trading across crypto and MT5 markets."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-12"
 platforms: ["windows"]
 category: "install"
@@ -22,9 +22,9 @@ sitemap_priority: 0.9
 
 # Install WolfBot Community on Windows
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-12 · See availability note below
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc17** · Last updated: 2026-08-12 · See availability note below
 
-> ℹ️ **Availability:** the first public release (v0.1.0-p12-ghcr-rc8) ships the Linux installer. The Windows installer is documented here ahead of its follow-up release — check the [download page](/download) for the current status, and this guide will walk you through it the moment it's available.
+> ℹ️ **Availability:** the first public release (v0.1.0-p12-ghcr-rc17) ships the Linux installer. The Windows installer is documented here ahead of its follow-up release — check the [download page](/download) for the current status, and this guide will walk you through it the moment it's available.
 
 ## Who this guide is for
 

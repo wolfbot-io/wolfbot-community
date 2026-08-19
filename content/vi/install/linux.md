@@ -1,7 +1,7 @@
 ---
 title: "Cài đặt WolfBot Community trên Ubuntu/Linux — Từng bước"
 description: "Cách cài WolfBot Community trên Ubuntu 22.04, Ubuntu 24.04, hoặc Debian 12. Tải gói .deb và bắt đầu giao dịch trên thị trường crypto và MT5 — không cần dòng lệnh."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-12"
 platforms: ["linux"]
 category: "install"
@@ -25,7 +25,7 @@ sitemap_priority: 0.9
 
 # Cài đặt WolfBot Community trên Ubuntu/Linux
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-12 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-12 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
 
 ## Hướng dẫn này dành cho ai
 

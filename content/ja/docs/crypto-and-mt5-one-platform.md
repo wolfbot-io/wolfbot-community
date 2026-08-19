@@ -1,7 +1,7 @@
 ---
 title: "暗号通貨と MT5 を1つのプラットフォームで — 両方を1つの WolfBot インターフェースで"
 description: "暗号通貨先物と MT5 の FX・ゴールドを1つのセルフホスト型インターフェースに統合することが WolfBot Community 最大の強み — 両方の世界にまたがる1つのログイン、1つのリスクエンジン、1つのポートフォリオ。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # 暗号通貨と MT5 を1つのプラットフォームで
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

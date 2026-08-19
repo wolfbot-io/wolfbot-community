@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community のインストール (Linux)"
 description: "Linux に WolfBot Community をステップバイステップでインストールする方法 — システム要件、インストーラーおよび Docker オプション。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -17,7 +17,7 @@ translation_of: "install/linux"
 
 # Linux に WolfBot Community をインストール
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc17 でテスト済み** · 最終更新: 2026-08-15
 
 ## システム要件
 

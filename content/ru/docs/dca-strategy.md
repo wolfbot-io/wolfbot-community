@@ -1,7 +1,7 @@
 ---
 title: "Dollar-Cost Averaging (DCA) в WolfBot Community"
 description: "Dollar-cost averaging (DCA) разбивает позицию на меньшие входы вместо одной крупной покупки. Вот как WolfBot Community поддерживает DCA и как это вписывается в тот же risk engine, что и любой другой ордер."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/dca-strategy"
 
 # Dollar-Cost Averaging (DCA)
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc8** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-15
 
 ## Для кого этот гайд
 

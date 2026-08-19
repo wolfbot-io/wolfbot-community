@@ -1,7 +1,7 @@
 ---
 title: "仅限交易 API 密钥指南 —— 安全最佳实践"
 description: "如何为 WolfBot Community 创建安全的仅限交易 API 密钥。切勿开启提现权限。适用于 Binance、Bybit、BingX、KuCoin、Bitget 的操作指南。"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ translation_of: "brokers/api-key-guide"
 
 # 仅限交易 API 密钥指南
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc8 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc17 上测试** · 最后更新: 2026-08-15
 
 ## 为什么必须仅限交易?
 

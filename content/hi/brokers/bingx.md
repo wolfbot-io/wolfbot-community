@@ -1,7 +1,7 @@
 ---
 title: "BingX को WolfBot Community से कनेक्ट करें — चरण-दर-चरण"
 description: "BingX को WolfBot Community से कनेक्ट करें — ट्रेड-ओनली API कुंजियां बनाएं और Standard व Perpetual Futures पर ऑटोमेटेड ट्रेडिंग शुरू करें।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bingx"
 
 # BingX को WolfBot Community से कनेक्ट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc8** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
 
 **BingX सपोर्ट स्टेटस:** स्थिर · डेमो ✅ · लाइव ✅ · टर्मिनल ✅ · स्ट्रेटेजी ✅
 

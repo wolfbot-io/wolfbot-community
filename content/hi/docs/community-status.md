@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community स्टेटस"
 description: "WolfBot Community का वर्तमान स्टेटस — समर्थित मार्केट, प्लेटफ़ॉर्म उपलब्धता, ज्ञात समस्याएं, और रोडमैप।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 category: "status"
 difficulty: "beginner"
@@ -60,7 +60,7 @@ translation_of: "docs/community-status"
 
 ## वर्तमान संस्करण
 
-- **नवीनतम पब्लिक प्रीव्यू:** v0.1.0-p12-ghcr-rc8
+- **नवीनतम पब्लिक प्रीव्यू:** v0.1.0-p12-ghcr-rc17
 - **चैनल:** पब्लिक प्रीव्यू (Beta)
 - **रिलीज़ डेट:** 2026-08-11
 

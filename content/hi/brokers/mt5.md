@@ -1,7 +1,7 @@
 ---
 title: "MT5 को WolfBot Community से कनेक्ट करें — चरण-दर-चरण"
 description: "WolfBot Community में MT5 शामिल है — Windows या Linux पर फॉरेक्स, गोल्ड, इंडेक्स और स्टॉक्स/CFD ट्रेड करें, किसी अलग Windows मशीन की ज़रूरत नहीं। चरण-दर-चरण कनेक्ट गाइड।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -17,7 +17,7 @@ translation_of: "brokers/mt5"
 
 # MT5 को WolfBot Community से कनेक्ट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc8** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
 
 **MT5 सपोर्ट स्टेटस:** स्थिर · डेमो ✅ · लाइव ✅ · टर्मिनल ✅ · स्ट्रेटेजी ✅ · Windows ✅ · Linux ✅
 

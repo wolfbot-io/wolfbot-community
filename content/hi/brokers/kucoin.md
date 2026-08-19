@@ -1,7 +1,7 @@
 ---
 title: "KuCoin को WolfBot Community से कनेक्ट करें — चरण-दर-चरण"
 description: "KuCoin को WolfBot Community से कनेक्ट करें — पासफ़्रेज़ के साथ API कुंजियां बनाएं और Spot व Futures पर ऑटोमेटेड ट्रेडिंग शुरू करें।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
@@ -17,7 +17,7 @@ translation_of: "brokers/kucoin"
 
 # KuCoin को WolfBot Community से कनेक्ट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc8** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
 
 **KuCoin सपोर्ट स्टेटस:** स्थिर · डेमो ✅ · लाइव ✅ · टर्मिनल ✅ · स्ट्रेटेजी ✅
 

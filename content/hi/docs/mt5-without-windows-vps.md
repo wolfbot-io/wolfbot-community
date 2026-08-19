@@ -1,7 +1,7 @@
 ---
 title: "बिना Windows VPS के MT5 चलाएं — WolfBot Community Linux पर यह कैसे करता है"
 description: "MT5 का मतलब आमतौर पर सिर्फ़ एक टर्मिनल चलाए रखने के लिए Windows VPS किराए पर लेना होता है। WolfBot Community इसे पूरी तरह छोड़ देता है — यहां बताया गया है कि Linux MT5 ब्रिज ठीक कैसे काम करता है और कोई Windows मशीन क्यों ज़रूरी नहीं।"
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # बिना Windows VPS के MT5 चलाएं
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc8** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc17** · आखिरी अपडेट: 2026-08-15
 
 ## यह गाइड किसके लिए है
 

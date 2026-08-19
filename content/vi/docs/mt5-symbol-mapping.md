@@ -1,7 +1,7 @@
 ---
 title: "Ánh xạ symbol MT5 — Cách WolfBot Community định tuyến symbol giữa MT5 và sàn Crypto"
 description: "MT5 dùng symbol định giá theo USD (như BTCUSD hay XAUUSD) trong khi sàn crypto dùng cặp USDT (BTCUSDT). Đây là cách chính xác WolfBot Community ánh xạ chúng để một tín hiệu chạy xuyên suốt MT5, Binance, Bybit và BingX mà không cần đổi tay symbol."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ sitemap_priority: 0.75
 
 # Ánh xạ symbol MT5
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

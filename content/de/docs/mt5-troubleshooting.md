@@ -1,7 +1,7 @@
 ---
 title: "MT5-Fehlerbehebung — Häufige MT5-Verbindungs- und Einrichtungsprobleme in WolfBot Community beheben"
 description: "MT5 verbindet sich nicht, ein Konto kann nicht bereitgestellt werden, oder ein Symbol wird nicht angezeigt? Hier sind die konkreten MT5-Verbindungs- und Einrichtungsfehler in WolfBot Community und genau, was du für jeden davon prüfen solltest."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # MT5-Fehlerbehebung
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc8** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

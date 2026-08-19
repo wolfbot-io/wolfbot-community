@@ -1,7 +1,7 @@
 ---
 title: "MT5 auf Linux ohne Windows-VPS — erklärt"
 description: "So führt WolfBot Community MT5 auf Linux aus, ohne einen Windows-VPS zu benötigen. Handle Forex, Gold und CFDs direkt in deinem Browser."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # MT5 auf Linux ohne Windows-VPS
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc8** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die übliche Annahme
 

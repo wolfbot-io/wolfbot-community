@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only-API-Schlüssel-Guide — Best Practices für Sicherheit"
 description: "So erstellst du sichere Trade-Only-API-Schlüssel für WolfBot Community. Aktiviere niemals Abhebungsberechtigungen. Guide für Binance, Bybit, BingX, KuCoin, Bitget."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ translation_of: "brokers/api-key-guide"
 
 # Trade-Only-API-Schlüssel-Guide
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc8** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
 
 ## Warum Trade-Only?
 

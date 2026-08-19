@@ -1,7 +1,7 @@
 ---
 title: "다운로드한 트레이딩 봇을 검증하는 방법 — 설치하기 전에 확인하세요"
 description: "어떤 트레이딩 봇을 설치하기 전에, 그 소스와 파일을 검증하세요. 공식 릴리스, 다이제스트, 서명을 대조하여 검증되지 않은 트레이딩 소프트웨어를 절대 실행하지 않는 방법을 알려드립니다."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-verify-a-downloaded-trading-bot"
 
 # 다운로드한 트레이딩 봇을 검증하는 방법
 
-**WolfBot Community v0.1.0-p12-ghcr-rc8에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc17에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

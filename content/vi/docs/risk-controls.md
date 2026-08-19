@@ -1,7 +1,7 @@
 ---
 title: "Kiểm soát rủi ro WolfBot Community — Hướng dẫn đầy đủ"
 description: "Cấu hình kiểm soát rủi ro thống nhất trong WolfBot Community — giới hạn vị thế, bảo vệ drawdown, cooldown, và giới hạn lệnh hàng ngày áp dụng trên tất cả sàn crypto và broker MT5 đã kết nối."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ sitemap_priority: 0.85
 
 # Hướng dẫn kiểm soát rủi ro
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-11
 
 ## Vì sao kiểm soát rủi ro quan trọng
 

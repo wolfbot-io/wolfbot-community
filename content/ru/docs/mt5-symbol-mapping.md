@@ -1,7 +1,7 @@
 ---
 title: "Сопоставление символов MT5 — как WolfBot Community маршрутизирует символы между MT5 и криптобиржами"
 description: "MT5 использует символы, котируемые в USD (например, BTCUSD или XAUUSD), а криптобиржи используют пары USDT (BTCUSDT). Вот как именно WolfBot Community сопоставляет их, чтобы один сигнал работал одновременно в MT5, Binance, Bybit и BingX без ручной замены символов."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # Сопоставление символов MT5
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc8** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc17** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

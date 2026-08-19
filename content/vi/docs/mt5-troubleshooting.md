@@ -1,7 +1,7 @@
 ---
 title: "Khắc phục lỗi MT5 — Sửa các sự cố Kết nối và Thiết lập MT5 thường gặp trong WolfBot Community"
 description: "MT5 không kết nối, tài khoản không provision được, hay symbol không hiển thị? Dưới đây là các lỗi kết nối và thiết lập MT5 cụ thể trong WolfBot Community và chính xác cần kiểm tra gì cho từng lỗi."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ sitemap_priority: 0.75
 
 # Khắc phục lỗi MT5
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

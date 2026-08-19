@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit WolfBot Community"
 description: "Die ersten Schritte nach der Installation von WolfBot Community. Verbinde ein Demo-Konto, erkunde das Dashboard und füge deine Krypto-Börsen oder deinen MT5-Broker hinzu."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ translation_of: "getting-started"
 
 # Erste Schritte mit WolfBot Community
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc8** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc17** · Zuletzt aktualisiert: 2026-08-15
 
 ## Willkommen! 👋
 

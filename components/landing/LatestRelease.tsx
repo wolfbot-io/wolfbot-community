@@ -9,7 +9,7 @@ import { localizeHref } from '@/lib/localized-links'
 // Same reasoning as components/download/DownloadCenter.tsx: this release
 // is `prerelease: true`, so GitHub's `/releases/latest` alias never
 // matches it -- link the exact tag instead.
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc8'
+const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc17'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 
 // Dark theme per prototypes/figma-make design language.

@@ -1,7 +1,7 @@
 ---
 title: "Giao dịch MT5 tự lưu trữ — Chạy MetaTrader 5 trên máy của bạn, không phải đi thuê"
 description: "Giao dịch MT5 tự lưu trữ nghĩa là chạy terminal MetaTrader 5 nơi bạn kiểm soát — trên máy tính hoặc VPS của bạn — thay vì thuê một máy Windows riêng. Đây là điều thay đổi và vì sao nó quan trọng."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Giao dịch MT5 tự lưu trữ
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc8** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc17** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

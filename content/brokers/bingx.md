@@ -1,7 +1,7 @@
 ---
 title: "Connect BingX to WolfBot Community — Step-by-Step"
 description: "Connect BingX to WolfBot Community — create trade-only API keys and start automated trading on Standard and Perpetual Futures."
-tested_version: "0.1.0-p12-ghcr-rc8"
+tested_version: "0.1.0-p12-ghcr-rc17"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Connect BingX to WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc8** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc17** · Last updated: 2026-08-11
 
 **BingX support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
