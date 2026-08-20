@@ -5,7 +5,7 @@
   "description": "WolfBot Community — Free self-hosted trading automation website. Built with Next.js.",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run prebuild-content && next build",
+    "build": "npm run prebuild-content && next build && npm run fix-html-lang",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
@@ -13,8 +13,9 @@
     "rss": "tsx scripts/generate-rss.ts > public/rss.xml",
     "llms": "tsx scripts/generate-llms-txt.ts",
     "search-index": "tsx scripts/generate-search-index.ts",
+    "fix-html-lang": "tsx scripts/fix-html-lang.ts",
     "prebuild-content": "npm run sitemap && npm run rss && npm run llms && npm run search-index",
-    "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc8 --max-age 90",
+    "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc20 --max-age 90",
     "metrics": "python3 scripts/collect_github_metrics.py"
   },
   "dependencies": {
