@@ -1,7 +1,7 @@
 ---
 title: "Einheitliches Risiko vs. Risiko pro Bot — warum eine Risiko-Engine für den Handel über mehrere Märkte sicherer ist"
 description: "Separate Risikoregeln pro Bot lassen Lücken zwischen ihnen. Hier wird erklärt, wie WolfBot Communitys einzige einheitliche Risiko-Engine Krypto- und MT5-Positionen als ein Portfolio behandelt, und warum das einen verstreuten Drawdown verhindert."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # Einheitliches Risiko vs. Risiko pro Bot
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Read Trading Performance Responsibly"
 description: "A great-looking equity curve can hide survivorship bias, cherry-picked timeframes, and unreported drawdown. Here's how to read trading results without fooling yourself."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -22,7 +22,7 @@ sitemap_priority: 0.75
 
 # How to Read Trading Performance Responsibly
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-14
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-14
 
 ## Who this guide is for
 

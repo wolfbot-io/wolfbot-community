@@ -1,7 +1,7 @@
 ---
 title: "統合リスク vs ボットごとのリスク — マルチマーケット取引に単一のリスクエンジンが安全な理由"
 description: "ボットごとに個別のリスクルールを運用すると、それらの間に隙間ができます。WolfBot Community の単一の統合リスクエンジンが暗号通貨と MT5 のポジションを1つのポートフォリオとして扱う仕組みと、それが分散したドローダウンを防ぐ理由を解説します。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # 統合リスク vs ボットごとのリスク
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

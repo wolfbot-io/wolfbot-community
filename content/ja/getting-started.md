@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community を始める"
 description: "WolfBot Community をインストールし、ブローカーを接続して、暗号通貨・先物・MT5 市場を1つのプラットフォームで自動取引する方法を学びます。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ translation_of: "getting-started"
 
 # WolfBot Community を始める
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-15
 
 ## WolfBot Community とは?
 

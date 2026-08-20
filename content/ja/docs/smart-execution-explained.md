@@ -1,7 +1,7 @@
 ---
 title: "スマート実行の解説 — WolfBot Community がシグナルを安全にルーティングされた注文に変える仕組み"
 description: "スマート実行は、シグナルをミスなく実際の注文に変えるステップです。注文が発注される直前に、シンボル解決・取引所ルーティング・リスクガードがどのように連携するかを解説します。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -24,7 +24,7 @@ translation_of: "docs/smart-execution-explained"
 
 # スマート実行の解説
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

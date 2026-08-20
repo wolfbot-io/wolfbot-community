@@ -1,7 +1,7 @@
 ---
 title: "ट्रेडिंग में ड्रॉडाउन कैसे कम करें"
 description: "ड्रॉडाउन अनिवार्य है — लेकिन यह कितना गहरा जाता है, यह आपके नियंत्रण में है। WolfBot Community में पोज़िशन साइज़िंग, नुकसान सीमा, और कूलडाउन के साथ ड्रॉडाउन सीमित करने की एक व्यावहारिक गाइड।"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # ट्रेडिंग में ड्रॉडाउन कैसे कम करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-15
 
 ## यह गाइड किसके लिए है
 

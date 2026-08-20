@@ -1,7 +1,7 @@
 ---
 title: "Backup & Restore in WolfBot Community"
 description: "So sicherst und stellst du deine WolfBot Community-Konfiguration, Konten und Einstellungen unter Windows und Linux wieder her."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # Backup & Restore
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
 
 ## Was ist gesichert?
 

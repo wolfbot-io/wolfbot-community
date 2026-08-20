@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Backup & Restore — Data Protection Guide"
 description: "How to backup and restore WolfBot Community — protect your unified platform configuration and trading data."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -16,7 +16,7 @@ sitemap_priority: 0.80
 
 # Backup & Restore Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-12
 
 ## Why Backup?
 

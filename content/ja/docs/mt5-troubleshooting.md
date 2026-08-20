@@ -1,7 +1,7 @@
 ---
 title: "MT5 トラブルシューティング — WolfBot Community でよくある MT5 の接続・設定問題を解決"
 description: "MT5 が接続できない、口座がプロビジョニングできない、シンボルが表示されない場合は? WolfBot Community で実際に発生する MT5 接続・設定エラーと、それぞれで確認すべきことを具体的に解説します。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # MT5 トラブルシューティング
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

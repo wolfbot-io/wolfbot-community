@@ -1,7 +1,7 @@
 ---
 title: "将 BingX 连接到 WolfBot Community —— 分步指南"
 description: "将 BingX 连接到 WolfBot Community —— 创建仅限交易的 API 密钥,开始在标准合约和永续合约上自动化交易。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bingx"
 
 # 将 BingX 连接到 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-15
 
 **BingX 支持状态:** 稳定 · 模拟 ✅ · 实盘 ✅ · 终端 ✅ · 策略 ✅
 

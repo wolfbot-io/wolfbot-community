@@ -1,7 +1,7 @@
 ---
 title: "Начало работы с WolfBot Community"
 description: "Первые шаги после установки WolfBot Community. Подключите демо-счёт, изучите панель управления и добавьте свои криптобиржи или брокера MT5."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ translation_of: "getting-started"
 
 # Начало работы с WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-15
 
 ## Добро пожаловать! 👋
 

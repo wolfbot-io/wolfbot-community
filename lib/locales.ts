@@ -27,7 +27,7 @@ export interface LocaleConfig {
   /** Small UI microcopy dictionary used by the content-page chrome
    *  (frontmatter banner + "next step" label). Each is a short label;
    *  `testedWith` is concatenated directly with the version string
-   *  (e.g. "テスト済みバージョン: v" + "0.1.0-p12-ghcr-rc19"), so every
+   *  (e.g. "テスト済みバージョン: v" + "0.1.0-p12-ghcr-rc20"), so every
    *  locale's phrasing was chosen to read naturally as a prefix. */
   ui: {
     testedWith: string

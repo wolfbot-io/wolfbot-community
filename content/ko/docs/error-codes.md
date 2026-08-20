@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 오류 코드 — 빠른 해결 참조"
 description: "모든 WolfBot Community 오류 코드 설명: WB-WIN-001부터 WB-WIN-004, WB-LNX-001부터 WB-LNX-002까지. 설치 또는 시작 오류에 대한 정확한 해결 방법을 찾아보세요."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ translation_of: "docs/error-codes"
 
 # WolfBot Community 오류 코드
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 코드 하나에 해결책 하나. 오류 코드는 무엇이 실패했는지 정확히 알려주므로
 추측할 필요가 없습니다. 아래에서 코드를 찾아 해결책을 적용한 뒤, 문제가

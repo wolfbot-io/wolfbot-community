@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community रिलीज़ चैनल समझाए गए"
 description: "WolfBot Community रिलीज़ चैनल समझें: Stable, Beta, RC, Alpha, और Dev Preview। सही चैनल चुनें।"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ translation_of: "releases/channels"
 
 # रिलीज़ चैनल समझाए गए
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-15
 
 ## उपलब्ध चैनल
 
@@ -93,7 +93,7 @@ WolfBot Community फिलहाल **Public Preview** (Beta चरण) मे�
 
 ```text
 Stable: अभी रिलीज़ नहीं हुआ
-वर्तमान सार्वजनिक: v0.1.0-p12-ghcr-rc19
+वर्तमान सार्वजनिक: v0.1.0-p12-ghcr-rc20
 ```
 
 इसका मतलब है:
@@ -121,7 +121,7 @@ Dev Preview बिल्ड लें; इंस्टॉलर किसी भ
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-p12-ghcr-rc19
+0.1.0-p12-ghcr-rc20
 │   │  │
 │   │  └── चैनल: beta, बिल्ड 2
 │   └───── माइनर वर्ज़न (फीचर रिलीज़)

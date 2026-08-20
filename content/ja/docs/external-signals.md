@@ -1,7 +1,7 @@
 ---
 title: "外部シグナル — あらゆるソースから WolfBot Community に市場シグナルを送信"
 description: "TradingView アラート・カスタム Webhook・シグナルサービスなどの外部取引シグナルを、1つの署名付きリスクゲート型パイプラインを通じてセルフホストの WolfBot Community ボットに配線します。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # 外部シグナル
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

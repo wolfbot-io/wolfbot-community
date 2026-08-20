@@ -1,7 +1,7 @@
 ---
 title: "One Portfolio Across Exchanges and MT5 — See Every Position in a Single View"
 description: "Instead of logging into each exchange, your whole portfolio — crypto and MT5 together — shows up in one self-hosted view. Here's what unified portfolio visibility does and why it changes how you manage risk."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -22,7 +22,7 @@ sitemap_priority: 0.8
 
 # One Portfolio Across Exchanges and MT5
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

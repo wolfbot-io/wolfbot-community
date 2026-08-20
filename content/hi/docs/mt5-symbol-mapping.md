@@ -1,7 +1,7 @@
 ---
 title: "MT5 सिंबल मैपिंग — WolfBot Community MT5 और क्रिप्टो एक्सचेंज के बीच सिंबल कैसे रूट करता है"
 description: "MT5 USD-कोटेड सिंबल इस्तेमाल करता है (जैसे BTCUSD या XAUUSD) जबकि क्रिप्टो एक्सचेंज USDT पेयर इस्तेमाल करते हैं (BTCUSDT)। यहां ठीक-ठीक बताया गया है कि WolfBot Community इन्हें कैसे मैप करता है ताकि एक ही सिग्नल बिना मैनुअल री-सिंबलिंग के MT5, Binance, Bybit और BingX पर काम करे।"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # MT5 सिंबल मैपिंग
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

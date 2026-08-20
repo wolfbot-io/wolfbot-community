@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs WolfBot Cloud — Comparação"
 description: "Compare o WolfBot Community (self-hosted gratuito) e o WolfBot Cloud (gerenciado). Mesma plataforma de trading unificada, mesmos mercados — hospedagem diferente."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"

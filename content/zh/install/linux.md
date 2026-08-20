@@ -1,7 +1,7 @@
 ---
 title: "在 Ubuntu/Linux 上安装 WolfBot Community —— 分步指南"
 description: "如何在 Ubuntu 22.04、Ubuntu 24.04 或 Debian 12 上安装 WolfBot Community。下载 .deb 安装包,开始在加密货币和 MT5 市场交易——无需命令行。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -25,7 +25,7 @@ translation_of: "install/linux"
 
 # 在 Ubuntu/Linux 上安装 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-15 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
 
 ## 本指南适合谁
 

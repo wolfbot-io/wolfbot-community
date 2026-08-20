@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 错误代码 —— 快速修复参考"
 description: "WolfBot Community 全部错误代码说明:WB-WIN-001 到 WB-WIN-004,以及 WB-LNX-001 到 WB-LNX-002。查找你遇到的安装或启动错误的确切修复方法。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ translation_of: "docs/error-codes"
 
 # WolfBot Community 错误代码
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-18
 
 一个代码对应一个修复方法。错误代码会准确告诉你哪里出了问题,你不需要靠猜。在下方找到你的代码,应用对应的修复方法;如果问题仍未解决,再查阅[完整的故障排查指南](/docs/troubleshooting)。
 

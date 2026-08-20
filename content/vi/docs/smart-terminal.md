@@ -1,7 +1,7 @@
 ---
 title: "Smart Terminal của WolfBot Community — Hướng dẫn giao dịch thủ công"
 description: "Cách dùng Smart Terminal của WolfBot Community để giao dịch thủ công. Đặt lệnh với kiểm soát rủi ro tự động trên tất cả sàn crypto và broker MT5 đã kết nối."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ sitemap_priority: 0.85
 
 # Hướng dẫn Smart Terminal
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-11
 
 ## Smart Terminal là gì?
 

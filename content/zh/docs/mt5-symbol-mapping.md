@@ -1,7 +1,7 @@
 ---
 title: "MT5 交易品种映射 —— WolfBot Community 如何在 MT5 和加密货币交易所之间路由交易品种"
 description: "MT5 使用以 USD 计价的交易品种(如 BTCUSD 或 XAUUSD),而加密货币交易所使用 USDT 交易对(BTCUSDT)。以下是 WolfBot Community 如何精确地对它们进行映射,让一个信号能够在 MT5、Binance、Bybit 和 BingX 之间通用,而无需手动改写交易品种名称。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 platforms: ["linux", "windows"]
 category: "broker-setup"
 difficulty: "intermediate"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # MT5 交易品种映射
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

@@ -1,7 +1,7 @@
 ---
 title: "Chạy WolfBot Community 24/7 trên VPS — Giao dịch tự host trên máy chủ của riêng bạn"
 description: "Chạy WolfBot Community liên tục 24/7 trên một VPS Ubuntu. Cài gói .deb, giữ dashboard riêng tư bằng SSH tunnel, sao lưu trên máy chủ, và giao dịch phi tập trung (non-custodial)."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-14"
 platforms: ["linux"]
 category: "install"
@@ -24,7 +24,7 @@ sitemap_priority: 0.85
 
 # Chạy WolfBot Community 24/7 trên VPS
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-14 · Ubuntu 22.04 / 24.04
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-14 · Ubuntu 22.04 / 24.04
 
 ## Hướng dẫn này dành cho ai
 

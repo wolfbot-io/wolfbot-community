@@ -1,7 +1,7 @@
 ---
 title: "커뮤니티 상태 — 활발한 개발 현황"
 description: "WolfBot Community 프로젝트의 현재 상태: 버전, 플랫폼 지원, 공개 채널, 그리고 다음에 올 것."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "community"
@@ -17,7 +17,7 @@ translation_of: "docs/community-status"
 
 # 커뮤니티 상태
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 현재 상태
 
@@ -25,7 +25,7 @@ WolfBot Community는 **Public Preview**(Beta 단계)입니다.
 
 | 영역 | 상태 |
 |---|---|
-| **현재 버전** | v0.1.0-p12-ghcr-rc19 |
+| **현재 버전** | v0.1.0-p12-ghcr-rc20 |
 | **Windows** | ✅ 사용 가능 |
 | **Linux** | ✅ 사용 가능 |
 | **암호화폐 거래** | ✅ 사용 가능 |
@@ -91,7 +91,7 @@ WolfBot Community는 오픈 개발입니다:
 
 ## 버전 기록
 
-### v0.1.0-p12-ghcr-rc19 (현재)
+### v0.1.0-p12-ghcr-rc20 (현재)
 - 공개 프리뷰 릴리스
 - 통합 암호화폐 + MT5 플랫폼
 - Smart Terminal 및 리스크 관리

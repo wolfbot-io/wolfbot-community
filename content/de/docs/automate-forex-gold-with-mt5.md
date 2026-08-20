@@ -1,7 +1,7 @@
 ---
 title: "Forex & Gold mit MT5 automatisieren — Gold-, FX- und Rohstoffstrategien self-hosted betreiben"
 description: "Automatisiere Forex-, Gold- und Rohstoff-CFD-Strategien mit MT5 auf deiner eigenen Maschine oder einem VPS, Seite an Seite mit Krypto — dieselbe WolfBot-Oberfläche, einheitliches Risiko und ein Portfolio."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # Forex & Gold mit MT5 automatisieren
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

@@ -1,7 +1,7 @@
 ---
 title: "Externe Signale — Marktsignale aus beliebigen Quellen in WolfBot Community einspeisen"
 description: "Verbinde externe Handelssignale — TradingView-Alerts, individuelle Webhooks, Signaldienste — über eine signierte, risikokontrollierte Pipeline mit deinem self-hosted WolfBot-Community-Bot."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # Externe Signale
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc19** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

@@ -1,7 +1,7 @@
 ---
 title: "Take-Profit and Stop-Loss — The Two Orders That Protect Every Trade"
 description: "Take-profit (TP) and stop-loss (SL) are the two orders that decide how much you win and how much you can lose. Here's how WolfBot Community places them automatically and how to tune them."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -22,7 +22,7 @@ sitemap_priority: 0.80
 
 # Take-Profit and Stop-Loss
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-14
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-14
 
 ## Who this guide is for
 

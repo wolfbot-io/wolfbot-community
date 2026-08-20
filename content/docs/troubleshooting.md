@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Troubleshooting — Common Problems & Solutions"
 description: "Fix common WolfBot Community issues. Installation errors, market connection problems, update failures, and error codes."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -14,7 +14,7 @@ sitemap_priority: 0.80
 
 # Troubleshooting Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-11
 
 ## Quick Diagnostic
 

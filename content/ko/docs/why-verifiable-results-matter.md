@@ -1,7 +1,7 @@
 ---
 title: "거래에서 검증 가능한 결과가 중요한 이유"
 description: "검증되지 않은 거래 성과 주장을 절대 믿지 말아야 하는 이유와 WolfBot이 모든 포지션, 모든 시장에서 결과를 위조 불가능하게 만드는 방법."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/why-verifiable-results-matter"
 
 # 검증 가능한 결과가 중요한 이유
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 문제
 

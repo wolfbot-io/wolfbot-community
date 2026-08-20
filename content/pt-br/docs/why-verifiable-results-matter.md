@@ -1,7 +1,7 @@
 ---
 title: "Por Que Resultados Verificáveis Importam"
 description: "Qualquer um pode tirar um print de uma operação vencedora. Resultados verificáveis — releases assinados, checksums publicados e acesso não-custodial — são o que realmente permite confiar em um software de trading."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-verifiable-results-matter"
 
 # Por Que Resultados Verificáveis Importam
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc19** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

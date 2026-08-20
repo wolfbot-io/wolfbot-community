@@ -1,7 +1,7 @@
 ---
 title: "Why Withdrawal Permissions Should Stay Disabled — Protect Your Funds from a Compromised Key"
 description: "Trade-only API keys are meant to leave withdrawals turned off. Here's why a withdrawal-enabled key is the main way a compromised exchange key becomes a stolen balance, and how to check yours."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "security"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # Why Withdrawal Permissions Should Stay Disabled
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-16
 
 ## The one-line answer
 

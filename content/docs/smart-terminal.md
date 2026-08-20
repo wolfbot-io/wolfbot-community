@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Smart Terminal — Manual Trading Guide"
 description: "How to use the WolfBot Community Smart Terminal for manual trading. Place orders with automatic risk controls across all your connected crypto exchanges and MT5 brokers."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -16,7 +16,7 @@ sitemap_priority: 0.85
 
 # Smart Terminal Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-11
 
 ## What is the Smart Terminal?
 

@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only API Key Guide — Security Best Practices"
 description: "How to create secure trade-only API keys for WolfBot Community. Never enable withdrawal permissions. Guide for Binance, Bybit, BingX, KuCoin, Bitget."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -21,7 +21,7 @@ sitemap_priority: 0.80
 
 # Trade-Only API Key Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc19** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-11
 
 ## Why Trade-Only?
 

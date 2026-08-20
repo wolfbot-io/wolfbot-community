@@ -1,7 +1,7 @@
 ---
 title: "Vì sao hầu hết bot giao dịch thất bại trong quản trị rủi ro"
 description: "Hầu hết bot giao dịch thua tiền vì cùng vài lý do — không giới hạn kích thước vị thế, không bảo vệ drawdown, không cooldown. Đây là điều thực sự sai và cách một lớp rủi ro thống nhất khắc phục nó."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -23,7 +23,7 @@ sitemap_priority: 0.75
 
 # Vì sao hầu hết bot giao dịch thất bại trong quản trị rủi ro
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

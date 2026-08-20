@@ -10,7 +10,7 @@ import { localizeHref } from '@/lib/localized-links'
 // NOT `prerelease: true` (so the in-app updater's `/releases/latest` alias
 // dependency works) -- update RELEASE_TAG here on each new release since
 // this static export has no server-side lookup to do it dynamically.
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc19'
+const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc20'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 
 // Dark theme per prototypes/figma-make design language.

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 入门指南"
 description: "安装 WolfBot Community 后的第一步。连接模拟账户,浏览控制面板,添加你的加密货币交易所或 MT5 经纪商。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ translation_of: "getting-started"
 
 # WolfBot Community 入门指南
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc19 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-15
 
 ## 欢迎! 👋
 

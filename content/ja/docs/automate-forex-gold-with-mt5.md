@@ -1,7 +1,7 @@
 ---
 title: "MT5 で FX・ゴールドを自動化 — ゴールド・FX・コモディティ戦略をセルフホストで実行"
 description: "自分のマシンや VPS 上で、MT5 を使って FX・ゴールド・コモディティ CFD 戦略を暗号通貨と並行して自動化 — 同じ WolfBot インターフェース、統合リスク、1つのポートフォリオで。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # MT5 で FX・ゴールドを自動化
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

@@ -1,7 +1,7 @@
 ---
 title: "取引で検証可能な結果が重要な理由"
 description: "未検証の取引パフォーマンス主張を決して信じてはいけない理由と、WolfBot がすべてのポジション、すべての市場で結果を改ざん不可能にする方法。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/why-verifiable-results-matter"
 
 # 検証可能な結果が重要な理由
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-15
 
 ## 問題
 

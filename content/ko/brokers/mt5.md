@@ -1,7 +1,7 @@
 ---
 title: "MT5를 WolfBot Community에 연결 — 단계별"
 description: "WolfBot Community에는 MT5가 내장되어 있습니다 — 별도 Windows 머신 없이 Windows 또는 Linux에서 외환, 금, 지수, 주식/CFD를 거래하세요. 단계별 연결 가이드."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -17,7 +17,7 @@ translation_of: "brokers/mt5"
 
 # MT5를 WolfBot Community에 연결
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 **MT5 지원 상태:** 안정 · 데모 ✅ · 실계정 ✅ · 터미널 ✅ · 전략 ✅ · Windows ✅ · Linux ✅
 

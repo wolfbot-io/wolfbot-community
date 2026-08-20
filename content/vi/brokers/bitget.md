@@ -1,7 +1,7 @@
 ---
 title: "Kết nối Bitget với WolfBot Community — Từng bước"
 description: "Kết nối Bitget với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Spot và Futures."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
@@ -17,7 +17,7 @@ sitemap_priority: 0.80
 
 # Kết nối Bitget với WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-11
 
 **Trạng thái hỗ trợ Bitget:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 

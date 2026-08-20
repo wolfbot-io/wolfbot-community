@@ -1,7 +1,7 @@
 ---
 title: "MT5 シンボルマッピング — WolfBot Community が MT5 と暗号通貨取引所の間でシンボルをルーティングする仕組み"
 description: "MT5 は BTCUSD や XAUUSD のような USD 建てシンボルを使い、暗号通貨取引所は BTCUSDT のような USDT ペアを使います。WolfBot Community がこれらをマッピングし、手動でのシンボル変換なしに MT5・Binance・Bybit・BingX をまたいで1つのシグナルが機能する仕組みを正確に解説します。"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # MT5 シンボルマッピング
 
-**WolfBot Community v0.1.0-p12-ghcr-rc19 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

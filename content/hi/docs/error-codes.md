@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community एरर कोड — क्विक फिक्स संदर्भ"
 description: "हर WolfBot Community एरर कोड समझाया गया: WB-WIN-001 से WB-WIN-004 और WB-LNX-001 से WB-LNX-002 तक। अपने इंस्टॉलर या स्टार्टअप एरर का सटीक समाधान पाएं।"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ translation_of: "docs/error-codes"
 
 # WolfBot Community एरर कोड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-18
 
 एक कोड, एक समाधान। एरर कोड आपको ठीक-ठीक बताते हैं कि क्या फेल हुआ, ताकि आपको अंदाज़ा न लगाना पड़े। नीचे अपना कोड ढूंढें, उसका समाधान लागू करें, और अगर समस्या बनी रहे तो [पूरी समस्या निवारण गाइड](/docs/troubleshooting) के साथ आगे बढ़ें।
 

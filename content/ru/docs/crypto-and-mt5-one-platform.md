@@ -1,7 +1,7 @@
 ---
 title: "Крипто и MT5 на одной платформе — единый интерфейс WolfBot для обоих"
 description: "Почему объединение крипто-фьючерсов с Forex и золотом на MT5 в едином self-hosted интерфейсе — главное преимущество WolfBot Community: один вход, один risk engine, один портфель для обоих миров."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 platforms: ["windows", "linux"]
 category: "automation"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # Крипто и MT5 на одной платформе
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

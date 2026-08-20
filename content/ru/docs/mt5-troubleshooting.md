@@ -1,7 +1,7 @@
 ---
 title: "Решение проблем с MT5 — устраняем типичные ошибки подключения и настройки MT5 в WolfBot Community"
 description: "MT5 не подключается, счёт не удаётся подготовить, или символ не отображается? Вот конкретные ошибки подключения и настройки MT5 в WolfBot Community и что именно проверить для каждой из них."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # Решение проблем с MT5
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc19** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

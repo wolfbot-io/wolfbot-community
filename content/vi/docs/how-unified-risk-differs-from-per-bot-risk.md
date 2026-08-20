@@ -1,7 +1,7 @@
 ---
 title: "Rủi ro thống nhất vs Rủi ro theo bot — Vì sao một bộ máy rủi ro an toàn hơn cho giao dịch đa thị trường"
 description: "Chạy các quy tắc rủi ro riêng cho mỗi bot để lại khoảng trống giữa chúng. Bài này giải thích cách một bộ máy rủi ro thống nhất duy nhất của WolfBot Community coi crypto và MT5 là một danh mục, và vì sao nó chặn drawdown bị phân tán."
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Rủi ro thống nhất vs Rủi ro theo bot
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc19** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

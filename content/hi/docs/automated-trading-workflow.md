@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community के साथ ऑटोमेटेड ट्रेडिंग — रणनीति से एग्ज़ीक्यूशन तक"
 description: "WolfBot Community में ऑटोमेटेड ट्रेडिंग कैसे काम करती है: एक बॉट कॉन्फ़िगर करें, रणनीति टेम्पलेट चुनें, डेमो अकाउंट पर टेस्ट करें, और उसी रिस्क इंजन को crypto और MT5 पर हर ऑटोमेटेड ऑर्डर की रक्षा करने दें।"
-tested_version: "0.1.0-p12-ghcr-rc19"
+tested_version: "0.1.0-p12-ghcr-rc20"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # WolfBot Community के साथ ऑटोमेटेड ट्रेडिंग
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc19** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-15
 
 ## यह गाइड किसके लिए है
 
