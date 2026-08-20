@@ -18,10 +18,10 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc20'
 const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc20 (Public Preview)'
 const RELEASE_DATE = '2026-08-20'
-const LINUX_DEB_SHA256 = '29193535e9bda0c13f4d86589f438eb8992fe183f4eea8331984b8235ca59f55'
-const LINUX_DEB_SIZE_MB = '~85'
-const LINUX_RUN_SHA256 = 'fe5b3fe74dafe3099c4bffb2105980584b005a2f5309e6ee798f77ab5eca60c1'
-const LINUX_RUN_SIZE_MB = '~112'
+const LINUX_DEB_SHA256 = '49b5fc592aaa6ab0dcc7c1d5ff41e677f1a710bae5a7108f8703d4c3b4cf5073'
+const LINUX_DEB_SIZE_MB = '~86'
+const LINUX_RUN_SHA256 = 'c07b9142b93a415c4633c19220711746677c21ad15329fb4b9324187c2b0c973'
+const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
 const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-ghcr-rc20-0.1.0.run`
