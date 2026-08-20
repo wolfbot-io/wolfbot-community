@@ -3,16 +3,18 @@ import { TrackedLink } from '@/components/analytics/TrackedLink'
 import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice'
 
 // Real release info -- was `href="#"` on both buttons before (100% dead,
-// unrelated to draft/publish state). GitHub's `/releases/latest` alias
-// (and `/releases/latest/download/<file>`) only ever resolves to the most
-// recent release that is NEITHER a draft NOR a prerelease -- this release
-// is intentionally `prerelease: true` (Public Preview / dev-preview
-// channel), so `latest` would silently never match it even once
-// published. Link the exact tag instead; update RELEASE_TAG on each new
-// release (matches the existing per-page `tested_version` frontmatter
-// pattern already used elsewhere on this site -- this repo has no
-// server-side rendering to look this up dynamically, see next.config.mjs
-// output: 'export').
+// unrelated to draft/publish state). Releases are published as regular
+// (non-prerelease) GitHub Releases -- NOT `prerelease: true` -- specifically
+// so GitHub's `/releases/latest` alias resolves correctly. That alias is a
+// hard dependency of `core/local_runtime/update_checker.py` (the in-app
+// "check for updates" feature), which fetches the fixed URL
+// `releases/latest/download/wolfbot-release.json`; a prerelease-flagged
+// release is invisible to that alias and silently breaks update checks for
+// every install (found + fixed 2026-08-19). Update RELEASE_TAG here on each
+// new release too (matches the existing per-page `tested_version`
+// frontmatter pattern already used elsewhere on this site -- this repo has
+// no server-side rendering to look this up dynamically, see
+// next.config.mjs output: 'export').
 const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc19'
 const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc19 (Public Preview)'
 const RELEASE_DATE = '2026-08-19'

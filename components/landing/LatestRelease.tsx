@@ -6,9 +6,10 @@ import type { LocaleProps } from '@/components/landing/HomePageI18n'
 import type { HomeCopy } from '@/lib/home-page'
 import { localizeHref } from '@/lib/localized-links'
 
-// Same reasoning as components/download/DownloadCenter.tsx: this release
-// is `prerelease: true`, so GitHub's `/releases/latest` alias never
-// matches it -- link the exact tag instead.
+// Same reasoning as components/download/DownloadCenter.tsx: releases are
+// NOT `prerelease: true` (so the in-app updater's `/releases/latest` alias
+// dependency works) -- update RELEASE_TAG here on each new release since
+// this static export has no server-side lookup to do it dynamically.
 const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc19'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 
