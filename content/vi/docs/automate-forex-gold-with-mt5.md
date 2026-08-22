@@ -1,7 +1,7 @@
 ---
 title: "Tự động hóa Forex & Vàng với MT5 — Chạy chiến lược Vàng, FX và Hàng hóa tự lưu trữ"
 description: "Tự động hóa chiến lược Forex, Vàng và CFD hàng hóa với MT5 ngay trên máy hoặc VPS của bạn, cùng song song crypto — cùng giao diện WolfBot, một lớp rủi ro thống nhất và một danh mục."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Tự động hóa Forex & Vàng với MT5
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

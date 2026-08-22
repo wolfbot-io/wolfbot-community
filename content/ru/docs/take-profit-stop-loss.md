@@ -1,7 +1,7 @@
 ---
 title: "Take-Profit и Stop-Loss — два ордера, защищающие каждую сделку"
 description: "Take-profit (TP) и stop-loss (SL) — два ордера, решающие, сколько вы выигрываете и сколько можете потерять. Вот как WolfBot Community размещает их автоматически и как их настраивать."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # Take-Profit и Stop-Loss
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15
 
 ## Для кого этот гайд
 

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Fehlercodes — schnelle Referenz zur Behebung"
 description: "Jeder WolfBot-Community-Fehlercode erklärt: WB-WIN-001 bis WB-WIN-004 und WB-LNX-001 bis WB-LNX-002. Finde die genaue Lösung für deinen Installer- oder Startfehler."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ translation_of: "docs/error-codes"
 
 # WolfBot Community Fehlercodes
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-18
 
 Ein Code, eine Lösung. Fehlercodes sagen dir genau, was fehlgeschlagen ist, sodass du
 nicht raten musst. Finde deinen Code unten, wende die Lösung an und lies dann bei Bedarf

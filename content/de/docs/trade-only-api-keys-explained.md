@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only-API-Schlüssel erklärt"
 description: "Warum die Einstellung „Kein Withdrawal“ die wichtigste Sicherheitskontrolle beim Verbinden eines Trading-Bots ist und wie sie dein Kapital schützt."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -17,7 +17,7 @@ translation_of: "docs/trade-only-api-keys-explained"
 
 # Trade-Only-API-Schlüssel erklärt
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die wichtigste Sicherheitsentscheidung
 

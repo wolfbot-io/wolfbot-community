@@ -1,7 +1,7 @@
 ---
 title: "ダウンロードした取引ボットを検証する方法 — インストール前に確認すべきこと"
 description: "取引ボットをインストールする前に、ソースとファイルを検証しましょう。公式リリース・ダイジェスト・署名と照合してダウンロードを確認する方法を解説し、未検証の取引ソフトウェアを実行しないようにします。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-verify-a-downloaded-trading-bot"
 
 # ダウンロードした取引ボットを検証する方法
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

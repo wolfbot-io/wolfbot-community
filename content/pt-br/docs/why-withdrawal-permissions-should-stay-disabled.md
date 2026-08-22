@@ -1,7 +1,7 @@
 ---
 title: "Por Que as Permissões de Saque Devem Continuar Desativadas — Proteja Seus Fundos de uma Chave Comprometida"
 description: "Chaves de API somente-negociação devem manter os saques desativados. Veja por que uma chave com saque habilitado é a principal forma pela qual uma chave de exchange comprometida vira um saldo roubado, e como verificar a sua."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-withdrawal-permissions-should-stay-disabled"
 
 # Por Que as Permissões de Saque Devem Continuar Desativadas
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-18
 
 ## A resposta em uma linha
 

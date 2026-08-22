@@ -1,7 +1,7 @@
 ---
 title: "如何降低交易回撤"
 description: "回撤不可避免——但回撤有多深,是你可以控制的。一份关于用仓位控制、亏损限制和冷却机制来限制回撤的实操指南,基于 WolfBot Community。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # 如何降低交易回撤
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

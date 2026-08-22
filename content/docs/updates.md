@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Update Guide — Auto-Update & Channels"
 description: "How WolfBot Community updates work. Stable, Beta, and Dev Preview channels. Keep your unified platform current."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Update WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-12
 
 ## How Updates Work
 

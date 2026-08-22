@@ -1,7 +1,7 @@
 ---
 title: "TradingView 接入自托管交易机器人 —— 将 TradingView 提醒连接到 WolfBot Community"
 description: "把 TradingView 的提醒 Webhook 直接发送给你的自托管 WolfBot Community 机器人。了解 Webhook 网址、HMAC 签名和分级提醒模板的工作原理,以及如何先在模拟账户上安全测试。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 platforms: ["windows", "linux"]
 category: "automation"
 difficulty: "intermediate"
@@ -24,7 +24,7 @@ translation_of: "docs/tradingview"
 
 # TradingView 接入自托管交易机器人
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

@@ -1,7 +1,7 @@
 ---
 title: "Execução Inteligente Explicada — Como o WolfBot Community Transforma um Sinal em uma Ordem Roteada com Segurança"
 description: "Execução inteligente é o passo que transforma um sinal em uma ordem real sem erros. Veja como a resolução de símbolo, o roteamento de venue e as proteções de risco trabalham juntos bem antes de sua ordem ser colocada."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -24,7 +24,7 @@ translation_of: "docs/smart-execution-explained"
 
 # Execução Inteligente Explicada
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

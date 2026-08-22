@@ -1,7 +1,7 @@
 ---
 title: "대부분의 거래 봇이 리스크 관리에서 실패하는 이유"
 description: "거래 봇이 돈을 잃는 네 가지 흔한 방식 — 그리고 WolfBot의 리스크 관리가 각각을 방지하는 방법."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/why-bots-fail-risk-management"
 
 # 대부분의 거래 봇이 리스크 관리에서 실패하는 이유
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 거래 봇에 대한 진실
 

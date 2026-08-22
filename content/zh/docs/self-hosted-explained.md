@@ -1,7 +1,7 @@
 ---
 title: "自托管交易平台详解 —— 为什么要在自己的机器上运行 WolfBot"
 description: "什么是自托管统一交易平台?在自己的机器上运行 WolfBot Community 的优势:完全掌控、最大隐私、零成本——覆盖加密货币和 MT5 市场。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # 自托管交易平台详解
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc20 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-15
 
 ## "自托管"是什么意思?
 

@@ -1,7 +1,7 @@
 ---
 title: "테이크프로핏 & 스톱로스 설명"
 description: "테이크프로핏(TP)과 스톱로스(SL) 이해하기 — 거래에서 가장 중요한 두 가지 보호 메커니즘. 작동 방식과 WolfBot에서 설정하는 방법."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # 테이크프로핏 & 스톱로스 설명
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 거래에서 가장 중요한 두 가지 주문
 

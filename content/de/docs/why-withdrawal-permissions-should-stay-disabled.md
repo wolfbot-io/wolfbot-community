@@ -1,7 +1,7 @@
 ---
 title: "Warum Auszahlungsberechtigungen deaktiviert bleiben sollten — Schütze dein Guthaben vor einem kompromittierten Key"
 description: "Trade-only-API-Keys sind dafür gedacht, Auszahlungen deaktiviert zu lassen. Hier erfährst du, warum ein Key mit aktivierter Auszahlungsberechtigung der Hauptweg ist, wie ein kompromittierter Börsen-Key zu einem gestohlenen Guthaben wird, und wie du deinen prüfst."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/why-withdrawal-permissions-should-stay-disabled"
 
 # Warum Auszahlungsberechtigungen deaktiviert bleiben sollten
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-18
 
 ## Die Antwort in einem Satz
 

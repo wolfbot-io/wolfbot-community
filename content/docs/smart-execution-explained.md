@@ -1,7 +1,7 @@
 ---
 title: "Smart Execution Explained — How WolfBot Community Turns a Signal Into a Safely Routed Order"
 description: "Smart execution is the step that turns a signal into a real order without mistakes. Here's how symbol resolution, venue routing and risk guards work together right before your order is placed."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -22,7 +22,7 @@ sitemap_priority: 0.8
 
 # Smart Execution Explained
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

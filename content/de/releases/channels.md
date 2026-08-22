@@ -1,7 +1,7 @@
 ---
 title: "Release-Kanäle von WolfBot Community erklärt"
 description: "Verstehe die Release-Kanäle von WolfBot Community: Stable, Beta, RC, Alpha und Dev Preview. Wähle den richtigen Kanal."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ translation_of: "releases/channels"
 
 # Release-Kanäle erklärt
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
 
 ## Verfügbare Kanäle
 
@@ -92,7 +92,7 @@ WolfBot Community befindet sich derzeit in **Public Preview** (Beta-Phase).
 
 ```text
 Stable: noch nicht veröffentlicht
-Aktuelle öffentliche Version: v0.1.0-p12-ghcr-rc20
+Aktuelle öffentliche Version: v0.1.0-p12-ghcr-rc21
 ```
 
 Das bedeutet:
@@ -116,7 +116,7 @@ Beim Ausprobieren eines experimentelleren Kanals wird empfohlen, zuerst auf eine
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-p12-ghcr-rc20
+0.1.0-p12-ghcr-rc21
 │   │  │
 │   │  └── Kanal: beta, Build 2
 │   └───── Minor-Version (Feature-Releases)

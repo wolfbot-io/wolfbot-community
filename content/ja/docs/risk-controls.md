@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community リスク管理 — 完全ガイド"
 description: "WolfBot Community で統合リスク管理を構成 — ポジション上限、ドローダウン保護、クールダウン、1日の取引上限を接続したすべての暗号通貨取引所と MT5 ブローカーに適用します。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # リスク管理ガイド
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-15
 
 ## リスク管理が重要な理由
 

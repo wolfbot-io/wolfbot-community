@@ -1,7 +1,7 @@
 ---
 title: "Krypto und MT5 auf einer Plattform — eine WolfBot-Oberfläche für beides"
 description: "Warum die Kombination von Krypto-Futures mit MT5-Forex und -Gold in einer einzigen self-hosted Oberfläche der größte Vorteil von WolfBot Community ist — ein Login, eine Risiko-Engine, ein Portfolio über beide Welten."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # Krypto und MT5 auf einer Plattform
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

@@ -15,16 +15,16 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // frontmatter pattern already used elsewhere on this site -- this repo has
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc20'
-const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc20 (Public Preview)'
-const RELEASE_DATE = '2026-08-20'
-const LINUX_DEB_SHA256 = '49b5fc592aaa6ab0dcc7c1d5ff41e677f1a710bae5a7108f8703d4c3b4cf5073'
+const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc21'
+const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc21 (Public Preview)'
+const RELEASE_DATE = '2026-08-21'
+const LINUX_DEB_SHA256 = '256f7694a5e986b8ea7652503fac63206e06dbab2aaad8c8e5661b30b43daeb3'
 const LINUX_DEB_SIZE_MB = '~86'
-const LINUX_RUN_SHA256 = 'c07b9142b93a415c4633c19220711746677c21ad15329fb4b9324187c2b0c973'
+const LINUX_RUN_SHA256 = '7544b463db1d81653823a6f6a0f4143b3e4c9b4c4548b48cd3c583426bf2fa74'
 const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
-const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-ghcr-rc20-0.1.0.run`
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-ghcr-rc21-0.1.0.run`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {

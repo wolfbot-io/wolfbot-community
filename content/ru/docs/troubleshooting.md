@@ -1,7 +1,7 @@
 ---
 title: "Устранение неполадок WolfBot Community — частые проблемы и решения"
 description: "Исправление частых проблем WolfBot Community. Ошибки установки, проблемы подключения рынков, сбои обновлений и коды ошибок."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -16,7 +16,7 @@ translation_of: "docs/troubleshooting"
 
 # Гайд по устранению неполадок
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15
 
 ## Быстрая диагностика
 

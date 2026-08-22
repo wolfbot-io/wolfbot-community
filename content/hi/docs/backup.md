@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community बैकअप और रीस्टोर — डेटा सुरक्षा गाइड"
 description: "WolfBot Community को कैसे बैकअप और रीस्टोर करें — अपने यूनिफ़ाइड प्लेटफ़ॉर्म कॉन्फ़िगरेशन और ट्रेडिंग डेटा की सुरक्षा करें।"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # बैकअप और रीस्टोर गाइड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc21** · आखिरी अपडेट: 2026-08-15
 
 ## बैकअप क्यों करें?
 

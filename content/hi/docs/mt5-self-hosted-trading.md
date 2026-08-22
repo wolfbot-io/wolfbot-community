@@ -1,7 +1,7 @@
 ---
 title: "MT5 सेल्फ-होस्टेड ट्रेडिंग — MetaTrader 5 को अपनी मशीन पर चलाएं, किसी किराए की मशीन पर नहीं"
 description: "सेल्फ-होस्टेड MT5 ट्रेडिंग का मतलब है अपने MetaTrader 5 टर्मिनल को वहां चलाना जहां आपका पूरा नियंत्रण हो — अपने कंप्यूटर या अपने ही VPS पर — न कि किसी अलग विंडोज़ बॉक्स को किराए पर लेकर। यहां बताया गया है कि क्या बदलता है और यह क्यों मायने रखता है।"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-self-hosted-trading"
 
 # MT5 सेल्फ-होस्टेड ट्रेडिंग
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc21** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

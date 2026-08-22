@@ -1,7 +1,7 @@
 ---
 title: "Binance를 WolfBot Community에 연결 — 단계별"
 description: "Binance를 WolfBot Community에 연결 — Trade-Only API 키를 만들고 현물 및 선물 자동 거래를 시작하세요."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
@@ -17,7 +17,7 @@ translation_of: "brokers/binance"
 
 # Binance를 WolfBot Community에 연결
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 **Binance 지원 상태:** 안정 · 데모 ✅ · 실계정 ✅ · 터미널 ✅ · 전략 ✅
 

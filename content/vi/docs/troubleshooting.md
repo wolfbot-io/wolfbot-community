@@ -1,7 +1,7 @@
 ---
 title: "Khắc phục sự cố WolfBot Community — Vấn đề thường gặp & giải pháp"
 description: "Sửa các vấn đề thường gặp của WolfBot Community. Lỗi cài đặt, vấn đề kết nối thị trường, lỗi cập nhật, và mã lỗi."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -16,7 +16,7 @@ sitemap_priority: 0.80
 
 # Hướng dẫn khắc phục sự cố
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc20** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-11
 
 ## Chẩn đoán nhanh
 

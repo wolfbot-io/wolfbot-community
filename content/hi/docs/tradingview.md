@@ -1,7 +1,7 @@
 ---
 title: "TradingView से सेल्फ-होस्टेड ट्रेडिंग बॉट — TradingView अलर्ट को WolfBot Community से कनेक्ट करें"
 description: "TradingView अलर्ट वेबहुक को सीधे अपने सेल्फ-होस्टेड WolfBot Community बॉट पर भेजें। वेबहुक URL, HMAC सिग्नेचर और टियर्ड अलर्ट टेम्पलेट कैसे काम करते हैं, और पहले Simulation पर सुरक्षित तरीके से कैसे टेस्ट करें।"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/tradingview"
 
 # TradingView से सेल्फ-होस्टेड ट्रेडिंग बॉट
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc21** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

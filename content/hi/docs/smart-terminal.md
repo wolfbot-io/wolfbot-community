@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community स्मार्ट टर्मिनल — मैनुअल ट्रेडिंग गाइड"
 description: "मैनुअल ट्रेडिंग के लिए WolfBot Community स्मार्ट टर्मिनल कैसे इस्तेमाल करें। अपने सभी कनेक्टेड क्रिप्टो एक्सचेंज और MT5 ब्रोकर पर अपने आप रिस्क कंट्रोल के साथ ऑर्डर लगाएं।"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # स्मार्ट टर्मिनल गाइड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc20** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc21** · आखिरी अपडेट: 2026-08-15
 
 ## स्मार्ट टर्मिनल क्या है?
 

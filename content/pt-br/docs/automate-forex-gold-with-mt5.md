@@ -1,7 +1,7 @@
 ---
 title: "Automatize Forex e Ouro com MT5 — Rode Estratégias de Ouro, FX e Commodities Self-Hosted"
 description: "Automatize estratégias de Forex, Ouro e CFDs de commodities com o MT5 na sua própria máquina ou VPS, lado a lado com cripto — a mesma interface do WolfBot, risco unificado e um único portfólio."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # Automatize Forex e Ouro com MT5
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

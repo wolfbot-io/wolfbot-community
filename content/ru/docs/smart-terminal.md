@@ -1,7 +1,7 @@
 ---
 title: "Smart Terminal в WolfBot Community — гайд по ручной торговле"
 description: "Как использовать Smart Terminal WolfBot Community для ручной торговли. Размещайте ордера с автоматическими risk controls на всех подключённых криптобиржах и MT5-брокерах."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # Гайд по Smart Terminal
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15
 
 ## Что такое Smart Terminal?
 

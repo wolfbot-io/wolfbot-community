@@ -150,7 +150,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures and MT5 markets through one intelligent interface.',
     stripPublicPreview: 'PUBLIC PREVIEW',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 is available',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 is available',
     stripSeeRelease: 'See release →',
     heroBadge: 'WolfBot Community by WolfBot.io · Free & Self-Hosted',
     heroTitle1: 'Free Self-Hosted Trading Platform for Crypto, Futures & MT5',
@@ -317,7 +317,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Nền tảng giao dịch hợp nhất, tự lưu trữ, miễn phí dành cho Windows và Linux. Kết nối sàn crypto, futures và thị trường MT5 qua một giao diện thông minh duy nhất.',
     stripPublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 đã có sẵn',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 đã có sẵn',
     stripSeeRelease: 'Xem bản phát hành →',
     heroBadge: 'WolfBot Community by WolfBot.io · Miễn Phí & Tự Lưu Trữ',
     heroTitle1: 'Nền tảng giao dịch tự lưu trữ miễn phí cho Crypto, Futures & MT5',
@@ -483,7 +483,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       '适用于 Windows 和 Linux 的免费自托管统一交易平台。通过一个智能界面连接加密货币交易所、期货和 MT5 市场。',
     stripPublicPreview: '公开预览',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 现已可用',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 现已可用',
     stripSeeRelease: '查看发布 →',
     heroBadge: 'WolfBot Community by WolfBot.io · 免费与自托管',
     heroTitle1: '加密货币、期货和 MT5 的免费自托管交易平台',
@@ -649,7 +649,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Plataforma de trading unificada, gratuita e auto-hospedada para Windows e Linux. Conecte exchanges de cripto, futuros e mercados MT5 por meio de uma interface inteligente.',
     stripPublicPreview: 'PRÉVIA PÚBLICA',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 está disponível',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 está disponível',
     stripSeeRelease: 'Ver lançamento →',
     heroBadge: 'WolfBot Community by WolfBot.io · Grátis e Auto-Hospedado',
     heroTitle1: 'Plataforma de trading auto-hospedada e gratuita para Cripto, Futuros e MT5',
@@ -816,7 +816,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Бесплатная единая торговая платформа для Windows и Linux. Подключите криптобиржи, фьючерсы и рынки MT5 через один интеллектуальный интерфейс.',
     stripPublicPreview: 'ПУБЛИЧНАЯ ПРЕДПРОСМОТР',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 доступен',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 доступен',
     stripSeeRelease: 'Смотреть релиз →',
     heroBadge: 'WolfBot Community by WolfBot.io · Бесплатно и cамохостинг',
     heroTitle1: 'Бесплатная торговля с собственным хостингом для крипты, фьючерсов и MT5',
@@ -983,7 +983,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Kostenlose, selbstgehostete, einheitliche Trading-Plattform für Windows und Linux. Verbinden Sie Krypto-Börsen, Futures und MT5-Märkte über eine intelligente Oberfläche.',
     stripPublicPreview: 'PUBLIC PREVIEW',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 ist verfügbar',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 ist verfügbar',
     stripSeeRelease: 'Release ansehen →',
     heroBadge: 'WolfBot Community by WolfBot.io · Kostenlos & selbstgehostet',
     heroTitle1: 'Kostenlose selbst gehostete Trading-Plattform für Krypto, Futures & MT5',
@@ -1150,7 +1150,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Windows と Linux に対応した無料のセルフホスト型統合取引プラットフォーム。暗号資産取引所、先物、MT5市場をひとつのスマートなインターフェースで接続します。',
     stripPublicPreview: 'パブリックプレビュー',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 が利用可能になりました',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 が利用可能になりました',
     stripSeeRelease: 'リリースを見る →',
     heroBadge: 'WolfBot Community by WolfBot.io · 無料＆セルフホスト',
     heroTitle1: '暗号資産・先物・MT5の無料セルフホスト型トレーディングプラットフォーム',
@@ -1317,7 +1317,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Windows와 Linux를 위한 무료 자체 호스팅 통합 거래 플랫폼. 하나의 지능적인 인터페이스로 암호화폐 거래소, 선물, MT5 시장을 연결합니다.',
     stripPublicPreview: '공개 미리보기',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 사용 가능',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 사용 가능',
     stripSeeRelease: '릴리스 보기 →',
     heroBadge: 'WolfBot Community by WolfBot.io · 무료 및 자체 호스팅',
     heroTitle1: '암호화폐, 선물 및 MT5를 위한 무료 자체 호스팅 거래 플랫폼',
@@ -1483,7 +1483,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Windows और Linux के लिए मुफ़्त सेल्फ-होस्टेड एकीकृत ट्रेडिंग प्लेटफ़ॉर्म। एक स्मार्ट इंटरफ़ेस से क्रिप्टो एक्सचेंज, फ्यूचर्स और MT5 बाज़ारों को जोड़ें।',
     stripPublicPreview: 'सार्वजनिक प्रीव्यू',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc20 उपलब्ध है',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-p12-ghcr-rc21 उपलब्ध है',
     stripSeeRelease: 'रिलीज़ देखें →',
     heroBadge: 'WolfBot Community by WolfBot.io · निःशुल्क और सेल्फ-होस्टेड',
     heroTitle1: 'क्रिप्टो, फ़्यूचर्स और MT5 के लिए निःशुल्क सेल्फ-होस्टेड ट्रेडिंग प्लेटफ़ॉर्म',

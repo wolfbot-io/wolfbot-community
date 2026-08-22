@@ -1,7 +1,7 @@
 ---
 title: "Start WolfBot Community with a Demo Account"
 description: "Learn how to test WolfBot Community risk-free with a broker Demo account. Paper-trade against real market data across crypto and MT5 markets without risking real funds."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -23,7 +23,7 @@ sitemap_priority: 0.85
 
 # Start with a Demo Account
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc20** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-12
 
 ## What is "Simulation" in WolfBot?
 

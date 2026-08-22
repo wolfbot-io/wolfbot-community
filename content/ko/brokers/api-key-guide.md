@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only API 키 가이드 — 보안 모범 사례"
 description: "WolfBot Community를 위한 안전한 Trade-Only API 키를 만드는 방법. 출금 권한을 절대 활성화하지 마세요. Binance, Bybit, BingX, KuCoin, Bitget 가이드."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -17,7 +17,7 @@ translation_of: "brokers/api-key-guide"
 
 # Trade-Only API 키 가이드
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 왜 Trade-Only인가?
 

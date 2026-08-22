@@ -1,7 +1,7 @@
 ---
 title: "Take-Profit & Stop-Loss erklärt"
 description: "Verstehe Take-Profit (TP) und Stop-Loss (SL) — die zwei wichtigsten Schutzmechanismen im Trading. Wie sie funktionieren und wie du sie in WolfBot setzt."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/take-profit-stop-loss"
 
 # Take-Profit & Stop-Loss erklärt
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die zwei wichtigsten Orders im Trading
 

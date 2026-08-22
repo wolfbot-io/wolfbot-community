@@ -1,7 +1,7 @@
 ---
 title: "MT5 문제 해결 — WolfBot Community에서 흔한 MT5 연결 및 설정 문제 해결하기"
 description: "MT5가 연결되지 않거나, 계정이 프로비저닝되지 않거나, 심볼이 표시되지 않나요? WolfBot Community에서 발생하는 구체적인 MT5 연결 및 설정 오류와 각각 확인해야 할 사항을 정확히 안내합니다."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # MT5 문제 해결
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

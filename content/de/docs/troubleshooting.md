@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Fehlerbehebung — häufige Probleme"
 description: "Löse häufige WolfBot Community-Probleme — Verbindungsfehler, Order-Ablehnungen, Dienst startet nicht und mehr."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -18,7 +18,7 @@ translation_of: "docs/troubleshooting"
 
 # Fehlerbehebung
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
 
 ## Schnelle Diagnose
 

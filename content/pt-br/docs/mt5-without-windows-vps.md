@@ -1,7 +1,7 @@
 ---
 title: "Rode o MT5 Sem uma VPS Windows — Como o WolfBot Community Faz Isso no Linux"
 description: "Normalmente, usar o MT5 significa alugar uma VPS Windows só para manter um terminal rodando. O WolfBot Community elimina isso completamente — veja exatamente como funciona a ponte MT5 no Linux e por que nenhuma máquina Windows é necessária."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # Rode o MT5 Sem uma VPS Windows
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

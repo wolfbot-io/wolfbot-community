@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 与 WolfBot Cloud 对比"
 description: "对比 WolfBot Community(免费自托管)与 WolfBot Cloud(托管服务)。相同的统一交易平台,相同的市场——不同的托管方式。"
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"

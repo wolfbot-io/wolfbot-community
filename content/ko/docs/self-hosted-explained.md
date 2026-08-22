@@ -1,7 +1,7 @@
 ---
 title: "셀프 호스팅이란? — WolfBot Community 설명"
 description: "거래 봇을 셀프 호스팅한다는 것의 의미, 왜 내 기기에서 실행되는지, 그리고 통제, 개인정보 보호, 비용에 어떤 의미인지 이해하세요."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # 셀프 호스팅이란?
 
-**WolfBot Community v0.1.0-p12-ghcr-rc20에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 핵심 아이디어
 

@@ -1,7 +1,7 @@
 ---
 title: "Chaves de API Somente-Negociação Explicadas — Por Que Seu Bot Nunca Deve Poder Sacar"
 description: "A configuração mais importante ao conectar qualquer exchange a um bot de trading: desativar as permissões de saque. Veja exatamente o que uma chave de API somente-negociação pode e não pode fazer, e por que isso importa."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -23,7 +23,7 @@ translation_of: "docs/trade-only-api-keys-explained"
 
 # Chaves de API Somente-Negociação Explicadas
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc20** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

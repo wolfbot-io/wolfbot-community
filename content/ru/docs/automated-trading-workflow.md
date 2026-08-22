@@ -1,7 +1,7 @@
 ---
 title: "Автоматическая торговля с WolfBot Community — от стратегии до исполнения"
 description: "Как работает автоматическая торговля в WolfBot Community: настройте бота, выберите шаблон стратегии, протестируйте на Demo-аккаунте и позвольте тому же risk engine защищать каждый автоматический ордер на крипто и MT5."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # Автоматическая торговля с WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15
 
 ## Для кого этот гайд
 

@@ -1,7 +1,7 @@
 ---
 title: "Единый риск против риска по каждому боту — почему один risk engine безопаснее для мультирыночной торговли"
 description: "Отдельные правила риска для каждого бота оставляют бреши между ними. Здесь объясняется, как единый risk engine WolfBot Community рассматривает крипто- и MT5-позиции как один портфель, и почему это останавливает распределённую просадку."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 platforms: ["windows", "linux"]
 category: "risk-controls"
 difficulty: "intermediate"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # Единый риск против риска по каждому боту
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc20** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

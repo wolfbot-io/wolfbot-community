@@ -1,7 +1,7 @@
 ---
 title: "Warum verifizierbare Ergebnisse im Trading wichtig sind"
 description: "Warum du niemals ungeprüften Trading-Claims vertrauen solltest und wie WolfBot Ergebnisse fälschungssicher macht — für jede Position, auf jedem Markt."
-tested_version: "0.1.0-p12-ghcr-rc20"
+tested_version: "0.1.0-p12-ghcr-rc21"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/why-verifiable-results-matter"
 
 # Warum verifizierbare Ergebnisse wichtig sind
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc20** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
 
 ## Das Problem
 

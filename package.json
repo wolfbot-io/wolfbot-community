@@ -15,7 +15,7 @@
     "search-index": "tsx scripts/generate-search-index.ts",
     "fix-html-lang": "tsx scripts/fix-html-lang.ts",
     "prebuild-content": "npm run sitemap && npm run rss && npm run llms && npm run search-index",
-    "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc20 --max-age 90",
+    "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-p12-ghcr-rc21 --max-age 90",
     "metrics": "python3 scripts/collect_github_metrics.py"
   },
   "dependencies": {
