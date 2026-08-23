@@ -1,8 +1,8 @@
 ---
-title: "External Signals — Send Market Signals Into WolfBot Community from Any Source"
-description: "Wire external trading signals — TradingView alerts, custom webhooks, signal services — into your self-hosted WolfBot Community bot through one signed, risk-gated pipeline."
+title: "External Signals - Send Market Signals Into WolfBot Community from Any Source"
+description: "Wire external trading signals, TradingView alerts, custom webhooks and signal services into your self-hosted WolfBot Community bot through validated, risk-gated intake paths."
 tested_version: "0.1.0-p12-ghcr-rc21"
-last_updated: "2026-08-16"
+last_updated: "2026-08-23"
 platforms: ["windows", "linux"]
 category: "automation"
 difficulty: "intermediate"
@@ -22,7 +22,7 @@ sitemap_priority: 0.75
 
 # External Signals
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-23
 
 ## Who this guide is for
 
@@ -31,42 +31,43 @@ sitemap_priority: 0.75
 
 ## What "external signal" means here
 
-An external signal is any buy/sell instruction that comes from **outside** WolfBot Community and needs to become a trade. Examples:
+An external signal is any buy/sell/close instruction that comes from **outside** WolfBot Community and needs to become a queued WolfBot command. Examples:
 
 - TradingView alert webhooks (see the dedicated [TradingView guide](/docs/tradingview)).
 - A custom webhook your own script or service fires.
 - A signal service you trust enough to point at your risk layer.
 
-All of these share a single, signed entry point instead of each being a bespoke integration.
+TradingView simple alerts use the dedicated TradingView route documented in the [TradingView guide](/docs/tradingview). Rich Strategy OS webhooks use the signed strategy webhook route.
 
 ## The one pipeline every external signal uses
 
 No matter the source, every incoming signal travels the same path:
 
 ```text
-HTTP POST (signed)
-   → signature verify (HMAC with your webhook secret)
-   → parse signal (symbol, direction, from/to)
+HTTP POST
+   → source lookup and authentication
+   → parse signal (symbol, action, optional sizing)
    → normalize symbol to your target broker
-   → attach identity (source, strategy, tier)
-   → queue entry through the shared risk/execution layer
+   → attach identity (source, strategy or integration id)
+   → queue command through the shared risk/execution layer
 ```
 
 Because every source funnels through the same pipeline, you get the same guarantees regardless of where the signal came from:
 
-- **Authenticated** — only requests signed with your secret can execute.
+- **Authenticated** — TradingView simple requests must include the source secret; rich Strategy OS requests use HMAC signing.
 - **Risk-gated** — entries still pass the same risk controls as manual or strategy orders.
 - **Symbol-normalized** — the MT5/USD name in your signal is mapped to the right pair on your target exchange.
 
-## Tiers keep signals appropriate to their source
+## Choose the right intake path
 
-External signals use the same three-tier payload model, so a light signal and a full order request are both supported:
+WolfBot supports two external-signal patterns:
 
-- `signal_only` — direction/symbol; WolfBot handles sizing and protection.
-- `signal_and_risk` — adds notional and take-profit fields.
-- `full_entry_request` — complete, including target account.
+| Path | Best for | Authentication | Payload style |
+|---|---|---|---|
+| TradingView simple | Human-managed TradingView alerts | Static source secret in the JSON body | `secret`, `symbol`, `action`, optional `notional_usd`, optional `signal_id` |
+| Strategy OS signed webhook | Custom services that can compute signatures | HMAC-signed request headers | Versioned rich schema with strategy identity and risk fields |
 
-Start a new external source at `signal_only` and only move up once you've seen a clean cycle in Simulation.
+Start with TradingView simple if you are pasting JSON into TradingView. Use the signed Strategy OS route only when your sender can compute per-request signatures.
 
 ## Test every new source on Simulation first
 
@@ -79,8 +80,8 @@ For any external source:
 
 ## Security notes
 
-- Every external source gets **its own webhook secret** — treat each like an API key. Keep them out of public charts/repos.
-- Keep the webhook route behind your own host; the signature is what authenticates, not secrecy of the URL itself.
+- Every external source gets **its own secret or signing key** — treat it like an API key. Keep it out of public charts/repos.
+- Keep the webhook route behind your own HTTPS host; authentication is the secret/signature, not secrecy of the URL itself.
 - A signal service you point at your bot should be one you trust — the pipeline authenticates the request but cannot judge whether the signal idea is sound.
 
 ## Where to go next
