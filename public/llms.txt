@@ -1,6 +1,6 @@
 # WolfBot Community
 
-> Free, self-hosted unified trading platform for Windows and Linux. Connects crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget) and MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) into one interface, one risk engine, one portfolio.
+> Free, self-hosted Linux trading platform with Windows coming soon. Connects crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget), MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) and TradingView webhooks into one interface, one risk engine, one portfolio.
 
 WolfBot Community is the free, self-hosted edition of WolfBot by [WolfBot.io](https://wolfbot.io). The source is open at [github.com/wolfbot-io/wolfbot-community](https://github.com/wolfbot-io/wolfbot-community).
 
@@ -66,6 +66,7 @@ WolfBot Community is the free, self-hosted edition of WolfBot by [WolfBot.io](ht
 - [WolfBot Community Update Guide — Auto-Update & Channels](https://community.wolfbot.io/docs/updates): How WolfBot Community updates work. Stable, Beta, and Dev Preview channels. Keep your unified platform current.
 
 ## Releases
+- [WolfBot Community v0.1.0-beta.2 — Linux Public Beta with TradingView Webhooks](https://community.wolfbot.io/releases/0.1.0-beta.2): WolfBot Community v0.1.0-beta.2 is the latest Linux public beta: signed one-click installers, TradingView long/short/close webhooks, multi-broker crypto/futures, MT5 bridge, simulation and unified risk controls.
 - [WolfBot Community Release Channels Explained](https://community.wolfbot.io/releases/channels): Understand WolfBot Community release channels: Stable, Beta, RC, Alpha, and Dev Preview. Choose the right channel.
 
 ## Status

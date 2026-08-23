@@ -1,7 +1,7 @@
 ---
 title: "Trung bình giá (DCA) trong WolfBot Community"
 description: "Trung bình giá (DCA) chia một vị thế thành nhiều lần mua nhỏ thay vì một cú mua lớn. Đây là cách WolfBot Community hỗ trợ DCA và cách nó nằm trong cùng bộ máy rủi ro như mọi lệnh khác."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ sitemap_priority: 0.75
 
 # Trung bình giá (DCA)
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

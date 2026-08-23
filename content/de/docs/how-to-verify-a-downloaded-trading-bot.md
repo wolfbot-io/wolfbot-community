@@ -1,7 +1,7 @@
 ---
 title: "Wie du einen heruntergeladenen Trading-Bot verifizierst — prüfe, was du installieren willst"
 description: "Bevor du einen Trading-Bot installierst, verifiziere die Quelle und die Datei. So prüfst du einen Download gegen den offiziellen Release, den Digest und die Signatur, damit du nie unverifizierte Handelssoftware ausführst."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "security"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-verify-a-downloaded-trading-bot"
 
 # Wie du einen heruntergeladenen Trading-Bot verifizierst
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

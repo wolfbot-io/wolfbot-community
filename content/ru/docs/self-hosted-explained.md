@@ -1,7 +1,7 @@
 ---
 title: "Self-Hosted торговая платформа — объяснение: почему запускать WolfBot на своей машине"
 description: "Что такое self-hosted единая торговая платформа? Преимущества запуска WolfBot Community на собственной машине: полный контроль, максимальная приватность, нулевая стоимость — на крипто- и MT5-рынках."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # Self-Hosted торговая платформа — объяснение
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.2** · Последнее обновление: 2026-08-15
 
 ## Что означает «Self-Hosted»?
 

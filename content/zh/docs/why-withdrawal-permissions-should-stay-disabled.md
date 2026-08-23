@@ -1,7 +1,7 @@
 ---
 title: "为什么提现权限应该始终保持关闭 —— 保护你的资金不受密钥泄露影响"
 description: "仅限交易的 API 密钥本就应该关闭提现权限。以下是为什么开启提现权限的密钥,是被盗的交易所密钥变成被盗账户余额的主要途径,以及如何检查你自己的密钥。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 platforms: ["windows", "linux"]
 category: "security"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/why-withdrawal-permissions-should-stay-disabled"
 
 # 为什么提现权限应该始终保持关闭
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-18
 
 ## 一句话答案
 

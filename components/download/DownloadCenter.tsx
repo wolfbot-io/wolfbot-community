@@ -15,16 +15,16 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // frontmatter pattern already used elsewhere on this site -- this repo has
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc21'
-const RELEASE_VERSION_LABEL = '0.1.0-p12-ghcr-rc21 (Public Preview)'
-const RELEASE_DATE = '2026-08-21'
-const LINUX_DEB_SHA256 = '256f7694a5e986b8ea7652503fac63206e06dbab2aaad8c8e5661b30b43daeb3'
-const LINUX_DEB_SIZE_MB = '~86'
-const LINUX_RUN_SHA256 = '7544b463db1d81653823a6f6a0f4143b3e4c9b4c4548b48cd3c583426bf2fa74'
-const LINUX_RUN_SIZE_MB = '~113'
+const RELEASE_TAG = 'v0.1.0-beta.2'
+const RELEASE_VERSION_LABEL = '0.1.0-beta.2 (Public Beta)'
+const RELEASE_DATE = '2026-08-24'
+const LINUX_DEB_SHA256 = 'b7cff2408b7ad6eafc6b374d2644202b15fb05ebe8c4bfdd72a12d4df91e2674'
+const LINUX_DEB_SIZE_MB = '~84'
+const LINUX_RUN_SHA256 = '16896217809f8525f65d806a3cb76d5856d3fa6c51fabe037b92bcd87441f046'
+const LINUX_RUN_SIZE_MB = '~110'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
-const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-ghcr-rc21-0.1.0.run`
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-beta.2.run`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -32,7 +32,7 @@ export function DownloadCenter() {
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <h1 className="text-4xl font-bold text-white text-center mb-2">Download WolfBot Community</h1>
       <p className="text-center mb-2" style={{ color: '#94A3B8' }}>Free self-hosted unified trading platform.</p>
-      <p className="text-center mb-12 text-sm font-medium" style={{ color: '#00C9E8' }}>Crypto + Futures + MT5 — One Platform. Every Market.</p>
+      <p className="text-center mb-12 text-sm font-medium" style={{ color: '#00C9E8' }}>Crypto + Futures + MT5 + TradingView Webhooks — One Platform. Every Market.</p>
       <MobileDownloadNotice />
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div className="rounded-xl p-8 border opacity-60" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
@@ -79,9 +79,9 @@ export function DownloadCenter() {
             </TrackedLink>
           </div>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Release channel: Public Preview</p>
+            <p>Release channel: Public Beta</p>
             <p>Released: {RELEASE_DATE}</p>
-            <p>Signature: Signed release ✓</p>
+            <p>Signature: signed release manifest + digest-pinned images</p>
           </div>
           <div className="mt-3 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
             <p className="font-semibold" style={{ color: '#CBD5E1' }}>.deb — Debian/Ubuntu package ({LINUX_DEB_SIZE_MB} MB)</p>
@@ -150,14 +150,14 @@ export function DownloadCenter() {
             <p className="text-sm" style={{ color: '#94A3B8' }}>Compare the SHA256 checksum above with yours after downloading. A signed signature file is also published with each release. See <a href="/docs/how-to-verify-a-downloaded-trading-bot" className="hover:underline" style={{ color: '#00C9E8' }}>How to verify a downloaded bot</a>.</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-white mb-1">Windows says the publisher is unknown. Is it safe?</h3>
-            <p className="text-sm" style={{ color: '#94A3B8' }}>Public-preview self-hosted builds may not be code-signed yet, so SmartScreen can warn. Verify you downloaded from an official source and that the checksum matches, then allow it. See the <a href="/install/windows" className="hover:underline" style={{ color: '#00C9E8' }}>Windows guide</a>.</p>
+            <h3 className="text-sm font-semibold text-white mb-1">Should I install directly or verify first?</h3>
+            <p className="text-sm" style={{ color: '#94A3B8' }}>Verify first if you can. Check the SHA256 value for the <code>.deb</code> or <code>.run</code> file, then compare it with the checksum published here and in the GitHub release. The installer also uses the signed release manifest for the runtime stack.</p>
           </div>
         </div>
       </div>
 
       <div className="max-w-3xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4 text-sm">
-        <Link href="/releases" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
+        <Link href="/releases/0.1.0-beta.2" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
         <span style={{ color: '#475569' }}>·</span>
         <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
         <span style={{ color: '#475569' }}>·</span>

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Risk Controls — Complete Guide"
 description: "Configure unified risk controls in WolfBot Community — position limits, drawdown guards, cooldowns, and daily trade limits that apply across all your connected crypto exchanges and MT5 brokers."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -16,7 +16,7 @@ sitemap_priority: 0.85
 
 # Risk Controls Guide
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-11
 
 ## Why Risk Controls Matter
 

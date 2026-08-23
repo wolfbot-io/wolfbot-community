@@ -1,7 +1,7 @@
 ---
 title: "Solução de Problemas do MT5 — Corrija Erros Comuns de Conexão e Configuração do MT5 no WolfBot Community"
 description: "O MT5 não conecta, uma conta não pode ser provisionada, ou um símbolo não aparece? Aqui estão os erros concretos de conexão e configuração do MT5 no WolfBot Community e exatamente o que verificar em cada um."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # Solução de Problemas do MT5
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

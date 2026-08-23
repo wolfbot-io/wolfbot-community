@@ -63,7 +63,7 @@ function generate(): string {
   lines.push('# WolfBot Community')
   lines.push('')
   lines.push(
-    '> Free, self-hosted unified trading platform for Windows and Linux. Connects crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget) and MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) into one interface, one risk engine, one portfolio.'
+    '> Free, self-hosted Linux trading platform with Windows coming soon. Connects crypto exchanges (Binance, Bybit, BingX, KuCoin, Bitget), MT5 brokers (Forex, Gold, Indices, Stocks/CFDs) and TradingView webhooks into one interface, one risk engine, one portfolio.'
   )
   lines.push('')
   lines.push(

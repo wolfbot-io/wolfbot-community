@@ -1,7 +1,7 @@
 ---
 title: "거래 드로다운을 줄이는 방법"
 description: "거래 전략의 최대 드로다운을 낮추는 실용적인 단계 — 포지션 크기, 스톱, 다각화, 쿨다운."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # 거래 드로다운을 줄이는 방법
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 드로다운이란?
 

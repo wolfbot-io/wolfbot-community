@@ -1,7 +1,7 @@
 ---
 title: "Bắt đầu WolfBot Community với tài khoản Demo"
 description: "Học cách kiểm thử WolfBot Community không rủi ro với tài khoản Demo của broker. Giao dịch giấy với dữ liệu thị trường thật trên crypto và MT5 mà không mạo hiểm tiền thật."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -25,7 +25,7 @@ sitemap_priority: 0.85
 
 # Bắt đầu với tài khoản Demo
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-12
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-12
 
 ## "Simulation" trong WolfBot là gì?
 

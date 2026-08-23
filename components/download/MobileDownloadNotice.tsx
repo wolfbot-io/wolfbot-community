@@ -33,8 +33,8 @@ export function MobileDownloadNotice() {
     >
       <p className="text-sm font-semibold text-white mb-1">📱 You&apos;re on a phone</p>
       <p className="text-sm leading-relaxed mb-4" style={{ color: '#94A3B8' }}>
-        WolfBot Community installs on a Windows or Linux computer — including a
-        VPS you control. It doesn&apos;t run on iOS or Android. Copy this page&apos;s
+        WolfBot Community installs on a Linux computer or VPS today; Windows is
+        coming in a follow-up release. It doesn&apos;t run on iOS or Android. Copy this page&apos;s
         link and open it on your computer to download.
       </p>
       <button

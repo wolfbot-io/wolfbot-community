@@ -1,7 +1,7 @@
 ---
 title: "跨交易所和 MT5 的统一投资组合 —— 在单一视图中查看每一笔持仓"
 description: "不必逐个登录每个交易所,你的整个投资组合——加密货币和 MT5 一起——会显示在一个自托管的单一视图中。以下是统一投资组合可见性能带来什么,以及为什么这会改变你管理风险的方式。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 platforms: ["windows", "linux"]
 category: "automation"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/one-portfolio-across-exchanges-and-mt5"
 
 # 跨交易所和 MT5 的统一投资组合
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

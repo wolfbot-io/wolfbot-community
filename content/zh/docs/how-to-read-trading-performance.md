@@ -1,7 +1,7 @@
 ---
 title: "如何理性解读交易业绩"
 description: "一条好看的资金曲线可能隐藏着幸存者偏差、精心挑选的时间段和未披露的回撤。以下是如何在不自欺欺人的情况下解读交易结果。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-read-trading-performance"
 
 # 如何理性解读交易业绩
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

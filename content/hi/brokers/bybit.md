@@ -1,7 +1,7 @@
 ---
 title: "Bybit को WolfBot Community से कनेक्ट करें — चरण-दर-चरण"
 description: "Bybit को WolfBot Community से कनेक्ट करें — ट्रेड-ओनली API कुंजियां बनाएं और Spot, Futures और Demo पर ऑटोमेटेड ट्रेडिंग शुरू करें।"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -25,7 +25,7 @@ translation_of: "brokers/bybit"
 
 # Bybit को WolfBot Community से कनेक्ट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-p12-ghcr-rc21** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-15
 
 **Bybit सपोर्ट स्टेटस:** स्थिर · डेमो ✅ · लाइव ✅ · टर्मिनल ✅ · स्ट्रेटेजी ✅
 

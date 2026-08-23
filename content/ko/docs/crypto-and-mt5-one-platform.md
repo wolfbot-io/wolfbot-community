@@ -1,7 +1,7 @@
 ---
 title: "암호화폐와 MT5를 하나의 플랫폼에서 — 두 세계를 위한 단 하나의 WolfBot 인터페이스"
 description: "암호화폐 선물과 MT5 외환·금을 하나의 셀프 호스팅 인터페이스에서 함께 다루는 것이 WolfBot Community의 가장 큰 강점인 이유 — 하나의 로그인, 하나의 리스크 엔진, 두 세계를 아우르는 하나의 포트폴리오."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # 암호화폐와 MT5를 하나의 플랫폼에서
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

@@ -1,7 +1,7 @@
 ---
 title: "Controles de Risco do WolfBot Community — Guia Completo"
 description: "Configure controles de risco unificados no WolfBot Community — limites de posição, proteções de drawdown, tempos de espera e limites diários de operações, aplicados em todas as suas exchanges de cripto e corretoras MT5 conectadas."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # Guia de Controles de Risco
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
 
 ## Por Que os Controles de Risco Importam
 

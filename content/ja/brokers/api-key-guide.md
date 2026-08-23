@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only API キーガイド — セキュリティのベストプラクティス"
 description: "WolfBot Community のための安全な Trade-Only API キーを作成する方法。出金権限を決して有効にしないでください。Binance, Bybit, BingX, KuCoin, Bitget ガイド。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -17,7 +17,7 @@ translation_of: "brokers/api-key-guide"
 
 # Trade-Only API キーガイド
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
 
 ## なぜ Trade-Only なのか?
 

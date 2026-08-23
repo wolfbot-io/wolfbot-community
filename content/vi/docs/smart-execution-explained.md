@@ -1,7 +1,7 @@
 ---
 title: "Khái niệm Smart Execution — Cách WolfBot Community biến một tín hiệu thành lệnh được định tuyến an toàn"
 description: "Smart execution là bước biến một tín hiệu thành lệnh thật không sai sót. Đây là cách phân giải symbol, định tuyến sàn và guard rủi ro hoạt động cùng nhau ngay trước khi lệnh của bạn được đặt."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Khái niệm Smart Execution
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

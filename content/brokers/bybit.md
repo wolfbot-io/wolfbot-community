@@ -1,7 +1,7 @@
 ---
 title: "Connect Bybit to WolfBot Community — Step-by-Step"
 description: "Connect Bybit to WolfBot Community — create trade-only API keys and start automated trading on Spot, Futures and Demo."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -23,7 +23,7 @@ sitemap_priority: 0.85
 
 # Connect Bybit to WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-11
 
 **Bybit support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 

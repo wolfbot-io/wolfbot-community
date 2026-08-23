@@ -1,7 +1,7 @@
 ---
 title: "TradingView Webhook vào WolfBot Community - Hướng dẫn từng bước"
 description: "Kết nối alert TradingView vào WolfBot Community với webhook URL thật, JSON cho buy, sell, close_long và close_short, kiểm thử Simulation, cấu hình HTTPS và bảng xử lý lỗi."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-23"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -25,7 +25,7 @@ sitemap_priority: 0.9
 
 # TradingView Webhook vào WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-23
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-23
 
 Bài này hướng dẫn đúng luồng để gửi alert TradingView vào WolfBot Community. Hãy làm theo thứ tự: tạo nguồn TradingView trong WolfBot, mở một endpoint HTTPS an toàn, dán webhook URL và JSON message vào TradingView, rồi kiểm thử trên Simulation trước khi dùng tài khoản live.
 

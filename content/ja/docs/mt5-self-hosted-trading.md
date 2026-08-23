@@ -1,7 +1,7 @@
 ---
 title: "MT5 セルフホスト取引 — レンタルではなく自分のマシンで MetaTrader 5 を動かす"
 description: "セルフホスト型 MT5 取引とは、自分のコンピューターや自分の VPS など、自分がコントロールできる場所で MetaTrader 5 ターミナルを動かすことを意味します — 別の Windows マシンを借りる必要はありません。何が変わり、なぜそれが重要かを解説します。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-self-hosted-trading"
 
 # MT5 セルフホスト取引
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

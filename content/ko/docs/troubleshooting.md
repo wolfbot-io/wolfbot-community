@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 문제 해결 — 일반적인 문제"
 description: "일반적인 WolfBot Community 문제 해결 — 연결 오류, 주문 거부, 서비스 시작 안 됨 등."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -18,7 +18,7 @@ translation_of: "docs/troubleshooting"
 
 # 문제 해결
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 빠른 진단
 

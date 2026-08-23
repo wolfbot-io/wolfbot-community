@@ -1,7 +1,7 @@
 ---
 title: "Why Verifiable Results Matter"
 description: "Anyone can screenshot a winning trade. Verifiable results — signed releases, published checksums, and non-custodial access — are what actually let you trust trading software."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "security"
@@ -22,7 +22,7 @@ sitemap_priority: 0.75
 
 # Why Verifiable Results Matter
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-14
+**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-14
 
 ## Who this guide is for
 

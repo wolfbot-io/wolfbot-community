@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (localeConf) {
     const copy = HOME_COPY[localeConf.urlSegment]
     const title = copy?.metaTitle ?? 'WolfBot Community'
-    const description = copy?.metaDescription ?? 'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures and MT5 markets through one intelligent interface.'
+    const description = copy?.metaDescription ?? 'Free self-hosted Linux trading platform with Windows coming soon. Connect crypto exchanges, futures, MT5 markets and TradingView automation through one intelligent interface.'
     // Localized homepage root — advertise the full language cluster.
     const languages: Record<string, string> = {}
     for (const l of LOCALES) {

@@ -10,7 +10,7 @@ import { localizeHref } from '@/lib/localized-links'
 // NOT `prerelease: true` (so the in-app updater's `/releases/latest` alias
 // dependency works) -- update RELEASE_TAG here on each new release since
 // this static export has no server-side lookup to do it dynamically.
-const RELEASE_TAG = 'v0.1.0-p12-ghcr-rc21'
+const RELEASE_TAG = 'v0.1.0-beta.2'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 
 // Dark theme per prototypes/figma-make design language.
@@ -24,7 +24,7 @@ export function LatestRelease({ copy, locale }: LocaleProps) {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'PUBLIC PREVIEW'}</span>
           <span className="text-white font-bold">{RELEASE_TAG}</span>
         </div>
-        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'First public release. Linux (Ubuntu/Debian) only — a Windows build is not part of this release yet.'}</p>
+        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'Public Beta for Linux with signed one-click installers, TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={localizeHref('/download', locale ?? null)}

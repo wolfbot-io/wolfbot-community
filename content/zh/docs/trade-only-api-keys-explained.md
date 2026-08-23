@@ -1,7 +1,7 @@
 ---
 title: "仅限交易 API 密钥详解 —— 为什么你的机器人绝不应该拥有提现权限"
 description: "将任何交易所连接到交易机器人时,最重要的一项设置就是关闭提现权限。以下是仅限交易 API 密钥能做什么、不能做什么,以及为什么这一点如此重要。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -23,7 +23,7 @@ translation_of: "docs/trade-only-api-keys-explained"
 
 # 仅限交易 API 密钥详解
 
-**已在 WolfBot Community v0.1.0-p12-ghcr-rc21 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

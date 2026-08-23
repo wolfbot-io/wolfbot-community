@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community エラーコード — クイック修正リファレンス"
 description: "WolfBot Community の全エラーコードを解説: WB-WIN-001 から WB-WIN-004、WB-LNX-001 から WB-LNX-002。インストーラーや起動時のエラーに対する正確な修正方法を見つけましょう。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ translation_of: "docs/error-codes"
 
 # WolfBot Community エラーコード
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-18
 
 1つのコードに1つの修正。エラーコードは何が失敗したかを正確に教えてくれるので、
 推測する必要はありません。以下から自分のコードを見つけて修正を適用し、

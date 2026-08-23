@@ -1,7 +1,7 @@
 ---
 title: "Tín hiệu ngoài - Đưa tín hiệu thị trường vào WolfBot Community từ bất kỳ nguồn nào"
 description: "Nối tín hiệu giao dịch bên ngoài, alert TradingView, webhook tùy chỉnh và dịch vụ tín hiệu vào bot WolfBot Community tự lưu trữ qua các luồng nhận tín hiệu được xác thực và kiểm soát rủi ro."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-23"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ sitemap_priority: 0.75
 
 # Tín hiệu ngoài
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-23
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-23
 
 ## Hướng dẫn này dành cho ai
 

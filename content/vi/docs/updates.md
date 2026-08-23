@@ -1,7 +1,7 @@
 ---
 title: "Hướng dẫn cập nhật WolfBot Community — Tự cập nhật & kênh phát hành"
 description: "Cách cập nhật WolfBot Community hoạt động. Kênh Stable, Beta, và Dev Preview. Giữ nền tảng thống nhất của bạn luôn mới."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -17,7 +17,7 @@ sitemap_priority: 0.80
 
 # Cập nhật WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-12
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-12
 
 ## Cách cập nhật hoạt động
 

@@ -1,7 +1,7 @@
 ---
 title: "Warum die meisten Trading-Bots beim Risikomanagement versagen"
 description: "Die vier häufigsten Wege, wie Trading-Bots Geld verlieren — und wie die Risk Controls von WolfBot jeden einzelnen verhindern."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/why-bots-fail-risk-management"
 
 # Warum die meisten Trading-Bots beim Risikomanagement versagen
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die Wahrheit über Trading-Bots
 

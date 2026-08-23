@@ -1,7 +1,7 @@
 ---
 title: "Ein Portfolio über Börsen und MT5 hinweg — jede Position in einer einzigen Ansicht sehen"
 description: "Statt dich bei jeder Börse einzeln einzuloggen, erscheint dein gesamtes Portfolio — Krypto und MT5 zusammen — in einer self-hosted Ansicht. Hier erfährst du, was einheitliche Portfolio-Sichtbarkeit bewirkt und warum sie verändert, wie du Risiko managst."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/one-portfolio-across-exchanges-and-mt5"
 
 # Ein Portfolio über Börsen und MT5 hinweg
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

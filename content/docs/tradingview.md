@@ -1,7 +1,7 @@
 ---
 title: "TradingView Webhook to WolfBot Community - Step-by-Step Setup"
 description: "Connect TradingView alerts to WolfBot Community with the real TradingView webhook URL, JSON payloads for buy, sell, close_long and close_short, Simulation testing, HTTPS setup and troubleshooting."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-23"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -23,7 +23,7 @@ sitemap_priority: 0.9
 
 # TradingView Webhook to WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-p12-ghcr-rc21** · Last updated: 2026-08-23
+**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-23
 
 This guide shows the exact setup for sending a TradingView alert into WolfBot Community. Follow it in order: create a WolfBot TradingView source, expose a secure HTTPS endpoint, paste the webhook URL and JSON message into TradingView, then test on Simulation before using a live account.
 

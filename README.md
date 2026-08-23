@@ -10,7 +10,7 @@
   <strong>Crypto exchanges and MT5 — Forex, Gold, Indices — unified in one trading platform: one interface, one risk engine, one portfolio.</strong>
 </p>
 <p align="center">
-  The same trading engine as WolfBot Cloud. A free, self-hosted crypto trading bot for Windows &amp; Linux — automate crypto and MT5 from one interface.
+  The same trading engine as WolfBot Cloud. A free, self-hosted trading platform for Linux today, with Windows installer support coming in a follow-up release.
 </p>
 
 <p align="center">
@@ -38,6 +38,31 @@
   <img src="https://img.shields.io/github/discussions/wolfbot-io/wolfbot-community" alt="Discussions" />
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT" /></a>
 </p>
+
+---
+
+## Latest Release — v0.1.0-beta.2
+
+WolfBot Community **v0.1.0-beta.2** is the current Linux Public Beta.
+
+Highlights:
+
+- **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
+- **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
+- **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor and outcome worker images are pinned by SHA256 digest in the signed release manifest.
+- **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget and MT5 support in one dashboard.
+- **Simulation-first workflow** — test strategies, Smart Terminal orders and TradingView alerts before adding live keys.
+
+Downloads:
+
+| File | SHA256 |
+|---|---|
+| `WolfBot-Setup-linux-amd64.deb` | `b7cff2408b7ad6eafc6b374d2644202b15fb05ebe8c4bfdd72a12d4df91e2674` |
+| `wolfbot-oneclick-0.1.0-beta.2.run` | `16896217809f8525f65d806a3cb76d5856d3fa6c51fabe037b92bcd87441f046` |
+
+Read the full release notes: **[v0.1.0-beta.2](https://community.wolfbot.io/releases/0.1.0-beta.2)**.
+
+> Public Beta note: this release is installable and signed, but it is not the Stable channel yet. Start with Simulation or a broker demo account before live trading.
 
 ---
 
@@ -146,12 +171,11 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 ### Linux (Ubuntu/Debian)
 ```bash
 cd ~/Downloads
-sudo dpkg -i WolfBot-Setup-*.deb
-sudo apt-get install -f       # if needed
-wolfbot start                  # launch
+sudo apt install ./WolfBot-Setup-linux-amd64.deb
+wolfbot                        # opens the local setup wizard
 ```
 
-> Docker is installed automatically. No manual setup required.
+> Docker is installed automatically. The setup wizard opens on `http://127.0.0.1:8080/portal/local/setup`.
 
 **[→ Download WolfBot Community](https://community.wolfbot.io/download)** · [Windows Guide](https://community.wolfbot.io/install/windows) · [Linux Guide](https://community.wolfbot.io/install/linux)
 

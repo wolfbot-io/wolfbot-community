@@ -1,7 +1,7 @@
 ---
 title: "Một danh mục xuyên các sàn và MT5 — Thấy mọi vị thế trong một góc nhìn duy nhất"
 description: "Thay vì đăng nhập từng sàn, toàn bộ danh mục của bạn — crypto và MT5 cùng nhau — hiển thị trong một góc nhìn tự lưu trữ duy nhất. Đây là thứ khả năng hiển thị danh mục thống nhất làm được và vì sao nó thay đổi cách bạn quản lý rủi ro."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Một danh mục xuyên các sàn và MT5
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

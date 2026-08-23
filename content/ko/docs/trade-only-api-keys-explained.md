@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only API 키 설명"
 description: "거래 봇 연결 시 '출금 금지' 설정이 가장 중요한 보안 통제인 이유와 그것이 자본을 보호하는 방법."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -17,7 +17,7 @@ translation_of: "docs/trade-only-api-keys-explained"
 
 # Trade-Only API 키 설명
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 가장 중요한 보안 결정
 

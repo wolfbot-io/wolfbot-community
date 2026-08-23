@@ -1,7 +1,7 @@
 ---
 title: "Crypto và MT5 trên một nền tảng — Một giao diện WolfBot cho cả hai"
 description: "Vì sao trộn crypto futures với MT5 Forex và Vàng trong một giao diện tự lưu trữ duy nhất là lợi thế lớn nhất của WolfBot Community — một đăng nhập, một bộ máy rủi ro, một danh mục xuyên cả hai thế giới."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ sitemap_priority: 0.8
 
 # Crypto và MT5 trên một nền tảng
 
-**Đã kiểm thử với WolfBot Community v0.1.0-p12-ghcr-rc21** · Cập nhật lần cuối: 2026-08-16
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-16
 
 ## Hướng dẫn này dành cho ai
 

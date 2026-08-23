@@ -1,7 +1,7 @@
 ---
 title: "Wie du den Drawdown im Trading reduzierst"
 description: "Praktische Schritte, um den maximalen Drawdown deiner Trading-Strategie zu senken — Positionsgröße, Stops, Diversifikation und Cooldowns."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -18,7 +18,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # Wie du den Drawdown im Trading reduzierst
 
-**Getestet mit WolfBot Community v0.1.0-p12-ghcr-rc21** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
 
 ## Was ist Drawdown?
 

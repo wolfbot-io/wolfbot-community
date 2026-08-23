@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community のアップデート — Windows & Linux"
 description: "チャネルとロールバックを含め、Windows と Linux で WolfBot Community を最新バージョンにアップデートする方法。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -18,7 +18,7 @@ translation_of: "docs/updates"
 
 # アップデート
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
 
 ## アップデート方法
 

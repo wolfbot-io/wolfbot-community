@@ -1,7 +1,7 @@
 ---
 title: "DCA 戦略の説明 — 取引におけるドルコスト平均法"
 description: "DCA 戦略(ドルコスト平均法)を理解する — 間隔を置いて買い、平均価格を下げる。仕組みと WolfBot での使い方。"
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/dca-strategy"
 
 # DCA 戦略の説明
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
 
 ## DCA とは?
 

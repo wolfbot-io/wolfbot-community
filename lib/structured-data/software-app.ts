@@ -8,14 +8,15 @@ export const softwareAppSchema = {
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   author: { '@type': 'Organization', name: 'WolfBot.io', url: 'https://wolfbot.io' },
   downloadUrl: 'https://community.wolfbot.io/download',
-  softwareVersion: '0.1.0-p12-ghcr-rc21',
+  softwareVersion: '0.1.0-beta.2',
   featureList: [
     'Unified trading across crypto exchanges and MT5 markets',
     'Automated trading with multiple strategies',
+    'TradingView webhook automation for long, short, close_long and close_short signals',
     'Simulation mode for risk-free testing',
     'Smart Terminal for manual trading',
     'Unified risk controls across all connected markets',
     'One portfolio view for crypto and traditional markets',
-    'External signal integration',
+    'Signed Linux installers with digest-pinned container images',
   ],
 }

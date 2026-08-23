@@ -1,7 +1,7 @@
 ---
 title: "Plataforma de Trading Self-Hosted Explicada — Por Que Rodar o WolfBot na Sua Máquina"
 description: "O que é uma plataforma de trading unificada self-hosted? Benefícios de rodar o WolfBot Community na sua própria máquina: controle total, privacidade máxima, custo zero — em mercados de cripto e MT5."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # Plataforma de Trading Self-Hosted Explicada
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
 
 ## O Que Significa "Self-Hosted"?
 

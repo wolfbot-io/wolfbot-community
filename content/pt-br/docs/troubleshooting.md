@@ -1,7 +1,7 @@
 ---
 title: "Solução de Problemas do WolfBot Community — Problemas Comuns e Soluções"
 description: "Resolva problemas comuns do WolfBot Community. Erros de instalação, problemas de conexão com mercados, falhas de atualização e códigos de erro."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -16,7 +16,7 @@ translation_of: "docs/troubleshooting"
 
 # Guia de Solução de Problemas
 
-**Testado com WolfBot Community v0.1.0-p12-ghcr-rc21** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
 
 ## Diagnóstico Rápido
 

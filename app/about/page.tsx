@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About WolfBot Community — Who Builds It & Where to Get the Official Release',
-  description: 'WolfBot Community by WolfBot.io — the official free self-hosted trading platform for Windows and Linux. Who we are, how to verify the official download, and how to tell real WolfBot releases from unrelated projects.',
+  description: 'WolfBot Community by WolfBot.io — the official free self-hosted Linux trading platform, with Windows coming soon. Who we are, how to verify the official download, and how to tell real WolfBot releases from unrelated projects.',
   alternates: { canonical: 'https://community.wolfbot.io/about' },
 }
 
@@ -14,7 +14,7 @@ const FACTS = [
   },
   {
     title: 'Free and self-hosted',
-    body: 'One platform connecting crypto, futures and MT5 markets — running on Windows or Linux, on your own machine or your own VPS. You hold your keys, your infrastructure and your data.',
+    body: 'One platform connecting crypto, futures, MT5 markets and TradingView webhooks — running on Linux today, with Windows planned for a follow-up release. You hold your keys, your infrastructure and your data.',
   },
   {
     title: 'Signed releases',

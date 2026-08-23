@@ -1,7 +1,7 @@
 ---
 title: "통합 리스크 vs 봇별 리스크 — 왜 하나의 리스크 엔진이 다중 시장 거래에 더 안전한가"
 description: "봇마다 별도의 리스크 규칙을 두면 그 사이에 빈틈이 생깁니다. WolfBot Community의 단일 통합 리스크 엔진이 암호화폐와 MT5 포지션을 하나의 포트폴리오로 취급하는 방식과, 이것이 왜 분산된 드로다운을 막는지 설명합니다."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # 통합 리스크 vs 봇별 리스크
 
-**WolfBot Community v0.1.0-p12-ghcr-rc21에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

@@ -1,7 +1,7 @@
 ---
 title: "Запуск WolfBot Community 24/7 на VPS — self-hosted торговля на вашем собственном сервере"
 description: "Запускайте WolfBot Community круглосуточно на Ubuntu VPS. Установите .deb, держите панель приватной через SSH-туннель, делайте резервные копии на сервере и торгуйте некастодиально."
-tested_version: "0.1.0-p12-ghcr-rc21"
+tested_version: "0.1.0-beta.2"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -24,7 +24,7 @@ translation_of: "docs/run-24-7-on-a-vps"
 
 # Запуск WolfBot Community 24/7 на VPS
 
-**Протестировано с WolfBot Community v0.1.0-p12-ghcr-rc21** · Последнее обновление: 2026-08-15 · Ubuntu 22.04 / 24.04
+**Протестировано с WolfBot Community v0.1.0-beta.2** · Последнее обновление: 2026-08-15 · Ubuntu 22.04 / 24.04
 
 ## Для кого этот гайд
 
