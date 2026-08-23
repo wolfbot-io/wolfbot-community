@@ -146,9 +146,9 @@ export interface HomeCopy {
  */
 export const HOME_COPY: Record<string, HomeCopy> = {
   en: {
-    metaTitle: 'WolfBot Community — Free Self-Hosted Trading Bot for Linux',
+    metaTitle: 'WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
     metaDescription:
-      'Free self-hosted unified trading platform for Linux. Connect crypto exchanges, futures, MT5 markets and TradingView alerts through one intelligent interface.',
+      'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures, MT5 markets and TradingView alerts through one intelligent interface.',
     stripPublicPreview: 'PUBLIC PREVIEW',
     stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.2 is available',
     stripSeeRelease: 'See release →',
@@ -161,17 +161,17 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       'Connect modern digital-asset exchanges and traditional financial markets through a single trading platform. Automate strategies, manage accounts, control risk, execute trades and monitor your portfolio from one interface.',
     heroDownloadCta: 'Download WolfBot Community',
     heroGettingStartedCta: 'Getting Started',
-    heroMeta: 'Free · Linux · Windows coming soon · Self-Hosted · Public Beta',
+    heroMeta: 'Free · Windows & Linux · Self-Hosted · Public Beta',
     heroMockupTitle: 'WolfBot — One Platform',
     heroMockupLabel: 'Dashboard Preview',
     trustFree: '✅ Free Community Edition',
-    trustSelfHosted: '🖥️ Self-Hosted on Linux · Windows coming soon',
+    trustSelfHosted: '🖥️ Self-Hosted on Windows & Linux',
     trustMarkets: '🌐 Crypto + Futures + MT5',
     trustOfficial: '🔒 Official WolfBot.io Release',
     installTitle: 'Install in Minutes',
     installSubtitle: 'One platform for all your markets. No Docker, no terminal required.',
     installStep1Title: 'Download',
-    installStep1Desc: 'Linux .deb or self-extracting .run',
+    installStep1Desc: 'Windows Setup.exe or Linux .deb/.run',
     installStep2Title: 'Install',
     installStep2Desc: 'Double-click, follow the setup wizard',
     installStep3Title: 'Connect Markets',
@@ -241,7 +241,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'PUBLIC PREVIEW',
     releaseBody:
-      'Public Beta for Linux with signed one-click installers, TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'Public Beta with signed Linux installers now, a documented Windows track for a follow-up installer, TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -278,7 +278,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       },
       {
         q: 'How do I install it?',
-        a: 'Download the Linux installer from the Download page and run it. The .deb sets up Docker and opens the setup wizard automatically; Windows is documented and coming in a follow-up release.',
+        a: 'Download the installer from the Download page and run it. The current Public Beta ships Linux .deb and .run installers; the Windows Setup.exe path is documented and planned for a follow-up release.',
       },
       {
         q: 'Do I need a VPS or a cloud server?',
@@ -307,9 +307,9 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ],
     finalCtaTitle: 'One Platform. Every Market.',
     finalCtaBody:
-      'Download WolfBot Community — free and self-hosted on Linux today. Connect crypto exchanges and MT5 brokers. Start with Simulation.',
+      'Download WolfBot Community — free and self-hosted for Windows and Linux. Connect crypto exchanges and MT5 brokers. Start with Simulation.',
     finalCtaDownload: 'Download WolfBot Community',
-    finalCtaMeta: 'Free · Linux · No signup required · Crypto + Futures + MT5',
+    finalCtaMeta: 'Free · Windows & Linux · No signup required · Crypto + Futures + MT5',
   },
 
   vi: {

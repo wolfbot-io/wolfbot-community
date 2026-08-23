@@ -12,7 +12,7 @@ const SITE = {
   name: 'WolfBot Community',
   tagline: 'One Platform. Every Market.',
   url: 'https://community.wolfbot.io',
-  description: 'WolfBot Community is a free self-hosted Linux trading platform with Windows coming soon, bringing crypto exchanges, futures, MT5 markets and TradingView automation into one interface for smart execution, portfolio monitoring and risk management.',
+  description: 'WolfBot Community is a free self-hosted unified trading platform for Windows and Linux, bringing crypto exchanges, futures, MT5 markets and TradingView automation into one interface for smart execution, portfolio monitoring and risk management.',
 }
 
 // Cloudflare Web Analytics (privacy-conscious, no cookies) -- site
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   // spammy in search results and hurts click-through. A plain string here
   // means child pages render their title exactly as authored, and this value
   // is only the fallback for routes that don't set one.
-  title: 'WolfBot Community — Free Self-Hosted Linux Trading Bot',
+  title: 'WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
   description: SITE.description,
   keywords: [
     'wolfbot', 'wolfbot community', 'unified trading platform',

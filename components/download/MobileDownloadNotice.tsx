@@ -33,9 +33,10 @@ export function MobileDownloadNotice() {
     >
       <p className="text-sm font-semibold text-white mb-1">📱 You&apos;re on a phone</p>
       <p className="text-sm leading-relaxed mb-4" style={{ color: '#94A3B8' }}>
-        WolfBot Community installs on a Linux computer or VPS today; Windows is
-        coming in a follow-up release. It doesn&apos;t run on iOS or Android. Copy this page&apos;s
-        link and open it on your computer to download.
+        WolfBot Community is desktop/server software for Windows and Linux, not
+        iOS or Android. The current Public Beta download is for Linux; copy this
+        page&apos;s link and open it on your computer to download or follow Windows
+        status updates.
       </p>
       <button
         type="button"

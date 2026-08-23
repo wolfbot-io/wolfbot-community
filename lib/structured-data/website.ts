@@ -4,7 +4,7 @@ export const websiteSchema = {
   name: 'WolfBot Community',
   alternateName: ['WolfBot Community by WolfBot.io', 'WolfBot — One Platform. Every Market.'],
   url: 'https://community.wolfbot.io',
-  description: 'Free self-hosted Linux trading platform with Windows coming soon, bringing crypto exchanges, futures, MT5 markets and TradingView automation into one interface for smart execution, portfolio monitoring and risk management.',
+  description: 'Free self-hosted unified trading platform for Windows and Linux, bringing crypto exchanges, futures, MT5 markets and TradingView automation into one interface for smart execution, portfolio monitoring and risk management.',
   inLanguage: 'en',
   publisher: { '@type': 'Organization', name: 'WolfBot.io', url: 'https://wolfbot.io', sameAs: ['https://github.com/wolfbot-io'] },
   // No SearchAction here: Google's sitelinks searchbox requires the

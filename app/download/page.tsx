@@ -5,9 +5,9 @@ import { softwareAppSchema } from '@/lib/structured-data/software-app'
 import { StructuredData } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
-  title: 'Download WolfBot Community for Linux — Free Self-Hosted Trading Bot',
+  title: 'Download WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
   description:
-    'Download WolfBot Community for Linux (Ubuntu/Debian) as a .deb installer. Free self-hosted trading automation for crypto, futures & MT5. Official GitHub releases. Windows build coming soon.',
+    'Download WolfBot Community, the free self-hosted trading platform for Windows and Linux. Current Public Beta ships Linux .deb/.run installers; Windows installer status is shown on this page.',
   alternates: { canonical: 'https://community.wolfbot.io/download' },
 }
 

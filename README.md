@@ -10,7 +10,7 @@
   <strong>Crypto exchanges and MT5 — Forex, Gold, Indices — unified in one trading platform: one interface, one risk engine, one portfolio.</strong>
 </p>
 <p align="center">
-  The same trading engine as WolfBot Cloud. A free, self-hosted trading platform for Linux today, with Windows installer support coming in a follow-up release.
+  The same trading engine as WolfBot Cloud. A free, self-hosted unified trading platform for Windows and Linux.
 </p>
 
 <p align="center">

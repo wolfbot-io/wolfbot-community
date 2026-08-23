@@ -15,7 +15,7 @@ export function ReleaseStrip({ copy, locale }: LocaleProps) {
             <span style={{ color: '#94A3B8' }}>{c.stripReleaseAvailable || 'WolfBot Community v0.1.0-beta.2 is available'}</span>
           </div>
           <div className="flex items-center gap-3" style={{ color: '#94A3B8' }}>
-            <span>Linux x64</span><span style={{ color: '#475569' }}>·</span><span>Windows coming soon</span>
+            <span>Windows & Linux</span><span style={{ color: '#475569' }}>·</span><span>Linux x64 available now</span>
             <Link href={localizeHref('/releases/0.1.0-beta.2', locale ?? null)} className="hover:underline" style={{ color: '#00C9E8' }}>{c.stripSeeRelease || 'See release →'}</Link>
           </div>
         </div>

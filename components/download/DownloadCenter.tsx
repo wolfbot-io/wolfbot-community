@@ -37,7 +37,7 @@ export function DownloadCenter() {
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div className="rounded-xl p-8 border opacity-60" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Windows x64</h2>
-          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Not built yet</p>
+          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Installer planned for a follow-up release</p>
           <span
             className="block text-center border font-semibold px-6 py-3 rounded-xl cursor-not-allowed"
             style={{ borderColor: 'rgba(255,255,255,0.12)', color: '#94A3B8' }}
@@ -46,7 +46,8 @@ export function DownloadCenter() {
             Coming soon
           </span>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>No Windows build in this release yet — Linux is first.</p>
+            <p>Windows remains part of the WolfBot Community platform plan.</p>
+            <p>No Windows installer asset is included in v{RELEASE_VERSION_LABEL}.</p>
           </div>
         </div>
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
@@ -114,8 +115,9 @@ export function DownloadCenter() {
           <div className="rounded-xl border p-5" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
             <h3 className="text-sm font-semibold text-white mb-2">Windows (coming soon)</h3>
             <ul className="space-y-1 text-sm" style={{ color: '#94A3B8' }}>
-              <li>• No Windows build in this release yet</li>
-              <li>• Linux ships first; Windows is documented ahead of its follow-up release</li>
+              <li>• Windows remains a target platform for WolfBot Community</li>
+              <li>• No Windows installer is included in v{RELEASE_VERSION_LABEL}</li>
+              <li>• The Windows guide is published ahead of the installer release</li>
               <li>• Join the <a href="https://github.com/wolfbot-io/wolfbot-community/discussions" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Discussions</a> for launch updates</li>
             </ul>
           </div>
