@@ -1,6 +1,8 @@
-# WolfBot Community v0.1.0-beta.2 — Linux Public Beta
+# WolfBot Community v0.1.0-beta.2 — Windows & Linux Platform, Linux Public Beta
 
-WolfBot Community v0.1.0-beta.2 is the latest Linux Public Beta of the free, self-hosted WolfBot trading platform.
+WolfBot Community v0.1.0-beta.2 is the latest Public Beta of the free, self-hosted WolfBot trading platform for Windows and Linux.
+
+This beta publishes signed Linux installers first. Windows remains part of the WolfBot Community product and SEO roadmap, but the Windows installer is not included in `v0.1.0-beta.2`.
 
 This release focuses on a real end-to-end Community experience: signed Linux installers, digest-pinned runtime images, TradingView webhook automation, crypto/futures exchange support, MT5 self-hosting, Simulation-first onboarding, Smart Terminal trading and one portfolio/risk layer across connected markets.
 
@@ -22,7 +24,7 @@ WolfBot Community brings those workflows into one self-hosted platform:
 - one portfolio view,
 - one install you control.
 
-You run it on your own Linux machine or VPS. Your API keys, local data, broker configuration and trading history stay on your infrastructure.
+You run it on your own desktop, workstation, server or VPS. Your API keys, local data, broker configuration and trading history stay on your infrastructure.
 
 ## Highlights
 
@@ -53,6 +55,8 @@ This beta ships two Linux installers:
 | `wolfbot-oneclick-0.1.0-beta.2.run` | You want the self-extracting Linux install path |
 
 The `.deb` is the recommended path for Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Debian 12.
+
+Windows is still a target platform for WolfBot Community. The Windows install path remains documented for the follow-up installer release, but this beta should not be presented as a downloadable Windows build.
 
 ### Digest-pinned runtime images
 
@@ -193,7 +197,7 @@ https://community.wolfbot.io/security
 This is a Public Beta, not a Stable release:
 
 - `production_ready=false` is expected by prerelease policy.
-- Windows installer is not included in this release.
+- Windows installer is not included in this release; Windows remains a target platform for a follow-up installer.
 - Start with Simulation or a broker demo account.
 - Runtime-generated SQLite files from the existing data bundle remain a non-fatal release-audit cleanup item before a stable production gate.
 - A compiled parity source-smoke warning was non-fatal in this build pipeline and should be cleaned before a stable gate.
@@ -210,4 +214,4 @@ This is a Public Beta, not a Stable release:
 
 ## Short summary
 
-WolfBot Community v0.1.0-beta.2 is a free self-hosted Linux trading platform beta for crypto exchanges, futures accounts, MT5 markets and TradingView webhook automation. Install it locally, start in Simulation, verify checksums, and keep live trading conservative while the Community edition is still in beta.
+WolfBot Community v0.1.0-beta.2 is a free self-hosted trading platform beta for Windows and Linux users, with Linux installers available now for crypto exchanges, futures accounts, MT5 markets and TradingView webhook automation. Install it locally, start in Simulation, verify checksums, and keep live trading conservative while the Community edition is still in beta.
