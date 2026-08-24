@@ -21,7 +21,7 @@ translation_of: "docs/community-status"
 
 ## Aktueller Stand
 
-WolfBot Community befindet sich in **Public Preview** (Beta-Phase).
+WolfBot Community befindet sich im öffentlichen Release-Track **v0.1.0-beta.2**.
 
 | Bereich | Status |
 |---|---|

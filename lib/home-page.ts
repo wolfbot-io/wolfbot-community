@@ -149,7 +149,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaTitle: 'WolfBot Community — Free Self-Hosted Trading Bot for Windows & Linux',
     metaDescription:
       'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures, MT5 markets and TradingView alerts through one intelligent interface.',
-    stripPublicPreview: 'PUBLIC PREVIEW',
+    stripPublicPreview: 'LATEST PUBLIC RELEASE',
     stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.2 is available',
     stripSeeRelease: 'See release →',
     heroBadge: 'WolfBot Community by WolfBot.io · Free & Self-Hosted',
@@ -161,7 +161,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       'Connect modern digital-asset exchanges and traditional financial markets through a single trading platform. Automate strategies, manage accounts, control risk, execute trades and monitor your portfolio from one interface.',
     heroDownloadCta: 'Download WolfBot Community',
     heroGettingStartedCta: 'Getting Started',
-    heroMeta: 'Free · Windows & Linux · Self-Hosted · Public Beta',
+    heroMeta: 'Free · Windows & Linux · Self-Hosted · Latest Public Release',
     heroMockupTitle: 'WolfBot — One Platform',
     heroMockupLabel: 'Dashboard Preview',
     trustFree: '✅ Free Community Edition',
@@ -239,9 +239,9 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ],
     cvcCompareLink: 'Detailed comparison →',
     releaseTitle: 'Latest Release',
-    releasePublicPreview: 'PUBLIC PREVIEW',
+    releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'Public Beta with signed Linux installers now, a documented Windows track for a follow-up installer, TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'Signed Linux installers are available now, with Windows Setup.exe on the roadmap. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -278,7 +278,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       },
       {
         q: 'How do I install it?',
-        a: 'Download the installer from the Download page and run it. The current Public Beta ships Linux .deb and .run installers; the Windows Setup.exe path is documented and planned for a follow-up release.',
+        a: 'Download the installer from the Download page and run it. The current release includes signed Linux .deb and .run installers; the Windows Setup.exe path is documented and planned for a follow-up release.',
       },
       {
         q: 'Do I need a VPS or a cloud server?',
@@ -982,7 +982,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaTitle: 'WolfBot Community — kostenloser selbstgehosteter Trading-Bot für Windows & Linux',
     metaDescription:
       'Kostenlose, selbstgehostete, einheitliche Trading-Plattform für Windows und Linux. Verbinden Sie Krypto-Börsen, Futures und MT5-Märkte über eine intelligente Oberfläche.',
-    stripPublicPreview: 'PUBLIC PREVIEW',
+    stripPublicPreview: 'LATEST PUBLIC RELEASE',
     stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.2 ist verfügbar',
     stripSeeRelease: 'Release ansehen →',
     heroBadge: 'WolfBot Community by WolfBot.io · Kostenlos & selbstgehostet',
@@ -994,7 +994,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       'Verbinden Sie moderne Börsen für digitale Vermögenswerte und traditionelle Finanzmärkte über eine einzige Trading-Plattform. Automatisieren Sie Strategien, verwalten Sie Konten, kontrollieren Sie Risiken, führen Sie Trades aus und überwachen Sie Ihr Portfolio — aus einer Oberfläche.',
     heroDownloadCta: 'WolfBot Community herunterladen',
     heroGettingStartedCta: 'Erste Schritte',
-    heroMeta: 'Kostenlos · Windows & Linux · Selbstgehostet · Public Preview',
+    heroMeta: 'Kostenlos · Windows & Linux · Selbstgehostet · aktuelles öffentliches Release',
     heroMockupTitle: 'WolfBot — eine Plattform',
     heroMockupLabel: 'Dashboard-Vorschau',
     trustFree: '✅ Kostenlose Community Edition',
@@ -1072,9 +1072,9 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ],
     cvcCompareLink: 'Detaillierter Vergleich →',
     releaseTitle: 'Neuestes Release',
-    releasePublicPreview: 'PUBLIC PREVIEW',
+    releasePublicPreview: 'AKTUELLES ÖFFENTLICHES RELEASE',
     releaseBody:
-      'Erstes öffentliches Release. Nur Linux (Ubuntu/Debian) — ein Windows-Build ist in diesem Release noch nicht enthalten.',
+      'Signierte Linux-Installer sind jetzt verfügbar, mit Windows Setup.exe auf der Roadmap. Enthält TradingView-Webhooks, Krypto/Futures-Support und die selbstgehostete MT5-Bridge.',
     releaseDownload: 'Herunterladen',
     releaseGitHub: 'GitHub-Release',
     ghTitle: 'Der Community beitreten',

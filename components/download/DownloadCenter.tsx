@@ -16,7 +16,7 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
 const RELEASE_TAG = 'v0.1.0-beta.2'
-const RELEASE_VERSION_LABEL = '0.1.0-beta.2 (Public Beta)'
+const RELEASE_VERSION_LABEL = '0.1.0-beta.2'
 const RELEASE_DATE = '2026-08-24'
 const LINUX_DEB_SHA256 = 'b7cff2408b7ad6eafc6b374d2644202b15fb05ebe8c4bfdd72a12d4df91e2674'
 const LINUX_DEB_SIZE_MB = '~84'
@@ -47,7 +47,7 @@ export function DownloadCenter() {
           </span>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
             <p>Windows remains part of the WolfBot Community platform plan.</p>
-            <p>No Windows installer asset is included in v{RELEASE_VERSION_LABEL}.</p>
+            <p>Windows Setup.exe follows in a dedicated release after v{RELEASE_VERSION_LABEL}.</p>
           </div>
         </div>
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
@@ -80,7 +80,7 @@ export function DownloadCenter() {
             </TrackedLink>
           </div>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Release channel: Public Beta</p>
+            <p>Release channel: Latest public release</p>
             <p>Released: {RELEASE_DATE}</p>
             <p>Signature: signed release manifest + digest-pinned images</p>
           </div>
@@ -116,7 +116,7 @@ export function DownloadCenter() {
             <h3 className="text-sm font-semibold text-white mb-2">Windows (coming soon)</h3>
             <ul className="space-y-1 text-sm" style={{ color: '#94A3B8' }}>
               <li>• Windows remains a target platform for WolfBot Community</li>
-              <li>• No Windows installer is included in v{RELEASE_VERSION_LABEL}</li>
+              <li>• Windows Setup.exe follows in a dedicated release after v{RELEASE_VERSION_LABEL}</li>
               <li>• The Windows guide is published ahead of the installer release</li>
               <li>• Join the <a href="https://github.com/wolfbot-io/wolfbot-community/discussions" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Discussions</a> for launch updates</li>
             </ul>

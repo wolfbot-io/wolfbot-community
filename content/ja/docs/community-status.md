@@ -21,7 +21,7 @@ translation_of: "docs/community-status"
 
 ## 現在の状態
 
-WolfBot Community は **Public Preview**(Beta 段階)です。
+WolfBot Community の現在の公開リリーストラックは **v0.1.0-beta.2** です。
 
 | 領域 | 状態 |
 |---|---|

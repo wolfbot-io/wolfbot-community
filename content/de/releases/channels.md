@@ -88,7 +88,7 @@ Jeder Build ist unveränderlich — wir modifizieren niemals ein veröffentlicht
 
 ## Aktueller Status
 
-WolfBot Community befindet sich derzeit in **Public Preview** (Beta-Phase).
+WolfBot Community befindet sich derzeit im öffentlichen Release-Track **v0.1.0-beta.2**.
 
 ```text
 Stable: noch nicht veröffentlicht

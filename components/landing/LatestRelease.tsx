@@ -21,10 +21,10 @@ export function LatestRelease({ copy, locale }: LocaleProps) {
       <h2 className="text-3xl font-bold text-white text-center mb-12">{c.releaseTitle || 'Latest Release'}</h2>
       <div className="max-w-2xl mx-auto rounded-xl p-8 border" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'PUBLIC PREVIEW'}</span>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'LATEST PUBLIC RELEASE'}</span>
           <span className="text-white font-bold">{RELEASE_TAG}</span>
         </div>
-        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'Public Beta with signed Linux installers now, a documented Windows track for a follow-up installer, TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
+        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'Signed Linux installers are available now, with Windows Setup.exe on the roadmap. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={localizeHref('/download', locale ?? null)}

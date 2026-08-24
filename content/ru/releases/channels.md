@@ -88,7 +88,7 @@ Stable (продакшн)
 
 ## Текущий статус
 
-WolfBot Community сейчас находится в **Public Preview** (фаза Beta).
+WolfBot Community сейчас находится в публичном релизном канале **v0.1.0-beta.2**.
 
 ```text
 Stable: ещё не выпущен

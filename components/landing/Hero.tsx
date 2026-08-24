@@ -58,7 +58,7 @@ export function Hero({ copy, locale }: LocaleProps) {
             </div>
 
             <p className="mt-4 text-sm" style={{ color: '#475569' }}>
-              {c.heroMeta || 'Free · Windows & Linux · Self-Hosted · Public Preview'}
+              {c.heroMeta || 'Free · Windows & Linux · Self-Hosted · Latest Public Release'}
             </p>
           </div>
 

@@ -88,7 +88,7 @@ Stable (프로덕션)
 
 ## 현재 상태
 
-WolfBot Community는 현재 **Public Preview**(Beta 단계)입니다.
+WolfBot Community의 현재 공개 릴리스 트랙은 **v0.1.0-beta.2**입니다.
 
 ```text
 Stable: 아직 게시되지 않음

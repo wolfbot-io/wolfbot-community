@@ -60,8 +60,8 @@ sitemap_priority: 0.60
 
 ## Phiên bản hiện tại
 
-- **Public Preview mới nhất:** v0.1.0-beta.2
-- **Kênh:** Public Preview (Beta)
+- **Bản phát hành công khai mới nhất:** v0.1.0-beta.2
+- **Kênh:** phát hành công khai
 - **Ngày phát hành:** 2026-08-11
 
 ## Vấn đề đã biết

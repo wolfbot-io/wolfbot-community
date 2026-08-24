@@ -86,18 +86,17 @@ Each build is immutable — we never modify a published release. If a bug is fou
 
 ## Current Status
 
-WolfBot Community is currently in **Public Preview** (Beta phase).
+WolfBot Community is on the public release track with **v0.1.0-beta.2** available now.
 
 ```text
-Stable: Not yet released
 Current public: v0.1.0-beta.2
 ```
 
 This means:
-- The software is functional and installable
-- Features are being tested broadly
-- Breaking changes may occur between versions
-- A Demo account is recommended while testing
+- The release is signed, installable and published on GitHub
+- Linux `.deb` and `.run` installers are available now
+- Windows remains on the Community platform roadmap
+- Simulation or broker demo accounts are the recommended first-run path
 - The latest detailed release notes are here: [v0.1.0-beta.2](/releases/0.1.0-beta.2)
 
 ---
@@ -128,11 +127,7 @@ Stable versions will use: `1.0.0`, `1.1.0`, etc.
 
 ## GitHub Releases
 
-All releases are published on [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases):
-
-- **Pre-release:** Dev Preview, Alpha, Beta, RC
-- **Full Release:** Stable only
-- Each release includes: installer files, checksums, release notes
+All public releases are published on [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) with installer files, checksums and release notes.
 
 ---
 

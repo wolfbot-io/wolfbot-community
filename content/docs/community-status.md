@@ -18,7 +18,7 @@ sitemap_priority: 0.60
 |---|---|---|
 | Website (community.wolfbot.io) | 🟢 Online | Next.js 14, Cloudflare Pages |
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
-| Linux Installer | 🟢 Public Beta | Ubuntu 22.04+, Debian 12, `.deb` and `.run` |
+| Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run` |
 | Windows Installer | 🟡 In progress | Guide published; installer ships in a follow-up release |
 | MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
@@ -54,12 +54,12 @@ sitemap_priority: 0.60
 | Portfolio Management | 🟢 Stable |
 | Auto Updates | 🟢 Stable |
 | Backup & Restore | 🟢 Stable |
-| TradingView Signals | 🟢 Public Beta — long, short, close_long, close_short |
+| TradingView Signals | 🟢 Available now — long, short, close_long, close_short |
 
 ## Current Version
 
-- **Latest Public Beta:** v0.1.0-beta.2
-- **Channel:** Public Preview (Beta)
+- **Latest Public Release:** v0.1.0-beta.2
+- **Channel:** Public release
 - **Release Date:** 2026-08-24
 - **Release notes:** [v0.1.0-beta.2](/releases/0.1.0-beta.2)
 

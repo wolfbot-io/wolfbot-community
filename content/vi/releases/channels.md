@@ -88,7 +88,7 @@ Mỗi bản build là bất biến — chúng tôi không bao giờ sửa một 
 
 ## Trạng thái hiện tại
 
-WolfBot Community hiện đang ở **Public Preview** (giai đoạn Beta).
+WolfBot Community hiện đang ở kênh phát hành công khai **v0.1.0-beta.2**.
 
 ```text
 Stable: Chưa phát hành

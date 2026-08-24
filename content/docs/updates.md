@@ -38,12 +38,11 @@ See [Release Channels Explained →](/releases/channels)
 1. Go to [community.wolfbot.io/download](https://community.wolfbot.io/download)
 2. Download the latest Setup.exe
 
-   > ℹ️ **Availability:** the first public release ships the Linux installer;
+   > ℹ️ **Availability:** the current public release ships the Linux installer;
    > the Windows installer is documented ahead of its follow-up release. When a
    > Windows build is published, download it here and run the installer — it
    > upgrades in place and keeps your data, accounts and settings. Check the
-   > [download page](/download) for current status. There is no Windows build in
-   > this release yet.
+   > [download page](/download) for current status.
 
 ### Linux
 
@@ -67,7 +66,7 @@ The updater verifies the new release's signature before pulling anything, and st
 
 1. **Backup your configuration** — See [Backup Guide →](/docs/backup)
 2. **Read release notes** — [community.wolfbot.io/releases](/releases)
-3. **Check known issues** — Listed in each release
+3. **Review release details** — version, supported platforms, checksums and installer notes
 
 ### What Gets Preserved
 - ✅ API keys and broker connections

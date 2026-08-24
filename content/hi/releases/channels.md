@@ -89,7 +89,7 @@ Stable (प्रोडक्शन)
 
 ## वर्तमान स्थिति
 
-WolfBot Community फिलहाल **Public Preview** (Beta चरण) में है।
+WolfBot Community का current public release track **v0.1.0-beta.2** है।
 
 ```text
 Stable: अभी रिलीज़ नहीं हुआ

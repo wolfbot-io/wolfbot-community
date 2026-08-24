@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/channel-public%20preview-00C9E8" alt="Public Preview" />
+  <img src="https://img.shields.io/badge/channel-latest%20public%20release-00C9E8" alt="Latest Public Release" />
   <img src="https://img.shields.io/badge/releases-signed-0e8a16" alt="Signed Releases" />
   <img src="https://img.shields.io/badge/checksums-SHA256%20published-0e8a16" alt="SHA256 published" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
@@ -43,7 +43,7 @@
 
 ## Latest Release — v0.1.0-beta.2
 
-WolfBot Community **v0.1.0-beta.2** is the current Linux Public Beta.
+WolfBot Community **v0.1.0-beta.2** is the latest public release of the free self-hosted trading platform for Windows and Linux users, with signed Linux installers available now.
 
 Highlights:
 
@@ -62,7 +62,7 @@ Downloads:
 
 Read the full release notes: **[v0.1.0-beta.2](https://community.wolfbot.io/releases/0.1.0-beta.2)**.
 
-> Public Beta note: this release is installable and signed, but it is not the Stable channel yet. Start with Simulation or a broker demo account before live trading.
+Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 
 ---
 

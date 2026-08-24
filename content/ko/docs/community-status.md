@@ -21,7 +21,7 @@ translation_of: "docs/community-status"
 
 ## 현재 상태
 
-WolfBot Community는 **Public Preview**(Beta 단계)입니다.
+WolfBot Community의 현재 공개 릴리스 트랙은 **v0.1.0-beta.2**입니다.
 
 | 영역 | 상태 |
 |---|---|
