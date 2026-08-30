@@ -1,7 +1,7 @@
 ---
 title: "Гайд по обновлению WolfBot Community — автообновление и каналы"
 description: "Как работают обновления WolfBot Community. Каналы Stable, Beta и Dev Preview. Держите вашу единую платформу актуальной."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -17,7 +17,7 @@ translation_of: "docs/updates"
 
 # Обновление WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-beta.2** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
 
 ## Как работают обновления
 

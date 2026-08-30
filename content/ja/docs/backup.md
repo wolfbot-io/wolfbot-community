@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community バックアップ & 復元"
 description: "Windows と Linux で WolfBot Community の設定、口座、設定をバックアップ・復元する方法。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # バックアップ & 復元
 
-**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
 
 ## 何がバックアップされるのか?
 

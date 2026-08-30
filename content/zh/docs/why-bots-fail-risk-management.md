@@ -1,7 +1,7 @@
 ---
 title: "为什么大多数交易机器人在风险管理上失败"
 description: "大多数交易机器人亏钱都是因为同样几个原因——没有仓位控制、没有回撤保护、没有冷却机制。以下是真正出错的地方,以及一个统一风控层如何解决它。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -23,7 +23,7 @@ translation_of: "docs/why-bots-fail-risk-management"
 
 # 为什么大多数交易机器人在风险管理上失败
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

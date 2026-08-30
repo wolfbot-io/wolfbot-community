@@ -1,7 +1,7 @@
 ---
 title: "Wie du Handelsleistung verantwortungsvoll liest"
 description: "Lerne, Trading-Performance richtig zu beurteilen: Rendite, Drawdown, Win-Rate und Risiko. Hör auf, dich von Schlagzeilen-Zahlen täuschen zu lassen."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/how-to-read-trading-performance"
 
 # Wie du Handelsleistung verantwortungsvoll liest
 
-**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die Schlagzeilen-Falle
 

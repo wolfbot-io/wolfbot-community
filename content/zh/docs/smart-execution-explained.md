@@ -1,7 +1,7 @@
 ---
 title: "智能执行详解 —— WolfBot Community 如何将一个信号转化为一笔安全路由的订单"
 description: "智能执行是把一个信号转化为真实订单、且不出差错的关键步骤。以下是交易品种解析、交易场所路由和风控守卫在订单下达前一刻是如何协同工作的。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
 difficulty: "intermediate"
@@ -24,7 +24,7 @@ translation_of: "docs/smart-execution-explained"
 
 # 智能执行详解
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

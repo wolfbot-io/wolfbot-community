@@ -1,7 +1,7 @@
 ---
 title: "ट्रेड-ओनली API कुंजी गाइड — सुरक्षा की सर्वोत्तम प्रथाएं"
 description: "WolfBot Community के लिए सुरक्षित ट्रेड-ओनली API कुंजियां कैसे बनाएं। कभी भी विड्रॉल अनुमतियां सक्षम न करें। Binance, Bybit, BingX, KuCoin, Bitget के लिए गाइड।"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ translation_of: "brokers/api-key-guide"
 
 # ट्रेड-ओनली API कुंजी गाइड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
 
 ## ट्रेड-ओनली क्यों?
 

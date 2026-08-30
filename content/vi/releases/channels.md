@@ -1,7 +1,7 @@
 ---
 title: "Giải thích kênh phát hành WolfBot Community"
 description: "Hiểu các kênh phát hành WolfBot Community: Stable, Beta, RC, Alpha, và Dev Preview. Chọn đúng kênh."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ sitemap_priority: 0.80
 
 # Giải thích kênh phát hành
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-11
 
 ## Các kênh khả dụng
 
@@ -88,11 +88,11 @@ Mỗi bản build là bất biến — chúng tôi không bao giờ sửa một 
 
 ## Trạng thái hiện tại
 
-WolfBot Community hiện đang ở kênh phát hành công khai **v0.1.0-beta.2**.
+WolfBot Community hiện đang ở kênh phát hành công khai **v0.1.0-beta.4**.
 
 ```text
 Stable: Chưa phát hành
-Public hiện tại: v0.1.0-beta.2
+Public hiện tại: v0.1.0-beta.4
 ```
 
 Điều này nghĩa là:
@@ -116,7 +116,7 @@ Khi thử một kênh thử nghiệm hơn, khuyến nghị kiểm thử trên t�
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-beta.2
+0.1.0-beta.4
 │   │  │
 │   │  └── Kênh: beta, build 2
 │   └───── Phiên bản minor (phát hành tính năng)

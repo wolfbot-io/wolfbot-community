@@ -1,7 +1,7 @@
 ---
 title: "MT5 심볼 매핑 — WolfBot Community가 MT5와 암호화폐 거래소 사이에서 심볼을 라우팅하는 방법"
 description: "MT5는 USD 표기 심볼(BTCUSD, XAUUSD 등)을 사용하는 반면 암호화폐 거래소는 USDT 페어(BTCUSDT)를 사용합니다. WolfBot Community가 수동 리심볼링 없이 하나의 시그널이 MT5, Binance, Bybit, BingX 전반에서 작동하도록 이들을 매핑하는 정확한 방법을 알아보세요."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-symbol-mapping"
 
 # MT5 심볼 매핑
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

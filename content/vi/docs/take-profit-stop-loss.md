@@ -1,7 +1,7 @@
 ---
 title: "Take-Profit và Stop-Loss — Hai lệnh bảo vệ mọi giao dịch"
 description: "Take-profit (TP) và stop-loss (SL) là hai lệnh quyết định bạn thắng bao nhiêu và có thể thua bao nhiêu. Đây là cách WolfBot Community đặt chúng tự động và cách chỉnh chúng."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ sitemap_priority: 0.80
 
 # Take-Profit và Stop-Loss
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

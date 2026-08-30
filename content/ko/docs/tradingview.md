@@ -1,7 +1,7 @@
 ---
 title: "TradingView에서 셀프 호스팅 트레이딩 봇으로 — TradingView 알림을 WolfBot Community에 연결하기"
 description: "TradingView 알림 웹훅을 셀프 호스팅 WolfBot Community 봇으로 바로 보내세요. 웹훅 URL, HMAC 서명, 티어별 알림 템플릿이 어떻게 작동하는지, 그리고 먼저 Simulation에서 안전하게 테스트하는 방법을 알아보세요."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/tradingview"
 
 # TradingView에서 셀프 호스팅 트레이딩 봇으로
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

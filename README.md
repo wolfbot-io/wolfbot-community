@@ -41,12 +41,17 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.2
+## Latest Release — v0.1.0-beta.4
 
-WolfBot Community **v0.1.0-beta.2** is the latest public release of the free self-hosted trading platform for Windows and Linux users, with signed Linux installers available now.
+WolfBot Community **v0.1.0-beta.4** is the latest public release of the free self-hosted trading platform for Windows and Linux users — a reliability and infrastructure hardening release, with signed Linux installers available now.
 
 Highlights:
 
+- **Fixed in-app update checks** — the Settings "Software update" card now reliably detects newer releases instead of silently reporting "up to date".
+- **More resilient background jobs** — the TP/SL safety-net check and other periodic jobs start correctly across every core service.
+- **Robust `.deb` upgrades** — installs cleanly over any earlier build, including older `0.1.0-p12-ghcr-rcNN` version naming.
+- **MT5 self-heal after restarts** — terminal containers auto-clear stale state after an uncleaned host restart.
+- **DCA position tracking self-heal** — position tracking automatically re-syncs with the exchange's real reported state.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor and outcome worker images are pinned by SHA256 digest in the signed release manifest.
@@ -57,10 +62,10 @@ Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `b7cff2408b7ad6eafc6b374d2644202b15fb05ebe8c4bfdd72a12d4df91e2674` |
-| `wolfbot-oneclick-0.1.0-beta.2.run` | `16896217809f8525f65d806a3cb76d5856d3fa6c51fabe037b92bcd87441f046` |
+| `WolfBot-Setup-linux-amd64.deb` | `99a6d01486eed118862138648fd416002ce19d3a2d607605c79b6e5fad1001e3` |
+| `wolfbot-oneclick-0.1.0-beta.4.run` | `852087469d60148ed9bb5cb4d3eeb5fdb88dbf301d668fd0e2c94cd9aa4a1ddc` |
 
-Read the full release notes: **[v0.1.0-beta.2](https://community.wolfbot.io/releases/0.1.0-beta.2)**.
+Read the full release notes: **[v0.1.0-beta.4](https://community.wolfbot.io/releases/0.1.0-beta.4)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 

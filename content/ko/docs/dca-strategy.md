@@ -1,7 +1,7 @@
 ---
 title: "DCA 전략 설명 — 거래에서의 달러 코스트 애버리징"
 description: "DCA 전략(달러 코스트 애버리징) 이해하기 — 간격을 두고 매수해 평균 가격을 낮추세요. 작동 방식과 WolfBot에서 사용하는 방법."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/dca-strategy"
 
 # DCA 전략 설명
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## DCA란?
 

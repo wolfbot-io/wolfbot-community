@@ -1,7 +1,7 @@
 ---
 title: "스마트 실행 설명 — WolfBot Community가 시그널을 안전하게 라우팅된 주문으로 바꾸는 방법"
 description: "스마트 실행은 실수 없이 시그널을 실제 주문으로 바꾸는 단계입니다. 주문이 이루어지기 직전에 심볼 해석, 거래소 라우팅, 리스크 가드가 어떻게 함께 작동하는지 알아보세요."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -24,7 +24,7 @@ translation_of: "docs/smart-execution-explained"
 
 # 스마트 실행 설명
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

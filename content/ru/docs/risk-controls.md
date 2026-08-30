@@ -1,7 +1,7 @@
 ---
 title: "Risk Controls в WolfBot Community — полный гайд"
 description: "Настройте единые risk controls в WolfBot Community — лимиты позиций, защиту от просадки, кулдауны и дневные лимиты сделок, применяемые ко всем вашим подключённым криптобиржам и MT5-брокерам."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # Гайд по Risk Controls
 
-**Протестировано с WolfBot Community v0.1.0-beta.2** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
 
 ## Почему Risk Controls важны
 

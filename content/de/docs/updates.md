@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community aktualisieren — Windows & Linux"
 description: "So aktualisierst du WolfBot Community auf die neueste Version unter Windows und Linux, einschließlich Kanälen und Rollback."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -18,7 +18,7 @@ translation_of: "docs/updates"
 
 # Updates
 
-**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
 
 ## Update-Methoden
 

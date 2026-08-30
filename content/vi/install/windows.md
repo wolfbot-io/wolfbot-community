@@ -1,7 +1,7 @@
 ---
 title: "Cài đặt WolfBot Community trên Windows — Từng bước"
 description: "Cách cài WolfBot Community trên Windows 10 hoặc Windows 11. Tải Setup.exe, cài trong vài phút, và bắt đầu giao dịch trên thị trường crypto và MT5."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-12"
 platforms: ["windows"]
 category: "install"
@@ -24,9 +24,9 @@ sitemap_priority: 0.9
 
 # Cài đặt WolfBot Community trên Windows
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-12 · Windows 11 / Windows 10
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-12 · Windows 11 / Windows 10
 
-> ℹ️ **Tình trạng khả dụng:** bản phát hành công khai đầu tiên (v0.1.0-beta.2) đi kèm trình cài đặt Linux. Trình cài đặt Windows được mô tả ở đây trước khi bản phát hành tiếp theo ra mắt — xem [trang download](/download) để biết tình trạng hiện tại, và hướng dẫn này sẽ dẫn bạn đi từng bước ngay khi nó khả dụng.
+> ℹ️ **Tình trạng khả dụng:** bản phát hành công khai đầu tiên (v0.1.0-beta.4) đi kèm trình cài đặt Linux. Trình cài đặt Windows được mô tả ở đây trước khi bản phát hành tiếp theo ra mắt — xem [trang download](/download) để biết tình trạng hiện tại, và hướng dẫn này sẽ dẫn bạn đi từng bước ngay khi nó khả dụng.
 
 ## Hướng dẫn này dành cho ai
 

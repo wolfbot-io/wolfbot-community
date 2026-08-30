@@ -1,7 +1,7 @@
 ---
 title: "Was ist Self-Hosting? — WolfBot Community erklärt"
 description: "Verstehe, was es bedeutet, einen Trading-Bot selbst zu hosten, warum es auf deiner eigenen Maschine läuft, und was das für Kontrolle, Datenschutz und Kosten bedeutet."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # Was ist Self-Hosting?
 
-**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
 
 ## Die Kernidee
 

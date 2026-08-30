@@ -1,7 +1,7 @@
 ---
 title: "Terminal Inteligente do WolfBot Community — Guia de Trading Manual"
 description: "Como usar o Terminal Inteligente do WolfBot Community para trading manual. Faça ordens com controles de risco automáticos em todas as suas exchanges de cripto e corretoras MT5 conectadas."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # Guia do Terminal Inteligente
 
-**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
 
 ## O Que É o Terminal Inteligente?
 

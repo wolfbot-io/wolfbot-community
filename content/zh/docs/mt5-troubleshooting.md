@@ -1,7 +1,7 @@
 ---
 title: "MT5 故障排查 —— 修复 WolfBot Community 中常见的 MT5 连接和设置问题"
 description: "MT5 无法连接、账户无法完成配置,或交易品种没有显示?这里列出了 WolfBot Community 中具体的 MT5 连接和设置错误,以及每一个应该检查什么。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
 difficulty: "intermediate"
@@ -25,7 +25,7 @@ translation_of: "docs/mt5-troubleshooting"
 
 # MT5 故障排查
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

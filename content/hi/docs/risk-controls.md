@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community रिस्क कंट्रोल — पूरी गाइड"
 description: "WolfBot Community में एकीकृत रिस्क कंट्रोल कॉन्फ़िगर करें — पोज़िशन लिमिट, ड्रॉडाउन सुरक्षा, कूलडाउन, और दैनिक ट्रेड लिमिट जो आपके सभी कनेक्टेड क्रिप्टो एक्सचेंज और MT5 ब्रोकर पर लागू होते हैं।"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # रिस्क कंट्रोल गाइड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
 
 ## रिस्क कंट्रोल क्यों ज़रूरी है
 

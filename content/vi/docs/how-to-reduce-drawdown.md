@@ -1,7 +1,7 @@
 ---
 title: "Cách giảm Drawdown trong giao dịch"
 description: "Drawdown là không thể tránh — nhưng độ sâu của nó nằm trong tầm kiểm soát của bạn. Hướng dẫn thực tế để hạn chế drawdown bằng giới hạn kích thước vị thế, giới hạn thua lỗ và cooldown trong WolfBot Community."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-14"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ sitemap_priority: 0.75
 
 # Cách giảm Drawdown trong giao dịch
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

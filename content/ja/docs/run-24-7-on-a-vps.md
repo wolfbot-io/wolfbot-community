@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community を VPS で 24/7 実行"
 description: "PC を常時起動せずに、仮想プライベートサーバー(VPS)で WolfBot Community を 24 時間運用する方法 — 暗号通貨と MT5 取引。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "automation"
@@ -17,7 +17,7 @@ translation_of: "docs/run-24-7-on-a-vps"
 
 # VPS で 24/7 実行
 
-**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
 
 ## なぜ VPS なのか?
 

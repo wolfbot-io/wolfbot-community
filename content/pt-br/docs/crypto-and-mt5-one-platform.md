@@ -1,7 +1,7 @@
 ---
 title: "Cripto e MT5 em Uma Única Plataforma — Uma Interface WolfBot para Ambos"
 description: "Por que combinar futuros de cripto com Forex e Ouro do MT5 em uma única interface self-hosted é a maior vantagem do WolfBot Community — um login, um motor de risco, um portfólio para os dois mundos."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # Cripto e MT5 em Uma Única Plataforma
 
-**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

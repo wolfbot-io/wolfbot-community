@@ -1,7 +1,7 @@
 ---
 title: "将 Binance 连接到 WolfBot Community —— 分步指南"
 description: "将 Binance 连接到 WolfBot Community —— 创建仅限交易的 API 密钥,开始在现货和合约市场自动化交易。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
@@ -19,7 +19,7 @@ translation_of: "brokers/binance"
 
 # 将 Binance 连接到 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
 
 **Binance 支持状态:** 稳定 · 模拟 ✅ · 实盘 ✅ · 终端 ✅ · 策略 ✅
 

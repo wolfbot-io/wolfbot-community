@@ -1,7 +1,7 @@
 ---
 title: "将 MT5 连接到 WolfBot Community —— 分步指南"
 description: "WolfBot Community 已内置 MT5 支持——在 Windows 或 Linux 上交易外汇、黄金、指数和股票 CFD,无需单独的 Windows 电脑。分步连接指南。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -17,7 +17,7 @@ translation_of: "brokers/mt5"
 
 # 将 MT5 连接到 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
 
 **MT5 支持状态:** 稳定 · 模拟 ✅ · 实盘 ✅ · 终端 ✅ · 策略 ✅ · Windows ✅ · Linux ✅
 

@@ -1,7 +1,7 @@
 ---
 title: "MT5 Symbol Mapping — How WolfBot Community Routes Symbols Between MT5 and Crypto Exchanges"
 description: "MT5 uses USD-quoted symbols (like BTCUSD or XAUUSD) while crypto exchanges use USDT pairs (BTCUSDT). Here's exactly how WolfBot Community maps them so one signal works across MT5, Binance, Bybit and BingX without manual resymboling."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -23,7 +23,7 @@ sitemap_priority: 0.75
 
 # MT5 Symbol Mapping
 
-**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

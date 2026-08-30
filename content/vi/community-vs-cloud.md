@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs WolfBot Cloud — So sánh"
 description: "So sánh WolfBot Community (miễn phí tự lưu trữ) và WolfBot Cloud (được quản lý). Cùng nền tảng giao dịch thống nhất, cùng thị trường — khác hosting."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "faq"

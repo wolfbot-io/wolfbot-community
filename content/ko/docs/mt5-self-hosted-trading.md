@@ -1,7 +1,7 @@
 ---
 title: "MT5 셀프 호스팅 트레이딩 — 렌탈이 아닌 내 기기에서 MetaTrader 5 실행하기"
 description: "셀프 호스팅 MT5 트레이딩이란 별도의 Windows 박스를 렌탈하는 대신, MetaTrader 5 터미널을 내가 직접 제어하는 곳 — 내 컴퓨터나 나만의 VPS — 에서 실행하는 것을 의미합니다. 무엇이 달라지고 왜 중요한지 알아보세요."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-self-hosted-trading"
 
 # MT5 셀프 호스팅 트레이딩
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

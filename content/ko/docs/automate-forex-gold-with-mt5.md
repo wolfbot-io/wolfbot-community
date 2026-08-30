@@ -1,7 +1,7 @@
 ---
 title: "MT5로 외환과 금 자동매매 — 골드, FX, 상품 전략을 셀프 호스팅으로 실행하기"
 description: "MT5로 외환, 금, 상품 CFD 전략을 자신의 컴퓨터나 VPS에서 암호화폐와 나란히 자동화하세요 — 동일한 WolfBot 인터페이스, 통합 리스크, 하나의 포트폴리오."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # MT5로 외환과 금 자동매매
 
-**WolfBot Community v0.1.0-beta.2에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

@@ -1,7 +1,7 @@
 ---
 title: "Статус WolfBot Community"
 description: "Текущий статус WolfBot Community — поддерживаемые рынки, доступность платформы, известные проблемы и дорожная карта."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 category: "status"
 difficulty: "beginner"
@@ -60,7 +60,7 @@ translation_of: "docs/community-status"
 
 ## Текущая версия
 
-- **Последний публичный релиз:** v0.1.0-beta.2
+- **Последний публичный релиз:** v0.1.0-beta.4
 - **Канал:** публичный релиз
 - **Дата релиза:** 2026-08-11
 

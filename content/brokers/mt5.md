@@ -1,7 +1,7 @@
 ---
 title: "Connect MT5 to WolfBot Community — Step-by-Step"
 description: "WolfBot Community includes MT5 — trade Forex, Gold, Indices and Stocks/CFDs on Windows or Linux, no separate Windows machine needed. Step-by-step connect guide."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 brokers: ["mt5"]
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Connect MT5 to WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-12
 
 **MT5 support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅ · Windows ✅ · Linux ✅
 

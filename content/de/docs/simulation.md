@@ -1,7 +1,7 @@
 ---
 title: "Mit einem Demo-Konto in WolfBot Community starten"
 description: "Erfahre, wie du WolfBot Community risikofrei mit einem Broker-Demo-Konto testest. Paper-Trade gegen echte Marktdaten über Krypto- und MT5-Märkte, ohne echtes Geld zu riskieren."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -25,7 +25,7 @@ translation_of: "docs/simulation"
 
 # Starte mit einem Demo-Konto
 
-**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
 
 ## Was ist „Simulation“ in WolfBot?
 

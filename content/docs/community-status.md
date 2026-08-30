@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Status"
 description: "Current status of WolfBot Community — supported markets, platform availability, known issues, and roadmap."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-24"
 category: "status"
 difficulty: "beginner"
@@ -58,10 +58,10 @@ sitemap_priority: 0.60
 
 ## Current Version
 
-- **Latest Public Release:** v0.1.0-beta.2
+- **Latest Public Release:** v0.1.0-beta.4
 - **Channel:** Public release
 - **Release Date:** 2026-08-24
-- **Release notes:** [v0.1.0-beta.2](/releases/0.1.0-beta.2)
+- **Release notes:** [v0.1.0-beta.4](/releases/0.1.0-beta.4)
 
 ## Known Issues
 

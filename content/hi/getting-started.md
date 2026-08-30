@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community के साथ शुरुआत करें"
 description: "WolfBot Community इंस्टॉल करने के बाद पहले कदम। एक डेमो अकाउंट कनेक्ट करें, डैशबोर्ड एक्सप्लोर करें, और अपने क्रिप्टो एक्सचेंज या MT5 ब्रोकर जोड़ें।"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ translation_of: "getting-started"
 
 # WolfBot Community के साथ शुरुआत करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
 
 ## स्वागत है! 👋
 

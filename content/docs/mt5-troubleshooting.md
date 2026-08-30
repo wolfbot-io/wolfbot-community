@@ -1,7 +1,7 @@
 ---
 title: "MT5 Troubleshooting — Fix Common MT5 Connection and Setup Problems in WolfBot Community"
 description: "MT5 won't connect, an account can't be provisioned, or a symbol isn't showing? Here are the concrete MT5 connection and setup errors in WolfBot Community and exactly what to check for each one."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-16"
 platforms: ["linux", "windows"]
 category: "troubleshooting"
@@ -23,7 +23,7 @@ sitemap_priority: 0.75
 
 # MT5 Troubleshooting
 
-**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

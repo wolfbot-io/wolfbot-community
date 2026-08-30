@@ -1,7 +1,7 @@
 ---
 title: "取引所と MT5 をまたぐ1つのポートフォリオ — すべてのポジションを1つのビューで確認"
 description: "各取引所にログインする代わりに、暗号通貨と MT5 を合わせたポートフォリオ全体が1つのセルフホスト型ビューに表示されます。統合ポートフォリオの可視化が何をもたらし、リスク管理をどう変えるかを解説します。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/one-portfolio-across-exchanges-and-mt5"
 
 # 取引所と MT5 をまたぐ1つのポートフォリオ
 
-**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

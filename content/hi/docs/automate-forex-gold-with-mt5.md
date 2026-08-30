@@ -1,7 +1,7 @@
 ---
 title: "MT5 के साथ फॉरेक्स और गोल्ड ऑटोमेट करें — गोल्ड, FX और कमोडिटी स्ट्रेटेजी सेल्फ-होस्टेड चलाएं"
 description: "अपनी मशीन या VPS पर MT5 के साथ फॉरेक्स, गोल्ड और कमोडिटी CFD स्ट्रेटेजी ऑटोमेट करें, क्रिप्टो के साथ-साथ — वही WolfBot इंटरफ़ेस, एकीकृत रिस्क और एक पोर्टफोलियो।"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # MT5 के साथ फॉरेक्स और गोल्ड ऑटोमेट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-18
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-18
 
 ## यह गाइड किसके लिए है
 

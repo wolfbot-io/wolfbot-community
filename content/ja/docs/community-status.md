@@ -1,7 +1,7 @@
 ---
 title: "コミュニティステータス — 活発な開発状況"
 description: "WolfBot Community プロジェクトの現在のステータス: バージョン、プラットフォームサポート、公開チャネル、そして次に来るもの。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "community"
@@ -17,15 +17,15 @@ translation_of: "docs/community-status"
 
 # コミュニティステータス
 
-**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
 
 ## 現在の状態
 
-WolfBot Community の現在の公開リリーストラックは **v0.1.0-beta.2** です。
+WolfBot Community の現在の公開リリーストラックは **v0.1.0-beta.4** です。
 
 | 領域 | 状態 |
 |---|---|
-| **現在のバージョン** | v0.1.0-beta.2 |
+| **現在のバージョン** | v0.1.0-beta.4 |
 | **Windows** | ✅ 利用可能 |
 | **Linux** | ✅ 利用可能 |
 | **暗号通貨取引** | ✅ 利用可能 |
@@ -91,7 +91,7 @@ WolfBot Community はオープン開発です:
 
 ## バージョン履歴
 
-### v0.1.0-beta.2 (現在)
+### v0.1.0-beta.4 (現在)
 - 公開プレビューリリース
 - 統合暗号通貨 + MT5 プラットフォーム
 - Smart Terminal とリスク管理

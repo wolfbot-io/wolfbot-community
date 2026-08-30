@@ -1,7 +1,7 @@
 ---
 title: "Подключение BingX к WolfBot Community — пошагово"
 description: "Подключите BingX к WolfBot Community — создайте API-ключи только для торговли и начните автоматическую торговлю на Standard и Perpetual Futures."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bingx"
 
 # Подключение BingX к WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-beta.2** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
 
 **Статус поддержки BingX:** Стабильно · Demo ✅ · Live ✅ · Терминал ✅ · Стратегия ✅
 

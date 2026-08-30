@@ -1,7 +1,7 @@
 ---
 title: "Hướng dẫn API Key chỉ cho phép giao dịch — Thực hành bảo mật tốt nhất"
 description: "Cách tạo API key chỉ cho phép giao dịch an toàn cho WolfBot Community. Không bao giờ bật quyền rút tiền. Hướng dẫn cho Binance, Bybit, BingX, KuCoin, Bitget."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["binance", "bybit", "bingx", "kucoin", "bitget"]
@@ -23,7 +23,7 @@ sitemap_priority: 0.80
 
 # Hướng dẫn API Key chỉ cho phép giao dịch
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.2** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-11
 
 ## Vì sao chỉ cho phép giao dịch?
 

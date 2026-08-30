@@ -1,7 +1,7 @@
 ---
 title: "Conectar a Bybit ao WolfBot Community — Passo a Passo"
 description: "Conecte a Bybit ao WolfBot Community — crie chaves de API somente-negociação e comece a operar automaticamente em Spot, Futuros e Demo."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -25,7 +25,7 @@ translation_of: "brokers/bybit"
 
 # Conectar a Bybit ao WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
 
 **Status de suporte à Bybit:** Estável · Demo ✅ · Live ✅ · Terminal ✅ · Estratégia ✅
 

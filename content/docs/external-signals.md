@@ -1,7 +1,7 @@
 ---
 title: "External Signals - Send Market Signals Into WolfBot Community from Any Source"
 description: "Wire external trading signals, TradingView alerts, custom webhooks and signal services into your self-hosted WolfBot Community bot through validated, risk-gated intake paths."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-23"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -22,7 +22,7 @@ sitemap_priority: 0.75
 
 # External Signals
 
-**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-23
+**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-23
 
 ## Who this guide is for
 

@@ -23,7 +23,7 @@ export interface Broker {
   name: string
   /** URL slug under /brokers/<slug> */
   slug: string
-  /** Support status -- all 6 are 'stable' as of v0.1.0-beta.2 */
+  /** Support status -- all 6 are 'stable' as of v0.1.0-beta.4 */
   status: BrokerStatus
   /** Short market label for compact cards, e.g. "Crypto" or "Forex, Metals, Indices" */
   market: string

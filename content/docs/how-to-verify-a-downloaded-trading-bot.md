@@ -1,7 +1,7 @@
 ---
 title: "How to Verify a Downloaded Trading Bot — Check What You're About to Install"
 description: "Before you install any trading bot, verify the source and the file. Here's how to check a download against the official release, digest and signature so you never run unverified trading software."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "security"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # How to Verify a Downloaded Trading Bot
 
-**Tested with WolfBot Community v0.1.0-beta.2** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

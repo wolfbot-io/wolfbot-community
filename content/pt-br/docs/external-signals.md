@@ -1,7 +1,7 @@
 ---
 title: "Sinais Externos — Envie Sinais de Mercado para o WolfBot Community de Qualquer Fonte"
 description: "Conecte sinais de trading externos — alertas do TradingView, webhooks personalizados, serviços de sinais — ao seu bot WolfBot Community self-hosted através de um único pipeline assinado e protegido por risco."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # Sinais Externos
 
-**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

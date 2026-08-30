@@ -1,7 +1,7 @@
 ---
 title: "セルフホスティングとは? — WolfBot Community の説明"
 description: "取引ボットをセルフホストすることの意味、なぜ自分のマシンで動くのか、そして管理・プライバシー・コストにどんな意味があるのかを理解しましょう。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "faq"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # セルフホスティングとは?
 
-**WolfBot Community v0.1.0-beta.2 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
 
 ## 核となる考え方
 

@@ -1,7 +1,7 @@
 ---
 title: "MT5 Self-Hosted Trading — MetaTrader 5 auf deiner eigenen Maschine betreiben, kein Mietserver"
 description: "Self-Hosted MT5-Trading bedeutet, dein MetaTrader-5-Terminal dort laufen zu lassen, wo du die Kontrolle hast — auf deinem Computer oder deinem eigenen VPS — statt eine separate Windows-Box zu mieten. Hier erfährst du, was sich ändert und warum es wichtig ist."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-self-hosted-trading"
 
 # MT5 Self-Hosted Trading
 
-**Getestet mit WolfBot Community v0.1.0-beta.2** · Zuletzt aktualisiert: 2026-08-18
+**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-18
 
 ## Für wen dieser Guide ist
 

@@ -1,7 +1,7 @@
 ---
 title: "使用模拟账户开始 WolfBot Community"
 description: "了解如何使用经纪商模拟账户零风险试用 WolfBot Community。在加密货币和 MT5 市场上,针对真实市场数据进行模拟交易,不承担任何真实资金风险。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -25,7 +25,7 @@ translation_of: "docs/simulation"
 
 # 从模拟账户开始
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
 
 ## WolfBot 中的"模拟"是什么?
 

@@ -1,7 +1,7 @@
 ---
 title: "सेल्फ-होस्टेड ट्रेडिंग प्लेटफ़ॉर्म समझाया गया — WolfBot अपनी मशीन पर क्यों चलाएं"
 description: "सेल्फ-होस्टेड यूनिफ़ाइड ट्रेडिंग प्लेटफ़ॉर्म क्या है? WolfBot Community को अपनी मशीन पर चलाने के फ़ायदे: पूरा नियंत्रण, अधिकतम प्राइवेसी, ज़ीरो कॉस्ट — क्रिप्टो और MT5 मार्केट पर।"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -17,7 +17,7 @@ translation_of: "docs/self-hosted-explained"
 
 # सेल्फ-होस्टेड ट्रेडिंग प्लेटफ़ॉर्म समझाया गया
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.2** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
 
 ## "सेल्फ-होस्टेड" का क्या मतलब है?
 

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 发布渠道详解"
 description: "了解 WolfBot Community 的发布渠道:稳定版、Beta 版、RC 版、Alpha 版和开发预览版。选择适合你的渠道。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ translation_of: "releases/channels"
 
 # 发布渠道详解
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
 
 ## 可用渠道
 
@@ -92,7 +92,7 @@ WolfBot Community 目前处于 **公开预览** 阶段(Beta 阶段)。
 
 ```text
 稳定版:尚未发布
-当前公开版本: v0.1.0-beta.2
+当前公开版本: v0.1.0-beta.4
 ```
 
 这意味着:
@@ -116,7 +116,7 @@ WolfBot Community 目前处于 **公开预览** 阶段(Beta 阶段)。
 ```text
 主版本.次版本.补丁版本-渠道.编号
 
-0.1.0-beta.2
+0.1.0-beta.4
 │   │  │
 │   │  └── 渠道: beta,构建 2
 │   └───── 次版本(功能发布)

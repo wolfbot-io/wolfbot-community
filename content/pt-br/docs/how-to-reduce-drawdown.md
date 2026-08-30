@@ -1,7 +1,7 @@
 ---
 title: "Como Reduzir o Drawdown no Trading"
 description: "Drawdown é inevitável — mas o quanto ele se aprofunda está sob seu controle. Um guia prático para limitar o drawdown com dimensionamento de posição, limites de perda e cooldowns no WolfBot Community."
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # Como Reduzir o Drawdown no Trading
 
-**Testado com WolfBot Community v0.1.0-beta.2** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
 
 ## Para quem é este guia
 

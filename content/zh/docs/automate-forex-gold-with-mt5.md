@@ -1,7 +1,7 @@
 ---
 title: "用 MT5 自动化外汇与黄金交易 —— 自托管运行黄金、外汇和大宗商品策略"
 description: "在你自己的机器或 VPS 上,用 MT5 自动化外汇、黄金和大宗商品 CFD 策略——与加密货币并行运行,使用同一个 WolfBot 界面、统一风控和同一个投资组合。"
-tested_version: "0.1.0-beta.2"
+tested_version: "0.1.0-beta.4"
 last_updated: "2026-08-18"
 platforms: ["linux", "windows"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # 用 MT5 自动化外汇与黄金交易
 
-**已在 WolfBot Community v0.1.0-beta.2 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

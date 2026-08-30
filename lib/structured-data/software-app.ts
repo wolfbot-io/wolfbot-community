@@ -8,7 +8,7 @@ export const softwareAppSchema = {
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   author: { '@type': 'Organization', name: 'WolfBot.io', url: 'https://wolfbot.io' },
   downloadUrl: 'https://community.wolfbot.io/download',
-  softwareVersion: '0.1.0-beta.2',
+  softwareVersion: '0.1.0-beta.4',
   featureList: [
     'Unified trading across crypto exchanges and MT5 markets',
     'Automated trading with multiple strategies',
