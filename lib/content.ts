@@ -56,9 +56,14 @@ export function listContent(): ContentPage[] {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const fullPath = path.join(dir, entry.name)
       if (entry.isDirectory()) {
-        walk(fullPath, path.join(basePath, entry.name))
+        // `basePath` is a URL/content slug, not a filesystem path. Using
+        // path.join() here emits backslashes on Windows, which makes Next
+        // generate routes such as `brokers%5Cbinance` and then render 404.
+        // Keep filesystem joining for `fullPath`, but build slugs with POSIX
+        // separators on every host OS.
+        walk(fullPath, path.posix.join(basePath, entry.name))
       } else if (entry.name.endsWith('.md')) {
-        const slug = path.join(basePath, entry.name.replace('.md', ''))
+        const slug = path.posix.join(basePath, entry.name.replace('.md', ''))
         const raw = fs.readFileSync(fullPath, 'utf-8')
         const { data } = matter(raw)
         results.push({ slug, meta: data as ContentMeta, body: '' })

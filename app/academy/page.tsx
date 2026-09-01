@@ -12,8 +12,9 @@ export const metadata: Metadata = {
 
 const SECTIONS: { title: string; categories: string[] }[] = [
   { title: 'Getting Started', categories: ['getting-started', 'install'] },
-  { title: 'Broker Setup', categories: ['broker-setup'] },
+  { title: 'Broker Setup & Account Opening', categories: ['broker-setup', 'broker-account-opening'] },
   { title: 'Using WolfBot', categories: ['simulation', 'smart-terminal', 'risk-controls', 'automation', 'backup', 'updates'] },
+  { title: 'WolfBot Comparisons', categories: ['comparison'] },
   { title: 'Reference', categories: ['release', 'status', 'troubleshooting', 'faq', 'security'] },
 ]
 
