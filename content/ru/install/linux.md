@@ -1,7 +1,7 @@
 ---
 title: "Установка WolfBot Community на Ubuntu/Linux — пошаговая инструкция"
 description: "Как установить WolfBot Community на Ubuntu 22.04, Ubuntu 24.04 или Debian 12. Скачайте пакет .deb и начните торговать на крипто- и MT5-рынках — без командной строки."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "install"
@@ -25,7 +25,7 @@ translation_of: "install/linux"
 
 # Установка WolfBot Community на Ubuntu/Linux
 
-**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
+**Протестировано с WolfBot Community v0.1.0-beta.9** · Последнее обновление: 2026-08-15 · Ubuntu 24.04 / Ubuntu 22.04 / Debian 12
 
 ## Для кого это руководство
 

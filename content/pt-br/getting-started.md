@@ -1,7 +1,7 @@
 ---
 title: "Primeiros Passos com o WolfBot Community"
 description: "Primeiros passos após instalar o WolfBot Community. Conecte uma conta Demo, explore o Dashboard e adicione suas exchanges de cripto ou corretora MT5."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -18,7 +18,7 @@ translation_of: "getting-started"
 
 # Primeiros Passos com o WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.9** · Última atualização: 2026-08-15
 
 ## Bem-vindo! 👋
 

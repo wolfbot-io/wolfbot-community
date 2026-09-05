@@ -1,7 +1,7 @@
 ---
 title: "Как уменьшить просадку в торговле"
 description: "Просадка неизбежна — но её глубина под вашим контролем. Практический гайд по ограничению просадки через сайзинг позиций, лимиты убытков и кулдауны в WolfBot Community."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-to-reduce-drawdown"
 
 # Как уменьшить просадку в торговле
 
-**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.9** · Последнее обновление: 2026-08-15
 
 ## Для кого этот гайд
 

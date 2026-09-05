@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs 3Commas 2026: vì sao WolfBot là lựa chọn toàn diện hơn"
 description: "So sánh trực diện WolfBot Community, WolfBot Cloud và 3Commas về self-hosting, crypto + futures + MT5, risk engine, chi phí và quyền kiểm soát."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

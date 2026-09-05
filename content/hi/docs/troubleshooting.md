@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community समस्या निवारण — आम समस्याएं और समाधान"
 description: "आम WolfBot Community समस्याओं को ठीक करें। इंस्टॉलेशन एरर, मार्केट कनेक्शन समस्याएं, अपडेट फेलियर, और एरर कोड।"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -16,7 +16,7 @@ translation_of: "docs/troubleshooting"
 
 # समस्या निवारण गाइड
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.9** · आखिरी अपडेट: 2026-08-15
 
 ## त्वरित डायग्नोस्टिक
 

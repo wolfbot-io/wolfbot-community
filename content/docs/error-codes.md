@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Error Codes — Quick Fix Reference"
 description: "Every WolfBot Community error code explained: WB-WIN-001 to WB-WIN-004 and WB-LNX-001 to WB-LNX-002. Find the exact fix for your installer or startup error."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -21,7 +21,7 @@ sitemap_priority: 0.80
 
 # WolfBot Community Error Codes
 
-**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-08-16
 
 One code to one fix. Error codes tell you exactly what failed, so you don't
 have to guess. Find your code below, apply its fix, then continue with the

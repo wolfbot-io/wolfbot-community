@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community でデモ口座から始める"
 description: "WolfBot Community をブローカーのデモ口座でリスクなしにテストする方法。実資金を賭けずに、暗号通貨・MT5 市場でリアルタイムデータに対してペーパートレードしましょう。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -18,7 +18,7 @@ translation_of: "docs/simulation"
 
 # デモ口座から始める
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-15
 
 ## WolfBot の「Simulation」とは?
 

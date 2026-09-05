@@ -1,7 +1,7 @@
 ---
 title: "Self-Hosted Trading Platform Explained — Why Run WolfBot on Your Machine"
 description: "What is a self-hosted unified trading platform? Benefits of running WolfBot Community on your own machine: full control, maximum privacy, zero cost — across crypto and MT5 markets."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "getting-started"
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Self-Hosted Trading Platform Explained
 
-**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-08-11
 
 ## What Does "Self-Hosted" Mean?
 

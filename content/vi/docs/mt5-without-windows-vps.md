@@ -1,7 +1,7 @@
 ---
 title: "Chạy MT5 không cần Windows VPS — Cách WolfBot Community làm trên Linux"
 description: "MT5 thường đồng nghĩa với việc thuê một Windows VPS chỉ để giữ terminal chạy. WolfBot Community bỏ qua hoàn toàn việc đó — đây là chính xác cách MT5 bridge Linux hoạt động và vì sao không cần máy Windows."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-14"
 platforms: ["linux"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ sitemap_priority: 0.75
 
 # Chạy MT5 không cần Windows VPS
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-14
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-08-14
 
 ## Hướng dẫn này dành cho ai
 

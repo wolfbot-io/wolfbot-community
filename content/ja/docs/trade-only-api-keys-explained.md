@@ -1,7 +1,7 @@
 ---
 title: "Trade-Only API キーの説明"
 description: "取引ボット接続時に「出金なし」設定が最も重要なセキュリティ管理である理由と、それが資本を守る方法。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "security"
@@ -17,7 +17,7 @@ translation_of: "docs/trade-only-api-keys-explained"
 
 # Trade-Only API キーの説明
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-15
 
 ## 最も重要なセキュリティ決定
 

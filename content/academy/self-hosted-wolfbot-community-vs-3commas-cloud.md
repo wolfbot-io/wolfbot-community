@@ -1,7 +1,7 @@
 ---
 title: "Self-Hosted WolfBot Community vs 3Commas Cloud: Why Self-Hosting Wins"
 description: "Why WolfBot Community is the stronger self-hosted choice for control, no platform licence fee, MT5, and unified risk."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

@@ -1,7 +1,7 @@
 ---
 title: "How to Open an HTX Account with WolfBot: Registration, KYC, and 2FA"
 description: "Create an HTX account through the WolfBot referral, complete verification, secure it, and understand current Community integration status."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["htx"]

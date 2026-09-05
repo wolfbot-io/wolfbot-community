@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs 3Commas 2026: Why WolfBot Is the More Complete Choice"
 description: "A direct comparison of WolfBot Community, WolfBot Cloud, and 3Commas across self-hosting, crypto + futures + MT5, unified risk, cost, and control."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

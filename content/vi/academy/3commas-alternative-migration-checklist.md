@@ -1,7 +1,7 @@
 ---
 title: "Chuyển từ 3Commas sang WolfBot: chọn Community hay Cloud?"
 description: "Checklist chuyển an toàn từ 3Commas sang WolfBot Community hoặc WolfBot Cloud, không chồng API key, webhook, bot và vị thế."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

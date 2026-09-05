@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community トラブルシューティング — 一般的な問題"
 description: "一般的な WolfBot Community の問題を解決 — 接続エラー、注文拒否、サービスが起動しない、など。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
@@ -18,7 +18,7 @@ translation_of: "docs/troubleshooting"
 
 # トラブルシューティング
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-15
 
 ## クイック診断
 

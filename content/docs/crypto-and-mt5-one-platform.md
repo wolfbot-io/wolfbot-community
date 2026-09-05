@@ -1,7 +1,7 @@
 ---
 title: "Crypto and MT5 on One Platform — One WolfBot Interface for Both"
 description: "Why mixing crypto futures with MT5 Forex and Gold in a single self-hosted interface is WolfBot Community's biggest edge — one login, one risk engine, one portfolio across both worlds."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-16"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -22,7 +22,7 @@ sitemap_priority: 0.8
 
 # Crypto and MT5 on One Platform
 
-**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-16
+**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-08-16
 
 ## Who this guide is for
 

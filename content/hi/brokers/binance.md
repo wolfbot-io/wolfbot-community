@@ -1,7 +1,7 @@
 ---
 title: "Binance को WolfBot Community से कनेक्ट करें — चरण-दर-चरण"
 description: "Binance को WolfBot Community से कनेक्ट करें — ट्रेड-ओनली API कुंजियां बनाएं और Spot व Futures पर ऑटोमेटेड ट्रेडिंग शुरू करें।"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
@@ -19,7 +19,7 @@ translation_of: "brokers/binance"
 
 # Binance को WolfBot Community से कनेक्ट करें
 
-**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.4** · आखिरी अपडेट: 2026-08-15
+**टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.9** · आखिरी अपडेट: 2026-08-15
 
 **Binance सपोर्ट स्टेटस:** स्थिर · डेमो ✅ · लाइव ✅ · टर्मिनल ✅ · स्ट्रेटेजी ✅
 

@@ -1,7 +1,7 @@
 ---
 title: "TradingView からセルフホスト取引ボットへ — TradingView アラートを WolfBot Community に接続"
 description: "TradingView アラートの Webhook を、そのままセルフホストの WolfBot Community ボットに送信します。Webhook URL・HMAC 署名・3段階のアラートテンプレートの仕組みと、まずシミュレーションで安全にテストする方法を解説します。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/tradingview"
 
 # TradingView からセルフホスト取引ボットへ
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-18
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-18
 
 ## このガイドの対象者
 

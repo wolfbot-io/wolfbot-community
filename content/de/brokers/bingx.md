@@ -1,7 +1,7 @@
 ---
 title: "BingX mit WolfBot Community verbinden — Schritt für Schritt"
 description: "Verbinde BingX mit WolfBot Community — erstelle Trade-Only-API-Schlüssel und starte den automatisierten Handel auf Standard und Perpetual Futures."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bingx"
 
 # BingX mit WolfBot Community verbinden
 
-**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.9** · Zuletzt aktualisiert: 2026-08-15
 
 **BingX-Support-Status:** Stabil · Demo ✅ · Live ✅ · Terminal ✅ · Strategie ✅
 

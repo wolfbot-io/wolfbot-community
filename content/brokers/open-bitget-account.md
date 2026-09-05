@@ -1,7 +1,7 @@
 ---
 title: "How to Open a Bitget Account with WolfBot: KYC, 2FA, and Passphrase"
 description: "Register Bitget through the WolfBot referral, complete Identity Verification, enable Google Authenticator, and prepare an API passphrase safely."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]

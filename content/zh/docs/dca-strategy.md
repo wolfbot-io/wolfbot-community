@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 中的定投策略(DCA)"
 description: "定投(DCA)将一笔仓位拆分成多个更小的入场,而不是一次性大额买入。以下是 WolfBot Community 如何支持 DCA,以及它如何融入与其他订单相同的风控引擎。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/dca-strategy"
 
 # 定投策略(DCA)
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

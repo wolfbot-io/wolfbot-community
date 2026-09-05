@@ -1,7 +1,7 @@
 ---
 title: "Community-Status — aktiver Entwicklungsstand"
 description: "Der aktuelle Status des WolfBot Community-Projekts: Versionen, Plattform-Support, öffentliche Kanäle und was als Nächstes kommt."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "community"
@@ -17,15 +17,15 @@ translation_of: "docs/community-status"
 
 # Community-Status
 
-**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.9** · Zuletzt aktualisiert: 2026-08-15
 
 ## Aktueller Stand
 
-WolfBot Community befindet sich im öffentlichen Release-Track **v0.1.0-beta.4**.
+WolfBot Community befindet sich im öffentlichen Release-Track **v0.1.0-beta.9**.
 
 | Bereich | Status |
 |---|---|
-| **Aktuelle Version** | v0.1.0-beta.4 |
+| **Aktuelle Version** | v0.1.0-beta.9 |
 | **Windows** | ✅ Verfügbar |
 | **Linux** | ✅ Verfügbar |
 | **Krypto-Handel** | ✅ Verfügbar |
@@ -91,7 +91,7 @@ WolfBot Community ist offene Entwicklung:
 
 ## Versionsverlauf
 
-### v0.1.0-beta.4 (aktuell)
+### v0.1.0-beta.9 (aktuell)
 - Öffentliche Preview-Veröffentlichung
 - Einheitliche Krypto- + MT5-Plattform
 - Smart Terminal und Risk Controls

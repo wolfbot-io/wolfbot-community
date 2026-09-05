@@ -1,7 +1,7 @@
 ---
 title: "Sao lưu & Phục hồi WolfBot Community — Hướng dẫn bảo vệ dữ liệu"
 description: "Cách sao lưu và phục hồi WolfBot Community — bảo vệ cấu hình nền tảng thống nhất và dữ liệu giao dịch của bạn."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-12"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ sitemap_priority: 0.80
 
 # Hướng dẫn sao lưu & phục hồi
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-12
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-08-12
 
 ## Vì sao sao lưu?
 

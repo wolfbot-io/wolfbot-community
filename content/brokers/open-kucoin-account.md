@@ -1,7 +1,7 @@
 ---
 title: "How to Open a KuCoin Account with WolfBot: KYC, 2FA, and Trading Password"
 description: "Register KuCoin through the WolfBot referral, complete identity verification, enable Google 2FA, and distinguish Trading Password from API passphrase."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]

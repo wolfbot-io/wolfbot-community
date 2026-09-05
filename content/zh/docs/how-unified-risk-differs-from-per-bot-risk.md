@@ -1,7 +1,7 @@
 ---
 title: "统一风控 vs 单机器人风控 —— 为什么单一风控引擎在多市场交易中更安全"
 description: "为每个机器人单独设置风控规则,会在它们之间留下漏洞。本文解释 WolfBot Community 的单一统一风控引擎如何把加密货币和 MT5 持仓视为同一个投资组合,以及这如何阻止分散式回撤的发生。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 platforms: ["windows", "linux"]
 category: "risk-controls"
 difficulty: "intermediate"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # 统一风控 vs 单机器人风控
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

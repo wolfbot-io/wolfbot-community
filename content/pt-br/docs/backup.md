@@ -1,7 +1,7 @@
 ---
 title: "Backup e Restauração do WolfBot Community — Guia de Proteção de Dados"
 description: "Como fazer backup e restaurar o WolfBot Community — proteja a configuração e os dados de trading da sua plataforma unificada."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # Guia de Backup e Restauração
 
-**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.9** · Última atualização: 2026-08-15
 
 ## Por Que Fazer Backup?
 

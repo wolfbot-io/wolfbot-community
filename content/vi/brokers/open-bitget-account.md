@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản Bitget qua WolfBot: KYC, 2FA và passphrase"
 description: "Hướng dẫn từng bước đăng ký Bitget qua referral WolfBot, làm Identity Verification, bật Google Authenticator và chuẩn bị API passphrase."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]

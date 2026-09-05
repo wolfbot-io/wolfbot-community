@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản Gate qua WolfBot: hướng dẫn chi tiết và an toàn"
 description: "Đăng ký Gate bằng referral WolfBot, hoàn thành xác minh danh tính, bật 2FA và hiểu rõ trạng thái tích hợp Gate trong WolfBot Community."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["gate"]

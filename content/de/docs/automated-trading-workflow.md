@@ -1,7 +1,7 @@
 ---
 title: "Automatisierter Handelsablauf in WolfBot Community"
 description: "Der komplette Ablauf für automatisierten Handel: Strategie wählen, Bots konfigurieren, im Demo testen, live schalten und überwachen."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -18,7 +18,7 @@ translation_of: "docs/automated-trading-workflow"
 
 # Automatisierter Handelsablauf
 
-**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.9** · Zuletzt aktualisiert: 2026-08-15
 
 ## Überblick
 

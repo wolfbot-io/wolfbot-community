@@ -1,7 +1,7 @@
 ---
 title: "取引パフォーマンスを責任を持って読む方法"
 description: "取引パフォーマンスを正しく評価する方法を学ぶ: リターン、ドローダウン、勝率、リスク。見出しの数字に騙されないでください。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "reference"
@@ -17,7 +17,7 @@ translation_of: "docs/how-to-read-trading-performance"
 
 # 取引パフォーマンスを責任を持って読む方法
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-15
 
 ## 見出しの罠
 

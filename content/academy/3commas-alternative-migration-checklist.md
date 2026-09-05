@@ -1,7 +1,7 @@
 ---
 title: "Move from 3Commas to WolfBot: Community or Cloud?"
 description: "A safe migration checklist from 3Commas to WolfBot Community or WolfBot Cloud without overlapping API keys, webhooks, bots, or positions."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

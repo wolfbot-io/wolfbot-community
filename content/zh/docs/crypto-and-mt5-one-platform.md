@@ -1,7 +1,7 @@
 ---
 title: "加密货币与 MT5 融合于一个平台 —— 一个 WolfBot 界面搞定两者"
 description: "为什么在一个自托管界面里同时融合加密货币期货与 MT5 外汇、黄金,是 WolfBot Community 最大的优势——一次登录、一个风控引擎、一个跨越两个世界的投资组合。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/crypto-and-mt5-one-platform"
 
 # 加密货币与 MT5 融合于一个平台
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-18
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-18
 
 ## 本指南适合谁
 

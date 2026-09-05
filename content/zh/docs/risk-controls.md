@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 风险控制 —— 完整指南"
 description: "在 WolfBot Community 中配置统一的风险控制——仓位限制、回撤保护、冷却时间和每日交易限制,适用于你所有已连接的加密货币交易所和 MT5 经纪商。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ translation_of: "docs/risk-controls"
 
 # 风险控制指南
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-15
 
 ## 为什么风险控制很重要
 

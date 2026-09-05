@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community Release Channels Explained"
 description: "Understand WolfBot Community release channels: Stable, Beta, RC, Alpha, and Dev Preview. Choose the right channel."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-24"
 platforms: ["windows", "linux"]
 category: "release"
@@ -15,7 +15,7 @@ sitemap_priority: 0.80
 
 # Release Channels Explained
 
-**Tested with WolfBot Community v0.1.0-beta.4** · Last updated: 2026-08-24
+**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-08-24
 
 ## Available Channels
 
@@ -86,10 +86,10 @@ Each build is immutable — we never modify a published release. If a bug is fou
 
 ## Current Status
 
-WolfBot Community is on the public release track with **v0.1.0-beta.4** available now.
+WolfBot Community is on the public release track with **v0.1.0-beta.9** available now.
 
 ```text
-Current public: v0.1.0-beta.4
+Current public: v0.1.0-beta.9
 ```
 
 This means:
@@ -97,7 +97,7 @@ This means:
 - Linux `.deb` and `.run` installers are available now
 - Windows remains on the Community platform roadmap
 - Simulation or broker demo accounts are the recommended first-run path
-- The latest detailed release notes are here: [v0.1.0-beta.4](/releases/0.1.0-beta.4)
+- The latest detailed release notes are here: [v0.1.0-beta.9](/releases/0.1.0-beta.9)
 
 ---
 
@@ -114,7 +114,7 @@ When trying a more experimental channel, testing on a Demo account first is reco
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-beta.4
+0.1.0-beta.9
 │   │  │
 │   │  └── Channel: beta, build 2
 │   └───── Minor version (feature releases)

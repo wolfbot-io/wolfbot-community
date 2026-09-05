@@ -1,7 +1,7 @@
 ---
 title: "Smart Terminal 가이드 — 통합 거래 도구"
 description: "WolfBot Community Smart Terminal 알아보기 — 암호화폐, 선물, MT5 시장을 하나의 인터페이스에서 다루는 통합 관제 센터."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # Smart Terminal 가이드
 
-**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.9에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## Smart Terminal이란?
 

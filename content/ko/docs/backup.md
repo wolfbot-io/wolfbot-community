@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 백업 & 복원"
 description: "Windows와 Linux에서 WolfBot Community의 구성, 계정, 설정을 백업하고 복원하는 방법."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "backup"
@@ -18,7 +18,7 @@ translation_of: "docs/backup"
 
 # 백업 & 복원
 
-**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.9에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 무엇이 백업되나요?
 

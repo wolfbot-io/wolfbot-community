@@ -1,7 +1,7 @@
 ---
 title: "How to Open a Bybit Account with WolfBot: Registration, KYC, and 2FA"
 description: "Detailed Bybit signup through the WolfBot referral, including Standard KYC, authenticator security, Demo testing, and safe API preparation."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]

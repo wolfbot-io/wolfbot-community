@@ -1,7 +1,7 @@
 ---
 title: "How to Open a Binance Account with WolfBot: 2026 Step-by-Step Guide"
 description: "Create a Binance account through the WolfBot referral, complete identity verification, enable 2FA, and prepare a trade-only API connection safely."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["binance"]

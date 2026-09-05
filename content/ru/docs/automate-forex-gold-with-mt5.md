@@ -1,7 +1,7 @@
 ---
 title: "Автоматизация Forex и золота через MT5 — запускайте стратегии по золоту, FX и товарам self-hosted"
 description: "Автоматизируйте стратегии по Forex, золоту и товарным CFD через MT5 на своей машине или VPS, бок о бок с крипто — тот же интерфейс WolfBot, единый риск и один портфель."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 platforms: ["linux", "windows"]
 category: "broker-setup"
 difficulty: "beginner"
@@ -24,7 +24,7 @@ translation_of: "docs/automate-forex-gold-with-mt5"
 
 # Автоматизация Forex и золота через MT5
 
-**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-18
+**Протестировано с WolfBot Community v0.1.0-beta.9** · Последнее обновление: 2026-08-18
 
 ## Для кого этот гайд
 

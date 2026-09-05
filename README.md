@@ -41,17 +41,17 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.4
+## Latest Release — v0.1.0-beta.9
 
-WolfBot Community **v0.1.0-beta.4** is the latest public release of the free self-hosted trading platform for Windows and Linux users — a reliability and infrastructure hardening release, with signed Linux installers available now.
+WolfBot Community **v0.1.0-beta.9** is the latest public release of the free self-hosted trading platform for Windows and Linux users, introducing **Live Translate** — a real-time speech and text translation feature built directly into your dashboard — plus a large set of reliability fixes across broker connections, MT5, Telegram notifications and the Terminal.
 
 Highlights:
 
-- **Fixed in-app update checks** — the Settings "Software update" card now reliably detects newer releases instead of silently reporting "up to date".
-- **More resilient background jobs** — the TP/SL safety-net check and other periodic jobs start correctly across every core service.
-- **Robust `.deb` upgrades** — installs cleanly over any earlier build, including older `0.1.0-p12-ghcr-rcNN` version naming.
-- **MT5 self-heal after restarts** — terminal containers auto-clear stale state after an uncleaned host restart.
-- **DCA position tracking self-heal** — position tracking automatically re-syncs with the exchange's real reported state.
+- **Live Translate** — local, real-time speech and text translation (50+ languages) built into `/portal/translate`. Runs entirely on your own machine; the installer auto-detects your hardware (CPU/GPU) and picks the right build for you. Community-only.
+- **Bybit Demo, KuCoin and Bitget fixes** — the Bybit Demo 100k auto-top-up, KuCoin's $0.00 balance display, and a Bitget UTA bug where setting one TP/SL order could clear the other are all fixed.
+- **MT5 shared login + auto-reconnect** — one remembered VNC login across every connected MT5 account, with automatic background reconnection after you log in.
+- **Self-hosted Telegram bot linking** — connect your own Telegram bot for trade alerts from the Settings page; fixed duplicate-connection and "Open bot" link bugs.
+- **Terminal and Live Monitor fixes** — resolved a manual-order server error and a rejected real-time price/orderbook connection on fresh installs, plus a fixed "Could not load entry logs" issue.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor and outcome worker images are pinned by SHA256 digest in the signed release manifest.
@@ -62,10 +62,10 @@ Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `99a6d01486eed118862138648fd416002ce19d3a2d607605c79b6e5fad1001e3` |
-| `wolfbot-oneclick-0.1.0-beta.4.run` | `852087469d60148ed9bb5cb4d3eeb5fdb88dbf301d668fd0e2c94cd9aa4a1ddc` |
+| `WolfBot-Setup-linux-amd64.deb` | `b1250c2cecee876c5692a9f842ae1cc9376f7c68ea8c5db54d132a22016b7c31` |
+| `wolfbot-oneclick-0.1.0-beta.9-0.1.0.run` | `bf75ae2f69727bfcd0b6830592e3d97242f54fe12f3ff930ef4103b4a0d5da31` |
 
-Read the full release notes: **[v0.1.0-beta.4](https://community.wolfbot.io/releases/0.1.0-beta.4)**.
+Read the full release notes: **[v0.1.0-beta.9](https://community.wolfbot.io/releases/0.1.0-beta.9)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community self-hosted vs 3Commas cloud: vì sao nên tự host"
 description: "Phân tích lý do WolfBot Community là lựa chọn tốt hơn cho người muốn tự host: kiểm soát, miễn phí bản quyền, MT5 và unified risk."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 category: "comparison"

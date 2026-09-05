@@ -1,7 +1,7 @@
 ---
 title: "외부 시그널 — 모든 소스에서 WolfBot Community로 시장 시그널 보내기"
 description: "TradingView 알림, 커스텀 웹훅, 시그널 서비스 등 외부 트레이딩 시그널을 하나의 서명되고 리스크 검증된 파이프라인을 통해 셀프 호스팅 WolfBot Community 봇에 연결하세요."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/external-signals"
 
 # 외부 시그널
 
-**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-18
+**WolfBot Community v0.1.0-beta.9에서 테스트됨** · 마지막 업데이트: 2026-08-18
 
 ## 이 가이드의 대상
 

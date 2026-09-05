@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản HTX qua WolfBot: đăng ký, KYC và 2FA"
 description: "Hướng dẫn chi tiết tạo tài khoản HTX qua referral WolfBot, xác minh danh tính, bảo vệ tài khoản và hiểu trạng thái tích hợp Community."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["htx"]

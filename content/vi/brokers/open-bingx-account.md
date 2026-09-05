@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản BingX qua WolfBot: hướng dẫn KYC và bảo mật"
 description: "Từng bước đăng ký BingX qua referral WolfBot, hoàn thành Basic/Advanced KYC, bật 2FA và chuẩn bị API chỉ-giao-dịch."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]

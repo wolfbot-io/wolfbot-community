@@ -1,7 +1,7 @@
 ---
 title: "How to Open a BingX Account with WolfBot: KYC and Security Guide"
 description: "Register BingX through the WolfBot referral, complete the appropriate KYC level, enable 2FA, and prepare a trade-only API safely."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]

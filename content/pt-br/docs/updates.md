@@ -1,7 +1,7 @@
 ---
 title: "Guia de Atualização do WolfBot Community — Auto-Atualização e Canais"
 description: "Como funcionam as atualizações do WolfBot Community. Canais Stable, Beta e Dev Preview. Mantenha sua plataforma unificada atualizada."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "updates"
@@ -17,7 +17,7 @@ translation_of: "docs/updates"
 
 # Atualizar o WolfBot Community
 
-**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-15
+**Testado com WolfBot Community v0.1.0-beta.9** · Última atualização: 2026-08-15
 
 ## Como Funcionam as Atualizações
 

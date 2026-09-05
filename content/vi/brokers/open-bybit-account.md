@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản Bybit qua WolfBot: đăng ký, KYC và 2FA"
 description: "Hướng dẫn chi tiết mở tài khoản Bybit qua referral WolfBot, hoàn thành KYC, bật Google Authenticator và chuẩn bị Demo/API an toàn."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]

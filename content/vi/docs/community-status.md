@@ -1,7 +1,7 @@
 ---
 title: "Trạng thái WolfBot Community"
 description: "Trạng thái hiện tại của WolfBot Community — thị trường được hỗ trợ, khả dụng nền tảng, vấn đề đã biết, và lộ trình."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-11"
 category: "status"
 difficulty: "beginner"
@@ -60,7 +60,7 @@ sitemap_priority: 0.60
 
 ## Phiên bản hiện tại
 
-- **Bản phát hành công khai mới nhất:** v0.1.0-beta.4
+- **Bản phát hành công khai mới nhất:** v0.1.0-beta.9
 - **Kênh:** phát hành công khai
 - **Ngày phát hành:** 2026-08-11
 

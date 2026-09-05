@@ -1,7 +1,7 @@
 ---
 title: "How to Open an OKX Account with WolfBot: Registration, KYC, and Security"
 description: "Register OKX through the WolfBot referral, bind email and phone, complete individual verification, and enable authenticator security."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["okx"]

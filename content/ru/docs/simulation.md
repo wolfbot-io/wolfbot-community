@@ -1,7 +1,7 @@
 ---
 title: "Начните с WolfBot Community через Demo-аккаунт"
 description: "Узнайте, как безопасно протестировать WolfBot Community с Demo-аккаунтом брокера. Торгуйте на реальных рыночных данных на крипто- и MT5-рынках, не рискуя реальными средствами."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -25,7 +25,7 @@ translation_of: "docs/simulation"
 
 # Начните с Demo-аккаунта
 
-**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.9** · Последнее обновление: 2026-08-15
 
 ## Что такое «Simulation» в WolfBot?
 

@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 릴리스 채널 설명"
 description: "WolfBot Community의 릴리스 채널 이해하기: Stable, Beta, RC, Alpha, Dev Preview. 올바른 채널 선택하기."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "release"
@@ -17,7 +17,7 @@ translation_of: "releases/channels"
 
 # 릴리스 채널 설명
 
-**WolfBot Community v0.1.0-beta.4에서 테스트됨** · 마지막 업데이트: 2026-08-15
+**WolfBot Community v0.1.0-beta.9에서 테스트됨** · 마지막 업데이트: 2026-08-15
 
 ## 사용 가능한 채널
 
@@ -88,11 +88,11 @@ Stable (프로덕션)
 
 ## 현재 상태
 
-WolfBot Community의 현재 공개 릴리스 트랙은 **v0.1.0-beta.4**입니다.
+WolfBot Community의 현재 공개 릴리스 트랙은 **v0.1.0-beta.9**입니다.
 
 ```text
 Stable: 아직 게시되지 않음
-현재 공개 버전: v0.1.0-beta.4
+현재 공개 버전: v0.1.0-beta.9
 ```
 
 의미:
@@ -116,7 +116,7 @@ Stable: 아직 게시되지 않음
 ```text
 MAJOR.MINOR.PATCH-channel.NUMBER
 
-0.1.0-beta.4
+0.1.0-beta.9
 │   │  │
 │   │  └── 채널: beta, 빌드 2
 │   └───── 마이너 버전 (기능 릴리스)

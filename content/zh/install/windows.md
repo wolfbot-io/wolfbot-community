@@ -1,7 +1,7 @@
 ---
 title: "在 Windows 上安装 WolfBot Community —— 分步指南"
 description: "如何在 Windows 10 或 Windows 11 上安装 WolfBot Community。下载 Setup.exe,几分钟内完成安装,开始在加密货币和 MT5 市场交易。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows"]
 category: "install"
@@ -24,9 +24,9 @@ translation_of: "install/windows"
 
 # 在 Windows 上安装 WolfBot Community
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15 · Windows 11 / Windows 10
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-15 · Windows 11 / Windows 10
 
-> ℹ️ **可用性说明:** 首个公开版本(v0.1.0-beta.4)提供的是 Linux 安装包。Windows 安装包会在后续版本中推出,本指南提前编写完成——请查看[下载页面](/download)了解最新状态,一旦发布即可立即按本指南操作。
+> ℹ️ **可用性说明:** 首个公开版本(v0.1.0-beta.9)提供的是 Linux 安装包。Windows 安装包会在后续版本中推出,本指南提前编写完成——请查看[下载页面](/download)了解最新状态,一旦发布即可立即按本指南操作。
 
 ## 本指南适合谁
 

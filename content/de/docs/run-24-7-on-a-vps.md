@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 24/7 auf einem VPS betreiben"
 description: "So betreibst du WolfBot Community rund um die Uhr auf einem virtuellen privaten Server (VPS) — Krypto- und MT5-Handel, ohne dass dein PC ständig läuft."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "automation"
@@ -17,7 +17,7 @@ translation_of: "docs/run-24-7-on-a-vps"
 
 # 24/7 auf einem VPS betreiben
 
-**Getestet mit WolfBot Community v0.1.0-beta.4** · Zuletzt aktualisiert: 2026-08-15
+**Getestet mit WolfBot Community v0.1.0-beta.9** · Zuletzt aktualisiert: 2026-08-15
 
 ## Warum ein VPS?
 

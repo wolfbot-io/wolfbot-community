@@ -1,7 +1,7 @@
 ---
 title: "无需 Windows VPS 运行 MT5 —— WolfBot Community 在 Linux 上如何做到"
 description: "通常运行 MT5 意味着要租一台 Windows VPS,只为了让终端保持运行。WolfBot Community 完全跳过了这一步——以下是 Linux MT5 桥接的具体工作原理,以及为什么不需要 Windows 电脑。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["linux"]
 category: "broker-setup"
@@ -24,7 +24,7 @@ translation_of: "docs/mt5-without-windows-vps"
 
 # 无需 Windows VPS 运行 MT5
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-15
 
 ## 本指南适合谁
 

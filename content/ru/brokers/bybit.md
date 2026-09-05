@@ -1,7 +1,7 @@
 ---
 title: "Подключение Bybit к WolfBot Community — пошаговая инструкция"
 description: "Подключите Bybit к WolfBot Community — создайте API-ключи только для торговли и начните автоматическую торговлю на споте, фьючерсах и демо-счёте."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -25,7 +25,7 @@ translation_of: "brokers/bybit"
 
 # Подключение Bybit к WolfBot Community
 
-**Протестировано с WolfBot Community v0.1.0-beta.4** · Последнее обновление: 2026-08-15
+**Протестировано с WolfBot Community v0.1.0-beta.9** · Последнее обновление: 2026-08-15
 
 **Статус поддержки Bybit:** Стабильно · Демо ✅ · Реальный счёт ✅ · Терминал ✅ · Стратегия ✅
 

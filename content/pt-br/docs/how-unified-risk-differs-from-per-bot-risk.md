@@ -1,7 +1,7 @@
 ---
 title: "Risco Unificado vs Risco por Bot — Por Que Um Único Motor de Risco É Mais Seguro para Trading Multi-Mercado"
 description: "Rodar regras de risco separadas por bot deixa brechas entre elas. Este guia explica como o motor de risco unificado do WolfBot Community trata posições de cripto e MT5 como um único portfólio, e por que isso impede um drawdown disperso."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ translation_of: "docs/how-unified-risk-differs-from-per-bot-risk"
 
 # Risco Unificado vs Risco por Bot
 
-**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-beta.9** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

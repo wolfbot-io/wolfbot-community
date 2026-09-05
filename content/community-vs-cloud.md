@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community vs WolfBot Cloud — Comparison"
 description: "Compare WolfBot Community (free self-hosted) and WolfBot Cloud (managed). Same unified trading platform, same markets — different hosting."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 category: "faq"

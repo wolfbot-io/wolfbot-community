@@ -1,7 +1,7 @@
 ---
 title: "BingX を WolfBot Community に接続 — ステップバイステップ"
 description: "BingX を WolfBot Community に接続 — Trade-Only API キーを作成し、Standard および Perpetual Futures の自動取引を開始しましょう。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
@@ -17,7 +17,7 @@ translation_of: "brokers/bingx"
 
 # BingX を WolfBot Community に接続
 
-**WolfBot Community v0.1.0-beta.4 でテスト済み** · 最終更新: 2026-08-15
+**WolfBot Community v0.1.0-beta.9 でテスト済み** · 最終更新: 2026-08-15
 
 **BingX サポート状況:** 安定 · デモ ✅ · 実口座 ✅ · ターミナル ✅ · 戦略 ✅
 

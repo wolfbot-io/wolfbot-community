@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community 智能终端 —— 手动交易指南"
 description: "如何使用 WolfBot Community 智能终端进行手动交易。在所有已连接的加密货币交易所和 MT5 经纪商上下单,并自动应用风险控制。"
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
@@ -18,7 +18,7 @@ translation_of: "docs/smart-terminal"
 
 # 智能终端指南
 
-**已在 WolfBot Community v0.1.0-beta.4 上测试** · 最后更新: 2026-08-15
+**已在 WolfBot Community v0.1.0-beta.9 上测试** · 最后更新: 2026-08-15
 
 ## 什么是智能终端?
 

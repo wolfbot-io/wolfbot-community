@@ -1,7 +1,7 @@
 ---
 title: "Kết nối Bybit với WolfBot Community — Từng bước"
 description: "Kết nối Bybit với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Spot, Futures và Demo."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-11"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
@@ -25,7 +25,7 @@ sitemap_priority: 0.85
 
 # Kết nối Bybit với WolfBot Community
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.4** · Cập nhật lần cuối: 2026-08-11
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-08-11
 
 **Trạng thái hỗ trợ Bybit:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 

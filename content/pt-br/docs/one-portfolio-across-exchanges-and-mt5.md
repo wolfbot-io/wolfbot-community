@@ -1,7 +1,7 @@
 ---
 title: "Um Portfólio em Todas as Exchanges e no MT5 — Veja Cada Posição em Uma Única Visão"
 description: "Em vez de fazer login em cada exchange, todo o seu portfólio — cripto e MT5 juntos — aparece em uma única visão auto-hospedada. Veja o que a visibilidade unificada de portfólio faz e por que ela muda a forma como você gerencia risco."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-08-18"
 platforms: ["windows", "linux"]
 category: "automation"
@@ -24,7 +24,7 @@ translation_of: "docs/one-portfolio-across-exchanges-and-mt5"
 
 # Um Portfólio em Todas as Exchanges e no MT5
 
-**Testado com WolfBot Community v0.1.0-beta.4** · Última atualização: 2026-08-18
+**Testado com WolfBot Community v0.1.0-beta.9** · Última atualização: 2026-08-18
 
 ## Para quem é este guia
 

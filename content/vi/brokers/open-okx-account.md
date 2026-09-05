@@ -1,7 +1,7 @@
 ---
 title: "Cách mở tài khoản OKX qua WolfBot: đăng ký, KYC và bảo mật"
 description: "Hướng dẫn chi tiết đăng ký OKX qua referral WolfBot, liên kết email/điện thoại, xác minh danh tính và bật authenticator."
-tested_version: "0.1.0-beta.4"
+tested_version: "0.1.0-beta.9"
 last_updated: "2026-09-01"
 platforms: ["windows", "linux"]
 brokers: ["okx"]
