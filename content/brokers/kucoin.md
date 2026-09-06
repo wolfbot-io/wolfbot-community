@@ -19,6 +19,8 @@ sitemap_priority: 0.80
 
 **KuCoin support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **New to KuCoin?** Create your account through the [WolfBot KuCoin partner page](https://www.kucoin.com/r/broker/WOLFBOTIO) — two minutes, no extra cost, and it supports WolfBot development.
+
 ## Who this guide is for
 
 Anyone connecting a KuCoin account to WolfBot Community.

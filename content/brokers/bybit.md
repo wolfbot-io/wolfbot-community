@@ -27,6 +27,8 @@ sitemap_priority: 0.85
 
 **Bybit support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **New to Bybit?** Create your account through the [WolfBot Bybit partner page](https://partner.bybit.com/b/WOLFBOT) — two minutes, no extra cost, and it supports WolfBot development.
+
 ## Who this guide is for
 
 Anyone who wants to connect a Bybit account (Demo or Live) to WolfBot Community for automated trading.

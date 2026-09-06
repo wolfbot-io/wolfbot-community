@@ -21,6 +21,8 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ KuCoin:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **Mới dùng KuCoin?** Mở tài khoản qua [trang đối tác KuCoin của WolfBot](https://www.kucoin.com/r/broker/WOLFBOTIO) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+
 ## Hướng dẫn này dành cho ai
 
 Bất kỳ ai kết nối tài khoản KuCoin với WolfBot Community.

@@ -19,6 +19,8 @@ sitemap_priority: 0.80
 
 **BingX support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **New to BingX?** Create your account through the [WolfBot BingX partner page](https://bingxdao.com/partner/Wolfbot/) — two minutes, no extra cost, and it supports WolfBot development.
+
 ## Who this guide is for
 
 Anyone who wants to connect a BingX account to WolfBot Community for automated trading on Standard or Perpetual Futures.

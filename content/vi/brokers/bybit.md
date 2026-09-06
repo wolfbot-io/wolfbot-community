@@ -29,6 +29,8 @@ sitemap_priority: 0.85
 
 **Trạng thái hỗ trợ Bybit:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **Mới dùng Bybit?** Mở tài khoản qua [trang đối tác Bybit của WolfBot](https://partner.bybit.com/b/WOLFBOT) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+
 ## Hướng dẫn này dành cho ai
 
 Bất kỳ ai muốn kết nối tài khoản Bybit (Demo hoặc Live) với WolfBot Community để giao dịch tự động.

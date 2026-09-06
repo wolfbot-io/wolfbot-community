@@ -21,6 +21,8 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ BingX:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **Mới dùng BingX?** Mở tài khoản qua [trang đối tác BingX của WolfBot](https://bingxdao.com/partner/Wolfbot/) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+
 ## Hướng dẫn này dành cho ai
 
 Bất kỳ ai muốn kết nối tài khoản BingX với WolfBot Community để giao dịch tự động trên Standard hoặc Perpetual Futures.

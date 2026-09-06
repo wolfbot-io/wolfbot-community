@@ -19,6 +19,8 @@ sitemap_priority: 0.80
 
 **Bitget support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **New to Bitget?** Create your account through the [WolfBot Bitget partner page](https://partner.bitget.com/bg/WOLFBOT) — two minutes, no extra cost, and it supports WolfBot development.
+
 ## Who this guide is for
 
 Anyone connecting a Bitget account to WolfBot Community.

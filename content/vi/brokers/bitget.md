@@ -21,6 +21,8 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ Bitget:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
+> 🆕 **Mới dùng Bitget?** Mở tài khoản qua [trang đối tác Bitget của WolfBot](https://partner.bitget.com/bg/WOLFBOT) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+
 ## Hướng dẫn này dành cho ai
 
 Bất kỳ ai kết nối tài khoản Bitget với WolfBot Community.
