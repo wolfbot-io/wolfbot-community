@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'WolfBot Community Support — Discussions, Issues and Contact',
-  description: 'Where to get help with WolfBot Community: GitHub Discussions for questions and ideas, GitHub Issues for bugs, and direct email under the Plan for self-hosted users.',
+  title: 'WolfBot Community Support — Discussions, Telegram, Issues and Contact',
+  description: 'Where to get help with WolfBot Community: GitHub Discussions for questions and ideas, a Telegram group for real-time chat, GitHub Issues for bugs, and direct email for self-hosted users.',
   alternates: { canonical: 'https://community.wolfbot.io/support' },
 }
 
@@ -18,6 +18,12 @@ const CHANNELS = [
     desc: 'Report a bug or a problem with a release. Include your version and the exact error text so we can fix it in one pass.',
     href: 'https://github.com/wolfbot-io/wolfbot-community/issues',
     cta: 'Report an issue',
+  },
+  {
+    title: 'Telegram Group',
+    desc: 'Join other self-hosted users for real-time chat, quick questions and release announcements.',
+    href: 'https://t.me/wolfbot_community',
+    cta: 'Join the Telegram group',
   },
   {
     title: 'Direct email',

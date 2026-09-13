@@ -118,6 +118,8 @@ export interface HomeCopy {
   ghCardDiscussionsDesc: string
   ghCardRoadmap: string
   ghCardRoadmapDesc: string
+  ghCardTelegram: string
+  ghCardTelegramDesc: string
 
   /* SecurityTrust */
   securityTitle: string
@@ -252,6 +254,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Q&A, ideas, show & tell',
     ghCardRoadmap: 'Roadmap',
     ghCardRoadmapDesc: 'What we are building next',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'Chat with the community',
     securityTitle: 'Built for Trust',
     securitySubtitle:
       'WolfBot Community is non-custodial and self-hosted — you control your keys, your infrastructure, your data.',
@@ -418,6 +422,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Q&A, ý tưởng, giới thiệu & chia sẻ',
     ghCardRoadmap: 'Lộ trình',
     ghCardRoadmapDesc: 'Những gì chúng tôi đang xây dựng tiếp theo',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'Trò chuyện cùng cộng đồng',
     securityTitle: 'Được xây dựng để tin cậy',
     securitySubtitle:
       'WolfBot Community không giữ tiền của bạn và tự lưu trữ — bạn kiểm soát khóa, hạ tầng và dữ liệu của mình.',
@@ -584,6 +590,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: '问与答、想法、展示与讲述',
     ghCardRoadmap: '路线图',
     ghCardRoadmapDesc: '我们接下来要构建的内容',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: '与社区聊天',
     securityTitle: '为信任而构建',
     securitySubtitle:
       'WolfBot Community 是非托管的、自托管的 — 您掌控自己的密钥、基础设施和数据。',
@@ -751,6 +759,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Perguntas e respostas, ideias, mostre e conte',
     ghCardRoadmap: 'Roteiro',
     ghCardRoadmapDesc: 'O que estamos construindo em seguida',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'Converse com a comunidade',
     securityTitle: 'Construído para Confiança',
     securitySubtitle:
       'WolfBot Community é de autocustódia e auto-hospedado — você controla suas chaves, sua infraestrutura, seus dados.',
@@ -918,6 +928,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Вопросы и ответы, идеи, шоу и рассказ',
     ghCardRoadmap: 'Дорожная карта',
     ghCardRoadmapDesc: 'Что мы создаём дальше',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'Общайтесь с сообществом',
     securityTitle: 'Создано для доверия',
     securitySubtitle:
       'WolfBot Community не хранит ваши средства и размещается самостоятельно — вы контролируете свои ключи, инфраструктуру и данные.',
@@ -1085,6 +1097,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Q&A, Ideen, Show & Tell',
     ghCardRoadmap: 'Roadmap',
     ghCardRoadmapDesc: 'Was wir als Nächstes bauen',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'Chatten Sie mit der Community',
     securityTitle: 'Gebaut für Vertrauen',
     securitySubtitle:
       'WolfBot Community ist nicht-verwahrend und selbstgehostet — Sie kontrollieren Ihre Schlüssel, Ihre Infrastruktur, Ihre Daten.',
@@ -1252,6 +1266,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Q&A、アイデア、見せて教える',
     ghCardRoadmap: 'ロードマップ',
     ghCardRoadmapDesc: '次に作る予定のもの',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'コミュニティとチャット',
     securityTitle: '信頼のために設計',
     securitySubtitle:
       'WolfBot Community はノンカストディアル＆セルフホスト — 鍵、インフラ、データをすべてあなたが管理します。',
@@ -1418,6 +1434,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'Q&A, 아이디어, 소개 및 공유',
     ghCardRoadmap: '로드맵',
     ghCardRoadmapDesc: '다음에 만들 것',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: '커뮤니티와 채팅하기',
     securityTitle: '신뢰를 위해 구축됨',
     securitySubtitle:
       'WolfBot Community는 비수탁형이며 자체 호스팅 방식입니다 — 키, 인프라, 데이터를 직접 통제합니다.',
@@ -1584,6 +1602,8 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     ghCardDiscussionsDesc: 'प्रश्न-उत्तर, विचार, दिखाओ और बताओ',
     ghCardRoadmap: 'रोडमैप',
     ghCardRoadmapDesc: 'हम आगे क्या बना रहे हैं',
+    ghCardTelegram: 'Telegram',
+    ghCardTelegramDesc: 'समुदाय के साथ चैट करें',
     securityTitle: 'विश्वास के लिए निर्मित',
     securitySubtitle:
       'WolfBot Community गैर-हिरासती और सेल्फ-होस्टेड है — आपकी कुंजियाँ, आपका इन्फ्रास्ट्रक्चर, आपका डेटा आपके नियंत्रण में।',

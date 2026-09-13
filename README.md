@@ -24,7 +24,8 @@
   <a href="https://community.wolfbot.io/getting-started">Getting Started</a> ·
   <a href="https://community.wolfbot.io/docs">Documentation</a> ·
   <a href="https://github.com/wolfbot-io/wolfbot-community/releases">Latest Release</a> ·
-  <a href="https://github.com/wolfbot-io/wolfbot-community/discussions">Discussions</a>
+  <a href="https://github.com/wolfbot-io/wolfbot-community/discussions">Discussions</a> ·
+  <a href="https://t.me/wolfbot_community">Telegram</a>
 </p>
 
 <p align="center">
@@ -36,6 +37,7 @@
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
   <img src="https://img.shields.io/github/downloads/wolfbot-io/wolfbot-community/total" alt="Downloads" />
   <img src="https://img.shields.io/github/discussions/wolfbot-io/wolfbot-community" alt="Discussions" />
+  <a href="https://t.me/wolfbot_community"><img src="https://img.shields.io/badge/Telegram-Join%20chat-26A5E4?logo=telegram&logoColor=white" alt="Join our Telegram group" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT" /></a>
 </p>
 
@@ -244,7 +246,7 @@ Running on your own machine isn't just more convenient, it removes an entire cat
 | **Hosting** | Your machine | Managed by WolfBot.io |
 | **Setup** | Install & configure | Ready in minutes |
 | **Updates** | Channel-based auto-update | Automatic |
-| **Support** | Community (Discussions) | Direct support |
+| **Support** | Community (Discussions, Telegram) | Direct support |
 | **Customization** | Full access — your machine, your rules | Within platform |
 
 | Feature | Community | Cloud |
@@ -285,6 +287,7 @@ Running on your own machine isn't just more convenient, it removes an entire cat
 ## Community
 
 - 💬 [GitHub Discussions](https://github.com/wolfbot-io/wolfbot-community/discussions) — Q&A, ideas, strategies, show & tell
+- 📣 [Telegram Group](https://t.me/wolfbot_community) — Real-time chat with other self-hosted users
 - 🐛 [GitHub Issues](https://github.com/wolfbot-io/wolfbot-community/issues) — Bug reports, feature requests, broker issues
 - 🗺️ [Public Roadmap](https://github.com/orgs/wolfbot-io/projects/1) — What we're building next
 - 🌐 [Community Website](https://community.wolfbot.io) — Full documentation & guides
@@ -299,6 +302,7 @@ Running on your own machine isn't just more convenient, it removes an entire cat
 | 🌐 **Website** | [community.wolfbot.io](https://community.wolfbot.io) |
 | 📦 **Downloads** | [community.wolfbot.io/download](https://community.wolfbot.io/download) |
 | 🚀 **Releases** | [GitHub Releases](https://github.com/wolfbot-io/wolfbot-community/releases) |
+| 📣 **Telegram** | [t.me/wolfbot_community](https://t.me/wolfbot_community) |
 | ☁️ **WolfBot Cloud** | [wolfbot.io](https://wolfbot.io) |
 
 ---

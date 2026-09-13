@@ -44,6 +44,7 @@ export interface ChromeI18n {
   discussions: string
   issues: string
   roadmap: string
+  telegram: string
   wolfbotDotIo: string
   methodology: string
   about: string
@@ -78,6 +79,7 @@ function c(data: Partial<ChromeI18n>): ChromeI18n {
     discussions: 'Discussions',
     issues: 'Issues',
     roadmap: 'Roadmap',
+    telegram: 'Telegram',
     wolfbotDotIo: 'WolfBot.io',
     methodology: 'Methodology',
     about: 'About',

@@ -40,6 +40,7 @@ const FOOTER_SECTIONS = [
       { href: 'https://github.com/wolfbot-io/wolfbot-community', field: 'github' },
       { href: 'https://github.com/wolfbot-io/wolfbot-community/discussions', field: 'discussions' },
       { href: 'https://github.com/wolfbot-io/wolfbot-community/issues', field: 'issues' },
+      { href: 'https://t.me/wolfbot_community', field: 'telegram' },
       { href: 'https://github.com/orgs/wolfbot-io/projects/1', field: 'roadmap' },
     ],
   },
