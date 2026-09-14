@@ -6,6 +6,16 @@ This release introduces **Live Translate** — a real-time speech and text trans
 
 Windows remains part of the WolfBot Community product roadmap, with the Windows Setup.exe installer planned as a dedicated follow-up release. This release ships signed Ubuntu/Debian and self-extracting Linux installers today.
 
+## ⬇️ Download v0.1.0-beta.9
+
+| Platform | File | Size | Download |
+|---|---|---|---|
+| 🐧 Linux — Debian / Ubuntu (`.deb`) | `WolfBot-Setup-linux-amd64.deb` | ~86 MB | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.9/WolfBot-Setup-linux-amd64.deb)** |
+| 🐧 Linux — any distro (`.run`, self-extracting) | `wolfbot-oneclick-0.1.0-beta.9-0.1.0.run` | ~113 MB | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.9/wolfbot-oneclick-0.1.0-beta.9-0.1.0.run)** |
+| 🪟 Windows | Setup.exe — planned for a follow-up release | — | [Join the roadmap discussion](https://github.com/wolfbot-io/wolfbot-community/discussions/5) |
+
+Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the `checksums.txt` / `SHA256SUMS` assets attached to this release.
+
 ## What's new: Live Translate
 
 WolfBot Community now includes **Live Translate**, a local, real-time translation tool available at `/portal/translate` in your dashboard.

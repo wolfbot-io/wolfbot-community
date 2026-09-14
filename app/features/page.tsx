@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'WolfBot Community Features — Unified Trading Platform',
-  description: 'What WolfBot Community includes: unified crypto + MT5 trading, smart execution, risk controls, simulation, automation, and self-hosted infrastructure — all free.',
+  title: 'WolfBot Community Features — Unified Trading Platform + Live Translate',
+  description: 'What WolfBot Community includes: unified crypto + MT5 trading, Live Translate (free local AI translator, 52 languages), smart execution, risk controls, simulation, automation, and self-hosted infrastructure — all free.',
   alternates: { canonical: 'https://community.wolfbot.io/features' },
 }
 
@@ -13,6 +13,12 @@ const FEATURES: { icon: string; title: string; desc: string; href?: string }[] =
     title: 'Unified Markets',
     desc: 'Crypto exchanges and MT5 in one platform — trade Binance, Bybit, BingX, KuCoin, Bitget and MT5 (forex, gold, indices) without switching tools.',
     href: '/brokers',
+  },
+  {
+    icon: '🌍',
+    title: 'Live Translate',
+    desc: 'Break the language barrier with a free, local AI translator built in — real-time speech and text translation across 52 languages, 100% offline of the cloud.',
+    href: '/tools/live-translate',
   },
   {
     icon: '🖥️',

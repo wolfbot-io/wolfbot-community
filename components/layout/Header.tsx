@@ -24,6 +24,7 @@ const NAV_ITEMS = [
   { href: '/download', field: 'download' },
   { href: '/getting-started', field: 'gettingStarted' },
   { href: '/brokers', field: 'markets' },
+  { href: '/tools/live-translate', field: 'liveTranslate' },
   { href: '/docs', field: 'docs' },
   { href: '/releases', field: 'releases' },
   { href: '/academy', field: 'academy' },

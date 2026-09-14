@@ -5,6 +5,7 @@ import { TrustStrip } from '@/components/landing/TrustStrip'
 import { InstallSteps } from '@/components/landing/InstallSteps'
 import { ScreenshotsCarousel } from '@/components/landing/ScreenshotsCarousel'
 import { FeaturesGrid } from '@/components/landing/FeaturesGrid'
+import { LiveTranslateBlock } from '@/components/landing/LiveTranslateBlock'
 import { RunsOnYourMachine } from '@/components/landing/RunsOnYourMachine'
 import { BrokerSection } from '@/components/landing/BrokerSection'
 import { CommunityVsCloud } from '@/components/landing/CommunityVsCloud'
@@ -36,6 +37,7 @@ export function HomePageSections({ copy, locale }: { copy?: HomeCopy; locale?: s
       <InstallSteps copy={copy} locale={locale} />
       <ScreenshotsCarousel copy={copy} />
       <FeaturesGrid copy={copy} />
+      <LiveTranslateBlock copy={copy} locale={locale} />
       <RunsOnYourMachine copy={copy} />
       <BrokerSection copy={copy} locale={locale} />
       <CommunityVsCloud copy={copy} locale={locale} />

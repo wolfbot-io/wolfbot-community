@@ -21,6 +21,7 @@ export interface ChromeI18n {
   download: string
   gettingStarted: string
   markets: string
+  liveTranslate: string
   docs: string
   releases: string
   academy: string
@@ -60,6 +61,7 @@ function c(data: Partial<ChromeI18n>): ChromeI18n {
     download: 'Download',
     gettingStarted: 'Getting Started',
     markets: 'Markets',
+    liveTranslate: 'Live Translate',
     docs: 'Docs',
     releases: 'Releases',
     academy: 'Academy',

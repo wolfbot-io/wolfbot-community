@@ -102,6 +102,19 @@ export interface HomeCopy {
   cvcCloudItems: string[]
   cvcCompareLink: string
 
+  /* LiveTranslateBlock -- optional: only en/vi are translated so far
+   * (other locales fall back to the English copy, same `c.field || 'default'`
+   * pattern every other section already uses). */
+  ltTitle?: string
+  ltSubtitle?: string
+  ltBullet1?: string
+  ltBullet2?: string
+  ltBullet3?: string
+  ltStatLanguages?: string
+  ltStatVoices?: string
+  ltStatPrivate?: string
+  ltCta?: string
+
   /* LatestRelease */
   releaseTitle: string
   releasePublicPreview: string
@@ -240,6 +253,15 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       '✅ No infrastructure maintenance',
     ],
     cvcCompareLink: 'Detailed comparison →',
+    ltTitle: 'Live Translate — Break the Language Barrier with Local AI',
+    ltSubtitle: 'A free, local AI translator built into WolfBot Community. Understand anyone. Read anything. In your language.',
+    ltBullet1: 'One translator for every platform — Teams, Google Meet, Zoom, YouTube, livestreams, X or your microphone, translated as it happens',
+    ltBullet2: 'Instant text translation, plus a two-way conversation mode for travel and support calls',
+    ltBullet3: '100% local — no cloud account, no subscription, nothing ever leaves your machine',
+    ltStatLanguages: '52 languages',
+    ltStatVoices: '43 with natural voice',
+    ltStatPrivate: '0% cloud',
+    ltCta: 'Explore Live Translate →',
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
@@ -408,6 +430,15 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       '✅ Không cần bảo trì hạ tầng',
     ],
     cvcCompareLink: 'So sánh chi tiết →',
+    ltTitle: 'Live Translate — Phá Bỏ Rào Cản Ngôn Ngữ Bằng AI Cục Bộ',
+    ltSubtitle: 'Công cụ dịch AI miễn phí, chạy hoàn toàn cục bộ, tích hợp sẵn trong WolfBot Community. Nghe hiểu bất kỳ ai. Đọc hiểu bất kỳ điều gì. Bằng chính ngôn ngữ của bạn.',
+    ltBullet1: 'Một công cụ dịch cho mọi nền tảng — Teams, Google Meet, Zoom, YouTube, livestream, X hoặc micro của bạn, dịch ngay khi nó diễn ra',
+    ltBullet2: 'Dịch văn bản tức thì, cùng chế độ hội thoại hai chiều cho du lịch và hỗ trợ khách hàng',
+    ltBullet3: '100% cục bộ — không cần tài khoản đám mây, không cần trả phí, không có gì rời khỏi máy bạn',
+    ltStatLanguages: '52 ngôn ngữ',
+    ltStatVoices: '43 ngôn ngữ có giọng đọc',
+    ltStatPrivate: '0% đám mây',
+    ltCta: 'Khám phá Live Translate →',
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
