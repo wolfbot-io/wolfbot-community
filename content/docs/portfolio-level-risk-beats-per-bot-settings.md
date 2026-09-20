@@ -1,7 +1,7 @@
 ---
 title: "Why Portfolio-Level Risk Beats Per-Bot Settings"
 description: "Ten bots with their own stop-losses can still sink an account together. See why WolfBot evaluates risk across the whole portfolio and how that changes results."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -16,7 +16,7 @@ sitemap_priority: 0.8
 
 # Why Portfolio-Level Risk Beats Per-Bot Settings
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

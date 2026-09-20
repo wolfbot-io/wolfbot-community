@@ -43,17 +43,17 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.9
+## Latest Release — v0.1.0-beta.10
 
-WolfBot Community **v0.1.0-beta.9** is the latest public release of the free self-hosted trading platform for Windows and Linux users, introducing **Live Translate** — a real-time speech and text translation feature built directly into your dashboard — plus a large set of reliability fixes across broker connections, MT5, Telegram notifications and the Terminal.
+WolfBot Community **v0.1.0-beta.10** is the latest public release of the free self-hosted trading platform for Windows and Linux users — a reliability release focused on the automated model-selection engine and MT5 self-serve connections working correctly from the very first install, plus infrastructure hardening for long-uptime installs.
 
 Highlights:
 
-- **Live Translate** — local, real-time speech and text translation (50+ languages) built into `/portal/translate`. Runs entirely on your own machine; the installer auto-detects your hardware (CPU/GPU) and picks the right build for you. Community-only.
-- **Bybit Demo, KuCoin and Bitget fixes** — the Bybit Demo 100k auto-top-up, KuCoin's $0.00 balance display, and a Bitget UTA bug where setting one TP/SL order could clear the other are all fixed.
-- **MT5 shared login + auto-reconnect** — one remembered VNC login across every connected MT5 account, with automatic background reconnection after you log in.
-- **Self-hosted Telegram bot linking** — connect your own Telegram bot for trade alerts from the Settings page; fixed duplicate-connection and "Open bot" link bugs.
-- **Terminal and Live Monitor fixes** — resolved a manual-order server error and a rejected real-time price/orderbook connection on fresh installs, plus a fixed "Could not load entry logs" issue.
+- **Automated model selection fixed on fresh installs** — the bootstrap snapshot now shifts its own dates to "today" at build time, so the 30-day real-performance lookback always has data to evaluate, no matter when you download the release.
+- **MT5 self-serve bridge reliability** — fixed self-hosted MT5 accounts failing to reach their own dedicated bridge for balance/equity reads and order placement.
+- **MT5 VNC — open it anytime** — a persistent "Open MT5 VNC" option in your account details, not just a one-time setup link.
+- **Proactive file-descriptor protection** — every core service now starts with a raised file-handle ceiling, protecting long-running installs from a class of silent background-job failures after extended uptime.
+- **Live Translate** — local, real-time speech and text translation (52 languages) built into `/portal/translate`, works with Teams/Meet/Zoom/YouTube/livestreams/X and more. Community-only.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor and outcome worker images are pinned by SHA256 digest in the signed release manifest.
@@ -64,10 +64,10 @@ Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `b1250c2cecee876c5692a9f842ae1cc9376f7c68ea8c5db54d132a22016b7c31` |
-| `wolfbot-oneclick-0.1.0-beta.9-0.1.0.run` | `bf75ae2f69727bfcd0b6830592e3d97242f54fe12f3ff930ef4103b4a0d5da31` |
+| `WolfBot-Setup-linux-amd64.deb` | `3d1dd23fb8dd333e4f750bf45dfa5161467e576148dd0d571ccbb98c4273669c` |
+| `wolfbot-oneclick-0.1.0-beta.10-0.1.0.run` | `745a2e2474e2f8d30b4a5f328f9b68edd9ffcdee9d5f5e436f57930fa1ebe586` |
 
-Read the full release notes: **[v0.1.0-beta.9](https://community.wolfbot.io/releases/0.1.0-beta.9)**.
+Read the full release notes: **[v0.1.0-beta.10](https://community.wolfbot.io/releases/0.1.0-beta.10)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 

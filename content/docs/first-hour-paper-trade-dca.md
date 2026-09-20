@@ -1,7 +1,7 @@
 ---
 title: "First Hour With WolfBot Community: Download to a Paper-Trade DCA Strategy"
 description: "A step-by-step first session: install, connect a test account, enable simulation, configure DCA with TP/SL and review your first paper fills."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -16,7 +16,7 @@ sitemap_priority: 0.8
 
 # First Hour With WolfBot Community: Download to a Paper-Trade DCA Strategy
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

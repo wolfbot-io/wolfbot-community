@@ -1,7 +1,7 @@
 ---
 title: "Leverage, Margin and Automated Futures: A Risk Primer"
 description: "Automated futures trading changes risk maths. Learn what leverage and margin mean for a bot, and how risk controls should be set before going live."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -21,7 +21,7 @@ sitemap_priority: 0.7
 
 # Leverage, Margin and Automated Futures: A Risk Primer
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

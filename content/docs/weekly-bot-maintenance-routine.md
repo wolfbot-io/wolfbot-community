@@ -1,7 +1,7 @@
 ---
 title: "A Weekly Maintenance Routine for Your Self-Hosted Bot"
 description: "Self-hosted software needs light maintenance. A 10-minute weekly routine: updates, backups, log review and one honest performance check."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # A Weekly Maintenance Routine for Your Self-Hosted Bot
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

@@ -1,7 +1,7 @@
 ---
 title: "3Commas vs WolfBot: Who Actually Owns Your Automation?"
 description: "The ownership question behind every cloud bot: where API keys live, where orders execute, whether risk guards run locally, and what happens if you stop paying."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "comparison"
@@ -14,7 +14,7 @@ sitemap_priority: 0.8
 
 # 3Commas vs WolfBot: Who Actually Owns Your Automation?
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

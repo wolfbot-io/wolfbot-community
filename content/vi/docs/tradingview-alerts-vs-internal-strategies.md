@@ -1,7 +1,7 @@
 ---
 title: "Cảnh báo TradingView hay chiến lược nội bộ: chọn đường tự động hoá nào?"
 description: "WolfBot Community chạy được webhook TradingView và quy tắc chiến lược nội bộ. So sánh độ trễ, kiểm soát và độ tin cậy trước khi chọn."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "external-signals"
@@ -24,7 +24,7 @@ sitemap_priority: 0.7
 
 # Cảnh báo TradingView hay chiến lược nội bộ
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

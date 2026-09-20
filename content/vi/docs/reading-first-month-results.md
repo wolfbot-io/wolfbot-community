@@ -1,7 +1,7 @@
 ---
 title: "Đọc kết quả tháng đầu tiên như một người review"
 description: "Ba mươi ngày kết quả là dữ liệu, không phải phán quyết. Học số nào đáng tin, số nào bỏ qua, và cách review tháng đầu của bot trung thực."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -18,7 +18,7 @@ sitemap_priority: 0.75
 
 # Đọc kết quả tháng đầu tiên như một người review
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

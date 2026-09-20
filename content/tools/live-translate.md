@@ -1,7 +1,7 @@
 ---
 title: "Live Translate — Break the Language Barrier with Local AI | WolfBot Community"
 description: "Live Translate is WolfBot Community's free, local AI translator: real-time speech and text translation across 52 languages, 100% offline of the cloud. No account, no subscription, no data leaving your machine."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-13"
 platforms: ["linux"]
 category: "tools"

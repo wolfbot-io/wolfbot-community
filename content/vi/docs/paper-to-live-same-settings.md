@@ -1,7 +1,7 @@
 ---
 title: "Từ giấy sang live với cùng cài đặt: nên kỳ vọng gì"
 description: "Cùng chiến lược chạy live khác đi vì khớp lệnh, spread và thời điểm là thật. Học điều gì sẽ đổi và cách so sánh hai bên trung thực."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -18,7 +18,7 @@ sitemap_priority: 0.75
 
 # Từ giấy sang live với cùng cài đặt: nên kỳ vọng gì
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

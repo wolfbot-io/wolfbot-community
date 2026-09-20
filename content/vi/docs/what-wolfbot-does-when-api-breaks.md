@@ -1,7 +1,7 @@
 ---
 title: "WolfBot làm gì khi API sàn gặp sự cố"
 description: "API ngừng, webhook thử lại và rate limit siết. Một tour dễ hiểu về hành vi fail-safe của WolfBot và cách bạn tự kiểm chứng."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -18,7 +18,7 @@ sitemap_priority: 0.7
 
 # WolfBot làm gì khi API sàn gặp sự cố
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

@@ -1,7 +1,7 @@
 ---
 title: "MT5 Demo vs Live: What Changes When You Automate for Real"
 description: "A strategy that works on an MT5 demo account can behave differently live. Know the differences in fills, symbols, weekends and broker rules."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "live-trading"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # MT5 Demo vs Live: What Changes When You Automate for Real
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

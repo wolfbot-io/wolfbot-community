@@ -15,16 +15,16 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // frontmatter pattern already used elsewhere on this site -- this repo has
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
-const RELEASE_TAG = 'v0.1.0-beta.9'
-const RELEASE_VERSION_LABEL = '0.1.0-beta.9'
-const RELEASE_DATE = '2026-09-05'
-const LINUX_DEB_SHA256 = 'b1250c2cecee876c5692a9f842ae1cc9376f7c68ea8c5db54d132a22016b7c31'
+const RELEASE_TAG = 'v0.1.0-beta.10'
+const RELEASE_VERSION_LABEL = '0.1.0-beta.10'
+const RELEASE_DATE = '2026-09-20'
+const LINUX_DEB_SHA256 = '3d1dd23fb8dd333e4f750bf45dfa5161467e576148dd0d571ccbb98c4273669c'
 const LINUX_DEB_SIZE_MB = '~86'
-const LINUX_RUN_SHA256 = 'bf75ae2f69727bfcd0b6830592e3d97242f54fe12f3ff930ef4103b4a0d5da31'
+const LINUX_RUN_SHA256 = '745a2e2474e2f8d30b4a5f328f9b68edd9ffcdee9d5f5e436f57930fa1ebe586'
 const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
-const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-beta.9-0.1.0.run`
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-beta.10-0.1.0.run`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -159,7 +159,7 @@ export function DownloadCenter() {
       </div>
 
       <div className="max-w-3xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4 text-sm">
-        <Link href="/releases/0.1.0-beta.9" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
+        <Link href="/releases/0.1.0-beta.10" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
         <span style={{ color: '#475569' }}>·</span>
         <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
         <span style={{ color: '#475569' }}>·</span>

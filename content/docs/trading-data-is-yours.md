@@ -1,7 +1,7 @@
 ---
 title: "Your Trading Data Is Yours: Logs, Results and Backups on WolfBot"
 description: "Cloud bots store your trading history on their servers. WolfBot Community keeps logs, results and backups under your control — and exportable."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -14,7 +14,7 @@ sitemap_priority: 0.7
 
 # Your Trading Data Is Yours: Logs, Results and Backups on WolfBot
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

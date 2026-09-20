@@ -1,7 +1,7 @@
 ---
 title: "Which Exchange to Automate First: A Practical Comparison"
 description: "Binance, Bybit, KuCoin, OKX, Gate and more: how to pick your first exchange to automate by liquidity, fees, API quality and where you live."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "broker-setup"
@@ -21,7 +21,7 @@ sitemap_priority: 0.7
 
 # Which Exchange to Automate First
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

@@ -1,7 +1,7 @@
 ---
 title: "Vì sao rủi ro cấp danh mục tốt hơn cài đặt từng bot"
 description: "Mười bot tự có stop-loss riêng vẫn có thể làm chìm tài khoản cùng lúc. Xem vì sao WolfBot đánh giá rủi ro toàn danh mục và điều đó đổi kết quả thế nào."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -18,7 +18,7 @@ sitemap_priority: 0.8
 
 # Vì sao rủi ro cấp danh mục tốt hơn cài đặt từng bot
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

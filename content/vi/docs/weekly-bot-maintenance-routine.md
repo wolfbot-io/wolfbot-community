@@ -1,7 +1,7 @@
 ---
 title: "Quy trình bảo trì hằng tuần cho bot tự lưu trữ"
 description: "Phần mềm tự lưu trữ cần bảo trì nhẹ. Thói quen 10 phút mỗi tuần: cập nhật, sao lưu, rà log và một lần kiểm tra hiệu quả trung thực."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -24,7 +24,7 @@ sitemap_priority: 0.7
 
 # Quy trình bảo trì hằng tuần cho bot tự lưu trữ
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

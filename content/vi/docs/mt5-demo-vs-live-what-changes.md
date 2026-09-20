@@ -1,7 +1,7 @@
 ---
 title: "MT5 Demo so với Live: điều gì đổi khi tự động hoá bằng tiền thật"
 description: "Chiến lược chạy tốt trên MT5 demo có thể hành xử khác khi live. Biết khác biệt về khớp lệnh, symbol, phiên giao dịch và quy tắc broker."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "live-trading"
@@ -24,7 +24,7 @@ sitemap_priority: 0.7
 
 # MT5 Demo so với Live: điều gì đổi khi tự động hoá bằng tiền thật
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

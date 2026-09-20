@@ -1,7 +1,7 @@
 ---
 title: "Kích thước vị thế: mỗi lệnh tự động nên rủi ro bao nhiêu"
 description: "Kích thước vị thế là nửa thầm lặng của quản lý rủi ro. Tìm hiểu sizing cố định và theo phần trăm, và cách risk engine hợp nhất áp dụng chúng."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -24,7 +24,7 @@ sitemap_priority: 0.7
 
 # Kích thước vị thế: mỗi lệnh tự động nên rủi ro bao nhiêu
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

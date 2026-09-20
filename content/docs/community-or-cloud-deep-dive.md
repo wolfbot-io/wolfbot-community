@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community or WolfBot Cloud? A Decision Deep-Dive"
 description: "Free self-hosted Community or managed Cloud? Compare control, cost, maintenance, backup and updates to pick the WolfBot edition that fits your situation."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -14,7 +14,7 @@ sitemap_priority: 0.75
 
 # WolfBot Community or WolfBot Cloud? A Decision Deep-Dive
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

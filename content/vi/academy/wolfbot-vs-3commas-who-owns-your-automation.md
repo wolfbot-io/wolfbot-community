@@ -1,7 +1,7 @@
 ---
 title: "3Commas so với WolfBot: ai thật sự sở hữu cỗ máy tự động của bạn?"
 description: "Câu hỏi sở hữu đằng sau mọi bot đám mây: key API ở đâu, lệnh thực thi từ đâu, guard rủi ro chạy ở đâu và điều gì xảy ra khi ngừng trả phí."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "comparison"
@@ -16,7 +16,7 @@ sitemap_priority: 0.8
 
 # 3Commas so với WolfBot: ai thật sự sở hữu cỗ máy tự động của bạn?
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

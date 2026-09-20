@@ -1,7 +1,7 @@
 ---
 title: "Thị trường nhanh và lệnh khớp: bot thật sự trải qua điều gì"
 description: "Tin tức và sổ lệnh mỏng đổi cách lệnh khớp. Hiểu trượt giá, khớp một phần và thử lại — và vì sao nên theo dõi chúng trong log."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -23,7 +23,7 @@ sitemap_priority: 0.7
 
 # Thị trường nhanh và lệnh khớp: bot thật sự trải qua điều gì
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

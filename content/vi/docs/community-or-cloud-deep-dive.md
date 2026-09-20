@@ -1,7 +1,7 @@
 ---
 title: "WolfBot Community hay WolfBot Cloud? Quyết định chuyên sâu"
 description: "Community tự lưu trữ miễn phí hay Cloud có quản lý? So kiểm soát, chi phí, bảo trì, sao lưu và cập nhật để chọn bản WolfBot hợp hoàn cảnh."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -16,7 +16,7 @@ sitemap_priority: 0.75
 
 # WolfBot Community hay WolfBot Cloud? Quyết định chuyên sâu
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

@@ -1,7 +1,7 @@
 ---
 title: "From Paper to Live With the Same Settings: What to Expect"
 description: "The same strategy behaves differently live because fills, spreads and timing are real. Learn what to expect and how to compare the two honestly."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -16,7 +16,7 @@ sitemap_priority: 0.75
 
 # From Paper to Live With the Same Settings: What to Expect
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

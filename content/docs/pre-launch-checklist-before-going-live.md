@@ -1,7 +1,7 @@
 ---
 title: "Going Live: A Pre-Launch Checklist for Your First Automated Strategy"
 description: "A practical checklist for moving from paper trading to a live automated strategy with a self-hosted bot: permissions, risk limits, size and monitoring."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "live-trading"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # Going Live: A Pre-Launch Checklist for Your First Automated Strategy
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

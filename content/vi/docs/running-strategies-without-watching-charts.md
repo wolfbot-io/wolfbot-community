@@ -1,7 +1,7 @@
 ---
 title: "Chạy chiến lược mà không cần nhìn chart mỗi phút"
 description: "Cách để bot tự động làm việc thay bạn: quy tắc rõ ràng, giới hạn rủi ro, log, kiểm tra trạng thái và nhịp review hằng ngày."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -23,7 +23,7 @@ sitemap_priority: 0.7
 
 # Chạy chiến lược mà không cần nhìn chart mỗi phút
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

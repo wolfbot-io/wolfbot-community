@@ -1,7 +1,7 @@
 ---
 title: "Giờ đầu tiên với WolfBot Community: từ cài đặt đến chiến lược DCA chạy thử"
 description: "Buổi đầu có hướng dẫn từng bước: cài đặt, nối tài khoản test, bật simulation, cấu hình DCA kèm TP/SL và xem lệnh khớp giả đầu tiên."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "simulation"
@@ -18,7 +18,7 @@ sitemap_priority: 0.8
 
 # Giờ đầu tiên với WolfBot Community: từ cài đặt đến chiến lược DCA chạy thử
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

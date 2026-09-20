@@ -1,7 +1,7 @@
 ---
 title: "Moving Strategy Ideas to WolfBot Without Losing the Logic"
 description: "Migrate the idea behind your cloud-bot strategy, not the vendor template. Risk rules, market logic and entry ideas travel; vendor syntax does not."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "comparison"
@@ -14,7 +14,7 @@ sitemap_priority: 0.75
 
 # Moving Strategy Ideas to WolfBot Without Losing the Logic
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

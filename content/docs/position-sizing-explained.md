@@ -1,7 +1,7 @@
 ---
 title: "Position Sizing Explained: How Much to Risk Per Automated Trade"
 description: "Position sizing is the quiet half of risk management. Learn fixed-size and percentage sizing, and how a unified risk engine applies them across bots."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # Position Sizing Explained
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

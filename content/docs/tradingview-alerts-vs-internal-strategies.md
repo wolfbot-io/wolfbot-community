@@ -1,7 +1,7 @@
 ---
 title: "TradingView Alerts vs Internal Strategies: Which Automation Path Fits You?"
 description: "WolfBot Community can act on TradingView webhooks and on internal strategy rules. Compare latency, control and reliability before you choose."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "external-signals"
@@ -22,7 +22,7 @@ sitemap_priority: 0.7
 
 # TradingView Alerts vs Internal Strategies
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 

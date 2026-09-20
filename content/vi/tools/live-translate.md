@@ -1,7 +1,7 @@
 ---
 title: "Live Translate — Phá Bỏ Rào Cản Ngôn Ngữ Bằng AI Cục Bộ | WolfBot Community"
 description: "Live Translate là công cụ dịch AI miễn phí, chạy hoàn toàn cục bộ của WolfBot Community: dịch giọng nói và văn bản thời gian thực trên 52 ngôn ngữ, không cần cloud, không cần tài khoản, dữ liệu không rời khỏi máy bạn."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-13"
 platforms: ["linux"]
 category: "tools"

@@ -1,7 +1,7 @@
 ---
 title: "Đòn bẩy, ký quỹ và futures tự động: bài học rủi ro cơ bản"
 description: "Giao dịch futures tự động đổi phép tính rủi ro. Hiểu đòn bẩy và ký quỹ nghĩa gì với bot, và nên đặt giới hạn thế nào trước khi lên sàn thật."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "risk-controls"
@@ -23,7 +23,7 @@ sitemap_priority: 0.7
 
 # Đòn bẩy, ký quỹ và futures tự động: bài học rủi ro cơ bản
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.9** · Cập nhật lần cuối: 2026-09-06
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 
 ## Hướng dẫn này dành cho ai
 

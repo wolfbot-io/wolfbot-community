@@ -1,7 +1,7 @@
 ---
 title: "Grid, DCA, Martingale and TP/SL: Popular Strategies Explained (and How to Choose)"
 description: "What grid, DCA, martingale and take-profit/stop-loss actually do, their risk shape, and why WolfBot is building them as ready-to-select templates."
-tested_version: "0.1.0-beta.9"
+tested_version: "0.1.0-beta.10"
 last_updated: "2026-09-06"
 platforms: ["windows", "linux"]
 category: "academy"
@@ -14,7 +14,7 @@ sitemap_priority: 0.8
 
 # Grid, DCA, Martingale and TP/SL: Popular Strategies Explained
 
-**Tested with WolfBot Community v0.1.0-beta.9** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
 
 ## Who this guide is for
 
