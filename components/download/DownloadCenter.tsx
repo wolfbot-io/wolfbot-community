@@ -25,6 +25,14 @@ const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
 const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-0.1.0-beta.10-0.1.0.run`
+// Windows: this is an initial build with a known background market-data
+// reconnect issue (websockets.legacy Nuitka packaging gap) found right after
+// it shipped; a corrected build is already compiled and will replace this
+// same asset shortly. Kept as a distinct, honest note rather than silently
+// upgrading the file in place without saying so.
+const WINDOWS_EXE_SHA256 = '85ec8b5f7062d0d05a7c3416105a5173d16ad7ea24d52e2c6c56f037271e3b79'
+const WINDOWS_EXE_SIZE_MB = '~457'
+const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-${RELEASE_VERSION_LABEL}-windows-x64.exe`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -35,19 +43,30 @@ export function DownloadCenter() {
       <p className="text-center mb-12 text-sm font-medium" style={{ color: '#00C9E8' }}>Crypto + Futures + MT5 + TradingView Webhooks — One Platform. Every Market.</p>
       <MobileDownloadNotice />
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-        <div className="rounded-xl p-8 border opacity-60" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
+        <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(245,158,11,0.15)', color: '#FBBF24' }}>INITIAL BUILD</span>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Windows x64</h2>
-          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>Installer planned for a follow-up release</p>
-          <span
-            className="block text-center border font-semibold px-6 py-3 rounded-xl cursor-not-allowed"
-            style={{ borderColor: 'rgba(255,255,255,0.12)', color: '#94A3B8' }}
-            aria-disabled="true"
+          <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>64-bit installer · v{RELEASE_VERSION_LABEL}</p>
+          <TrackedLink
+            href={WINDOWS_EXE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            eventName="download_click"
+            eventParams={{ platform: 'windows', format: 'exe', release: RELEASE_TAG, location: 'download_page' }}
+            className="block text-center font-semibold px-6 py-3 rounded-xl accent-glow"
+            style={{ background: '#00C9E8', color: '#050C18' }}
           >
-            Coming soon
-          </span>
+            Download .exe ({WINDOWS_EXE_SIZE_MB} MB)
+          </TrackedLink>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Windows remains part of the WolfBot Community platform plan.</p>
-            <p>Windows Setup.exe follows in a dedicated release after v{RELEASE_VERSION_LABEL}.</p>
+            <p>Release channel: Latest public release</p>
+            <p>Released: {RELEASE_DATE}</p>
+            <p className="break-all">SHA256: {WINDOWS_EXE_SHA256}</p>
+          </div>
+          <div className="mt-3 rounded-lg border p-3 text-xs space-y-1" style={{ borderColor: 'rgba(245,158,11,0.3)', background: 'rgba(245,158,11,0.06)', color: '#FCD34D' }}>
+            <p className="font-semibold">Known issue on this build (fix already built)</p>
+            <p style={{ color: '#94A3B8' }}>Background market-data connections used by the AI signal engine can fail to reconnect and retry continuously on Windows, visible as repeated warnings in the app logs and a slower Overview page. Order placement, TP/SL, and risk guards are not touched by this specific gap. A corrected build will replace this same file shortly — no action needed from you.</p>
+            <p style={{ color: '#94A3B8' }}>This build is not yet code-signed, so Windows SmartScreen will show an unrecognized-publisher warning — choose "More info" → "Run anyway" to continue.</p>
           </div>
         </div>
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
@@ -113,12 +132,13 @@ export function DownloadCenter() {
             </ul>
           </div>
           <div className="rounded-xl border p-5" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
-            <h3 className="text-sm font-semibold text-white mb-2">Windows (coming soon)</h3>
+            <h3 className="text-sm font-semibold text-white mb-2">Windows (available now, initial build)</h3>
             <ul className="space-y-1 text-sm" style={{ color: '#94A3B8' }}>
-              <li>• Windows remains a target platform for WolfBot Community</li>
-              <li>• Windows Setup.exe follows in a dedicated release after v{RELEASE_VERSION_LABEL}</li>
-              <li>• The Windows guide is published ahead of the installer release</li>
-              <li>• Join the <a href="https://github.com/wolfbot-io/wolfbot-community/discussions" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Discussions</a> for launch updates</li>
+              <li>• Windows 10/11, 64-bit (x86-64)</li>
+              <li>• At least 4 GB RAM and 4 GB free disk</li>
+              <li>• Docker Desktop is only required for the optional MT5 and Translator features</li>
+              <li>• Not yet code-signed — Windows SmartScreen shows a warning, choose "Run anyway"</li>
+              <li>• Join the <a href="https://github.com/wolfbot-io/wolfbot-community/discussions" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Discussions</a> for updates</li>
             </ul>
           </div>
         </div>
