@@ -4,6 +4,8 @@ WolfBot Community v0.1.0-beta.10 is the latest public release of the free, self-
 
 Windows remains part of the WolfBot Community product roadmap, with the Windows Setup.exe installer planned as a dedicated follow-up release. This release ships signed Ubuntu/Debian and self-extracting Linux installers today.
 
+**Known issue (verified 2026-09-21):** the signed beta.10 installer does not include the Live Translate service image. The `/translate` proxy therefore returns an error. A subsequent versioned installer is required; reinstalling the same beta.10 package will not restore this feature.
+
 ## ⬇️ Download v0.1.0-beta.10
 
 | Platform | File | Size | Download |
@@ -36,7 +38,7 @@ Every core service in the Community stack now starts with a raised file-descript
 
 ### Live Translate
 
-WolfBot Community includes **Live Translate** — a free, local AI translator built into your dashboard. Real-time speech and text translation across 52 languages, running entirely on your own machine with no cloud account required. Works with any browser-based call or stream — Microsoft Teams, Google Meet, Zoom, YouTube, livestreams, X and more. Learn more: https://community.wolfbot.io/tools/live-translate
+Live Translate is unavailable in the beta.10 installer because its service image was omitted from the signed release manifest. This is a packaging regression; the feature remains in the codebase and must return in a newly signed release. Learn more: https://community.wolfbot.io/tools/live-translate
 
 ### TradingView webhook automation
 
