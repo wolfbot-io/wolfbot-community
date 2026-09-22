@@ -265,7 +265,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'Signed Linux installers are available now, with Windows Setup.exe on the roadmap. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'Signed Linux installers plus an initial Windows build are available now. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -442,7 +442,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
-      'Bản phát hành công khai đầu tiên. Chỉ dành cho Linux (Ubuntu/Debian) — bản Windows chưa có trong đợt phát hành này.',
+      'Trình cài đặt Linux đã ký cùng bản Windows ban đầu đã có sẵn. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
     releaseDownload: 'Tải xuống',
     releaseGitHub: 'Bản phát hành GitHub',
     ghTitle: 'Tham gia Cộng đồng',
@@ -610,7 +610,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: '最新发布',
     releasePublicPreview: '公开预览',
     releaseBody:
-      '首个公开版本。仅限 Linux（Ubuntu/Debian）— Windows 版本暂未包含在此次发布中。',
+      '已提供签名的 Linux 安装程序及初始 Windows 版本。包含 TradingView long/short/close webhook、多交易所加密货币/期货支持及自托管 MT5 桥接。',
     releaseDownload: '下载',
     releaseGitHub: 'GitHub 发布',
     ghTitle: '加入社区',
@@ -779,7 +779,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Último Lançamento',
     releasePublicPreview: 'PRÉVIA PÚBLICA',
     releaseBody:
-      'Primeiro lançamento público. Somente Linux (Ubuntu/Debian) — a versão para Windows não faz parte deste lançamento ainda.',
+      'Instaladores Linux assinados e uma versão inicial para Windows já estão disponíveis. Inclui webhooks TradingView long/short/close, suporte a múltiplas corretoras de cripto/futuros e a ponte MT5 auto-hospedada.',
     releaseDownload: 'Baixar',
     releaseGitHub: 'Lançamento no GitHub',
     ghTitle: 'Junte-se à Comunidade',
@@ -948,7 +948,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Последний релиз',
     releasePublicPreview: 'ПУБЛИЧНАЯ ПРЕДПРОСМОТР',
     releaseBody:
-      'Первый публичный релиз. Только Linux (Ubuntu/Debian) — сборка для Windows в этот релиз пока не входит.',
+      'Подписанные установщики для Linux и начальная сборка для Windows уже доступны. Включает вебхуки TradingView long/short/close, поддержку нескольких крипто/фьючерсных брокеров и самостоятельно размещаемый мост MT5.',
     releaseDownload: 'Скачать',
     releaseGitHub: 'Релиз на GitHub',
     ghTitle: 'Присоединяйтесь к сообществу',
@@ -1117,7 +1117,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Neuestes Release',
     releasePublicPreview: 'AKTUELLES ÖFFENTLICHES RELEASE',
     releaseBody:
-      'Signierte Linux-Installer sind jetzt verfügbar, mit Windows Setup.exe auf der Roadmap. Enthält TradingView-Webhooks, Krypto/Futures-Support und die selbstgehostete MT5-Bridge.',
+      'Signierte Linux-Installer und ein erster Windows-Build sind jetzt verfügbar. Enthält TradingView-Webhooks (long/short/close), Unterstützung für mehrere Krypto-/Futures-Broker und die selbstgehostete MT5-Bridge.',
     releaseDownload: 'Herunterladen',
     releaseGitHub: 'GitHub-Release',
     ghTitle: 'Der Community beitreten',
@@ -1286,7 +1286,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: '最新リリース',
     releasePublicPreview: 'パブリックプレビュー',
     releaseBody:
-      '最初のパブリックリリース。Linux（Ubuntu/Debian）のみ — Windows ビルドは今回のリリースには含まれていません。',
+      '署名済みの Linux インストーラーと初期 Windows ビルドが利用可能になりました。TradingView の long/short/close Webhook、複数ブローカーの暗号資産/先物対応、セルフホスト型 MT5 ブリッジを含みます。',
     releaseDownload: 'ダウンロード',
     releaseGitHub: 'GitHub リリース',
     ghTitle: 'コミュニティに参加する',
@@ -1454,7 +1454,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: '최신 릴리스',
     releasePublicPreview: '공개 미리보기',
     releaseBody:
-      '첫 공개 릴리스. Linux(Ubuntu/Debian) 전용 — Windows 빌드는 아직 이 릴리스에 포함되지 않았습니다.',
+      '서명된 Linux 설치 프로그램과 초기 Windows 빌드를 지금 이용할 수 있습니다. TradingView long/short/close 웹훅, 다중 브로커 암호화폐/선물 지원, 자체 호스팅 MT5 브리지를 포함합니다.',
     releaseDownload: '다운로드',
     releaseGitHub: 'GitHub 릴리스',
     ghTitle: '커뮤니티에 참여하세요',
@@ -1622,7 +1622,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'नवीनतम रिलीज़',
     releasePublicPreview: 'सार्वजनिक प्रीव्यू',
     releaseBody:
-      'पहला सार्वजनिक रिलीज़। केवल Linux (Ubuntu/Debian) — Windows बिल्ड अभी इस रिलीज़ में शामिल नहीं है।',
+      'साइन किए गए Linux इंस्टॉलर और एक शुरुआती Windows बिल्ड अब उपलब्ध हैं। इसमें TradingView long/short/close वेबहुक, मल्टी-ब्रोकर क्रिप्टो/फ्यूचर्स सपोर्ट, और सेल्फ-होस्टेड MT5 ब्रिज शामिल हैं।',
     releaseDownload: 'डाउनलोड करें',
     releaseGitHub: 'GitHub रिलीज़',
     ghTitle: 'समुदाय से जुड़ें',

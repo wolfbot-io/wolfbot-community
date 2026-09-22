@@ -2,7 +2,7 @@
 
 WolfBot Community v0.1.0-beta.10 is the latest public release of the free, self-hosted WolfBot trading platform for Windows and Linux users. This is a reliability release focused on making the automated model-selection engine and MT5 self-serve connections trustworthy from the very first install, plus infrastructure hardening so future installs are immune to a class of long-uptime failures out of the box.
 
-Windows remains part of the WolfBot Community product roadmap, with the Windows Setup.exe installer planned as a dedicated follow-up release. This release ships signed Ubuntu/Debian and self-extracting Linux installers today.
+**Windows Setup.exe is now available as an initial build.** A known issue is already fixed and in final testing (see below) — a follow-up build will replace this asset shortly. Linux ships signed Ubuntu/Debian and self-extracting installers as usual.
 
 **Known issue (verified 2026-09-21):** the signed beta.10 installer does not include the Live Translate service image. The `/translate` proxy therefore returns an error. A subsequent versioned installer is required; reinstalling the same beta.10 package will not restore this feature.
 
@@ -12,9 +12,13 @@ Windows remains part of the WolfBot Community product roadmap, with the Windows 
 |---|---|---|---|
 | 🐧 Linux — Debian / Ubuntu (`.deb`) | `WolfBot-Setup-linux-amd64.deb` | ~86 MB | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.10/WolfBot-Setup-linux-amd64.deb)** |
 | 🐧 Linux — any distro (`.run`, self-extracting) | `wolfbot-oneclick-0.1.0-beta.10-0.1.0.run` | ~113 MB | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.10/wolfbot-oneclick-0.1.0-beta.10-0.1.0.run)** |
-| 🪟 Windows | Setup.exe — planned for a follow-up release | — | [Join the roadmap discussion](https://github.com/wolfbot-io/wolfbot-community/discussions/5) |
+| 🪟 Windows — 64-bit installer (`.exe`) | `WolfBot-Setup-0.1.0-beta.10-windows-x64.exe` | ~457 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.10/WolfBot-Setup-0.1.0-beta.10-windows-x64.exe)** |
 
 Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the `checksums.txt` / `SHA256SUMS` assets attached to this release.
+
+### ⚠️ Known issue on this Windows build (fix already built, publishing shortly)
+
+This initial Windows `.exe` has a packaging gap that was found right after this build finished: the background market-data connections (used to feed the AI signal engine live crypto prices) fail to reconnect and retry continuously, which is visible as repeated warning lines in the application logs and can make the Overview page's account summary take longer to load than expected. This does **not** touch order placement, TP/SL, or any risk-guard code path directly, but until it is fixed the AI engine may be working from stale/incomplete real-time price data on Windows specifically. The Windows installer is not yet code-signed (Authenticode), so Windows SmartScreen will show an "unrecognized publisher" warning — select "More info" → "Run anyway" to continue; this is expected for this build and unrelated to the issue above. A corrected Windows build resolving the reconnect issue is already compiled and being verified now; it will replace this asset on this same release shortly with no other action needed from you.
 
 ## What's new since v0.1.0-beta.9
 
@@ -97,6 +101,14 @@ chmod +x wolfbot-oneclick-0.1.0-beta.10-0.1.0.run
 sudo WOLFBOT_ONECLICK_CONFIRM=INSTALL ./wolfbot-oneclick-0.1.0-beta.10-0.1.0.run
 ```
 
+Windows (initial build — see the known issue above):
+
+```text
+1. Double-click WolfBot-Setup-0.1.0-beta.10-windows-x64.exe
+2. If SmartScreen appears: "More info" -> "Run anyway" (not yet code-signed)
+3. Follow the installer, then open WolfBot from the Start Menu
+```
+
 After install, open:
 
 ```text
@@ -112,10 +124,17 @@ sha256sum WolfBot-Setup-linux-amd64.deb
 sha256sum wolfbot-oneclick-0.1.0-beta.10-0.1.0.run
 ```
 
+On Windows (PowerShell):
+
+```powershell
+Get-FileHash .\WolfBot-Setup-0.1.0-beta.10-windows-x64.exe -Algorithm SHA256
+```
+
 | File | SHA256 |
 |---|---|
 | `WolfBot-Setup-linux-amd64.deb` | `3d1dd23fb8dd333e4f750bf45dfa5161467e576148dd0d571ccbb98c4273669c` |
 | `wolfbot-oneclick-0.1.0-beta.10-0.1.0.run` | `745a2e2474e2f8d30b4a5f328f9b68edd9ffcdee9d5f5e436f57930fa1ebe586` |
+| `WolfBot-Setup-0.1.0-beta.10-windows-x64.exe` | `85ec8b5f7062d0d05a7c3416105a5173d16ad7ea24d52e2c6c56f037271e3b79` |
 
 Compare the values with the checksums above or the `SHA256SUMS` file attached to the GitHub release.
 
@@ -152,7 +171,7 @@ WolfBot Community is trading infrastructure, so the best first install flow is p
 - Start with Simulation or a broker demo account to learn the workflow.
 - Use trade-only API keys for live exchanges and keep withdrawal permissions disabled.
 - Verify checksums before installing and keep the signed release files for auditability.
-- Follow the Windows release track if you want the upcoming Windows Setup.exe installer.
+- On Windows, expect the known market-data reconnect issue above until the corrected build replaces this asset.
 
 ## Learn more
 
@@ -162,4 +181,4 @@ WolfBot Community is trading infrastructure, so the best first install flow is p
 - Telegram: https://t.me/wolfbot_community
 - Issues: https://github.com/wolfbot-io/wolfbot-community/issues
 
-WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers; Windows packaging is on the roadmap for a dedicated follow-up release.
+WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers and an initial, unsigned Windows build with one known issue (above); a corrected, code-signed Windows build is expected shortly.

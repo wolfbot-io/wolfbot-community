@@ -24,7 +24,7 @@ export function LatestRelease({ copy, locale }: LocaleProps) {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'LATEST PUBLIC RELEASE'}</span>
           <span className="text-white font-bold">{RELEASE_TAG}</span>
         </div>
-        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'Signed Linux installers are available now, with Windows Setup.exe on the roadmap. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
+        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'Signed Linux installers plus an initial Windows build are available now. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={localizeHref('/download', locale ?? null)}

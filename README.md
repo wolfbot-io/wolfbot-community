@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/releases-signed-0e8a16" alt="Signed Releases" />
   <img src="https://img.shields.io/badge/checksums-SHA256%20published-0e8a16" alt="SHA256 published" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
-  <img src="https://img.shields.io/badge/platform-Windows%20(coming%20soon)-lightgrey?logo=windows" alt="Windows (coming soon)" />
+  <img src="https://img.shields.io/badge/platform-Windows%20(initial%20build)-FCC624?logo=windows" alt="Windows (initial build)" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
   <img src="https://img.shields.io/github/downloads/wolfbot-io/wolfbot-community/total" alt="Downloads" />
   <img src="https://img.shields.io/github/discussions/wolfbot-io/wolfbot-community" alt="Discussions" />
@@ -168,10 +168,10 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 
 ## Install in Minutes
 
-### Windows (installer coming in a follow-up release)
+### Windows (initial build — see known issue below)
 ```powershell
 # 1. Download Setup.exe from community.wolfbot.io/download
-# 2. Double-click → Install → Open WolfBot
+# 2. Double-click → "More info" → "Run anyway" (SmartScreen; not yet code-signed) → Install → Open WolfBot
 # 3. Connect a Demo account first — real market data, zero risk, no real funds
 ```
 
