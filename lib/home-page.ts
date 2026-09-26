@@ -165,7 +165,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Free self-hosted unified trading platform for Windows and Linux. Connect crypto exchanges, futures, MT5 markets and TradingView alerts through one intelligent interface.',
     stripPublicPreview: 'LATEST PUBLIC RELEASE',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.10 is available',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.11 is available',
     stripSeeRelease: 'See release →',
     heroBadge: 'WolfBot Community by WolfBot.io · Free & Self-Hosted',
     heroTitle1: 'Free Self-Hosted Trading Platform for Crypto, Futures & MT5',
@@ -265,7 +265,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'Signed Linux installers plus an initial Windows build are available now. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'Live Translate is back after a packaging gap in beta.10. Signed Linux installers are available now; Windows users should keep the beta.10 installer until a corrected build ships. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -343,7 +343,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     metaDescription:
       'Nền tảng giao dịch hợp nhất, tự lưu trữ, miễn phí dành cho Windows và Linux. Kết nối sàn crypto, futures và thị trường MT5 qua một giao diện thông minh duy nhất.',
     stripPublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
-    stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.10 đã có sẵn',
+    stripReleaseAvailable: 'WolfBot Community v0.1.0-beta.11 đã có sẵn',
     stripSeeRelease: 'Xem bản phát hành →',
     heroBadge: 'WolfBot Community by WolfBot.io · Miễn Phí & Tự Lưu Trữ',
     heroTitle1: 'Nền tảng giao dịch tự lưu trữ miễn phí cho Crypto, Futures & MT5',
@@ -442,7 +442,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
-      'Trình cài đặt Linux đã ký cùng bản Windows ban đầu đã có sẵn. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
+      'Live Translate đã trở lại sau lỗ hổng đóng gói ở beta.10. Trình cài đặt Linux đã ký đã có sẵn; người dùng Windows nên tiếp tục dùng trình cài beta.10 cho đến khi có bản đã sửa lỗi. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
     releaseDownload: 'Tải xuống',
     releaseGitHub: 'Bản phát hành GitHub',
     ghTitle: 'Tham gia Cộng đồng',

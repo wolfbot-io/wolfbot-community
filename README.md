@@ -43,20 +43,17 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.10
+## Latest Release — v0.1.0-beta.11
 
-WolfBot Community **v0.1.0-beta.10** is the latest public release of the free self-hosted trading platform for Windows and Linux users — a reliability release focused on the automated model-selection engine and MT5 self-serve connections working correctly from the very first install, plus infrastructure hardening for long-uptime installs.
+WolfBot Community **v0.1.0-beta.11** is the latest public release of the free self-hosted trading platform. It restores Live Translate (missing from v0.1.0-beta.10's installer due to a packaging gap) and improves error clarity for self-serve MT5 setup on Docker. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
 
 Highlights:
 
-- **Automated model selection fixed on fresh installs** — the bootstrap snapshot now shifts its own dates to "today" at build time, so the 30-day real-performance lookback always has data to evaluate, no matter when you download the release.
-- **MT5 self-serve bridge reliability** — fixed self-hosted MT5 accounts failing to reach their own dedicated bridge for balance/equity reads and order placement.
-- **MT5 VNC — open it anytime** — a persistent "Open MT5 VNC" option in your account details, not just a one-time setup link.
-- **Proactive file-descriptor protection** — every core service now starts with a raised file-handle ceiling, protecting long-running installs from a class of silent background-job failures after extended uptime.
-- **Live Translate** — local, real-time speech and text translation (52 languages) built into `/portal/translate`, works with Teams/Meet/Zoom/YouTube/livestreams/X and more. Community-only.
+- **Live Translate is back** — v0.1.0-beta.10's signed manifest omitted the translator service image; v0.1.0-beta.11's signed manifest includes it again. Local, real-time speech and text translation (52 languages) built into `/portal/translate`, works with Teams/Meet/Zoom/YouTube/livestreams/X and more. Community-only.
+- **Clearer MT5 self-serve errors** — a Docker-unreachable condition during MT5 setup is now its own distinct, specific error message (English and Vietnamese) instead of a generic provisioning failure.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
-- **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor and outcome worker images are pinned by SHA256 digest in the signed release manifest.
+- **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor, outcome worker and translator images are pinned by SHA256 digest in the signed release manifest.
 - **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget and MT5 support in one dashboard.
 - **Simulation-first workflow** — test strategies, Smart Terminal orders and TradingView alerts before adding live keys.
 
@@ -64,10 +61,12 @@ Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `3d1dd23fb8dd333e4f750bf45dfa5161467e576148dd0d571ccbb98c4273669c` |
-| `wolfbot-oneclick-0.1.0-beta.10-0.1.0.run` | `745a2e2474e2f8d30b4a5f328f9b68edd9ffcdee9d5f5e436f57930fa1ebe586` |
+| `WolfBot-Setup-linux-amd64.deb` | `85a25dd4a809ed715784d2848fbc131e28399de907831082ce8fa63da2f499fb` |
+| `wolfbot-oneclick-0.1.0-beta.11.run` | `06529a590da413552067aa867ab8d377fb003fe2dae84c0ac3a321c7c7e7e0f4` |
 
-Read the full release notes: **[v0.1.0-beta.10](https://community.wolfbot.io/releases/0.1.0-beta.10)**.
+Windows: no new build this release — see the [v0.1.0-beta.10 release](https://github.com/wolfbot-io/wolfbot-community/releases/tag/v0.1.0-beta.10) for the current Windows `.exe` (same known market-data-reconnect issue as before).
+
+Read the full release notes: **[v0.1.0-beta.11](https://community.wolfbot.io/releases/0.1.0-beta.11)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 
