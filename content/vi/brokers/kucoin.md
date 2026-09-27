@@ -92,6 +92,10 @@ Bất kỳ ai kết nối tài khoản KuCoin với WolfBot Community.
 
 ---
 
+## Đang so sánh KuCoin với các sàn khác?
+
+[Binance vs KuCoin](/vi/brokers/binance-vs-kucoin) · [Bybit vs KuCoin](/vi/brokers/bybit-vs-kucoin) · [BingX vs KuCoin](/vi/brokers/bingx-vs-kucoin) · [KuCoin vs Bitget](/vi/brokers/kucoin-vs-bitget)
+
 ## Bước tiếp theo
 
 > **[Cấu hình Risk Controls →](/docs/risk-controls)**

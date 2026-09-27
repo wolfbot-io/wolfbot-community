@@ -81,3 +81,7 @@ Tiếp tục với [hướng dẫn kết nối BingX](/vi/brokers/bingx), thử 
 
 - [BingX — Complete KYC/Identity Verification](https://login.bingx.com/en/support/articles/4576854622361/)
 - [BingX Security Guides](https://bingx.com/en/support/frequent-questions/35831882455833/)
+
+## So sánh các sàn
+
+Chưa chắc BingX là sàn đầu tiên phù hợp? Xem: [Binance vs BingX](/vi/brokers/binance-vs-bingx) · [Bybit vs BingX](/vi/brokers/bybit-vs-bingx) · [BingX vs KuCoin](/vi/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/vi/brokers/bingx-vs-bitget).

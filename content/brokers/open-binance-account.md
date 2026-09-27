@@ -94,3 +94,7 @@ Next, follow [Connect Binance to WolfBot](/brokers/binance). Create a new key la
 - [Binance Support](https://www.binance.com/en/support)
 
 Reviewed 2026-09-01. Follow the requirements shown in your own Binance account if the interface changes.
+
+## Comparing exchanges
+
+Not sure Binance is the right first exchange? See: [Binance vs Bybit](/brokers/binance-vs-bybit) · [Binance vs BingX](/brokers/binance-vs-bingx) · [Binance vs KuCoin](/brokers/binance-vs-kucoin) · [Binance vs Bitget](/brokers/binance-vs-bitget).

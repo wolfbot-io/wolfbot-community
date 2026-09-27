@@ -90,6 +90,10 @@ Anyone connecting a KuCoin account to WolfBot Community.
 
 ---
 
+## Comparing KuCoin with other exchanges?
+
+[Binance vs KuCoin](/brokers/binance-vs-kucoin) · [Bybit vs KuCoin](/brokers/bybit-vs-kucoin) · [BingX vs KuCoin](/brokers/bingx-vs-kucoin) · [KuCoin vs Bitget](/brokers/kucoin-vs-bitget)
+
 ## Next step
 
 > **[Configure Risk Controls →](/docs/risk-controls)**

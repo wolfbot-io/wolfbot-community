@@ -53,6 +53,8 @@ WolfBot không có nút "Simulation mode" riêng. Thay vào đó, bạn kết n�
 
 > ✅ Tài khoản Demo tốn 0 đồng và không bao giờ chạm tới tiền thật — cách an toàn nhất để học WolfBot trên mọi thị trường được hỗ trợ.
 
+> 🆕 **Chưa có tài khoản Bybit?** Bạn có thể [mở qua link đối tác của WolfBot](https://partner.bybit.com/b/WOLFBOT) — [hướng dẫn từng bước](/vi/brokers/open-bybit-account) bao gồm đăng ký, KYC và 2FA. Không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+
 [Hướng dẫn Demo/Simulation đầy đủ →](/docs/simulation)
 
 ## Bước 4: Kết nối thị trường của bạn cho giao dịch thật
@@ -65,6 +67,10 @@ Khi sẵn sàng chuyển live:
 > ⚠️ Luôn dùng API key chỉ cho phép giao dịch (không có quyền rút tiền).
 
 Hướng dẫn broker: [Bybit](/brokers/bybit) · [Binance](/brokers/binance) · [BingX](/brokers/bingx) · [KuCoin](/brokers/kucoin) · [Bitget](/brokers/bitget) · [MT5](/brokers/mt5)
+
+Mới dùng một sàn? Hãy mở tài khoản đứng tên chính bạn theo các hướng dẫn mở tài khoản: [Bybit](/vi/brokers/open-bybit-account) · [Binance](/vi/brokers/open-binance-account) · [BingX](/vi/brokers/open-bingx-account) · [KuCoin](/vi/brokers/open-kucoin-account) · [Bitget](/vi/brokers/open-bitget-account) · [OKX](/vi/brokers/open-okx-account) · [Gate](/vi/brokers/open-gate-account) · [HTX](/vi/brokers/open-htx-account). Chưa quyết định được giữa hai sàn? Xem [so sánh các sàn](/vi/docs/which-exchange-to-automate-first).
+
+*Công khai link đối tác: các hướng dẫn này dùng link giới thiệu của WolfBot — bạn không tốn thêm phí và link giúp tài trợ phát triển WolfBot. Mọi khuyến mãi hay điều kiện do từng sàn quyết định.*
 
 ## Checklist tuần đầu
 

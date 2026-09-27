@@ -31,6 +31,8 @@ WolfBot doesn't have a separate global "Simulation mode" you switch on and off. 
 
 For Bybit specifically, WolfBot auto-detects whether an API key belongs to a Demo or a Live account — you don't select a mode manually.
 
+> New to Bybit? You can [open an account through WolfBot's partner link](https://partner.bybit.com/b/WOLFBOT) ([guide](/brokers/open-bybit-account)) — no extra cost, and it supports WolfBot development. Demo/testnet has its own login and API key.
+
 ## Why start with a Demo account?
 
 1. **Zero risk** — No real money involved

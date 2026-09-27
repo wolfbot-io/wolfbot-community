@@ -53,6 +53,12 @@ Mỗi sàn đều có trang broker trong tài liệu này — ví dụ
 [Binance](/vi/brokers/binance), [Bybit](/vi/brokers/bybit) hay
 [KuCoin](/vi/brokers/kucoin) — với chi tiết thiết lập và đúng quyền bot cần.
 
+## Bài so sánh đối đầu
+
+Nếu bạn đã thu hẹp còn hai sàn mà WolfBot kết nối được, các trang này so sánh song song thị trường, đường Demo và cách thiết lập API key:
+
+[Binance vs Bybit](/vi/brokers/binance-vs-bybit) · [Binance vs BingX](/vi/brokers/binance-vs-bingx) · [Binance vs KuCoin](/vi/brokers/binance-vs-kucoin) · [Binance vs Bitget](/vi/brokers/binance-vs-bitget) · [Bybit vs BingX](/vi/brokers/bybit-vs-bingx) · [Bybit vs KuCoin](/vi/brokers/bybit-vs-kucoin) · [Bybit vs Bitget](/vi/brokers/bybit-vs-bitget) · [BingX vs KuCoin](/vi/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/vi/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/vi/brokers/kucoin-vs-bitget)
+
 ## Thói quen hai tài khoản tránh bất ngờ
 
 Dù chọn sàn nào, hãy nối hai vai trò khác nhau nếu sàn hỗ trợ:
@@ -79,3 +85,9 @@ Tự động hoá năm sàn ngay ngày đầu nhân bề mặt sai sót lên g�
 một sàn tốt, rồi lặp lại đúng checklist đã chứng minh cho từng sàn, giữ toàn hệ
 thống nhàm chán và đáng tin cậy — đúng thứ bạn muốn từ một cỗ máy giao dịch
 trong lúc bạn ngủ.
+
+## Chưa có tài khoản?
+
+Hãy mở tài khoản sàn bạn chọn đứng tên chính bạn, hoàn tất xác minh và 2FA, rồi mới tạo key chỉ-giao-dịch. Các hướng dẫn mở tài khoản đi qua từng bước và dùng link đối tác của WolfBot (bạn không tốn thêm phí): [Bybit](/vi/brokers/open-bybit-account) · [Binance](/vi/brokers/open-binance-account) · [BingX](/vi/brokers/open-bingx-account) · [KuCoin](/vi/brokers/open-kucoin-account) · [Bitget](/vi/brokers/open-bitget-account) · [OKX](/vi/brokers/open-okx-account) · [Gate](/vi/brokers/open-gate-account) · [HTX](/vi/brokers/open-htx-account).
+
+*Công khai link đối tác: các hướng dẫn này dùng link giới thiệu của WolfBot — bạn không tốn thêm phí và link giúp tài trợ phát triển WolfBot. Mọi khuyến mãi hay điều kiện do từng sàn quyết định.*

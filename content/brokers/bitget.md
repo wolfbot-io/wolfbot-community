@@ -83,6 +83,10 @@ Anyone connecting a Bitget account to WolfBot Community.
 
 ---
 
+## Comparing Bitget with other exchanges?
+
+[Binance vs Bitget](/brokers/binance-vs-bitget) · [Bybit vs Bitget](/brokers/bybit-vs-bitget) · [BingX vs Bitget](/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/brokers/kucoin-vs-bitget)
+
 ## Next step
 
 > **[Configure Risk Controls →](/docs/risk-controls)**

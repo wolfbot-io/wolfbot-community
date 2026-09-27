@@ -2,6 +2,10 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
 
+// WolfBot partner (referral) links get rel="sponsored" so search engines
+// treat them as affiliate links -- the on-page disclosure text is separate.
+const REFERRAL_LINK = /(partner\.bybit\.com\/b\/WOLFBOT|binance\.com\/register\?ref=WOLFBOT|bingxdao\.com\/partner\/Wolfbot|okx\.com\/join\/WOLFBOT|partner\.bitget\.com\/bg\/WOLFBOT|kucoin\.com\/r\/broker\/WOLFBOTIO|gate\.com\/referral|htx\.com\/invite)/
+
 export function ContentRenderer({ body }: { body: string }) {
   return (
     <ReactMarkdown
@@ -19,7 +23,7 @@ export function ContentRenderer({ body }: { body: string }) {
       rehypePlugins={[rehypeSlug]}
       components={{
         a: ({ href, children, ...props }) => (
-          <a href={href} target={href?.startsWith('http') ? '_blank' : undefined} rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined} {...props}>
+          <a href={href} target={href?.startsWith('http') ? '_blank' : undefined} rel={href?.startsWith('http') ? (REFERRAL_LINK.test(href) ? 'noopener noreferrer sponsored' : 'noopener noreferrer') : undefined} {...props}>
             {children}
           </a>
         ),

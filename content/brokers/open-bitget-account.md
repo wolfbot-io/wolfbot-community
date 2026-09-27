@@ -73,3 +73,7 @@ Bitget can require three separate secrets: **API Key**, **Secret Key**, and **AP
 - [Bitget registration and login](https://www.bitget.com/support/sections/12508313443723)
 - [Bitget Identity Verification](https://www.bitget.com/support/articles/12560603795184)
 - [Bitget Google Authenticator](https://www.bitget.com/support/articles/12560603808459)
+
+## Comparing exchanges
+
+Not sure Bitget is the right first exchange? See: [Binance vs Bitget](/brokers/binance-vs-bitget) · [Bybit vs Bitget](/brokers/bybit-vs-bitget) · [BingX vs Bitget](/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/brokers/kucoin-vs-bitget).

@@ -75,6 +75,8 @@ Most exchanges also let you lock an API key to a specific IP address. If you're 
 
 Every broker guide in the [Academy](/academy) walks through exactly where to find these checkboxes for that specific exchange.
 
+Still choosing an exchange? Compare them in [Which Exchange to Automate First](/docs/which-exchange-to-automate-first), then follow that exchange's account-opening guide (WolfBot partner links, no extra cost to you) before creating the key.
+
 ## Next step
 
 > **[Full API Key Setup Guide →](/brokers/api-key-guide)**

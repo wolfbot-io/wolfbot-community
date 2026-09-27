@@ -75,3 +75,7 @@ Bitget có thể yêu cầu ba giá trị riêng: **API Key**, **Secret Key** v�
 - [Bitget Registration and Login](https://www.bitget.com/support/sections/12508313443723)
 - [Bitget Identity Verification](https://www.bitget.com/support/articles/12560603795184)
 - [Bitget Google Authenticator](https://www.bitget.com/support/articles/12560603808459)
+
+## So sánh các sàn
+
+Chưa chắc Bitget là sàn đầu tiên phù hợp? Xem: [Binance vs Bitget](/vi/brokers/binance-vs-bitget) · [Bybit vs Bitget](/vi/brokers/bybit-vs-bitget) · [BingX vs Bitget](/vi/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/vi/brokers/kucoin-vs-bitget).

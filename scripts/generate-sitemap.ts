@@ -19,7 +19,7 @@ import { LOCALES } from '../lib/locales'
 const BASE_URL = 'https://community.wolfbot.io'
 
 const PRIORITY: Record<string, number> = {
-  install: 0.9, 'getting-started': 0.9, 'broker-setup': 0.85,
+  install: 0.9, 'getting-started': 0.9, 'broker-setup': 0.85, 'broker-comparison': 0.85,
   simulation: 0.85, 'live-trading': 0.8, 'risk-controls': 0.8,
   automation: 0.8, 'smart-terminal': 0.8, 'external-signals': 0.7, 'custom-strategies': 0.7,
   updates: 0.7, backup: 0.7, troubleshooting: 0.8, academy: 0.7,

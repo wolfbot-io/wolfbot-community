@@ -97,6 +97,10 @@ Tài khoản Binance của bạn xuất hiện trong Exchange Accounts với mô
 
 ---
 
+## Đang so sánh Binance với các sàn khác?
+
+[Binance vs Bybit](/vi/brokers/binance-vs-bybit) · [Binance vs BingX](/vi/brokers/binance-vs-bingx) · [Binance vs KuCoin](/vi/brokers/binance-vs-kucoin) · [Binance vs Bitget](/vi/brokers/binance-vs-bitget)
+
 ## Bước tiếp theo
 
 > **[Cấu hình Risk Controls →](/docs/risk-controls)**

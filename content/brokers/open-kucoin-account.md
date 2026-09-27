@@ -78,3 +78,7 @@ Do not reuse one value for all three. Store them in a password manager; never sc
 - [KuCoin sign up and login](https://www.kucoin.com/support/30808055892633)
 - [KuCoin Identity Verification](https://www.kucoin.com/support/360015102254)
 - [KuCoin Google 2FA](https://www.kucoin.com/support/360014897913)
+
+## Comparing exchanges
+
+Not sure KuCoin is the right first exchange? See: [Binance vs KuCoin](/brokers/binance-vs-kucoin) · [Bybit vs KuCoin](/brokers/bybit-vs-kucoin) · [BingX vs KuCoin](/brokers/bingx-vs-kucoin) · [KuCoin vs Bitget](/brokers/kucoin-vs-bitget).

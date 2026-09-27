@@ -79,3 +79,7 @@ Continue with [Connect BingX to WolfBot](/brokers/bingx), then use [Simulation](
 
 - [BingX KYC guide](https://login.bingx.com/en/support/articles/4576854622361/)
 - [BingX Security Guides](https://bingx.com/en/support/frequent-questions/35831882455833/)
+
+## Comparing exchanges
+
+Not sure BingX is the right first exchange? See: [Binance vs BingX](/brokers/binance-vs-bingx) · [Bybit vs BingX](/brokers/bybit-vs-bingx) · [BingX vs KuCoin](/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/brokers/bingx-vs-bitget).

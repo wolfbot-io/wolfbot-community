@@ -91,3 +91,7 @@ Follow [Connect Bybit to WolfBot](/brokers/bybit), use the applicable Demo/Testn
 - [Bybit registration guide](https://www.bybit.com/en/help-center/article/?id=000001017&language=en_US)
 - [Bybit Individual KYC FAQ](https://www.bybit.com/en/help-center/article/Individual-KYC-FAQ)
 - [Connect Bybit to WolfBot](/brokers/bybit)
+
+## Comparing exchanges
+
+Not sure Bybit is the right first exchange? See: [Binance vs Bybit](/brokers/binance-vs-bybit) · [Bybit vs BingX](/brokers/bybit-vs-bingx) · [Bybit vs KuCoin](/brokers/bybit-vs-kucoin) · [Bybit vs Bitget](/brokers/bybit-vs-bitget).

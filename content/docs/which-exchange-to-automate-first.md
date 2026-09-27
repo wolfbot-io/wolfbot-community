@@ -55,6 +55,12 @@ Each exchange has a broker page in this documentation — for example
 [Binance](/brokers/binance), [Bybit](/brokers/bybit) or [KuCoin](/brokers/kucoin) —
 with setup details and the exact permissions a bot needs.
 
+## Head-to-head guides
+
+If you are down to two exchanges WolfBot connects to, these side-by-side pages compare markets, Demo path and API-key setup:
+
+[Binance vs Bybit](/brokers/binance-vs-bybit) · [Binance vs BingX](/brokers/binance-vs-bingx) · [Binance vs KuCoin](/brokers/binance-vs-kucoin) · [Binance vs Bitget](/brokers/binance-vs-bitget) · [Bybit vs BingX](/brokers/bybit-vs-bingx) · [Bybit vs KuCoin](/brokers/bybit-vs-kucoin) · [Bybit vs Bitget](/brokers/bybit-vs-bitget) · [BingX vs KuCoin](/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/brokers/kucoin-vs-bitget)
+
 ## The two-account habit that avoids surprises
 
 Whichever exchange you pick, connect it twice in different roles if the venue
@@ -82,3 +88,9 @@ Automating five exchanges on day one multiplies your surface for mistakes by
 five. Automating one well, then repeating the same proven checklist per
 exchange, keeps the whole system boring and reliable — which is exactly what
 you want from a machine that trades while you sleep.
+
+## Need an account first?
+
+Open the exchange you picked in your own name, complete verification and 2FA, and only then create a trade-only key. The account-opening guides walk through each step and use WolfBot's partner links (no extra cost to you): [Bybit](/brokers/open-bybit-account) · [Binance](/brokers/open-binance-account) · [BingX](/brokers/open-bingx-account) · [KuCoin](/brokers/open-kucoin-account) · [Bitget](/brokers/open-bitget-account) · [OKX](/brokers/open-okx-account) · [Gate](/brokers/open-gate-account) · [HTX](/brokers/open-htx-account).
+
+*Partner-link disclosure: these guides use WolfBot's referral links — no extra cost to you, and they help fund WolfBot's development. Each exchange alone decides any promotion or eligibility.*

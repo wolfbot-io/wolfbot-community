@@ -80,3 +80,7 @@ Không dùng một chuỗi cho cả ba. Lưu bằng password manager; không scr
 - [KuCoin Sign Up and Login](https://www.kucoin.com/support/30808055892633)
 - [KuCoin Identity Verification](https://www.kucoin.com/support/360015102254)
 - [KuCoin Google 2FA](https://www.kucoin.com/support/360014897913)
+
+## So sánh các sàn
+
+Chưa chắc KuCoin là sàn đầu tiên phù hợp? Xem: [Binance vs KuCoin](/vi/brokers/binance-vs-kucoin) · [Bybit vs KuCoin](/vi/brokers/bybit-vs-kucoin) · [BingX vs KuCoin](/vi/brokers/bingx-vs-kucoin) · [KuCoin vs Bitget](/vi/brokers/kucoin-vs-bitget).

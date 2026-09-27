@@ -97,3 +97,7 @@ Sau đó làm theo [hướng dẫn kết nối Binance](/vi/brokers/binance): t�
 - [Binance Support](https://www.binance.com/en/support)
 
 Rà soát ngày 2026-09-01. Nếu giao diện thay đổi, ưu tiên yêu cầu đang hiển thị trong tài khoản Binance của bạn.
+
+## So sánh các sàn
+
+Chưa chắc Binance là sàn đầu tiên phù hợp? Xem: [Binance vs Bybit](/vi/brokers/binance-vs-bybit) · [Binance vs BingX](/vi/brokers/binance-vs-bingx) · [Binance vs KuCoin](/vi/brokers/binance-vs-kucoin) · [Binance vs Bitget](/vi/brokers/binance-vs-bitget).

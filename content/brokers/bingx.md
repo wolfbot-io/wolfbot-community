@@ -84,6 +84,10 @@ Anyone who wants to connect a BingX account to WolfBot Community for automated t
 
 ---
 
+## Comparing BingX with other exchanges?
+
+[Binance vs BingX](/brokers/binance-vs-bingx) · [Bybit vs BingX](/brokers/bybit-vs-bingx) · [BingX vs KuCoin](/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/brokers/bingx-vs-bitget)
+
 ## Next step
 
 > **[Configure Risk Controls →](/docs/risk-controls)**

@@ -33,6 +33,8 @@ WolfBot không có "Simulation mode" toàn cục riêng để bạn bật/tắt.
 
 Riêng Bybit, WolfBot tự phát hiện API key thuộc tài khoản Demo hay Live — bạn không chọn chế độ thủ công.
 
+> Mới dùng Bybit? Bạn có thể [mở tài khoản qua link đối tác của WolfBot](https://partner.bybit.com/b/WOLFBOT) ([hướng dẫn](/vi/brokers/open-bybit-account)) — không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển. Demo/testnet có đăng nhập và API key riêng.
+
 ## Vì sao bắt đầu với tài khoản Demo?
 
 1. **Không rủi ro** — Không liên quan đến tiền thật

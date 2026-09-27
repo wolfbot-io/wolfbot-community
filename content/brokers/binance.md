@@ -95,6 +95,10 @@ Your Binance account appears in Exchange Accounts with Live/Demo environment and
 
 ---
 
+## Comparing Binance with other exchanges?
+
+[Binance vs Bybit](/brokers/binance-vs-bybit) · [Binance vs BingX](/brokers/binance-vs-bingx) · [Binance vs KuCoin](/brokers/binance-vs-kucoin) · [Binance vs Bitget](/brokers/binance-vs-bitget)
+
 ## Next step
 
 > **[Configure Risk Controls →](/docs/risk-controls)**

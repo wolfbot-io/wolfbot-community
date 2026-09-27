@@ -44,6 +44,7 @@ const SECTION_ORDER: { category: string; label: string }[] = [
   { category: 'getting-started', label: 'Getting Started' },
   { category: 'install', label: 'Installation' },
   { category: 'broker-setup', label: 'Broker Setup' },
+  { category: 'broker-comparison', label: 'Exchange Comparisons' },
   { category: 'simulation', label: 'Simulation & Demo' },
   { category: 'smart-terminal', label: 'Smart Terminal' },
   { category: 'risk-controls', label: 'Risk Controls' },

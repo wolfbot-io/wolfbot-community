@@ -51,6 +51,8 @@ WolfBot has no separate "Simulation mode" toggle. Instead, you connect a broker'
 
 > ✅ A Demo account costs nothing and never touches real funds — the safest way to learn WolfBot across every supported market.
 
+> 🆕 **No Bybit account yet?** You can [open one through WolfBot's partner link](https://partner.bybit.com/b/WOLFBOT) — the [step-by-step guide](/brokers/open-bybit-account) covers registration, KYC and 2FA. No extra cost, and it supports WolfBot development.
+
 [Full Demo/Simulation Guide →](/docs/simulation)
 
 ## Step 4: Connect Your Markets for Real Trading
@@ -63,6 +65,10 @@ When ready to go live:
 > ⚠️ Always use API keys with trade-only permission (no withdrawal).
 
 Broker guides: [Bybit](/brokers/bybit) · [Binance](/brokers/binance) · [BingX](/brokers/bingx) · [KuCoin](/brokers/kucoin) · [Bitget](/brokers/bitget) · [MT5](/brokers/mt5)
+
+New to an exchange? Open an account in your own name with the account-opening guides: [Bybit](/brokers/open-bybit-account) · [Binance](/brokers/open-binance-account) · [BingX](/brokers/open-bingx-account) · [KuCoin](/brokers/open-kucoin-account) · [Bitget](/brokers/open-bitget-account) · [OKX](/brokers/open-okx-account) · [Gate](/brokers/open-gate-account) · [HTX](/brokers/open-htx-account). Can't decide between two? Read the [exchange comparisons](/docs/which-exchange-to-automate-first).
+
+*Partner-link disclosure: these guides use WolfBot's referral links — no extra cost to you, and they help fund WolfBot's development. Each exchange alone decides any promotion or eligibility.*
 
 ## First Week Checklist
 

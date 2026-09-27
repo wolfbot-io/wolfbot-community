@@ -58,6 +58,8 @@ Mọi kết nối sàn đều theo cùng mẫu an toàn trong [hướng dẫn AP
 Nếu không có tài khoản demo, hãy dùng tài khoản live riêng nhỏ với key
 chỉ-giao-dịch và số dư rất nhỏ — không bao giờ dùng ví giao dịch chính.
 
+Chưa có tài khoản sàn? [Các hướng dẫn mở tài khoản](/vi/docs/which-exchange-to-automate-first) đi qua đăng ký, KYC và 2FA cho từng sàn (dùng link đối tác của WolfBot, bạn không tốn thêm phí).
+
 ## Bước 3 — Bật simulation (5 phút)
 
 Trước khi chiến lược đặt bất kỳ lệnh nào, hãy xác nhận nền tảng đang chạy ở chế

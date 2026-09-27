@@ -86,6 +86,10 @@ Bất kỳ ai muốn kết nối tài khoản BingX với WolfBot Community đ�
 
 ---
 
+## Đang so sánh BingX với các sàn khác?
+
+[Binance vs BingX](/vi/brokers/binance-vs-bingx) · [Bybit vs BingX](/vi/brokers/bybit-vs-bingx) · [BingX vs KuCoin](/vi/brokers/bingx-vs-kucoin) · [BingX vs Bitget](/vi/brokers/bingx-vs-bitget)
+
 ## Bước tiếp theo
 
 > **[Cấu hình Risk Controls →](/docs/risk-controls)**

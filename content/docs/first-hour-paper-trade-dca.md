@@ -58,6 +58,8 @@ Every exchange connection follows the same safety pattern from the
 If no demo account exists, use a small dedicated live account with trade-only
 permissions and tiny balances — never your main trading wallet.
 
+Don't have an exchange account yet? The [account-opening guides](/docs/which-exchange-to-automate-first) walk through registration, KYC and 2FA for each exchange (they use WolfBot's partner links at no extra cost to you).
+
 ## Step 3 — Turn simulation on (5 minutes)
 
 Before any strategy can place an order, confirm that the platform runs in

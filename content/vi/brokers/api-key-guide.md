@@ -56,11 +56,15 @@ Nếu sàn cung cấp quyền chi tiết, cũng tắt:
 3. Tắt: **Enable Withdrawals**
 4. (Khuyến nghị) Giới hạn theo IP tin cậy
 
+*Chưa có tài khoản Binance? [Mở qua WolfBot](https://www.binance.com/register?ref=WOLFBOT) — xem [hướng dẫn mở tài khoản Binance](/vi/brokers/open-binance-account).*
+
 ### Bybit
 1. API Management → Create New Key
 2. Bật: quyền **Trade**
 3. Tắt: **Withdrawal**, **Transfer**
 4. (Khuyến nghị) Gắn địa chỉ IP
+
+*Chưa có tài khoản Bybit? [Mở qua WolfBot](https://partner.bybit.com/b/WOLFBOT) — xem [hướng dẫn mở tài khoản Bybit](/vi/brokers/open-bybit-account).*
 
 ### BingX
 1. API Management → Create API Key
@@ -68,17 +72,25 @@ Nếu sàn cung cấp quyền chi tiết, cũng tắt:
 3. Tắt: **Withdrawal**
 4. (Khuyến nghị) Hạn chế truy cập IP
 
+*Chưa có tài khoản BingX? [Mở qua WolfBot](https://bingxdao.com/partner/Wolfbot/) — xem [hướng dẫn mở tài khoản BingX](/vi/brokers/open-bingx-account).*
+
 ### KuCoin
 1. API Management → Create API
 2. Bật: **Trade** dưới Spot Trading
 3. Tắt: **Withdrawal**, **Transfer**
 4. Đặt passphrase (bắt buộc với KuCoin)
 
+*Chưa có tài khoản KuCoin? [Mở qua WolfBot](https://www.kucoin.com/r/broker/WOLFBOTIO) — xem [hướng dẫn mở tài khoản KuCoin](/vi/brokers/open-kucoin-account).*
+
 ### Bitget
 1. API Management → Create API Key
 2. Bật: **Trade**
 3. Tắt: **Withdrawal**
 4. (Khuyến nghị) Gắn IP
+
+*Chưa có tài khoản Bitget? [Mở qua WolfBot](https://partner.bitget.com/bg/WOLFBOT) — xem [hướng dẫn mở tài khoản Bitget](/vi/brokers/open-bitget-account).*
+
+*Công khai link đối tác: các link đăng ký ở trên ghi nhận WolfBot là người giới thiệu, bạn không tốn thêm phí. Mọi khuyến mãi hay điều kiện do từng sàn quyết định.*
 
 ## Mẹo bảo mật bổ sung
 

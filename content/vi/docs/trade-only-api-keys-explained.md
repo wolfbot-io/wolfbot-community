@@ -77,6 +77,8 @@ Hầu hết các sàn cũng cho phép bạn khóa một API key vào một đị
 
 Mỗi hướng dẫn broker trong [Academy](/academy) đều đi qua chính xác nơi tìm các checkbox này cho sàn cụ thể đó.
 
+Còn đang chọn sàn? So sánh trong [Nên tự động hoá sàn nào trước](/vi/docs/which-exchange-to-automate-first), rồi làm theo hướng dẫn mở tài khoản của sàn đó (link đối tác của WolfBot, bạn không tốn thêm phí) trước khi tạo key.
+
 ## Bước tiếp theo
 
 > **[Hướng dẫn thiết lập API key đầy đủ →](/vi/brokers/api-key-guide)**

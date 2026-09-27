@@ -54,11 +54,15 @@ If an exchange offers granular permissions, also disable:
 3. Disable: **Enable Withdrawals**
 4. (Recommended) Restrict to trusted IPs
 
+*No Binance account yet? [Open one through WolfBot](https://www.binance.com/register?ref=WOLFBOT) — see the [Binance account-opening guide](/brokers/open-binance-account).*
+
 ### Bybit
 1. API Management → Create New Key
 2. Enable: **Trade** permission
 3. Disable: **Withdrawal**, **Transfer**
 4. (Recommended) Bind IP address
+
+*No Bybit account yet? [Open one through WolfBot](https://partner.bybit.com/b/WOLFBOT) — see the [Bybit account-opening guide](/brokers/open-bybit-account).*
 
 ### BingX
 1. API Management → Create API Key
@@ -66,17 +70,25 @@ If an exchange offers granular permissions, also disable:
 3. Disable: **Withdrawal**
 4. (Recommended) Restrict IP access
 
+*No BingX account yet? [Open one through WolfBot](https://bingxdao.com/partner/Wolfbot/) — see the [BingX account-opening guide](/brokers/open-bingx-account).*
+
 ### KuCoin
 1. API Management → Create API
 2. Enable: **Trade** under Spot Trading
 3. Disable: **Withdrawal**, **Transfer**
 4. Set a passphrase (required for KuCoin)
 
+*No KuCoin account yet? [Open one through WolfBot](https://www.kucoin.com/r/broker/WOLFBOTIO) — see the [KuCoin account-opening guide](/brokers/open-kucoin-account).*
+
 ### Bitget
 1. API Management → Create API Key
 2. Enable: **Trade**
 3. Disable: **Withdrawal**
 4. (Recommended) Bind IP
+
+*No Bitget account yet? [Open one through WolfBot](https://partner.bitget.com/bg/WOLFBOT) — see the [Bitget account-opening guide](/brokers/open-bitget-account).*
+
+*Partner-link disclosure: the sign-up links above credit WolfBot as referrer at no extra cost to you. Each exchange alone decides any promotion or eligibility.*
 
 ## Additional Security Tips
 

@@ -93,3 +93,7 @@ Bybit là một trong các luồng self-service hiện có của WolfBot. Thứ 
 - [Bybit — How to Register an Account](https://www.bybit.com/en/help-center/article/?id=000001017&language=en_US)
 - [Bybit — Individual KYC FAQ](https://www.bybit.com/en/help-center/article/Individual-KYC-FAQ)
 - [Kết nối Bybit với WolfBot](/vi/brokers/bybit)
+
+## So sánh các sàn
+
+Chưa chắc Bybit là sàn đầu tiên phù hợp? Xem: [Binance vs Bybit](/vi/brokers/binance-vs-bybit) · [Bybit vs BingX](/vi/brokers/bybit-vs-bingx) · [Bybit vs KuCoin](/vi/brokers/bybit-vs-kucoin) · [Bybit vs Bitget](/vi/brokers/bybit-vs-bitget).

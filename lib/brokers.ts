@@ -49,3 +49,25 @@ export const STATUS_STYLE: Record<BrokerStatus, { color: string; background: str
 export function brokerHref(broker: Pick<Broker, 'slug'>): string {
   return `/brokers/${broker.slug}`
 }
+
+/**
+ * WolfBot partner (referral) sign-up links -- the same links used inside the
+ * `content/brokers/open-*-account.md` guides. Keep in sync with
+ * wolfbot-platform/apps/public-web/lib/exchangeReferralLinks.ts. Only shown
+ * next to a plain-language disclosure (see app/brokers/page.tsx).
+ */
+export const BROKER_SIGNUP_LINKS: Record<string, string> = {
+  binance: 'https://www.binance.com/register?ref=WOLFBOT',
+  bybit: 'https://partner.bybit.com/b/WOLFBOT',
+  bingx: 'https://bingxdao.com/partner/Wolfbot/',
+  kucoin: 'https://www.kucoin.com/r/broker/WOLFBOTIO',
+  bitget: 'https://partner.bitget.com/bg/WOLFBOT',
+}
+
+/** Exchange-vs-exchange comparison pages (content/brokers/<a>-vs-<b>.md). */
+export const BROKER_COMPARISONS: { a: string; b: string }[] = [
+  { a: 'binance', b: 'bybit' }, { a: 'binance', b: 'bingx' }, { a: 'binance', b: 'kucoin' },
+  { a: 'binance', b: 'bitget' }, { a: 'bybit', b: 'bingx' }, { a: 'bybit', b: 'kucoin' },
+  { a: 'bybit', b: 'bitget' }, { a: 'bingx', b: 'kucoin' }, { a: 'bingx', b: 'bitget' },
+  { a: 'kucoin', b: 'bitget' },
+]

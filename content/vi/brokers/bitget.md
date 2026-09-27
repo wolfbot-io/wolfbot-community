@@ -85,6 +85,10 @@ Bất kỳ ai kết nối tài khoản Bitget với WolfBot Community.
 
 ---
 
+## Đang so sánh Bitget với các sàn khác?
+
+[Binance vs Bitget](/vi/brokers/binance-vs-bitget) · [Bybit vs Bitget](/vi/brokers/bybit-vs-bitget) · [BingX vs Bitget](/vi/brokers/bingx-vs-bitget) · [KuCoin vs Bitget](/vi/brokers/kucoin-vs-bitget)
+
 ## Bước tiếp theo
 
 > **[Cấu hình Risk Controls →](/docs/risk-controls)**
