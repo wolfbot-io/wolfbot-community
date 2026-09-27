@@ -1,16 +1,24 @@
 ---
-title: "Live Translate — Break the Language Barrier with Local AI | WolfBot Community"
-description: "Live Translate is WolfBot Community's free, local AI translator: real-time speech and text translation across 52 languages, 100% offline of the cloud. No account, no subscription, no data leaving your machine."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-13"
+title: "Realtime Translate for Meetings & Livestreams | WolfBot"
+description: "Free realtime translate for Teams, Google Meet, Zoom, YouTube and TikTok live: any browser audio, translated as it plays. Local, private, no account."
+tested_version: "0.1.0-beta.11"
+last_updated: "2026-09-27"
 platforms: ["linux"]
 category: "tools"
 difficulty: "beginner"
 estimated_time: "6 minutes"
 next_guide: "/download"
-related_guides: ["/download", "/getting-started", "/security", "/docs/self-hosted-explained"]
+related_guides: ["/tools/meeting-translator", "/tools/livestream-translator", "/download", "/getting-started", "/security", "/docs/self-hosted-explained"]
 keywords: [
   "live translate wolfbot",
+  "realtime translate",
+  "realtime translate teams meeting",
+  "google meet live translation",
+  "zoom real time translation",
+  "youtube live translate",
+  "tiktok live translate",
+  "realtime translator free",
+  "break the language barrier",
   "free ai translator",
   "local ai translator no cloud",
   "real time translation software",
@@ -33,11 +41,11 @@ keywords: [
 sitemap_priority: 0.85
 ---
 
-# Live Translate — Break the Language Barrier with Local AI
+# Realtime Translate for Meetings & Livestreams — Break the Language Barrier
 
 **Understand anyone. Read anything. In your language.**
 
-Live Translate is a free, local AI translation tool built directly into WolfBot Community. It translates speech and text in real time — across 52 languages — entirely on your own machine. No cloud account, no subscription, no audio or text ever leaves your computer.
+Live Translate is a free realtime translator — a local AI tool built directly into WolfBot Community. It translates speech and text in real time — across 52 languages — entirely on your own machine. No cloud account, no subscription, no audio or text ever leaves your computer.
 
 It's also platform-agnostic: the same tool follows you into Microsoft Teams, Google Meet, Zoom, YouTube, livestreams, X and any other browser-based call or stream — one translator, every platform, live.
 
@@ -52,6 +60,40 @@ Live Translate takes a different approach:
 > **Break language barriers — locally, privately, and in real time.**
 
 The AI models run on your own hardware. Your conversations, your documents and your voice stay on your machine. There is nothing to sign up for and nothing to send anywhere.
+
+## Translate meetings and livestreams in real time
+
+This is what Live Translate is built for: **understand a live conversation or stream in your own language while it is happening.**
+
+- **Meetings** — Microsoft Teams, Google Meet and Zoom (in the browser): follow a call in another language as people speak. See [Realtime Translate for Teams, Meet & Zoom](/tools/meeting-translator).
+- **Livestreams and videos** — YouTube (including live streams and premieres), TikTok on the web, Twitch, X and any other site that plays audio in your browser. See [Realtime Translate for YouTube, TikTok & Livestreams](/tools/livestream-translator).
+
+**How to start (about a minute):**
+
+1. Open the meeting or stream in **Chrome or Edge** (the web version of Teams, Meet or Zoom works).
+2. Open **Live Translate** and pick your target language.
+3. Set the input mode to **Tab / System Audio**, select the meeting or stream tab in the browser picker, and tick **"Share tab audio"**.
+4. Read the live translation as it appears — and hear it spoken back in a natural voice for the 43 languages that have one.
+
+**Why this is different from a meeting plugin:** it does not depend on the meeting or streaming platform at all. There is no bot joining the call, no per-app extension, and no feature the platform has to add. If there is audio in the tab, it can be translated — today it works for Teams, Meet, Zoom, YouTube, TikTok and anywhere else audio plays.
+
+**Good to know:**
+
+- Tab-audio capture needs a Chromium-based browser (Chrome or Edge) on the computer running the translator. Desktop apps that do not run in a browser tab are not covered.
+- Realtime speech translation runs on Linux today. A GPU makes it noticeably faster and more accurate; speed depends on your hardware.
+- Translating is not recording: raw audio is never stored, and transcript history is off unless you turn it on. Be considerate — tell other participants when you use a translation aid, and follow the rules of your meeting or workplace.
+- A few protected streams may not share their audio; if you hear no translation, check that "Share tab audio" was ticked.
+
+## What makes this Realtime Translate different
+
+Realtime translators exist — cloud extensions for meetings, a few offline desktop apps, several open-source projects. What WolfBot Community puts together in **one free install** is a rarer combination:
+
+- **Realtime speech, text, documents and two-way conversation in one tool** — not four separate apps to find, pay for and keep updated.
+- **Independent of any platform — if there is audio, it gets translated.** Anything that plays in your browser or reaches your microphone: Teams, Meet and Zoom on the web, YouTube, livestreams, X. No plugin per app, no bot joining your meeting, and no platform has to "support" it.
+- **Free, and local by design** — the models run on your machine. No account, no subscription, no per-minute billing, nothing uploaded.
+- **Built into a free, self-hosted trading platform** — follow foreign-language crypto and market commentary live, in your own language, then trade in the same environment if and when you want to. We are not aware of another free translator that ships inside a trading platform.
+
+**Honest trade-offs:** realtime speech runs on Linux today (Windows text and document translation is on the roadmap), it needs a reasonably modern computer (a GPU makes it noticeably faster), and cloud services may list more languages. If you want fully private, no-signup realtime translation that also works for your reading, your documents and your conversations, this is built for that.
 
 ## What Live Translate actually does
 
@@ -88,7 +130,7 @@ If it plays sound in your browser, WolfBot can translate it in real time, spoken
 WolfBot Community would rather under-promise than over-claim. The table above reflects what is actually wired and certified in the current release, not a theoretical maximum:
 
 - **Text translation** runs on TranslateGemma, a model family officially rated for 55 production-tier languages — WolfBot Community currently certifies **52** of them, in three rollout waves.
-- **Speech recognition** runs on OpenAI's Whisper, wired for the same 52 certified languages.
+- **Speech recognition** runs on OpenAI's Whisper, which supports all 52 languages. Speech quality is most thoroughly tested on the first 24 languages (rollout waves 1 and 2); the other 28 are fully supported and still being tuned, so expect a little more variation there.
 - **Natural voice output** runs on Kokoro and Piper, which together currently cover **43** of those 52 languages with a natural-sounding voice. The other languages still translate perfectly in text — they simply do not have a voice yet.
 - **English** and **Vietnamese** are WolfBot's most mature, "stable"-tier languages (Live Translate started life as an EN↔VI tool before going universal). Every other certified language is "beta" tier — fully usable today, still being refined.
 

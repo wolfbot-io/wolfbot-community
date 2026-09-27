@@ -1,0 +1,489 @@
+{
+ "schema_version": 1,
+ "source": "GET http://127.0.0.1:8080/translate/api/language-capabilities",
+ "generated_at": "2026-09-27",
+ "translator_release": "0.1.0-beta.11",
+ "counts": {
+  "total": 52,
+  "text": 52,
+  "speech_input": 52,
+  "voices": 43,
+  "stable": 2
+ },
+ "extra_allowed_numbers": {
+  "speech_tested_first_wave": 24,
+  "speech_remaining": 28,
+  "translategemma_rated": 55,
+  "later_waves_languages": 38
+ },
+ "languages": [
+  {
+   "code": "en",
+   "name": "English",
+   "native_name": "English",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "stable"
+  },
+  {
+   "code": "vi",
+   "name": "Vietnamese",
+   "native_name": "Tiếng Việt",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "stable"
+  },
+  {
+   "code": "zh-Hans",
+   "name": "Chinese (Simplified)",
+   "native_name": "简体中文",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "zh-Hant",
+   "name": "Chinese (Traditional)",
+   "native_name": "繁體中文",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ja",
+   "name": "Japanese",
+   "native_name": "日本語",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ko",
+   "name": "Korean",
+   "native_name": "한국어",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "es",
+   "name": "Spanish",
+   "native_name": "Español",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "fr",
+   "name": "French",
+   "native_name": "Français",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "de",
+   "name": "German",
+   "native_name": "Deutsch",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "pt",
+   "name": "Portuguese",
+   "native_name": "Português",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "it",
+   "name": "Italian",
+   "native_name": "Italiano",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ru",
+   "name": "Russian",
+   "native_name": "Русский",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ar",
+   "name": "Arabic",
+   "native_name": "العربية",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "hi",
+   "name": "Hindi",
+   "native_name": "हिन्दी",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "id",
+   "name": "Indonesian",
+   "native_name": "Bahasa Indonesia",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "th",
+   "name": "Thai",
+   "native_name": "ไทย",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "nl",
+   "name": "Dutch",
+   "native_name": "Nederlands",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "pl",
+   "name": "Polish",
+   "native_name": "Polski",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "tr",
+   "name": "Turkish",
+   "native_name": "Türkçe",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "uk",
+   "name": "Ukrainian",
+   "native_name": "Українська",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "sv",
+   "name": "Swedish",
+   "native_name": "Svenska",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "cs",
+   "name": "Czech",
+   "native_name": "Čeština",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ro",
+   "name": "Romanian",
+   "native_name": "Română",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "el",
+   "name": "Greek",
+   "native_name": "Ελληνικά",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "fi",
+   "name": "Finnish",
+   "native_name": "Suomi",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "da",
+   "name": "Danish",
+   "native_name": "Dansk",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "no",
+   "name": "Norwegian",
+   "native_name": "Norsk",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "is",
+   "name": "Icelandic",
+   "native_name": "Íslenska",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "et",
+   "name": "Estonian",
+   "native_name": "Eesti",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "lv",
+   "name": "Latvian",
+   "native_name": "Latviešu",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "lt",
+   "name": "Lithuanian",
+   "native_name": "Lietuvių",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "hu",
+   "name": "Hungarian",
+   "native_name": "Magyar",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "bg",
+   "name": "Bulgarian",
+   "native_name": "Български",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "sk",
+   "name": "Slovak",
+   "native_name": "Slovenčina",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "sl",
+   "name": "Slovenian",
+   "native_name": "Slovenščina",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "hr",
+   "name": "Croatian",
+   "native_name": "Hrvatski",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "sr",
+   "name": "Serbian",
+   "native_name": "Српски",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ca",
+   "name": "Catalan",
+   "native_name": "Català",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "he",
+   "name": "Hebrew",
+   "native_name": "עברית",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "fa",
+   "name": "Persian",
+   "native_name": "فارسی",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ur",
+   "name": "Urdu",
+   "native_name": "اردو",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "bn",
+   "name": "Bengali",
+   "native_name": "বাংলা",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "mr",
+   "name": "Marathi",
+   "native_name": "मराठी",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "te",
+   "name": "Telugu",
+   "native_name": "తెలుగు",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ml",
+   "name": "Malayalam",
+   "native_name": "മലയാളം",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "ta",
+   "name": "Tamil",
+   "native_name": "தமிழ்",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "gu",
+   "name": "Gujarati",
+   "native_name": "ગુજરાતી",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "kn",
+   "name": "Kannada",
+   "native_name": "ಕನ್ನಡ",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "pa",
+   "name": "Punjabi",
+   "native_name": "ਪੰਜਾਬੀ",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  },
+  {
+   "code": "sw",
+   "name": "Swahili",
+   "native_name": "Kiswahili",
+   "text": true,
+   "speech_input": true,
+   "speech_output": true,
+   "certification": "beta"
+  },
+  {
+   "code": "zu",
+   "name": "Zulu",
+   "native_name": "isiZulu",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "experimental"
+  },
+  {
+   "code": "fil",
+   "name": "Filipino",
+   "native_name": "Filipino",
+   "text": true,
+   "speech_input": true,
+   "speech_output": false,
+   "certification": "beta"
+  }
+ ]
+}

@@ -14,6 +14,7 @@ import { ContentRenderer } from '@/components/docs/ContentRenderer'
 import { StructuredData } from '@/components/seo/StructuredData'
 import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
 import { breadcrumbSchema } from '@/lib/structured-data/breadcrumb'
+import { toolAppSchema, toolFaqSchema } from '@/lib/structured-data/tool-page'
 
 interface Props {
   params: { slug: string[] }
@@ -141,6 +142,22 @@ export default async function ContentPage({ params }: Props) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <StructuredData data={breadcrumbSchema(breadcrumbs)} />
+      {page.meta.category === 'tools' && (
+        <>
+          <StructuredData
+            data={toolAppSchema({
+              name: page.meta.title.split(' | ')[0],
+              description: page.meta.description ?? '',
+              url: `https://community.wolfbot.io/${slug}`,
+              inLanguage: locale ? locale.htmlLang : 'en',
+            })}
+          />
+          {(() => {
+            const faq = toolFaqSchema(page.body)
+            return faq ? <StructuredData data={faq} /> : null
+          })()}
+        </>
+      )}
 
       {/* The shared root <html> is static ("en"); correct it per page for
           localized content so assistive tech and rendered-DOM crawlers see

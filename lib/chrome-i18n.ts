@@ -22,6 +22,7 @@ export interface ChromeI18n {
   gettingStarted: string
   markets: string
   liveTranslate: string
+  freeTools: string
   docs: string
   releases: string
   academy: string
@@ -62,6 +63,7 @@ function c(data: Partial<ChromeI18n>): ChromeI18n {
     gettingStarted: 'Getting Started',
     markets: 'Markets',
     liveTranslate: 'Live Translate',
+    freeTools: 'Free Translate Tools',
     docs: 'Docs',
     releases: 'Releases',
     academy: 'Academy',
@@ -96,6 +98,7 @@ function c(data: Partial<ChromeI18n>): ChromeI18n {
 export const CHROME_COPY: Record<string, ChromeI18n> = {
   en: c({}),
   vi: c({
+    freeTools: 'Công cụ dịch miễn phí',
     download: 'Tải xuống',
     gettingStarted: 'Bắt đầu',
     markets: 'Thị trường',

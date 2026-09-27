@@ -22,9 +22,14 @@ const LOCALIZABLE_ROOTS = [
   'community-vs-cloud',
 ]
 
-function isLocalizable(pathname: string): boolean {
+// Locales that have a translated content/<locale>/tools/* set. The /tools hub
+// itself is English-only, so only `tools/<slug>` pages are localized.
+const TOOLS_LOCALES = new Set(['vi'])
+
+function isLocalizable(pathname: string, locale?: string | null): boolean {
   const p = pathname.replace(/^\/+/, '').replace(/\/+$/, '')
   if (p === '') return false
+  if (locale && TOOLS_LOCALES.has(locale) && p.startsWith('tools/')) return true
   return LOCALIZABLE_ROOTS.some((root) =>
     root.endsWith('/') ? p.startsWith(root) : p === root || p.startsWith(root + '/'),
   )
@@ -41,7 +46,7 @@ export function localizeHref(href: string, locale: string | null): string {
   if (!locale) return href
   if (/^(https?:)?\/\//.test(href) || href.startsWith('#') || href.startsWith('?')) return href
   const path = href.split('#')[0].split('?')[0]
-  if (!isLocalizable(path)) return href
+  if (!isLocalizable(path, locale)) return href
   const rest = path.replace(/^\/+/, '')
   return `/${locale}/${rest}${href.slice(path.length)}`
 }

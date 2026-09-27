@@ -14,9 +14,10 @@
     "llms": "tsx scripts/generate-llms-txt.ts",
     "search-index": "tsx scripts/generate-search-index.ts",
     "fix-html-lang": "tsx scripts/fix-html-lang.ts",
-    "prebuild-content": "npm run sitemap && npm run rss && npm run llms && npm run search-index",
+    "prebuild-content": "npm run check-claims && npm run sitemap && npm run rss && npm run llms && npm run search-index",
     "freshness": "tsx scripts/check-content-freshness.ts --current-version 0.1.0-beta.11 --max-age 90",
-    "metrics": "python3 scripts/collect_github_metrics.py"
+    "metrics": "python3 scripts/collect_github_metrics.py",
+    "check-claims": "tsx scripts/check-tool-claims.ts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.0",

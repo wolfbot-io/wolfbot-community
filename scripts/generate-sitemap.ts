@@ -86,6 +86,7 @@ function generate(): string {
     ['/getting-started', '2026-08-11', 'weekly', 0.9],
     ['/features', '2026-08-11', 'monthly', 0.7],
     ['/academy', '2026-08-11', 'weekly', 0.8],
+    ['/tools', '2026-09-27', 'weekly', 0.85],
     ['/community-vs-cloud', '2026-08-11', 'monthly', 0.8],
     ['/faq', '2026-08-11', 'monthly', 0.8],
     ['/security', '2026-08-11', 'monthly', 0.7],

@@ -1,8 +1,8 @@
 ---
-title: "Live Translate — Phá Bỏ Rào Cản Ngôn Ngữ Bằng AI Cục Bộ | WolfBot Community"
-description: "Live Translate là công cụ dịch AI miễn phí, chạy hoàn toàn cục bộ của WolfBot Community: dịch giọng nói và văn bản thời gian thực trên 52 ngôn ngữ, không cần cloud, không cần tài khoản, dữ liệu không rời khỏi máy bạn."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-13"
+title: "Dịch Realtime Cuộc Họp & Livestream — Phá Rào Cản Ngôn Ngữ"
+description: "Dịch realtime miễn phí cho Teams, Google Meet, Zoom, YouTube, TikTok live: âm thanh trình duyệt được dịch ngay khi phát. Cục bộ, riêng tư, không tài khoản."
+tested_version: "0.1.0-beta.11"
+last_updated: "2026-09-27"
 platforms: ["linux"]
 category: "tools"
 difficulty: "beginner"
@@ -10,9 +10,17 @@ estimated_time: "6 minutes"
 lang: "vi"
 translation_of: "tools/live-translate"
 next_guide: "/vi/download"
-related_guides: ["/vi/download", "/vi/getting-started", "/vi/security", "/vi/docs/self-hosted-explained"]
+related_guides: ["/vi/tools/meeting-translator", "/vi/tools/livestream-translator", "/vi/download", "/vi/getting-started", "/vi/security", "/vi/docs/self-hosted-explained"]
 keywords: [
   "live translate wolfbot",
+  "dịch realtime",
+  "dịch realtime cuộc họp teams",
+  "dịch google meet trực tiếp",
+  "dịch zoom thời gian thực",
+  "dịch youtube live",
+  "dịch tiktok live",
+  "dịch thời gian thực miễn phí",
+  "phá bỏ rào cản ngôn ngữ",
   "công cụ dịch ai miễn phí",
   "dịch ai cục bộ không cần cloud",
   "phần mềm dịch thời gian thực",
@@ -34,11 +42,11 @@ keywords: [
 sitemap_priority: 0.85
 ---
 
-# Live Translate — Phá Bỏ Rào Cản Ngôn Ngữ Bằng AI Cục Bộ
+# Dịch Realtime Cuộc Họp & Livestream — Phá Bỏ Rào Cản Ngôn Ngữ
 
 **Nghe hiểu bất kỳ ai. Đọc hiểu bất kỳ điều gì. Bằng chính ngôn ngữ của bạn.**
 
-Live Translate là công cụ dịch AI miễn phí, chạy hoàn toàn cục bộ, được tích hợp thẳng vào WolfBot Community. Nó dịch giọng nói và văn bản theo thời gian thực — trên **52 ngôn ngữ** — hoàn toàn trên máy tính của chính bạn. Không cần tài khoản đám mây, không cần trả phí, giọng nói hay văn bản của bạn không bao giờ rời khỏi máy.
+Live Translate là công cụ dịch realtime (thời gian thực) miễn phí, chạy hoàn toàn cục bộ, được tích hợp thẳng vào WolfBot Community. Nó dịch giọng nói và văn bản theo thời gian thực — trên **52 ngôn ngữ** — hoàn toàn trên máy tính của chính bạn. Không cần tài khoản đám mây, không cần trả phí, giọng nói hay văn bản của bạn không bao giờ rời khỏi máy.
 
 Đây cũng là công cụ đa nền tảng: cùng một công cụ dịch theo bạn vào Microsoft Teams, Google Meet, Zoom, YouTube, livestream, X và bất kỳ cuộc gọi hay livestream nào chạy trên trình duyệt — một công cụ dịch, mọi nền tảng, dịch trực tiếp ngay lập tức.
 
@@ -53,6 +61,40 @@ Live Translate đi theo một hướng khác:
 > **Phá bỏ rào cản ngôn ngữ — cục bộ, riêng tư, và theo thời gian thực.**
 
 Các mô hình AI chạy ngay trên phần cứng của bạn. Cuộc trò chuyện, tài liệu và giọng nói của bạn ở lại trên máy của bạn. Không có gì để đăng ký, không có gì để gửi đi đâu cả.
+
+## Dịch realtime cuộc họp và livestream
+
+Đây chính là việc Live Translate được làm ra để làm: **hiểu một cuộc trò chuyện hay livestream trực tiếp bằng chính ngôn ngữ của bạn, ngay khi nó đang diễn ra.**
+
+- **Cuộc họp** — Microsoft Teams, Google Meet và Zoom (trên trình duyệt): theo dõi cuộc gọi bằng ngôn ngữ khác khi mọi người đang nói. Xem [Dịch Realtime Teams, Meet & Zoom](/vi/tools/meeting-translator).
+- **Livestream và video** — YouTube (kể cả livestream và premiere), TikTok bản web, Twitch, X và bất kỳ trang nào phát âm thanh trong trình duyệt. Xem [Dịch Realtime YouTube, TikTok & Livestream](/vi/tools/livestream-translator).
+
+**Cách bắt đầu (khoảng một phút):**
+
+1. Mở cuộc họp hoặc livestream trong **Chrome hoặc Edge** (bản web của Teams, Meet, Zoom đều dùng được).
+2. Mở **Live Translate** và chọn ngôn ngữ đích.
+3. Đặt chế độ đầu vào là **Tab / System Audio**, chọn tab cuộc họp/livestream trong hộp thoại của trình duyệt, và tích **"Share tab audio"** (chia sẻ âm thanh tab).
+4. Đọc bản dịch trực tiếp hiện ra — và nghe lại bằng giọng đọc tự nhiên với 43 ngôn ngữ có giọng.
+
+**Khác gì plugin cho cuộc họp:** công cụ này hoàn toàn không phụ thuộc nền tảng họp hay nền tảng livestream. Không có bot vào cuộc gọi, không cần extension riêng cho từng ứng dụng, và nền tảng không phải thêm tính năng nào. Có âm thanh trong tab là dịch được — hôm nay dùng được cho Teams, Meet, Zoom, YouTube, TikTok và bất cứ nơi nào phát âm thanh.
+
+**Cần biết:**
+
+- Bắt âm thanh tab cần trình duyệt nền Chromium (Chrome hoặc Edge) trên máy đang chạy trình dịch. Ứng dụng desktop không chạy trong tab trình duyệt thì chưa được hỗ trợ.
+- Dịch giọng nói realtime hiện chạy trên Linux. Có GPU sẽ nhanh và chính xác hơn rõ rệt; tốc độ phụ thuộc phần cứng của bạn.
+- Dịch không phải ghi âm: âm thanh thô không bao giờ được lưu, và lịch sử bản ghi chữ tắt mặc định trừ khi bạn bật. Hãy lịch sự — cho những người khác biết khi bạn dùng công cụ hỗ trợ dịch, và tuân thủ quy định của cuộc họp hoặc nơi làm việc.
+- Một số luồng có bảo vệ có thể không chia sẻ âm thanh; nếu không nghe thấy bản dịch, hãy kiểm tra đã tích "Share tab audio" chưa.
+
+## Điểm khác biệt của công cụ Dịch Realtime này
+
+Công cụ dịch realtime không phải chưa từng có — đã có extension đám mây cho cuộc họp, vài ứng dụng offline cho máy tính và nhiều dự án mã nguồn mở. Điều WolfBot Community gom lại trong **một bản cài miễn phí** là một tổ hợp hiếm hơn:
+
+- **Dịch giọng nói realtime, văn bản, tài liệu và hội thoại hai chiều trong cùng một công cụ** — không phải tìm, trả tiền và cập nhật bốn ứng dụng riêng.
+- **Không phụ thuộc nền tảng nào — có âm thanh là dịch được.** Bất cứ thứ gì phát trong trình duyệt hoặc đi vào micro của bạn: Teams, Meet, Zoom bản web, YouTube, livestream, X. Không cần plugin cho từng ứng dụng, không có bot vào cuộc họp, và nền tảng không cần "hỗ trợ" gì cả.
+- **Miễn phí, và chạy cục bộ ngay từ thiết kế** — mô hình chạy trên máy của bạn. Không tài khoản, không thuê bao, không tính phí theo phút, không tải gì lên.
+- **Tích hợp trong nền tảng giao dịch tự host, miễn phí** — theo dõi bình luận crypto và thị trường bằng tiếng nước ngoài ngay lập tức, đọc bằng tiếng mẹ đẻ, rồi giao dịch trong cùng môi trường khi bạn muốn. Chúng tôi chưa biết công cụ dịch miễn phí nào khác đi kèm trong một nền tảng giao dịch.
+
+**Đánh đổi cần nói thật:** dịch giọng nói realtime hiện chạy trên Linux (dịch văn bản và tài liệu trên Windows nằm trong lộ trình), cần máy tính khá hiện đại (có GPU sẽ nhanh hơn rõ rệt), và dịch vụ đám mây có thể liệt kê nhiều ngôn ngữ hơn. Nếu bạn muốn dịch realtime riêng tư, không cần đăng ký, và dùng được cả cho việc đọc, tài liệu, hội thoại — công cụ này được làm cho đúng nhu cầu đó.
 
 ## Live Translate thực sự làm được gì
 
@@ -75,7 +117,7 @@ Ba cách sử dụng ngay hôm nay:
 WolfBot Community thà nói ít hơn thực tế còn hơn là nói quá. Bảng trên phản ánh đúng những gì đã thực sự được tích hợp và kiểm định trong bản phát hành hiện tại, không phải một con số lý thuyết tối đa:
 
 - **Dịch văn bản** chạy trên TranslateGemma, một họ mô hình được chính thức đánh giá cho 55 ngôn ngữ ở mức sản xuất — WolfBot Community hiện đã kiểm định **52** ngôn ngữ trong số đó, qua ba đợt triển khai.
-- **Nhận diện giọng nói** chạy trên Whisper của OpenAI, được tích hợp cho đúng 52 ngôn ngữ đã kiểm định đó.
+- **Nhận diện giọng nói** chạy trên Whisper của OpenAI, hỗ trợ đủ 52 ngôn ngữ. Chất lượng giọng nói được thử nghiệm kỹ nhất trên 24 ngôn ngữ đầu (đợt 1 và 2); 28 ngôn ngữ còn lại được hỗ trợ đầy đủ và vẫn đang được tinh chỉnh, nên có thể chênh lệch đôi chút.
 - **Giọng đọc tự nhiên** chạy trên Kokoro và Piper, hai công nghệ này cùng nhau hiện phủ **43** trong số 52 ngôn ngữ đó với giọng đọc tự nhiên. Các ngôn ngữ còn lại vẫn dịch văn bản hoàn hảo — chỉ là chưa có giọng đọc.
 - **Tiếng Anh** và **Tiếng Việt** là hai ngôn ngữ trưởng thành nhất của WolfBot, ở mức "stable" (Live Translate khởi đầu là một công cụ Anh↔Việt trước khi mở rộng thành công cụ toàn cầu). Mọi ngôn ngữ được kiểm định khác đều ở mức "beta" — dùng tốt ngay hôm nay, và vẫn đang được cải thiện liên tục.
 

@@ -21,6 +21,7 @@ const FOOTER_SECTIONS = [
       { href: '/download', field: 'download' },
       { href: '/brokers', field: 'markets' },
       { href: '/tools/live-translate', field: 'liveTranslate' },
+      { href: '/tools', field: 'freeTools' },
       { href: '/features', field: 'features' },
       { href: '/releases', field: 'releases' },
     ],
