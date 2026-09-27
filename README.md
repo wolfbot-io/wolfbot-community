@@ -12,6 +12,9 @@
 <p align="center">
   The same trading engine as WolfBot Cloud. A free, self-hosted unified trading platform for Windows and Linux.
 </p>
+<p align="center">
+  Plus <strong>Live Translate</strong> — free, local, real-time AI speech &amp; text translation across 52 languages, on any browser tab (Teams, Meet, Zoom, YouTube, livestreams, X) — and an <strong>MCP AI Agent</strong> interface for connecting AI agents (e.g. Claude) under owner-defined, policy-controlled trading limits.
+</p>
 
 <p align="center">
   <a href="https://community.wolfbot.io/download">
@@ -35,6 +38,8 @@
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
   <img src="https://img.shields.io/badge/platform-Windows%20(initial%20build)-FCC624?logo=windows" alt="Windows (initial build)" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
+  <a href="https://community.wolfbot.io/tools/live-translate"><img src="https://img.shields.io/badge/AI-Live%20Translate%20(52%20languages)-7C3AED" alt="Live Translate — real-time AI translation, 52 languages" /></a>
+  <img src="https://img.shields.io/badge/AI-MCP%20Agent%20Interface-3B82F6" alt="MCP AI Agent interface — policy-controlled agent trading" />
   <img src="https://img.shields.io/github/downloads/wolfbot-io/wolfbot-community/total" alt="Downloads" />
   <img src="https://img.shields.io/github/discussions/wolfbot-io/wolfbot-community" alt="Discussions" />
   <a href="https://t.me/wolfbot_community"><img src="https://img.shields.io/badge/Telegram-Join%20chat-26A5E4?logo=telegram&logoColor=white" alt="Join our Telegram group" /></a>
@@ -160,8 +165,21 @@ WolfBot unifies **multiple exchanges + multiple brokers + crypto + MT5 markets**
 | 📊 **One Portfolio** | Single portfolio view over all connected markets. | 🤖 **Automation** | Multi-strategy bots, TradingView signals, pipelines. |
 | 🧪 **Simulation** | Paper-trade across markets risk-free. | 💻 **Smart Terminal** | Manual trading with risk-aware execution. |
 | 🔄 **Auto Updates** | Stay current with signed channel updates. | 💾 **Backup & Restore** | Snapshot-based backup and recovery. |
+| 🌍 **Live Translate** | Real-time speech &amp; text translation, 52 languages, fully local — works on any Teams/Meet/Zoom/YouTube/livestream tab. | 🧠 **MCP AI Agent** | Connect AI agents via MCP under owner-set position limits, symbol allowlists, and a full pause/audit trail. |
 
 [Full feature breakdown →](https://community.wolfbot.io/features)
+
+---
+
+## MCP AI Agent
+
+WolfBot Community speaks [MCP (Model Context Protocol)](https://modelcontextprotocol.io/), so you can connect an AI agent (Claude or another MCP-compatible client) to your own account — under limits **you** set, not the agent:
+
+- Per-agent trading policy: allowed symbols, position-size/budget limits, allowed actions (open/add/close/partial-close/update protection).
+- Owner controls: pause any agent (or all agents) instantly, revoke or rotate its credential, review its full activity/audit trail.
+- Account isolation: an agent only ever sees and acts on the account it's explicitly granted — never your whole portfolio by default.
+
+This is an advanced, opt-in capability (`WOLFBOT_MCP_ENABLED`) aimed at users comfortable wiring up their own MCP client — it is not yet a one-click "connect ChatGPT" wizard. Manage agents from **Dashboard → AI Agents**.
 
 ---
 
