@@ -62,6 +62,24 @@ else
   exit 1
 fi
 
+# `docker compose` interpolates EVERY service in docker-compose.yml, even when
+# only `community` is named -- and the `relay` service declares its two
+# secrets with `${VAR:?...}` (deliberately no default, so the relay itself can
+# never start with a placeholder secret). On a VPS without those keys in
+# ./.env that made `compose build community` abort with "required variable
+# WOLFBOT_RELAY_SECRET_KEY is missing a value", so every deploy since the relay
+# service was added (2026-08-25) failed and the static site stopped updating.
+# This script only ever builds/starts `community` (never `relay`), so when a key
+# is absent from ./.env we export an inert placeholder purely so the file
+# interpolates. Keys that ARE in ./.env are left alone, and running the relay
+# by hand without real secrets still fails loudly.
+for relay_key in WOLFBOT_RELAY_SECRET_KEY WOLFBOT_RELAY_JWT_SECRET_KEY; do
+  if [[ -z "${!relay_key:-}" ]] && ! grep -Eq "^[[:space:]]*${relay_key}=.+" "$COMMUNITY_DIR/.env" 2>/dev/null; then
+    echo "ℹ️  ${relay_key} not set -- using inert placeholder for compose interpolation only (relay is not deployed by this script)."
+    export "${relay_key}=unused-by-community-service-build"
+  fi
+done
+
 compose() {
   COMPOSE_PROJECT_NAME=wolfbot-community "${COMPOSE_BIN[@]}" "$@"
 }

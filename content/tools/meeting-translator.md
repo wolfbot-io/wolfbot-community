@@ -61,7 +61,7 @@ Want to see your own words in the other language? Use the microphone mode of Liv
 
 ## Respect and privacy
 
-Translating is not recording. Raw audio is never stored, transcript history is off unless you turn it on, and an Incognito mode keeps a session out of the local translation memory entirely. Still, be considerate: tell other participants when you use a translation aid, and follow your organisation's rules and local laws about meetings.
+Raw audio is never stored. To write meeting minutes, WolfBot keeps a text transcript of the session on your own machine only — never uploaded — and you can turn that off or delete it at any time. An Incognito mode keeps text translation out of the local translation memory entirely. Still, be considerate: tell other participants when you use a translation aid, and follow your organisation's rules and local laws about meetings.
 
 ## Honest limits
 

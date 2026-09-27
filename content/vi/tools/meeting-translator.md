@@ -63,7 +63,7 @@ Muốn thấy lời mình nói ở ngôn ngữ kia? Dùng chế độ micro củ
 
 ## Tôn trọng và riêng tư
 
-Dịch không phải ghi âm. Âm thanh thô không bao giờ được lưu, lịch sử bản ghi chữ tắt mặc định trừ khi bạn bật, và chế độ Incognito giữ phiên khỏi bộ nhớ dịch cục bộ hoàn toàn. Dù vậy, hãy lịch sự: cho những người khác biết khi bạn dùng công cụ hỗ trợ dịch, và tuân thủ quy định của tổ chức cũng như pháp luật địa phương về cuộc họp.
+Âm thanh thô không bao giờ được lưu. Để viết biên bản cuộc họp, WolfBot giữ bản ghi chữ của phiên ngay trên máy bạn — không tải lên đâu cả — và bạn có thể tắt hoặc xoá bất cứ lúc nào. Chế độ Incognito giữ việc dịch văn bản ngoài bộ nhớ dịch cục bộ hoàn toàn. Dù vậy, hãy lịch sự: cho những người khác biết khi bạn dùng công cụ hỗ trợ dịch, và tuân thủ quy định của tổ chức cũng như pháp luật địa phương về cuộc họp.
 
 ## Giới hạn cần nói thật
 

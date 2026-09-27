@@ -81,7 +81,7 @@ This is what Live Translate is built for: **understand a live conversation or st
 
 - Tab-audio capture needs a Chromium-based browser (Chrome or Edge) on the computer running the translator. Desktop apps that do not run in a browser tab are not covered.
 - Realtime speech translation runs on Linux today. A GPU makes it noticeably faster and more accurate; speed depends on your hardware.
-- Translating is not recording: raw audio is never stored, and transcript history is off unless you turn it on. Be considerate — tell other participants when you use a translation aid, and follow the rules of your meeting or workplace.
+- Raw audio is never stored. To be able to write meeting minutes, Live Translate keeps a text transcript of the session on your own machine only (never uploaded); you can switch this off or delete it at any time. Be considerate — tell other participants when you use a translation aid, and follow the rules of your meeting or workplace.
 - A few protected streams may not share their audio; if you hear no translation, check that "Share tab audio" was ticked.
 
 ## What makes this Realtime Translate different
@@ -158,7 +158,7 @@ Plus 38 more languages across two additional rollout waves (Dutch, Polish, Turki
 ## Why it's private by design
 
 - Speech recognition, translation and voice synthesis all run locally, using a local Ollama model on your own machine.
-- Nothing is logged by default: content logging is off, raw audio is never persisted, and transcript history is opt-in only.
+- Raw audio is never persisted and content logging is off. Meeting Minutes saves a text transcript of your session on your own machine (never uploaded) so it can write minutes; you can turn this off with one setting and delete it whenever you like.
 - An Incognito mode exists for sessions you don't want remembered at all — no history row, no local cache entry.
 - The only thing that ever leaves your machine, if you choose to enable it, is an anonymous usage count (which feature you used) — never the words you translated.
 

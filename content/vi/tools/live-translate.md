@@ -82,7 +82,7 @@ Các mô hình AI chạy ngay trên phần cứng của bạn. Cuộc trò chuy�
 
 - Bắt âm thanh tab cần trình duyệt nền Chromium (Chrome hoặc Edge) trên máy đang chạy trình dịch. Ứng dụng desktop không chạy trong tab trình duyệt thì chưa được hỗ trợ.
 - Dịch giọng nói realtime hiện chạy trên Linux. Có GPU sẽ nhanh và chính xác hơn rõ rệt; tốc độ phụ thuộc phần cứng của bạn.
-- Dịch không phải ghi âm: âm thanh thô không bao giờ được lưu, và lịch sử bản ghi chữ tắt mặc định trừ khi bạn bật. Hãy lịch sự — cho những người khác biết khi bạn dùng công cụ hỗ trợ dịch, và tuân thủ quy định của cuộc họp hoặc nơi làm việc.
+- Âm thanh thô không bao giờ được lưu. Để viết được biên bản cuộc họp, Live Translate giữ bản ghi chữ của phiên ngay trên máy bạn (không tải lên đâu cả); bạn có thể tắt hoặc xoá bất cứ lúc nào. Hãy lịch sự — cho những người khác biết khi bạn dùng công cụ hỗ trợ dịch, và tuân thủ quy định của cuộc họp hoặc nơi làm việc.
 - Một số luồng có bảo vệ có thể không chia sẻ âm thanh; nếu không nghe thấy bản dịch, hãy kiểm tra đã tích "Share tab audio" chưa.
 
 ## Điểm khác biệt của công cụ Dịch Realtime này
@@ -145,7 +145,7 @@ Cộng thêm 38 ngôn ngữ khác trải qua hai đợt triển khai tiếp theo
 ## Vì sao riêng tư ngay từ thiết kế
 
 - Nhận diện giọng nói, dịch thuật và tổng hợp giọng nói đều chạy cục bộ, dùng một mô hình Ollama cục bộ ngay trên máy của bạn.
-- Mặc định không ghi log nội dung: ghi log nội dung tắt, âm thanh gốc không bao giờ được lưu lại, và lịch sử bản dịch chỉ được lưu khi bạn chủ động bật.
+- Âm thanh gốc không bao giờ được lưu và ghi log nội dung luôn tắt. Meeting Minutes lưu bản ghi chữ của phiên ngay trên máy bạn (không tải lên đâu cả) để viết biên bản; bạn có thể tắt bằng một thiết lập và xoá bất cứ lúc nào.
 - Có chế độ Ẩn danh (Incognito) cho những phiên bạn không muốn được ghi nhớ chút nào — không có dòng lịch sử, không có bộ nhớ đệm cục bộ nào được lưu.
 - Thứ duy nhất có thể rời khỏi máy bạn, nếu bạn chọn bật, là một số liệu sử dụng ẩn danh (bạn đã dùng tính năng nào) — không bao giờ là nội dung bạn đã dịch.
 
