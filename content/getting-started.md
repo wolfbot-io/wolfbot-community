@@ -9,7 +9,7 @@ difficulty: "beginner"
 estimated_time: "10 minutes"
 next_guide: "/docs/simulation"
 previous_guide: "/install/windows"
-related_guides: ["/docs/simulation", "/brokers/bybit", "/docs/risk-controls"]
+related_guides: ["/docs/simulation", "/brokers/bybit", "/docs/risk-controls", "/docs/connect-telegram-notifications"]
 keywords: ["wolfbot getting started", "wolfbot tutorial", "how to use wolfbot", "unified trading platform"]
 sitemap_priority: 0.9
 ---
@@ -70,6 +70,12 @@ New to an exchange? Open an account in your own name with the account-opening gu
 
 *Partner-link disclosure: these guides use WolfBot's referral links — no extra cost to you, and they help fund WolfBot's development. Each exchange alone decides any promotion or eligibility.*
 
+## Step 5: Connect Telegram Notifications
+
+Create your own private Telegram bot and link it to WolfBot to receive ENTRY, order status, TP/SL, trailing, and safety notifications while the self-hosted platform is running.
+
+[Connect Telegram step by step →](/docs/connect-telegram-notifications)
+
 ## First Week Checklist
 
 - [ ] Explore the Dashboard
@@ -77,6 +83,7 @@ New to an exchange? Open an account in your own name with the account-opening gu
 - [ ] Trade on Demo for 1–2 days
 - [ ] Try the Smart Terminal with your Demo account
 - [ ] Read [Risk Controls Guide](/docs/risk-controls)
+- [ ] Connect Telegram and receive a test notification
 - [ ] Connect a Live account when you're ready
 
 ## Need Help?

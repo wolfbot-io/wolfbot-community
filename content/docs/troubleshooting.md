@@ -7,7 +7,7 @@ platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "intermediate"
 estimated_time: "5 minutes"
-related_guides: ["/docs/error-codes", "/install/windows", "/install/linux", "/docs/updates", "/brokers/api-key-guide"]
+related_guides: ["/docs/error-codes", "/install/windows", "/install/linux", "/docs/updates", "/brokers/api-key-guide", "/docs/telegram-troubleshooting"]
 keywords: ["wolfbot troubleshooting", "wolfbot error codes", "fix wolfbot", "wolfbot installation error", "wolfbot connection problem"]
 sitemap_priority: 0.80
 ---
@@ -81,6 +81,10 @@ It's read-only — it checks installation integrity, service status, network and
 
 ### "Rate Limit Exceeded"
 WolfBot handles this automatically. If persistent, reduce bot frequency.
+
+### Telegram Bot Does Not Link or Send a Test
+
+Use the dedicated [Telegram Troubleshooting Guide](/docs/telegram-troubleshooting) for bot-token validation, inactive command listening, expired one-time codes, duplicate polling conflicts, and missing test messages.
 
 ---
 

@@ -1,6 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
+import { ZoomableImage } from './ZoomableImage'
 
 // WolfBot partner (referral) links get rel="sponsored" so search engines
 // treat them as affiliate links -- the on-page disclosure text is separate.
@@ -27,10 +28,7 @@ export function ContentRenderer({ body }: { body: string }) {
             {children}
           </a>
         ),
-        img: ({ src, alt, ...props }) => (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={src} alt={alt || ''} loading="lazy" className="rounded-xl border border-wolf-border my-4" {...props} />
-        ),
+        img: ({ src, alt, title }) => <ZoomableImage src={src} alt={alt || ''} title={title} />,
       }}
     >
       {body}

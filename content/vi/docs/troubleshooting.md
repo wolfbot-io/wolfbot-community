@@ -9,7 +9,7 @@ difficulty: "intermediate"
 estimated_time: "5 minutes"
 lang: "vi"
 translation_of: "docs/troubleshooting"
-related_guides: ["/vi/docs/error-codes", "/install/windows", "/install/linux", "/vi/docs/updates", "/vi/brokers/api-key-guide"]
+related_guides: ["/vi/docs/error-codes", "/install/windows", "/install/linux", "/vi/docs/updates", "/vi/brokers/api-key-guide", "/vi/docs/telegram-troubleshooting"]
 keywords: ["khắc phục sự cố wolfbot", "mã lỗi wolfbot", "sửa wolfbot", "lỗi cài đặt wolfbot", "vấn đề kết nối wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -83,6 +83,10 @@ Nó chỉ đọc — kiểm tra tính toàn vẹn của cài đặt, trạng th�
 
 ### "Rate Limit Exceeded"
 WolfBot tự xử lý. Nếu dai dẳng, giảm tần suất bot.
+
+### Bot Telegram không liên kết hoặc không gửi được tin nhắn test
+
+Xem [Hướng dẫn xử lý lỗi Telegram riêng](/vi/docs/telegram-troubleshooting) để kiểm tra bot token, command listener chưa chạy, mã một lần đã hết hạn, xung đột polling và tin nhắn test bị mất.
 
 ---
 

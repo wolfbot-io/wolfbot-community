@@ -11,7 +11,7 @@ lang: "vi"
 translation_of: "getting-started"
 next_guide: "/docs/simulation"
 previous_guide: "/vi/install/windows"
-related_guides: ["/docs/simulation", "/brokers/bybit", "/docs/risk-controls"]
+related_guides: ["/vi/docs/simulation", "/vi/brokers/bybit", "/vi/docs/risk-controls", "/vi/docs/connect-telegram-notifications"]
 keywords: ["wolfbot bắt đầu", "hướng dẫn wolfbot", "cách dùng wolfbot", "nền tảng giao dịch thống nhất"]
 sitemap_priority: 0.9
 ---
@@ -72,6 +72,12 @@ Mới dùng một sàn? Hãy mở tài khoản đứng tên chính bạn theo c�
 
 *Công khai link đối tác: các hướng dẫn này dùng link giới thiệu của WolfBot — bạn không tốn thêm phí và link giúp tài trợ phát triển WolfBot. Mọi khuyến mãi hay điều kiện do từng sàn quyết định.*
 
+## Bước 5: Kết nối thông báo Telegram
+
+Tạo bot Telegram riêng và liên kết với WolfBot để nhận thông báo ENTRY, trạng thái lệnh, TP/SL, trailing và cảnh báo an toàn khi nền tảng self-hosted đang chạy.
+
+[Kết nối Telegram từng bước →](/vi/docs/connect-telegram-notifications)
+
 ## Checklist tuần đầu
 
 - [ ] Khám phá Dashboard
@@ -79,6 +85,7 @@ Mới dùng một sàn? Hãy mở tài khoản đứng tên chính bạn theo c�
 - [ ] Giao dịch Demo trong 1–2 ngày
 - [ ] Thử Smart Terminal với tài khoản Demo
 - [ ] Đọc [Hướng dẫn Risk Controls](/docs/risk-controls)
+- [ ] Kết nối Telegram và nhận tin nhắn kiểm tra
 - [ ] Kết nối tài khoản Live khi bạn sẵn sàng
 
 ## Cần giúp đỡ?
