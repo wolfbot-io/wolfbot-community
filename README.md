@@ -48,14 +48,15 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.11
+## Latest Release — v0.1.0-beta.14
 
-WolfBot Community **v0.1.0-beta.11** is the latest public release of the free self-hosted trading platform. It restores Live Translate (missing from v0.1.0-beta.10's installer due to a packaging gap) and improves error clarity for self-serve MT5 setup on Docker. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
+WolfBot Community **v0.1.0-beta.14** is the latest public release of the free self-hosted trading platform. It fixes the MT5 upgrade-install data-corruption issue disclosed in v0.1.0-beta.13, and continues MT5 symbol-resolution and MCP AI Agent groundwork. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
 
 Highlights:
 
-- **Live Translate is back** — v0.1.0-beta.10's signed manifest omitted the translator service image; v0.1.0-beta.11's signed manifest includes it again. Local, real-time speech and text translation (52 languages) built into `/portal/translate`, works with Teams/Meet/Zoom/YouTube/livestreams/X and more. Community-only.
-- **Clearer MT5 self-serve errors** — a Docker-unreachable condition during MT5 setup is now its own distinct, specific error message (English and Vietnamese) instead of a generic provisioning failure.
+- **MT5 upgrade-install data corruption — fixed** — installing over an existing Community install with an already-connected MT5 terminal could leave that terminal's own data unreadable (the known issue disclosed in v0.1.0-beta.13). The installer's provisioning step now explicitly excludes the MT5 terminal's own data tree. Fresh installs were never affected.
+- **MT5 self-serve symbol resolution** — continued groundwork on automatically resolving a broker's real suffixed symbol names (e.g. `AAPL.s`, `XAUUSD+`) against WolfBot's own canonical names.
+- **MCP AI Agent — continued groundwork** — broker-side support for an agent partially closing a position, adjusting TP/SL, or cancelling an order; read-only risk tools; an owner-approval workflow. Advanced, opt-in capability.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor, outcome worker and translator images are pinned by SHA256 digest in the signed release manifest.
@@ -66,12 +67,12 @@ Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `85a25dd4a809ed715784d2848fbc131e28399de907831082ce8fa63da2f499fb` |
-| `wolfbot-oneclick-0.1.0-beta.11.run` | `06529a590da413552067aa867ab8d377fb003fe2dae84c0ac3a321c7c7e7e0f4` |
+| `WolfBot-Setup-linux-amd64.deb` | `66951e5422b3284bab3ef92b9ae50a902c07d1f2f29d38eceb6087967e77fb78` |
+| `WolfBot-Setup-0.1.0-beta.14-linux-amd64.run` | `0285c05918c25237f2230b90faea00d6ef4887ea21aba859667494ba9711bf89` |
 
 Windows: no new build this release — see the [v0.1.0-beta.10 release](https://github.com/wolfbot-io/wolfbot-community/releases/tag/v0.1.0-beta.10) for the current Windows `.exe` (same known market-data-reconnect issue as before).
 
-Read the full release notes: **[v0.1.0-beta.11](https://community.wolfbot.io/releases/0.1.0-beta.11)**.
+Read the full release notes: **[v0.1.0-beta.14](https://community.wolfbot.io/releases/0.1.0-beta.14)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 
