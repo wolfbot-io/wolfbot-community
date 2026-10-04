@@ -265,7 +265,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'Live Translate is back after a packaging gap in beta.10. Signed Linux installers are available now; Windows users should keep the beta.10 installer until a corrected build ships. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'v0.1.0-beta.14 fixes the MT5 upgrade-install data-corruption issue from beta.13. Signed Linux installers are available now; Windows users should keep the beta.10 installer until a corrected build ships. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -442,7 +442,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
-      'Live Translate đã trở lại sau lỗ hổng đóng gói ở beta.10. Trình cài đặt Linux đã ký đã có sẵn; người dùng Windows nên tiếp tục dùng trình cài beta.10 cho đến khi có bản đã sửa lỗi. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
+      'v0.1.0-beta.14 sửa lỗi hỏng dữ liệu khi cài đè MT5 của beta.13. Trình cài đặt Linux đã ký đã có sẵn; người dùng Windows nên tiếp tục dùng trình cài beta.10 cho đến khi có bản đã sửa lỗi. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
     releaseDownload: 'Tải xuống',
     releaseGitHub: 'Bản phát hành GitHub',
     ghTitle: 'Tham gia Cộng đồng',

@@ -15,16 +15,18 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // frontmatter pattern already used elsewhere on this site -- this repo has
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
-const RELEASE_TAG = 'v0.1.0-beta.11'
-const RELEASE_VERSION_LABEL = '0.1.0-beta.11'
-const RELEASE_DATE = '2026-09-25'
-const LINUX_DEB_SHA256 = '85a25dd4a809ed715784d2848fbc131e28399de907831082ce8fa63da2f499fb'
+const RELEASE_TAG = 'v0.1.0-beta.14'
+const RELEASE_VERSION_LABEL = '0.1.0-beta.14'
+const RELEASE_DATE = '2026-10-04'
+const LINUX_DEB_SHA256 = '66951e5422b3284bab3ef92b9ae50a902c07d1f2f29d38eceb6087967e77fb78'
 const LINUX_DEB_SIZE_MB = '~86'
-const LINUX_RUN_SHA256 = '06529a590da413552067aa867ab8d377fb003fe2dae84c0ac3a321c7c7e7e0f4'
+const LINUX_RUN_SHA256 = '0285c05918c25237f2230b90faea00d6ef4887ea21aba859667494ba9711bf89'
 const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
-const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/wolfbot-oneclick-${RELEASE_VERSION_LABEL}.run`
+// Naming convention changed starting v0.1.0-beta.12: WolfBot-Setup-<version>-linux-amd64.run
+// (unified with the Windows installer's own naming; was wolfbot-oneclick-<version>.run before).
+const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-${RELEASE_VERSION_LABEL}-linux-amd64.run`
 // Windows: v0.1.0-beta.11 shipped Linux-only (no new Windows build), so the
 // Windows card intentionally keeps pointing at the v0.1.0-beta.10 asset/tag
 // instead of the current RELEASE_TAG above -- this is an initial build with
@@ -185,7 +187,7 @@ export function DownloadCenter() {
       </div>
 
       <div className="max-w-3xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4 text-sm">
-        <Link href="/releases/0.1.0-beta.11" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
+        <Link href="/releases/0.1.0-beta.14" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
         <span style={{ color: '#475569' }}>·</span>
         <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
         <span style={{ color: '#475569' }}>·</span>
