@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Status"
 description: "Current status of WolfBot Community — supported markets, platform availability, known issues, and roadmap."
-tested_version: "0.1.0-beta.14"
-last_updated: "2026-10-04"
+tested_version: "0.1.0-beta.15"
+last_updated: "2026-10-12"
 category: "status"
 difficulty: "beginner"
 sitemap_priority: 0.60
@@ -10,7 +10,7 @@ sitemap_priority: 0.60
 
 # Community Status
 
-**Last updated:** 2026-10-04
+**Last updated:** 2026-10-12
 
 ## Platform Status
 
@@ -18,7 +18,7 @@ sitemap_priority: 0.60
 |---|---|---|
 | Website (community.wolfbot.io) | 🟢 Online | Next.js 14, Cloudflare Pages |
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
-| Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run`, v0.1.0-beta.14 |
+| Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run`, v0.1.0-beta.15 |
 | Windows Installer | 🟡 Initial build (v0.1.0-beta.10) | No new Windows build since v0.1.0-beta.10; known reconnect issue, fix pending a future release (not yet code-signed) |
 | MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
@@ -58,10 +58,10 @@ sitemap_priority: 0.60
 
 ## Current Version
 
-- **Latest Public Release:** v0.1.0-beta.14 (Linux)
+- **Latest Public Release:** v0.1.0-beta.15 (Linux)
 - **Channel:** Public release
-- **Release Date:** 2026-10-04
-- **Release notes:** [v0.1.0-beta.14](/releases/0.1.0-beta.14)
+- **Release Date:** 2026-10-12
+- **Release notes:** [v0.1.0-beta.15](/releases/0.1.0-beta.15)
 - **Windows:** v0.1.0-beta.10 remains the current Windows installer — see [v0.1.0-beta.10 release notes](/releases/0.1.0-beta.10)
 
 ## Known Issues
@@ -71,7 +71,7 @@ sitemap_priority: 0.60
 | Windows build (v0.1.0-beta.10): market-data connections can fail to reconnect | 🟡 Fix built, pending a future Windows release | Order placement, TP/SL and risk guards are unaffected; a corrected build will replace this asset in a future release |
 | No mobile app | ℹ️ Not planned | Use browser on mobile |
 
-v0.1.0-beta.13's known MT5 upgrade-install data-corruption issue is fixed as of v0.1.0-beta.14 and no longer listed above.
+v0.1.0-beta.13's known MT5 upgrade-install data-corruption issue is fixed as of v0.1.0-beta.14, and v0.1.0-beta.15 additionally fixes an account-rename bug that could reset equity-curve history; neither is listed above.
 
 ## Roadmap
 
@@ -87,4 +87,4 @@ No incidents reported. This page will be updated if any service disruptions occu
 
 ---
 
-*Status page last updated: 2026-10-04*
+*Status page last updated: 2026-10-12*
