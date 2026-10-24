@@ -2,7 +2,7 @@
 title: "How to Open a KuCoin Account with WolfBot: KYC, 2FA, and Trading Password"
 description: "Register KuCoin through the WolfBot referral, complete identity verification, enable Google 2FA, and distinguish Trading Password from API passphrase."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
 category: "broker-account-opening"
@@ -18,7 +18,7 @@ sitemap_priority: 0.85
 
 **[Open the WolfBot KuCoin registration page →](https://www.kucoin.com/r/broker/WOLFBOTIO)**
 
-> Referral attribution goes to WolfBot; KuCoin determines all programs and conditions. Its current documentation requires new users to complete Identity Verification to use products/services.
+*KuCoin determines account conditions. Its current documentation requires new users to complete Identity Verification to use products and services.*
 
 ![Four-step KuCoin account-opening flow: referral, registration, KYC, and Google 2FA](/images/guides/open-kucoin-account.png)
 
@@ -26,7 +26,7 @@ sitemap_priority: 0.85
 
 ## Step 1: register
 
-1. Confirm HTTPS and `kucoin.com`.
+1. [Open the WolfBot KuCoin registration page](https://www.kucoin.com/r/broker/WOLFBOTIO); confirm HTTPS and `kucoin.com`.
 2. Choose email/phone and verify referral attribution if the field is visible.
 3. Review Terms, enter the verification code, create a unique login password, and confirm.
 4. If the contact is already used, switch to login/Forgot Password instead of duplicating the account.

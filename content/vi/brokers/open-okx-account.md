@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản OKX qua WolfBot: đăng ký, KYC và bảo mật"
 description: "Hướng dẫn chi tiết đăng ký OKX qua referral WolfBot, liên kết email/điện thoại, xác minh danh tính và bật authenticator."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["okx"]
 category: "broker-account-opening"
@@ -19,7 +19,7 @@ sitemap_priority: 0.8
 
 **[Mở trang đăng ký OKX qua WolfBot →](https://okx.com/join/WOLFBOT)**
 
-> Referral gắn WolfBot làm người giới thiệu. Điều kiện/ưu đãi nếu có do OKX quyết định. OKX yêu cầu thông tin hợp lệ và sản phẩm có thể khác theo khu vực.
+*OKX quyết định điều kiện tài khoản và sản phẩm có thể khác theo khu vực.*
 
 ![Bốn bước mở tài khoản OKX: referral, đăng ký, identity verification và 2FA](/images/guides/open-okx-account.png)
 
@@ -27,7 +27,7 @@ sitemap_priority: 0.8
 
 ## Bước 1: kiểm tra link và tạo tài khoản
 
-1. Mở link, xác nhận HTTPS và domain `okx.com`.
+1. [Mở trang đăng ký OKX qua WolfBot](https://okx.com/join/WOLFBOT), xác nhận HTTPS và domain `okx.com`.
 2. Chọn đúng Country/region, đọc Terms, Risk/Compliance Disclosure và Privacy Notice.
 3. Nhập email và xác nhận referral `WOLFBOT` nếu ô này hiển thị.
 4. Nhập mã email, sau đó liên kết số điện thoại với đúng mã quốc gia và nhập mã SMS. Hướng dẫn hiện hành của OKX yêu cầu liên kết cả email và điện thoại.

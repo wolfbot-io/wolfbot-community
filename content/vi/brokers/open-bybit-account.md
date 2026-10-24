@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản Bybit qua WolfBot: đăng ký, KYC và 2FA"
 description: "Hướng dẫn chi tiết mở tài khoản Bybit qua referral WolfBot, hoàn thành KYC, bật Google Authenticator và chuẩn bị Demo/API an toàn."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
 category: "broker-account-opening"
@@ -21,9 +21,9 @@ sitemap_priority: 0.85
 
 Bybit là một trong các luồng self-service hiện có của WolfBot. Thứ tự an toàn là: tài khoản chính chủ → KYC → 2FA → Demo/Simulation → API Live.
 
-> **Referral minh bạch:** WolfBot được ghi nhận là người giới thiệu qua link dưới. Mọi ưu đãi hoặc điều kiện do Bybit quyết định; bài này không hứa bonus.
-
 **[Mở trang đăng ký Bybit qua WolfBot →](https://partner.bybit.com/b/WOLFBOT)**
+
+*Điều kiện tài khoản và khả năng tham gia do Bybit quyết định.*
 
 ![Bốn bước mở tài khoản Bybit: referral WolfBot, đăng ký, KYC và bật 2FA](/images/guides/open-bybit-account.png)
 
@@ -37,7 +37,7 @@ Bybit là một trong các luồng self-service hiện có của WolfBot. Thứ 
 
 ## Bước 1: vào referral và kiểm tra domain
 
-1. Mở link WolfBot, xác nhận HTTPS và tên miền `bybit.com`.
+1. [Mở trang đăng ký Bybit qua WolfBot](https://partner.bybit.com/b/WOLFBOT), xác nhận HTTPS và tên miền `bybit.com`.
 2. Chọn quốc gia cư trú đúng sự thật; trả lời chính xác câu hỏi về khu vực hạn chế.
 3. Nếu referral code hiển thị, xác nhận `WOLFBOT` trước khi Continue.
 

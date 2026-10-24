@@ -67,7 +67,7 @@ Hướng dẫn từng bước: [Kết nối Bybit](/vi/brokers/bybit) · [Kết 
 
 Nếu chưa có, bạn có thể mở qua link đối tác của WolfBot — Bybit: [mở tài khoản Bybit](https://partner.bybit.com/b/WOLFBOT) (hướng dẫn đầy đủ: [mở tài khoản Bybit](/vi/brokers/open-bybit-account)); BingX: [mở tài khoản BingX](https://bingxdao.com/partner/Wolfbot/) (hướng dẫn: [mở tài khoản BingX](/vi/brokers/open-bingx-account)).
 
-> **Công khai về link giới thiệu:** các link này ghi nhận WolfBot là người giới thiệu, bạn không tốn thêm phí và link giúp tài trợ việc phát triển WolfBot. Mọi khuyến mãi hay điều kiện đều do từng sàn quyết định, trang này không cam kết bất kỳ khoản thưởng nào. Mức khả dụng khác nhau theo khu vực — hãy kiểm tra sàn có được phép hoạt động nơi bạn sống, và không dùng VPN hay khai sai nơi cư trú để đăng ký.
+*Link tài khoản có thể ghi nhận WolfBot mà không làm tăng chi phí của bạn. Điều khoản và phạm vi khu vực do từng sàn quyết định.*
 
 ## Bước tiếp theo
 

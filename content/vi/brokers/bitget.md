@@ -2,7 +2,7 @@
 title: "Kết nối Bitget với WolfBot Community — Từng bước"
 description: "Kết nối Bitget với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Spot và Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
 category: "broker-setup"
@@ -10,7 +10,7 @@ difficulty: "beginner"
 estimated_time: "8 minutes"
 lang: "vi"
 translation_of: "brokers/bitget"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls"]
+related_guides: ["/vi/brokers/open-bitget-account", "/vi/brokers/api-key-guide", "/vi/docs/risk-controls"]
 keywords: ["bot giao dịch bitget", "bot api bitget", "kết nối bitget với wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -21,7 +21,7 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ Bitget:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **Mới dùng Bitget?** Mở tài khoản qua [trang đối tác Bitget của WolfBot](https://partner.bitget.com/bg/WOLFBOT) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+> **Chưa có tài khoản Bitget?** Bắt đầu với [hướng dẫn mở tài khoản Bitget](/vi/brokers/open-bitget-account). Bài viết chỉ cách đăng ký, làm KYC, bật Google Authenticator và chuẩn bị API passphrase.
 
 ## Hướng dẫn này dành cho ai
 

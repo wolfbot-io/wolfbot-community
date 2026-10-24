@@ -2,13 +2,13 @@
 title: "Connect Bitget to WolfBot Community — Step-by-Step"
 description: "Connect Bitget to WolfBot Community — create trade-only API keys and start automated trading on Spot and Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
 category: "broker-setup"
 difficulty: "beginner"
 estimated_time: "8 minutes"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls"]
+related_guides: ["/brokers/open-bitget-account", "/brokers/api-key-guide", "/docs/risk-controls"]
 keywords: ["bitget trading bot", "bitget api bot", "connect bitget to wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -19,7 +19,7 @@ sitemap_priority: 0.80
 
 **Bitget support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **New to Bitget?** Create your account through the [WolfBot Bitget partner page](https://partner.bitget.com/bg/WOLFBOT) — two minutes, no extra cost, and it supports WolfBot development.
+> **New to Bitget?** Start with the [Bitget account-opening guide](/brokers/open-bitget-account). It covers registration, KYC, Google Authenticator and API passphrase preparation.
 
 ## Who this guide is for
 

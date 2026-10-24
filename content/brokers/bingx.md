@@ -2,13 +2,13 @@
 title: "Connect BingX to WolfBot Community — Step-by-Step"
 description: "Connect BingX to WolfBot Community — create trade-only API keys and start automated trading on Standard and Perpetual Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
 category: "broker-setup"
 difficulty: "beginner"
 estimated_time: "8 minutes"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls", "/brokers/bybit"]
+related_guides: ["/brokers/open-bingx-account", "/brokers/api-key-guide", "/docs/risk-controls", "/brokers/bybit"]
 keywords: ["bingx trading bot", "bingx api bot", "connect bingx to wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -19,7 +19,7 @@ sitemap_priority: 0.80
 
 **BingX support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **New to BingX?** Create your account through the [WolfBot BingX partner page](https://bingxdao.com/partner/Wolfbot/) — two minutes, no extra cost, and it supports WolfBot development.
+> **New to BingX?** Start with the [BingX account-opening guide](/brokers/open-bingx-account). It covers registration, KYC and authenticator security before API setup.
 
 ## Who this guide is for
 

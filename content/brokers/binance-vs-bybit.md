@@ -65,7 +65,7 @@ Step-by-step guides: [Connect Binance](/brokers/binance) · [Connect Bybit](/bro
 
 If you do not have one yet, you can open it through WolfBot's partner links — Binance: [open a Binance account](https://www.binance.com/register?ref=WOLFBOT) (full walkthrough: [Binance account-opening guide](/brokers/open-binance-account)); Bybit: [open a Bybit account](https://partner.bybit.com/b/WOLFBOT) (walkthrough: [Bybit account-opening guide](/brokers/open-bybit-account)).
 
-> **Referral disclosure:** these links attribute WolfBot as the referrer at no extra cost to you and help fund WolfBot's development. Each exchange alone decides any promotion or eligibility, and this page promises no bonus. Availability differs by region — check that the exchange is permitted where you live, and never use a VPN or false residence to register.
+*Account links may credit WolfBot at no extra cost. Exchange terms and regional availability apply.*
 
 ## Next step
 

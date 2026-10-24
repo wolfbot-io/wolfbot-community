@@ -2,7 +2,7 @@
 title: "Kết nối Binance với WolfBot Community — Từng bước"
 description: "Kết nối Binance với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Spot và Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
 category: "broker-setup"
@@ -12,7 +12,7 @@ lang: "vi"
 translation_of: "brokers/binance"
 next_guide: "/docs/risk-controls"
 previous_guide: "/brokers/api-key-guide"
-related_guides: ["/docs/simulation", "/docs/risk-controls", "/brokers/api-key-guide"]
+related_guides: ["/vi/brokers/open-binance-account", "/vi/docs/simulation", "/vi/docs/risk-controls", "/vi/brokers/api-key-guide"]
 keywords: ["bot giao dịch binance", "bot api binance", "kết nối binance với wolfbot", "binance giao dịch thống nhất", "bot binance tự host"]
 sitemap_priority: 0.85
 ---
@@ -22,6 +22,8 @@ sitemap_priority: 0.85
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-11
 
 **Trạng thái hỗ trợ Binance:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
+
+> **Chưa có tài khoản Binance?** Bắt đầu với [hướng dẫn mở tài khoản Binance](/vi/brokers/open-binance-account). Bài viết chỉ cách đăng ký, xác minh danh tính và bật 2FA trước khi tạo API key.
 
 ## Hướng dẫn này dành cho ai
 

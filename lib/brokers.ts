@@ -50,19 +50,83 @@ export function brokerHref(broker: Pick<Broker, 'slug'>): string {
   return `/brokers/${broker.slug}`
 }
 
-/**
- * WolfBot partner (referral) sign-up links -- the same links used inside the
- * `content/brokers/open-*-account.md` guides. Keep in sync with
- * wolfbot-platform/apps/public-web/lib/exchangeReferralLinks.ts. Only shown
- * next to a plain-language disclosure (see app/brokers/page.tsx).
- */
-export const BROKER_SIGNUP_LINKS: Record<string, string> = {
-  binance: 'https://www.binance.com/register?ref=WOLFBOT',
-  bybit: 'https://partner.bybit.com/b/WOLFBOT',
-  bingx: 'https://bingxdao.com/partner/Wolfbot/',
-  kucoin: 'https://www.kucoin.com/r/broker/WOLFBOTIO',
-  bitget: 'https://partner.bitget.com/bg/WOLFBOT',
+export type AccountGuideAvailability = 'supported' | 'release-dependent' | 'planned'
+
+export interface BrokerAccountGuide {
+  name: string
+  slug: string
+  signupHref: string
+  availability: AccountGuideAvailability
+  description: string
 }
+
+/**
+ * Account-opening guides and WolfBot partner links. This list is deliberately
+ * separate from BROKERS: an exchange may have a useful registration guide
+ * before its direct Community connector is available.
+ */
+export const BROKER_ACCOUNT_GUIDES: BrokerAccountGuide[] = [
+  {
+    name: 'Binance',
+    slug: 'binance',
+    signupHref: 'https://www.binance.com/register?ref=WOLFBOT',
+    availability: 'supported',
+    description: 'Registration, identity verification, 2FA and a safe trade-only API setup path.',
+  },
+  {
+    name: 'Bybit',
+    slug: 'bybit',
+    signupHref: 'https://partner.bybit.com/b/WOLFBOT',
+    availability: 'supported',
+    description: 'Create and secure an account, then validate the workflow in Demo before Live.',
+  },
+  {
+    name: 'BingX',
+    slug: 'bingx',
+    signupHref: 'https://bingxdao.com/partner/Wolfbot/',
+    availability: 'supported',
+    description: 'Account registration, KYC, authenticator security and WolfBot connection prep.',
+  },
+  {
+    name: 'KuCoin',
+    slug: 'kucoin',
+    signupHref: 'https://www.kucoin.com/r/broker/WOLFBOTIO',
+    availability: 'supported',
+    description: 'Set up KYC and 2FA, then keep the API key, secret and passphrase distinct.',
+  },
+  {
+    name: 'Bitget',
+    slug: 'bitget',
+    signupHref: 'https://partner.bitget.com/bg/WOLFBOT',
+    availability: 'supported',
+    description: 'A complete registration, KYC, Google Authenticator and API passphrase guide.',
+  },
+  {
+    name: 'OKX',
+    slug: 'okx',
+    signupHref: 'https://okx.com/join/WOLFBOT',
+    availability: 'release-dependent',
+    description: 'Open and secure an OKX account, then confirm support in your installed release.',
+  },
+  {
+    name: 'Gate',
+    slug: 'gate',
+    signupHref: 'https://www.gate.com/referral/earn-together/invite/VgBGUVBd?ref=VgBGUVBd&ref_type=103&utm_cmp=rXJBDjtJ&activity_id=1774966633270',
+    availability: 'planned',
+    description: 'Prepare a verified, secure Gate account while direct Community integration is planned.',
+  },
+  {
+    name: 'HTX',
+    slug: 'htx',
+    signupHref: 'https://www.htx.com/invite/en-us/1f?invite_code=84k59223&regChannel=11349190',
+    availability: 'planned',
+    description: 'Register and secure an HTX account while direct Community integration is planned.',
+  },
+]
+
+export const BROKER_SIGNUP_LINKS: Record<string, string> = Object.fromEntries(
+  BROKER_ACCOUNT_GUIDES.map((broker) => [broker.slug, broker.signupHref]),
+)
 
 /** Exchange-vs-exchange comparison pages (content/brokers/<a>-vs-<b>.md). */
 export const BROKER_COMPARISONS: { a: string; b: string }[] = [

@@ -2,7 +2,7 @@
 title: "Kết nối KuCoin với WolfBot Community — Từng bước"
 description: "Kết nối KuCoin với WolfBot Community — tạo API key với passphrase và bắt đầu giao dịch tự động trên Spot và Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
 category: "broker-setup"
@@ -10,7 +10,7 @@ difficulty: "beginner"
 estimated_time: "8 minutes"
 lang: "vi"
 translation_of: "brokers/kucoin"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls"]
+related_guides: ["/vi/brokers/open-kucoin-account", "/vi/brokers/api-key-guide", "/vi/docs/risk-controls"]
 keywords: ["bot giao dịch kucoin", "bot api kucoin", "kết nối kucoin với wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -21,7 +21,7 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ KuCoin:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **Mới dùng KuCoin?** Mở tài khoản qua [trang đối tác KuCoin của WolfBot](https://www.kucoin.com/r/broker/WOLFBOTIO) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+> **Chưa có tài khoản KuCoin?** Bắt đầu với [hướng dẫn mở tài khoản KuCoin](/vi/brokers/open-kucoin-account). Bài viết chỉ cách đăng ký, làm KYC, bật 2FA và phân biệt ba thông tin API.
 
 ## Hướng dẫn này dành cho ai
 

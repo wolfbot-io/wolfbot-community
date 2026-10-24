@@ -90,7 +90,7 @@ Nếu sàn cung cấp quyền chi tiết, cũng tắt:
 
 *Chưa có tài khoản Bitget? [Mở qua WolfBot](https://partner.bitget.com/bg/WOLFBOT) — xem [hướng dẫn mở tài khoản Bitget](/vi/brokers/open-bitget-account).*
 
-*Công khai link đối tác: các link đăng ký ở trên ghi nhận WolfBot là người giới thiệu, bạn không tốn thêm phí. Mọi khuyến mãi hay điều kiện do từng sàn quyết định.*
+*Link tài khoản có thể ghi nhận WolfBot mà không làm tăng chi phí của bạn. Điều khoản và phạm vi khu vực do từng sàn quyết định.*
 
 ## Mẹo bảo mật bổ sung
 

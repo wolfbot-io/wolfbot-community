@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản BingX qua WolfBot: hướng dẫn KYC và bảo mật"
 description: "Từng bước đăng ký BingX qua referral WolfBot, hoàn thành Basic/Advanced KYC, bật 2FA và chuẩn bị API chỉ-giao-dịch."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
 category: "broker-account-opening"
@@ -21,7 +21,7 @@ sitemap_priority: 0.85
 
 **[Mở trang đăng ký BingX qua WolfBot →](https://bingxdao.com/partner/Wolfbot/)**
 
-> Link có thể chuyển hướng. Chỉ tiếp tục khi trang cuối dùng HTTPS và tên miền BingX chính thức. Referral ghi nhận WolfBot; chương trình thưởng nếu có do BingX quyết định.
+*Link có thể chuyển hướng. Chỉ tiếp tục khi trang cuối dùng HTTPS và tên miền BingX chính thức.*
 
 ![Bốn bước mở tài khoản BingX: referral, đăng ký, KYC và 2FA](/images/guides/open-bingx-account.png)
 
@@ -33,7 +33,7 @@ Email cá nhân đã bật 2FA, mật khẩu riêng, authenticator app, điện 
 
 ## Bước 1: mở referral an toàn
 
-1. Mở link WolfBot và theo dõi trang chuyển hướng.
+1. [Mở trang đăng ký BingX qua WolfBot](https://bingxdao.com/partner/Wolfbot/) và theo dõi trang chuyển hướng.
 2. Kiểm tra domain cuối thuộc BingX; đóng trang nếu trình duyệt cảnh báo chứng chỉ.
 3. Chọn đúng quốc gia/khu vực và chỉ nhập dữ liệu trên trang chính thức.
 

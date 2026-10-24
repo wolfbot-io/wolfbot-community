@@ -2,7 +2,7 @@
 title: "Kết nối Bybit với WolfBot Community — Từng bước"
 description: "Kết nối Bybit với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Spot, Futures và Demo."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
 category: "broker-setup"
@@ -12,7 +12,7 @@ lang: "vi"
 translation_of: "brokers/bybit"
 next_guide: "/docs/risk-controls"
 previous_guide: "/docs/simulation"
-related_guides: ["/docs/simulation", "/docs/risk-controls", "/brokers/api-key-guide"]
+related_guides: ["/vi/brokers/open-bybit-account", "/vi/docs/simulation", "/vi/docs/risk-controls", "/vi/brokers/api-key-guide"]
 keywords: [
   "bot giao dịch bybit",
   "bot bybit tự host",
@@ -29,7 +29,7 @@ sitemap_priority: 0.85
 
 **Trạng thái hỗ trợ Bybit:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **Mới dùng Bybit?** Mở tài khoản qua [trang đối tác Bybit của WolfBot](https://partner.bybit.com/b/WOLFBOT) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+> **Chưa có tài khoản Bybit?** Bắt đầu với [hướng dẫn mở tài khoản Bybit](/vi/brokers/open-bybit-account). Bài viết chỉ cách đăng ký, xác minh danh tính, bật 2FA và thử Demo trước Live.
 
 ## Hướng dẫn này dành cho ai
 

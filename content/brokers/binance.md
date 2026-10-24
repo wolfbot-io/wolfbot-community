@@ -2,7 +2,7 @@
 title: "Connect Binance to WolfBot Community — Step-by-Step"
 description: "Connect Binance to WolfBot Community — create trade-only API keys and start automated trading on Spot and Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
 category: "broker-setup"
@@ -10,7 +10,7 @@ difficulty: "beginner"
 estimated_time: "10 minutes"
 next_guide: "/docs/risk-controls"
 previous_guide: "/brokers/api-key-guide"
-related_guides: ["/docs/simulation", "/docs/risk-controls", "/brokers/api-key-guide"]
+related_guides: ["/brokers/open-binance-account", "/docs/simulation", "/docs/risk-controls", "/brokers/api-key-guide"]
 keywords: ["binance trading bot", "binance api bot", "connect binance to wolfbot", "binance unified trading", "binance self hosted bot"]
 sitemap_priority: 0.85
 ---
@@ -20,6 +20,8 @@ sitemap_priority: 0.85
 **Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-11
 
 **Binance support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
+
+> **New to Binance?** Start with the [Binance account-opening guide](/brokers/open-binance-account). It covers registration, identity verification and 2FA before you create an API key.
 
 ## Who this guide is for
 

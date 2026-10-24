@@ -2,7 +2,7 @@
 title: "How to Open an HTX Account with WolfBot: Registration, KYC, and 2FA"
 description: "Create an HTX account through the WolfBot referral, complete verification, secure it, and understand current Community integration status."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["htx"]
 category: "broker-account-opening"
@@ -15,7 +15,7 @@ sitemap_priority: 0.75
 
 # How to Open an HTX Account with WolfBot
 
-> **WolfBot status:** HTX referral signup is active; direct HTX connectivity in WolfBot Community is currently **planned**. Registration does not imply current API support.
+> **WolfBot status:** Direct HTX connectivity in WolfBot Community is currently **planned**. Registration does not imply current API support.
 
 **[Open the WolfBot HTX registration page →](https://www.htx.com/invite/en-us/1f?invite_code=84k59223&regChannel=11349190)**
 
@@ -25,7 +25,7 @@ sitemap_priority: 0.75
 
 ## Step 1: verify domain and eligibility
 
-1. Open the link; confirm HTTPS and a final `htx.com` hostname.
+1. [Open the WolfBot HTX registration page](https://www.htx.com/invite/en-us/1f?invite_code=84k59223&regChannel=11349190); confirm HTTPS and a final `htx.com` hostname.
 2. Select truthful country/region and review current terms/restricted jurisdictions.
 3. If shown, confirm invite code `84k59223` before completion.
 4. Do not use VPN or another person's identity to bypass restrictions.

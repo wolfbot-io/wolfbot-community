@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản HTX qua WolfBot: đăng ký, KYC và 2FA"
 description: "Hướng dẫn chi tiết tạo tài khoản HTX qua referral WolfBot, xác minh danh tính, bảo vệ tài khoản và hiểu trạng thái tích hợp Community."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["htx"]
 category: "broker-account-opening"
@@ -17,7 +17,7 @@ sitemap_priority: 0.75
 
 # Cách mở tài khoản HTX qua WolfBot
 
-> **Trạng thái WolfBot:** referral HTX đang hoạt động; kết nối trực tiếp HTX trong WolfBot Community hiện là **planned**. Đăng ký tài khoản không đồng nghĩa release hiện tại hỗ trợ API HTX.
+> **Trạng thái WolfBot:** kết nối trực tiếp HTX trong WolfBot Community hiện là **planned**. Đăng ký tài khoản không đồng nghĩa release hiện tại hỗ trợ API HTX.
 
 **[Mở trang đăng ký HTX qua WolfBot →](https://www.htx.com/invite/en-us/1f?invite_code=84k59223&regChannel=11349190)**
 
@@ -27,7 +27,7 @@ sitemap_priority: 0.75
 
 ## Bước 1: kiểm tra domain và eligibility
 
-1. Mở link, xác nhận HTTPS và domain cuối thuộc `htx.com`.
+1. [Mở trang đăng ký HTX qua WolfBot](https://www.htx.com/invite/en-us/1f?invite_code=84k59223&regChannel=11349190), xác nhận HTTPS và domain cuối thuộc `htx.com`.
 2. Chọn đúng country/region; đọc điều khoản và restricted jurisdiction hiện hành.
 3. Nếu invite code hiển thị, kiểm tra `84k59223` trước khi hoàn tất.
 4. Không dùng VPN hoặc thông tin người khác để vượt hạn chế.

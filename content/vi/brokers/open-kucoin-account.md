@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản KuCoin qua WolfBot: KYC, 2FA và Trading Password"
 description: "Hướng dẫn chi tiết đăng ký KuCoin qua referral WolfBot, xác minh danh tính, bật Google 2FA và phân biệt Trading Password/API passphrase."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
 category: "broker-account-opening"
@@ -20,7 +20,7 @@ sitemap_priority: 0.85
 
 **[Mở trang đăng ký KuCoin qua WolfBot →](https://www.kucoin.com/r/broker/WOLFBOTIO)**
 
-> Referral ghi nhận WolfBot. KuCoin quyết định chương trình/điều kiện. Theo tài liệu hiện hành, người dùng mới phải hoàn tất Identity Verification để dùng sản phẩm/dịch vụ.
+*KuCoin quyết định điều kiện tài khoản. Theo tài liệu hiện hành, người dùng mới phải hoàn tất Identity Verification để dùng sản phẩm và dịch vụ.*
 
 ![Bốn bước mở tài khoản KuCoin: referral, đăng ký, KYC và Google 2FA](/images/guides/open-kucoin-account.png)
 
@@ -28,7 +28,7 @@ sitemap_priority: 0.85
 
 ## Bước 1: đăng ký
 
-1. Xác nhận HTTPS và domain `kucoin.com`.
+1. [Mở trang đăng ký KuCoin qua WolfBot](https://www.kucoin.com/r/broker/WOLFBOTIO), xác nhận HTTPS và domain `kucoin.com`.
 2. Chọn email/phone, kiểm tra mã referral được điền từ link nếu giao diện hiển thị.
 3. Đồng ý Terms sau khi đọc, nhập code xác minh, đặt login password duy nhất và Confirm.
 4. Nếu email/phone đã dùng, chuyển sang login/Forgot Password; không tạo tài khoản trùng.

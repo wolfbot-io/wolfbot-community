@@ -2,7 +2,7 @@
 title: "Kết nối BingX với WolfBot Community — Từng bước"
 description: "Kết nối BingX với WolfBot Community — tạo API key chỉ cho phép giao dịch và bắt đầu giao dịch tự động trên Standard và Perpetual Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
 category: "broker-setup"
@@ -10,7 +10,7 @@ difficulty: "beginner"
 estimated_time: "8 minutes"
 lang: "vi"
 translation_of: "brokers/bingx"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls", "/brokers/bybit"]
+related_guides: ["/vi/brokers/open-bingx-account", "/vi/brokers/api-key-guide", "/vi/docs/risk-controls", "/vi/brokers/bybit"]
 keywords: ["bot giao dịch bingx", "bot api bingx", "kết nối bingx với wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -21,7 +21,7 @@ sitemap_priority: 0.80
 
 **Trạng thái hỗ trợ BingX:** Ổn định · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **Mới dùng BingX?** Mở tài khoản qua [trang đối tác BingX của WolfBot](https://bingxdao.com/partner/Wolfbot/) — chỉ 2 phút, không tốn thêm phí, và giúp hỗ trợ WolfBot phát triển.
+> **Chưa có tài khoản BingX?** Bắt đầu với [hướng dẫn mở tài khoản BingX](/vi/brokers/open-bingx-account). Bài viết chỉ cách đăng ký, làm KYC và bật authenticator trước khi tạo API.
 
 ## Hướng dẫn này dành cho ai
 

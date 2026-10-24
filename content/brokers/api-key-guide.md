@@ -88,7 +88,7 @@ If an exchange offers granular permissions, also disable:
 
 *No Bitget account yet? [Open one through WolfBot](https://partner.bitget.com/bg/WOLFBOT) — see the [Bitget account-opening guide](/brokers/open-bitget-account).*
 
-*Partner-link disclosure: the sign-up links above credit WolfBot as referrer at no extra cost to you. Each exchange alone decides any promotion or eligibility.*
+*Account links may credit WolfBot at no extra cost. Exchange terms and regional availability apply.*
 
 ## Additional Security Tips
 

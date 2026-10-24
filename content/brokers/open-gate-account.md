@@ -2,7 +2,7 @@
 title: "How to Open a Gate Account with WolfBot: Detailed Safety Guide"
 description: "Register Gate through the WolfBot referral, complete identity verification, enable 2FA, and understand Gate's current WolfBot Community status."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["gate"]
 category: "broker-account-opening"
@@ -15,7 +15,7 @@ sitemap_priority: 0.75
 
 # How to Open a Gate Account with WolfBot
 
-> **WolfBot status:** Gate referral signup is active, but direct Gate connectivity in WolfBot Community is currently **planned**. This guide creates and secures the account; it does not imply current connection support.
+> **WolfBot status:** Direct Gate connectivity in WolfBot Community is currently **planned**. This guide creates and secures the account; it does not imply current connection support.
 
 **[Open the WolfBot Gate registration page →](https://www.gate.com/referral/earn-together/invite/VgBGUVBd?ref=VgBGUVBd&ref_type=103&utm_cmp=rXJBDjtJ&activity_id=1774966633270)**
 
@@ -25,7 +25,7 @@ sitemap_priority: 0.75
 
 ## Step 1: verify the link and regional terms
 
-1. Open the link and confirm HTTPS plus a final `gate.com` hostname.
+1. [Open the WolfBot Gate registration page](https://www.gate.com/referral/earn-together/invite/VgBGUVBd?ref=VgBGUVBd&ref_type=103&utm_cmp=rXJBDjtJ&activity_id=1774966633270) and confirm HTTPS plus a final `gate.com` hostname.
 2. Select truthful residence and review current Terms/Restricted Locations.
 3. If shown, verify the invite code was populated from the link.
 4. Ignore referral links resent through private messages; return here or use Gate's official site.

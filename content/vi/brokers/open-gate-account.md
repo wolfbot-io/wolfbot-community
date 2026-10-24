@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản Gate qua WolfBot: hướng dẫn chi tiết và an toàn"
 description: "Đăng ký Gate bằng referral WolfBot, hoàn thành xác minh danh tính, bật 2FA và hiểu rõ trạng thái tích hợp Gate trong WolfBot Community."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["gate"]
 category: "broker-account-opening"
@@ -17,7 +17,7 @@ sitemap_priority: 0.75
 
 # Cách mở tài khoản Gate qua WolfBot
 
-> **Trạng thái WolfBot:** referral Gate đang hoạt động, nhưng kết nối trực tiếp Gate trong WolfBot Community hiện là **planned**. Hướng dẫn này giúp tạo/bảo vệ tài khoản; không ngụ ý bạn có thể kết nối Gate ngay ở release hiện tại.
+> **Trạng thái WolfBot:** kết nối trực tiếp Gate trong WolfBot Community hiện là **planned**. Hướng dẫn này giúp tạo/bảo vệ tài khoản; không ngụ ý bạn có thể kết nối Gate ngay ở release hiện tại.
 
 **[Mở trang đăng ký Gate qua WolfBot →](https://www.gate.com/referral/earn-together/invite/VgBGUVBd?ref=VgBGUVBd&ref_type=103&utm_cmp=rXJBDjtJ&activity_id=1774966633270)**
 
@@ -27,7 +27,7 @@ sitemap_priority: 0.75
 
 ## Bước 1: xác minh link và điều kiện khu vực
 
-1. Mở link, kiểm tra HTTPS và domain cuối là `gate.com`.
+1. [Mở trang đăng ký Gate qua WolfBot](https://www.gate.com/referral/earn-together/invite/VgBGUVBd?ref=VgBGUVBd&ref_type=103&utm_cmp=rXJBDjtJ&activity_id=1774966633270), kiểm tra HTTPS và domain cuối là `gate.com`.
 2. Xác nhận quốc gia cư trú thật và đọc Terms/Restricted Locations hiện hành.
 3. Nếu referral/invite code hiển thị, kiểm tra đã được điền từ link trước khi đăng ký.
 4. Không tin link được gửi lại qua tin nhắn riêng; luôn quay về bài này hoặc trang Gate chính thức.

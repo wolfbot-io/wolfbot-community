@@ -2,7 +2,7 @@
 title: "How to Open a BingX Account with WolfBot: KYC and Security Guide"
 description: "Register BingX through the WolfBot referral, complete the appropriate KYC level, enable 2FA, and prepare a trade-only API safely."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bingx"]
 category: "broker-account-opening"
@@ -19,7 +19,7 @@ sitemap_priority: 0.85
 
 **[Open the WolfBot BingX registration page →](https://bingxdao.com/partner/Wolfbot/)**
 
-> The link may redirect. Continue only when the final page uses HTTPS and an official BingX domain. Referral attribution goes to WolfBot; BingX alone determines any promotion.
+*The link may redirect. Continue only when the final page uses HTTPS and an official BingX domain.*
 
 ![Four-step BingX account-opening flow: referral, registration, KYC, and authenticator 2FA](/images/guides/open-bingx-account.png)
 
@@ -31,7 +31,7 @@ Use a personal email protected by 2FA, a unique password, password manager, auth
 
 ## Step 1: open the referral safely
 
-1. Open the WolfBot link and watch the redirect destination.
+1. [Open the WolfBot BingX registration page](https://bingxdao.com/partner/Wolfbot/) and watch the redirect destination.
 2. Confirm the final hostname belongs to BingX; close any browser certificate warning.
 3. Select your true country/region and enter data only on the official site.
 

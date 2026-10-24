@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản Binance qua WolfBot: hướng dẫn chi tiết 2026"
 description: "Hướng dẫn từng bước đăng ký Binance bằng referral WolfBot, hoàn thành xác minh danh tính, bật 2FA và chuẩn bị kết nối WolfBot Community an toàn."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["binance"]
 category: "broker-account-opening"
@@ -21,9 +21,9 @@ sitemap_priority: 0.85
 
 Hướng dẫn này đưa bạn từ lúc chưa có tài khoản đến trạng thái sẵn sàng tạo API key cho WolfBot Community. Bạn chưa cần nạp tiền và tuyệt đối chưa cần bật quyền rút tiền.
 
-> **Referral minh bạch:** nút đăng ký dưới đây gắn WolfBot làm người giới thiệu. Ưu đãi, điều kiện và khả năng tham gia phụ thuộc hoàn toàn vào Binance tại thời điểm đăng ký; WolfBot không hứa thưởng hoặc giảm phí.
-
 **[Mở trang đăng ký Binance qua WolfBot →](https://www.binance.com/register?ref=WOLFBOT)**
+
+*Điều kiện tài khoản và khả năng tham gia do Binance quyết định.*
 
 ![Bốn bước mở tài khoản Binance: vào referral WolfBot, đăng ký, xác minh danh tính và bật 2FA](/images/guides/open-binance-account.png)
 
@@ -39,7 +39,7 @@ Hướng dẫn này đưa bạn từ lúc chưa có tài khoản đến trạng 
 
 ## Bước 1: kiểm tra đúng link và quốc gia
 
-1. Mở link WolfBot ở trên trong tab mới.
+1. [Mở trang đăng ký Binance qua WolfBot](https://www.binance.com/register?ref=WOLFBOT) trong tab mới.
 2. Trước khi nhập dữ liệu, kiểm tra thanh địa chỉ dùng HTTPS và tên miền kết thúc bằng `binance.com`.
 3. Xác nhận quốc gia/khu vực cư trú đúng sự thật. Nếu Binance thông báo không phục vụ khu vực của bạn, hãy dừng lại.
 4. Nếu ô referral xuất hiện, xác nhận mã `WOLFBOT` đã được điền.

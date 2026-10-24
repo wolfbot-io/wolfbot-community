@@ -2,7 +2,7 @@
 title: "How to Open an OKX Account with WolfBot: Registration, KYC, and Security"
 description: "Register OKX through the WolfBot referral, bind email and phone, complete individual verification, and enable authenticator security."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["okx"]
 category: "broker-account-opening"
@@ -17,7 +17,7 @@ sitemap_priority: 0.8
 
 **[Open the WolfBot OKX registration page →](https://okx.com/join/WOLFBOT)**
 
-> The referral attributes WolfBot as referrer. OKX alone controls eligibility or promotions, and available products vary by region.
+*OKX determines eligibility, and available products vary by region.*
 
 ![Four-step OKX account-opening flow: referral, registration, identity verification, and authenticator 2FA](/images/guides/open-okx-account.png)
 
@@ -25,7 +25,7 @@ sitemap_priority: 0.8
 
 ## Step 1: verify the link and register
 
-1. Open the link; confirm HTTPS and `okx.com`.
+1. [Open the WolfBot OKX registration page](https://okx.com/join/WOLFBOT); confirm HTTPS and `okx.com`.
 2. Select your true country/region and review the Terms, Risk/Compliance Disclosure, and Privacy Notice.
 3. Enter email and confirm `WOLFBOT` if the referral field appears.
 4. Enter the email code, then bind your phone with the correct country code and SMS code. OKX's current guide requires both email and phone.

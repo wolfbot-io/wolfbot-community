@@ -65,7 +65,7 @@ Step-by-step guides: [Connect KuCoin](/brokers/kucoin) · [Connect Bitget](/brok
 
 If you do not have one yet, you can open it through WolfBot's partner links — KuCoin: [open a KuCoin account](https://www.kucoin.com/r/broker/WOLFBOTIO) (full walkthrough: [KuCoin account-opening guide](/brokers/open-kucoin-account)); Bitget: [open a Bitget account](https://partner.bitget.com/bg/WOLFBOT) (walkthrough: [Bitget account-opening guide](/brokers/open-bitget-account)).
 
-> **Referral disclosure:** these links attribute WolfBot as the referrer at no extra cost to you and help fund WolfBot's development. Each exchange alone decides any promotion or eligibility, and this page promises no bonus. Availability differs by region — check that the exchange is permitted where you live, and never use a VPN or false residence to register.
+*Account links may credit WolfBot at no extra cost. Exchange terms and regional availability apply.*
 
 ## Next step
 

@@ -2,7 +2,7 @@
 title: "How to Open a Bitget Account with WolfBot: KYC, 2FA, and Passphrase"
 description: "Register Bitget through the WolfBot referral, complete Identity Verification, enable Google Authenticator, and prepare an API passphrase safely."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
 category: "broker-account-opening"
@@ -18,7 +18,7 @@ sitemap_priority: 0.85
 
 **[Open the WolfBot Bitget registration page →](https://partner.bitget.com/bg/WOLFBOT)**
 
-> Referral attribution goes to WolfBot; Bitget controls all programs and eligibility. No deposit is required to finish account security.
+*Bitget determines account eligibility. No deposit is required to finish account security.*
 
 ![Four-step Bitget account-opening flow: referral, registration, KYC, and authenticator 2FA](/images/guides/open-bitget-account.png)
 
@@ -26,7 +26,7 @@ sitemap_priority: 0.85
 
 ## Step 1: register on the correct site
 
-1. Open the link and confirm HTTPS plus an official Bitget domain.
+1. [Open the WolfBot Bitget registration page](https://partner.bitget.com/bg/WOLFBOT) and confirm HTTPS plus an official Bitget domain.
 2. Choose a long-term email or phone you control.
 3. Enter the verification code, create a unique password, and save it in a password manager.
 4. Sign in again and review regional/product terms for your account.

@@ -2,7 +2,7 @@
 title: "How to Open a Bybit Account with WolfBot: Registration, KYC, and 2FA"
 description: "Detailed Bybit signup through the WolfBot referral, including Standard KYC, authenticator security, Demo testing, and safe API preparation."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bybit"]
 category: "broker-account-opening"
@@ -19,9 +19,9 @@ sitemap_priority: 0.85
 
 Bybit is a current WolfBot self-service path. Use this safe order: account in your name → KYC → 2FA → Demo/Simulation → Live API.
 
-> **Referral disclosure:** the link attributes WolfBot as referrer. Bybit alone determines any promotion or eligibility; this guide promises no bonus.
-
 **[Open the WolfBot Bybit registration page →](https://partner.bybit.com/b/WOLFBOT)**
+
+*Account terms and eligibility are determined by Bybit.*
 
 ![Four-step Bybit account-opening flow: WolfBot referral, registration, KYC, and authenticator 2FA](/images/guides/open-bybit-account.png)
 
@@ -35,7 +35,7 @@ Bybit is a current WolfBot self-service path. Use this safe order: account in yo
 
 ## Step 1: verify referral and domain
 
-1. Open the WolfBot link; confirm HTTPS and `bybit.com`.
+1. [Open the WolfBot Bybit registration page](https://partner.bybit.com/b/WOLFBOT); confirm HTTPS and `bybit.com`.
 2. Select truthful residence and answer restricted-region questions accurately.
 3. If shown, confirm referral code `WOLFBOT` before Continue.
 

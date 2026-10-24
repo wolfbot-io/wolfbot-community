@@ -2,13 +2,13 @@
 title: "Connect KuCoin to WolfBot Community — Step-by-Step"
 description: "Connect KuCoin to WolfBot Community — create API keys with passphrase and start automated trading on Spot and Futures."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["kucoin"]
 category: "broker-setup"
 difficulty: "beginner"
 estimated_time: "8 minutes"
-related_guides: ["/brokers/api-key-guide", "/docs/risk-controls"]
+related_guides: ["/brokers/open-kucoin-account", "/brokers/api-key-guide", "/docs/risk-controls"]
 keywords: ["kucoin trading bot", "kucoin api bot", "connect kucoin to wolfbot"]
 sitemap_priority: 0.80
 ---
@@ -19,7 +19,7 @@ sitemap_priority: 0.80
 
 **KuCoin support status:** Stable · Demo ✅ · Live ✅ · Terminal ✅ · Strategy ✅
 
-> 🆕 **New to KuCoin?** Create your account through the [WolfBot KuCoin partner page](https://www.kucoin.com/r/broker/WOLFBOTIO) — two minutes, no extra cost, and it supports WolfBot development.
+> **New to KuCoin?** Start with the [KuCoin account-opening guide](/brokers/open-kucoin-account). It covers registration, KYC, 2FA and the three credentials you must keep distinct.
 
 ## Who this guide is for
 

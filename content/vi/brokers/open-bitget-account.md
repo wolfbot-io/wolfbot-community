@@ -2,7 +2,7 @@
 title: "Cách mở tài khoản Bitget qua WolfBot: KYC, 2FA và passphrase"
 description: "Hướng dẫn từng bước đăng ký Bitget qua referral WolfBot, làm Identity Verification, bật Google Authenticator và chuẩn bị API passphrase."
 tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 platforms: ["windows", "linux"]
 brokers: ["bitget"]
 category: "broker-account-opening"
@@ -20,7 +20,7 @@ sitemap_priority: 0.85
 
 **[Mở trang đăng ký Bitget qua WolfBot →](https://partner.bitget.com/bg/WOLFBOT)**
 
-> Referral ghi nhận WolfBot; mọi chương trình/điều kiện do Bitget quyết định. Không cần nạp tiền để hoàn tất tài khoản và bảo mật.
+*Bitget quyết định điều kiện tài khoản. Không cần nạp tiền để hoàn tất tài khoản và bảo mật.*
 
 ![Bốn bước mở tài khoản Bitget: referral, đăng ký, KYC và authenticator](/images/guides/open-bitget-account.png)
 
@@ -28,7 +28,7 @@ sitemap_priority: 0.85
 
 ## Bước 1: đăng ký đúng trang
 
-1. Mở link trên, xác nhận HTTPS và domain Bitget chính thức.
+1. [Mở trang đăng ký Bitget qua WolfBot](https://partner.bitget.com/bg/WOLFBOT), xác nhận HTTPS và domain Bitget chính thức.
 2. Chọn email hoặc điện thoại bạn kiểm soát lâu dài.
 3. Nhập verification code, tạo mật khẩu riêng và lưu trong password manager.
 4. Đăng nhập lại; kiểm tra quốc gia/khu vực và điều khoản sản phẩm áp dụng cho bạn.
