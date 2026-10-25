@@ -23,6 +23,10 @@ export interface ContentMeta {
   lang?: string
   /** English slug this page translates (used for hreflang on vi pages). */
   translation_of?: string
+  /** Research pages use source-review labeling instead of release-test labeling. */
+  content_type?: 'guide' | 'research'
+  /** Primary-source URLs rendered into TechArticle structured data. */
+  citations?: string[]
 }
 
 export interface ContentPage {

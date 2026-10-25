@@ -19,7 +19,17 @@ const MAX_RESULTS = 8
  *  Zero-result queries are tracked (docs_search_zero_result) so missing
  *  content can be identified — §146's "zero-result terms identify missing
  *  content" loop. */
-export function DocsSearch() {
+interface DocsSearchProps {
+  localePrefix?: string
+  placeholder?: string
+  noResultsText?: string
+}
+
+export function DocsSearch({
+  localePrefix,
+  placeholder = 'Search the Academy…',
+  noResultsText = 'No results. Try a broader term, or browse the sections below.',
+}: DocsSearchProps = {}) {
   const [index, setIndex] = useState<SearchEntry[]>([])
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
@@ -46,12 +56,13 @@ export function DocsSearch() {
     if (!q || q.length < 2) return []
     const terms = q.split(/\s+/)
     return index
+      .filter((e) => !localePrefix || e.url.startsWith(`/${localePrefix}/`))
       .filter((e) => {
         const hay = `${e.title} ${e.description} ${e.keywords.join(' ')} ${e.text}`
         return terms.every((t) => hay.includes(t))
       })
       .slice(0, MAX_RESULTS)
-  }, [index, query])
+  }, [index, localePrefix, query])
 
   // Debounced analytics: log the query + result count once per settled query.
   useEffect(() => {
@@ -92,8 +103,8 @@ export function DocsSearch() {
             window.location.href = results[0].url
           }
         }}
-        placeholder="Search the Academy…"
-        aria-label="Search the Academy"
+        placeholder={placeholder}
+        aria-label={placeholder}
         className="w-full rounded-lg px-4 py-2.5 text-sm text-white outline-none border"
         style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.12)' }}
       />
@@ -105,8 +116,7 @@ export function DocsSearch() {
         >
           {results.length === 0 ? (
             <p className="px-4 py-3 text-sm" style={{ color: '#94A3B8' }}>
-              No results for &quot;{query.trim()}&quot;. Try a broader term, or
-              browse the sections below.
+              {noResultsText.replace('{query}', query.trim())}
             </p>
           ) : (
             results.map((r) => (

@@ -15,6 +15,7 @@ import { StructuredData } from '@/components/seo/StructuredData'
 import { FeedbackWidget } from '@/components/docs/FeedbackWidget'
 import { breadcrumbSchema } from '@/lib/structured-data/breadcrumb'
 import { toolAppSchema, toolFaqSchema } from '@/lib/structured-data/tool-page'
+import { researchArticleSchema } from '@/lib/structured-data/research-article'
 
 interface Props {
   params: { slug: string[] }
@@ -158,6 +159,18 @@ export default async function ContentPage({ params }: Props) {
           })()}
         </>
       )}
+      {page.meta.content_type === 'research' && (
+        <StructuredData
+          data={researchArticleSchema({
+            title: page.meta.title,
+            description: page.meta.description ?? '',
+            url: `https://community.wolfbot.io/${slug}`,
+            dateModified: page.meta.last_updated,
+            inLanguage: locale ? locale.htmlLang : 'en',
+            citations: page.meta.citations ?? [],
+          })}
+        />
+      )}
 
       {/* The shared root <html> is static ("en"); correct it per page for
           localized content so assistive tech and rendered-DOM crawlers see
@@ -186,10 +199,14 @@ export default async function ContentPage({ params }: Props) {
       {/* Frontmatter banner */}
       <div className="prose-content">
         <div className="frontmatter-banner">
-          <strong>
-            {locale ? locale.ui.testedWith : 'Tested with WolfBot Community v'}
-            {page.meta.tested_version}
-          </strong>
+          {page.meta.content_type === 'research' ? (
+            <strong>{locale?.urlSegment === 'vi' ? 'Bài phân tích nghiên cứu' : 'Research analysis'}</strong>
+          ) : (
+            <strong>
+              {locale ? locale.ui.testedWith : 'Tested with WolfBot Community v'}
+              {page.meta.tested_version}
+            </strong>
+          )}
           {' · '}
           {locale ? locale.ui.lastUpdated : 'Last updated'}: {page.meta.last_updated}
           {page.meta.os_tested && <> · {page.meta.os_tested.join(' / ')}</>}
