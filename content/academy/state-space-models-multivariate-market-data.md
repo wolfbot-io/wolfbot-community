@@ -10,7 +10,7 @@ difficulty: "advanced"
 estimated_time: "15 minutes"
 previous_guide: "/academy/lstm-xlstm-market-time-series"
 next_guide: "/academy/financial-llms-fingpt-data-pipeline"
-related_guides: ["/academy/lstm-xlstm-market-time-series", "/academy/ai-trading-research-roadmap", "/docs/how-to-read-backtest-results"]
+related_guides: ["/academy/lstm-xlstm-market-time-series", "/academy/ai-trading-research-roadmap", "/academy/point-in-time-data-feature-engineering"]
 keywords: ["state space model trading", "Chimera time series", "Mamba financial time series", "multivariate market forecasting", "2D state space model"]
 citations: ["https://arxiv.org/abs/2406.04320"]
 sitemap_priority: 0.86

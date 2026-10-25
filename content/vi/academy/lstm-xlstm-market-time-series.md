@@ -12,7 +12,7 @@ lang: "vi"
 translation_of: "academy/lstm-xlstm-market-time-series"
 previous_guide: "/vi/academy/finrl-realistic-market-environments"
 next_guide: "/vi/academy/state-space-models-multivariate-market-data"
-related_guides: ["/vi/academy/state-space-models-multivariate-market-data", "/vi/academy/ai-trading-research-roadmap", "/vi/docs/how-to-read-backtest-results", "/vi/docs/simulation"]
+related_guides: ["/vi/academy/state-space-models-multivariate-market-data", "/vi/academy/ai-trading-research-roadmap", "/vi/academy/point-in-time-data-feature-engineering", "/vi/docs/simulation"]
 keywords: ["LSTM trading", "xLSTM chuỗi thời gian tài chính", "LSTM dự báo giá", "mLSTM market data", "mô hình time series trading"]
 citations: ["https://arxiv.org/abs/2405.04517", "https://www.deeplearningbook.org/"]
 sitemap_priority: 0.88

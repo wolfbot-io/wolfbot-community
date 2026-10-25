@@ -85,7 +85,8 @@ function generate(): string {
     ['/download', '2026-08-11', 'daily', 0.95],
     ['/getting-started', '2026-08-11', 'weekly', 0.9],
     ['/features', '2026-08-11', 'monthly', 0.7],
-    ['/academy', '2026-08-11', 'weekly', 0.8],
+    ['/academy', '2026-10-25', 'weekly', 0.8],
+    ['/vi/academy', '2026-10-25', 'weekly', 0.8],
     ['/tools', '2026-09-27', 'weekly', 0.85],
     ['/community-vs-cloud', '2026-08-11', 'monthly', 0.8],
     ['/faq', '2026-08-11', 'monthly', 0.8],
@@ -105,7 +106,13 @@ function generate(): string {
             ...LOCALES.map((l) => ({ lang: l.hreflang, href: `${BASE_URL}/${l.urlSegment}` })),
             { lang: 'x-default', href: `${BASE_URL}/` },
           ]
-        : undefined
+        : url === '/academy' || url === '/vi/academy'
+          ? [
+              { lang: 'en', href: `${BASE_URL}/academy` },
+              { lang: 'vi', href: `${BASE_URL}/vi/academy` },
+              { lang: 'x-default', href: `${BASE_URL}/academy` },
+            ]
+          : undefined
     entries.push({ url: `${BASE_URL}${url}`, lastmod, changefreq: freq, priority: prio.toFixed(1), alternates })
   }
 

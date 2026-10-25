@@ -12,7 +12,7 @@ lang: "vi"
 translation_of: "academy/state-space-models-multivariate-market-data"
 previous_guide: "/vi/academy/lstm-xlstm-market-time-series"
 next_guide: "/vi/academy/financial-llms-fingpt-data-pipeline"
-related_guides: ["/vi/academy/lstm-xlstm-market-time-series", "/vi/academy/ai-trading-research-roadmap", "/vi/docs/how-to-read-backtest-results"]
+related_guides: ["/vi/academy/lstm-xlstm-market-time-series", "/vi/academy/ai-trading-research-roadmap", "/vi/academy/point-in-time-data-feature-engineering"]
 keywords: ["state space model trading", "Chimera time series", "Mamba chuỗi thời gian tài chính", "dự báo market đa biến", "2D state space model"]
 citations: ["https://arxiv.org/abs/2406.04320"]
 sitemap_priority: 0.86

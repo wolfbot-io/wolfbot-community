@@ -21,12 +21,14 @@ const MAX_RESULTS = 8
  *  content" loop. */
 interface DocsSearchProps {
   localePrefix?: string
+  excludeLocalePrefixes?: string[]
   placeholder?: string
   noResultsText?: string
 }
 
 export function DocsSearch({
   localePrefix,
+  excludeLocalePrefixes = [],
   placeholder = 'Search the Academy…',
   noResultsText = 'No results. Try a broader term, or browse the sections below.',
 }: DocsSearchProps = {}) {
@@ -57,12 +59,13 @@ export function DocsSearch({
     const terms = q.split(/\s+/)
     return index
       .filter((e) => !localePrefix || e.url.startsWith(`/${localePrefix}/`))
+      .filter((e) => !excludeLocalePrefixes.some((prefix) => e.url.startsWith(`/${prefix}/`)))
       .filter((e) => {
         const hay = `${e.title} ${e.description} ${e.keywords.join(' ')} ${e.text}`
         return terms.every((t) => hay.includes(t))
       })
       .slice(0, MAX_RESULTS)
-  }, [index, localePrefix, query])
+  }, [excludeLocalePrefixes, index, localePrefix, query])
 
   // Debounced analytics: log the query + result count once per settled query.
   useEffect(() => {

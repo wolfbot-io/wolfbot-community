@@ -68,7 +68,7 @@ export function Header() {
             <SearchBar />
           </div>
 
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden 2xl:flex items-center gap-1">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -85,7 +85,7 @@ export function Header() {
               href="https://github.com/wolfbot-io/wolfbot-community"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:flex text-sm text-wolf-text2 hover:text-wolf-text transition-colors"
+              className="hidden 2xl:flex text-sm text-wolf-text2 hover:text-wolf-text transition-colors"
             >
               {t.github}
             </a>
@@ -93,7 +93,7 @@ export function Header() {
               href="https://wolfbot.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:flex text-sm text-wolf-text2 hover:text-wolf-text transition-colors"
+              className="hidden 2xl:flex text-sm text-wolf-text2 hover:text-wolf-text transition-colors"
             >
               {t.wolfbotCloud}
             </a>
@@ -108,7 +108,7 @@ export function Header() {
 
           {/* Mobile hamburger */}
           <button
-            className="lg:hidden text-wolf-text2"
+            className="2xl:hidden text-wolf-text2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? t.chromeAccessibilityClose : t.chromeAccessibilityOpen}
             aria-expanded={mobileOpen}
@@ -128,7 +128,7 @@ export function Header() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div
-          className="lg:hidden border-t px-4 sm:px-6 py-4 space-y-1 nav-dropdown"
+          className="2xl:hidden border-t px-4 sm:px-6 py-4 space-y-1 nav-dropdown"
           style={{ background: '#0B1120', borderColor: 'rgba(255,255,255,0.07)' }}
         >
           <div className="mb-3 md:hidden">

@@ -1,5 +1,5 @@
 import { listContent } from '@/lib/content'
-import { isLocalizedSlug } from '@/lib/locales'
+import { isLocalizedSlug, LOCALES } from '@/lib/locales'
 import { DocsSearch } from '@/components/search/DocsSearch'
 import { TrackedLink } from '@/components/analytics/TrackedLink'
 
@@ -90,6 +90,7 @@ export function AcademyIndex({ locale }: { locale: AcademyLocale }) {
 
       <DocsSearch
         localePrefix={locale === 'vi' ? 'vi' : undefined}
+        excludeLocalePrefixes={locale === 'en' ? LOCALES.map((entry) => entry.urlSegment) : undefined}
         placeholder={copy.search}
         noResultsText={copy.noResults}
       />
@@ -107,7 +108,7 @@ export function AcademyIndex({ locale }: { locale: AcademyLocale }) {
               <div key={topic.title.en}>
                 <h3 className="text-lg font-semibold text-white mb-1">{topic.title[locale]}</h3>
                 <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>{topic.description[locale]}</p>
-                <AcademyCards items={items} section={topic.title.en} />
+                <AcademyCards items={items} section={topic.title.en} headingLevel="h4" />
               </div>
             )
           })}
@@ -130,7 +131,16 @@ export function AcademyIndex({ locale }: { locale: AcademyLocale }) {
   )
 }
 
-function AcademyCards({ items, section }: { items: ReturnType<typeof listContent>; section: string }) {
+function AcademyCards({
+  items,
+  section,
+  headingLevel = 'h3',
+}: {
+  items: ReturnType<typeof listContent>
+  section: string
+  headingLevel?: 'h3' | 'h4'
+}) {
+  const Heading = headingLevel
   return (
     <div className="grid sm:grid-cols-2 gap-4">
       {items.map((page) => (
@@ -142,7 +152,7 @@ function AcademyCards({ items, section }: { items: ReturnType<typeof listContent
           className="rounded-lg p-5 border card-hover"
           style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}
         >
-          <h3 className="text-white font-medium mb-1 text-sm">{page.meta.title}</h3>
+          <Heading className="text-white font-medium mb-1 text-sm">{page.meta.title}</Heading>
           <p className="text-xs line-clamp-2" style={{ color: '#94A3B8' }}>{page.meta.description}</p>
         </TrackedLink>
       ))}

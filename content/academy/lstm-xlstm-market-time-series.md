@@ -10,7 +10,7 @@ difficulty: "advanced"
 estimated_time: "16 minutes"
 previous_guide: "/academy/finrl-realistic-market-environments"
 next_guide: "/academy/state-space-models-multivariate-market-data"
-related_guides: ["/academy/state-space-models-multivariate-market-data", "/academy/ai-trading-research-roadmap", "/docs/how-to-read-backtest-results", "/docs/simulation"]
+related_guides: ["/academy/state-space-models-multivariate-market-data", "/academy/ai-trading-research-roadmap", "/academy/point-in-time-data-feature-engineering", "/docs/simulation"]
 keywords: ["LSTM trading", "xLSTM financial time series", "LSTM stock prediction", "mLSTM market data", "time series model trading"]
 citations: ["https://arxiv.org/abs/2405.04517", "https://www.deeplearningbook.org/"]
 sitemap_priority: 0.88
