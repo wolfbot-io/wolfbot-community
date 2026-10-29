@@ -11,8 +11,8 @@ estimated_time: "18 phút"
 lang: "vi"
 translation_of: "academy/financial-ai-agents-auditable-decisions"
 previous_guide: "/vi/academy/financial-llms-fingpt-data-pipeline"
-next_guide: "/vi/academy/rlops-scalable-training-finrl-podracer"
-related_guides: ["/vi/academy/financial-llms-fingpt-data-pipeline", "/vi/academy/ai-trading-research-roadmap", "/vi/docs/risk-controls", "/security", "/vi/docs/reading-bot-logs-like-an-operator"]
+next_guide: "/vi/academy/ai-agent-architecture-model-tools-orchestration"
+related_guides: ["/vi/academy/financial-llms-fingpt-data-pipeline", "/vi/academy/ai-agent-architecture-model-tools-orchestration", "/vi/academy/ai-trading-research-roadmap", "/vi/docs/risk-controls", "/security", "/vi/docs/reading-bot-logs-like-an-operator"]
 keywords: ["financial AI agent", "giải thích FinRobot", "LLM trading agent", "AI trading audit được", "LLM Bayesian network trading"]
 citations: ["https://arxiv.org/abs/2405.14767", "https://arxiv.org/abs/2512.01123"]
 sitemap_priority: 0.9
@@ -126,4 +126,4 @@ FinRobot trình bày platform phân lớp cho specialized financial agent. Paper
 - Yang et al., [*FinRobot*](https://arxiv.org/abs/2405.14767).
 - Kuang và Lin, [*A Hybrid Architecture for Options Wheel Strategy Decisions*](https://arxiv.org/abs/2512.01123).
 
-Tiếp theo: [vận hành training và promotion như một RLOps system tái lập được](/vi/academy/rlops-scalable-training-finrl-podracer).
+Tiếp theo: [xem blueprint chung model/tool/orchestration đằng sau phần lớn agent framework, và chỗ nó cần ranh giới trading chặt hơn](/vi/academy/ai-agent-architecture-model-tools-orchestration).

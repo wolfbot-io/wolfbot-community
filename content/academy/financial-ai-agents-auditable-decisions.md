@@ -9,8 +9,8 @@ content_type: "research"
 difficulty: "advanced"
 estimated_time: "18 minutes"
 previous_guide: "/academy/financial-llms-fingpt-data-pipeline"
-next_guide: "/academy/rlops-scalable-training-finrl-podracer"
-related_guides: ["/academy/financial-llms-fingpt-data-pipeline", "/academy/ai-trading-research-roadmap", "/docs/risk-controls", "/security", "/docs/reading-bot-logs-like-an-operator"]
+next_guide: "/academy/ai-agent-architecture-model-tools-orchestration"
+related_guides: ["/academy/financial-llms-fingpt-data-pipeline", "/academy/ai-agent-architecture-model-tools-orchestration", "/academy/ai-trading-research-roadmap", "/docs/risk-controls", "/security", "/docs/reading-bot-logs-like-an-operator"]
 keywords: ["financial AI agents", "FinRobot explained", "LLM trading agent", "auditable AI trading", "LLM Bayesian network trading"]
 citations: ["https://arxiv.org/abs/2405.14767", "https://arxiv.org/abs/2512.01123"]
 sitemap_priority: 0.9
@@ -150,4 +150,4 @@ FinRobot demonstrates a layered, open-source platform for specialized financial 
 - Yang et al., [*FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models*](https://arxiv.org/abs/2405.14767).
 - Kuang and Lin, [*A Hybrid Architecture for Options Wheel Strategy Decisions*](https://arxiv.org/abs/2512.01123).
 
-Next: [operate model training and promotion as a reproducible RLOps system](/academy/rlops-scalable-training-finrl-podracer).
+Next: [see the general model/tools/orchestration blueprint behind most agent frameworks, and where it needs a harder trading boundary](/academy/ai-agent-architecture-model-tools-orchestration).

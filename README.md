@@ -48,31 +48,33 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.14
+## Latest Release — v0.1.0-beta.16
 
-WolfBot Community **v0.1.0-beta.14** is the latest public release of the free self-hosted trading platform. It fixes the MT5 upgrade-install data-corruption issue disclosed in v0.1.0-beta.13, and continues MT5 symbol-resolution and MCP AI Agent groundwork. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
+WolfBot Community **v0.1.0-beta.16** is the latest public release of the free self-hosted trading platform. It fixes a KuCoin UTA TP/SL visibility gap, adds OKX to the Account Connect flow, and improves Bitget's daily ROI reporting reliability. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
 
 Highlights:
 
-- **MT5 upgrade-install data corruption — fixed** — installing over an existing Community install with an already-connected MT5 terminal could leave that terminal's own data unreadable (the known issue disclosed in v0.1.0-beta.13). The installer's provisioning step now explicitly excludes the MT5 terminal's own data tree. Fresh installs were never affected.
+- **KuCoin UTA TP/SL visibility — fixed** — the executor now reads both the NORMAL and ADVANCED UTA order lists explicitly (instead of the Classic stop-order endpoint), and places SL before TP with independent error handling, so a UTA position's protective orders no longer go silently missing.
+- **OKX added to Account Connect** — OKX joins Binance, Bybit, BingX, KuCoin and Bitget in the account-connection flow.
+- **Bitget daily ROI reporting — hardened** — the daily snapshot job now correctly handles a terminal "no more data" page returned after a valid cursor page, instead of treating it as an error.
 - **MT5 self-serve symbol resolution** — continued groundwork on automatically resolving a broker's real suffixed symbol names (e.g. `AAPL.s`, `XAUUSD+`) against WolfBot's own canonical names.
 - **MCP AI Agent — continued groundwork** — broker-side support for an agent partially closing a position, adjusting TP/SL, or cancelling an order; read-only risk tools; an owner-approval workflow. Advanced, opt-in capability.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor, outcome worker and translator images are pinned by SHA256 digest in the signed release manifest.
-- **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget and MT5 support in one dashboard.
+- **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget, OKX and MT5 support in one dashboard.
 - **Simulation-first workflow** — test strategies, Smart Terminal orders and TradingView alerts before adding live keys.
 
 Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `66951e5422b3284bab3ef92b9ae50a902c07d1f2f29d38eceb6087967e77fb78` |
-| `WolfBot-Setup-0.1.0-beta.14-linux-amd64.run` | `0285c05918c25237f2230b90faea00d6ef4887ea21aba859667494ba9711bf89` |
+| `WolfBot-Setup-linux-amd64.deb` | `d1104863bc7993c175140f56c665a06182b0f18e2bd0841bd908575052f61425` |
+| `WolfBot-Setup-0.1.0-beta.16-linux-amd64.run` | `6cee1973f9384149ed9d46698a96bd8bb3723d8cee1df730581d6698dce6a24d` |
 
 Windows: no new build this release — see the [v0.1.0-beta.10 release](https://github.com/wolfbot-io/wolfbot-community/releases/tag/v0.1.0-beta.10) for the current Windows `.exe` (same known market-data-reconnect issue as before).
 
-Read the full release notes: **[v0.1.0-beta.14](https://community.wolfbot.io/releases/0.1.0-beta.14)**.
+Read the full release notes: **[v0.1.0-beta.16](https://community.wolfbot.io/releases/0.1.0-beta.16)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 

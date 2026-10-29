@@ -8,7 +8,8 @@ category: "ai-trading-systems"
 content_type: "research"
 difficulty: "advanced"
 estimated_time: "17 minutes"
-previous_guide: "/academy/financial-ai-agents-auditable-decisions"
+previous_guide: "/academy/ai-agent-architecture-model-tools-orchestration"
+next_guide: "/academy/stock-prediction-research-and-the-overfitting-trap"
 related_guides: ["/academy/finrl-realistic-market-environments", "/academy/ppo-for-trading-systems", "/docs/updates", "/docs/backup", "/docs/reading-bot-logs-like-an-operator"]
 keywords: ["RLOps trading", "FinRL Podracer", "scalable reinforcement learning finance", "DRL MLOps trading", "reproducible AI trading"]
 citations: ["https://arxiv.org/abs/2111.05188", "https://arxiv.org/abs/2112.05923", "https://arxiv.org/abs/2112.06753"]
@@ -155,4 +156,4 @@ FinRL-Podracer reports an RLOps-oriented finance framework with accelerated trai
 - Liu et al., [*ElegantRL-Podracer: Scalable and Elastic Library for Cloud-Native Deep Reinforcement Learning*](https://arxiv.org/abs/2112.05923).
 - Liu et al., [*FinRL-Meta: A Universe of Near-Real Market Environments*](https://arxiv.org/abs/2112.06753).
 
-Return to the [AI for Trading Research Roadmap](/academy/ai-trading-research-roadmap) to review the full evidence ladder.
+Next: [see what a 94-paper survey of deep learning stock prediction research covers, and why the Probability of Backtest Overfitting framework matters more than any single headline number](/academy/stock-prediction-research-and-the-overfitting-trap).

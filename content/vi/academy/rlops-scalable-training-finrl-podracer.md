@@ -10,7 +10,8 @@ difficulty: "advanced"
 estimated_time: "17 phút"
 lang: "vi"
 translation_of: "academy/rlops-scalable-training-finrl-podracer"
-previous_guide: "/vi/academy/financial-ai-agents-auditable-decisions"
+previous_guide: "/vi/academy/ai-agent-architecture-model-tools-orchestration"
+next_guide: "/vi/academy/stock-prediction-research-and-the-overfitting-trap"
 related_guides: ["/vi/academy/finrl-realistic-market-environments", "/vi/academy/ppo-for-trading-systems", "/vi/docs/updates", "/vi/docs/backup", "/vi/docs/reading-bot-logs-like-an-operator"]
 keywords: ["RLOps trading", "FinRL Podracer", "reinforcement learning tài chính quy mô lớn", "DRL MLOps trading", "AI trading tái lập"]
 citations: ["https://arxiv.org/abs/2111.05188", "https://arxiv.org/abs/2112.05923", "https://arxiv.org/abs/2112.06753"]
@@ -126,4 +127,4 @@ FinRL-Podracer trình bày finance RLOps với accelerated training và generati
 - Liu et al., [*ElegantRL-Podracer*](https://arxiv.org/abs/2112.05923).
 - Liu et al., [*FinRL-Meta*](https://arxiv.org/abs/2112.06753).
 
-Quay lại [Lộ trình nghiên cứu AI cho trading](/vi/academy/ai-trading-research-roadmap) để xem toàn bộ thang bằng chứng.
+Tiếp theo: [xem survey 94 paper về nghiên cứu deep learning dự báo chứng khoán bao gồm gì, và vì sao framework Probability of Backtest Overfitting quan trọng hơn bất kỳ con số nổi bật đơn nào](/vi/academy/stock-prediction-research-and-the-overfitting-trap).
