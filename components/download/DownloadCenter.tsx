@@ -15,12 +15,12 @@ import { MobileDownloadNotice } from '@/components/download/MobileDownloadNotice
 // frontmatter pattern already used elsewhere on this site -- this repo has
 // no server-side rendering to look this up dynamically, see
 // next.config.mjs output: 'export').
-const RELEASE_TAG = 'v0.1.0-beta.15'
-const RELEASE_VERSION_LABEL = '0.1.0-beta.15'
-const RELEASE_DATE = '2026-10-12'
-const LINUX_DEB_SHA256 = 'ca4822bc0c583f1fe45a446cfd0f5e979baa22d7546a5b4eeeb2c9099b19e3e7'
+const RELEASE_TAG = 'v0.1.0-beta.16'
+const RELEASE_VERSION_LABEL = '0.1.0-beta.16'
+const RELEASE_DATE = '2026-10-28'
+const LINUX_DEB_SHA256 = 'd1104863bc7993c175140f56c665a06182b0f18e2bd0841bd908575052f61425'
 const LINUX_DEB_SIZE_MB = '~86'
-const LINUX_RUN_SHA256 = 'b5ae36342b8006094bbb3efe6d9e423ab970721e2ecf929cdd7b8d0eec91d245'
+const LINUX_RUN_SHA256 = '6cee1973f9384149ed9d46698a96bd8bb3723d8cee1df730581d6698dce6a24d'
 const LINUX_RUN_SIZE_MB = '~113'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-linux-amd64.deb`
@@ -187,7 +187,7 @@ export function DownloadCenter() {
       </div>
 
       <div className="max-w-3xl mx-auto mt-12 flex flex-wrap items-center justify-center gap-4 text-sm">
-        <Link href="/releases/0.1.0-beta.15" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
+        <Link href="/releases/0.1.0-beta.16" className="hover:underline" style={{ color: '#00C9E8' }}>Release Notes</Link>
         <span style={{ color: '#475569' }}>·</span>
         <a href={GITHUB_RELEASE_URL} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Release</a>
         <span style={{ color: '#475569' }}>·</span>
