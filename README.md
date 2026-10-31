@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/releases-signed-0e8a16" alt="Signed Releases" />
   <img src="https://img.shields.io/badge/checksums-SHA256%20published-0e8a16" alt="SHA256 published" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
-  <img src="https://img.shields.io/badge/platform-Windows%20(initial%20build)-FCC624?logo=windows" alt="Windows (initial build)" />
+  <img src="https://img.shields.io/badge/platform-Windows%20Public%20Preview-FCC624?logo=windows" alt="Windows Public Preview" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
   <a href="https://community.wolfbot.io/tools/live-translate"><img src="https://img.shields.io/badge/AI-Live%20Translate%20(52%20languages)-7C3AED" alt="Live Translate — real-time AI translation, 52 languages" /></a>
   <img src="https://img.shields.io/badge/AI-MCP%20Agent%20Interface-3B82F6" alt="MCP AI Agent interface — policy-controlled agent trading" />
@@ -50,7 +50,7 @@
 
 ## Latest Release — v0.1.0-beta.16
 
-WolfBot Community **v0.1.0-beta.16** is the latest public release of the free self-hosted trading platform. It fixes a KuCoin UTA TP/SL visibility gap, adds OKX to the Account Connect flow, and improves Bitget's daily ROI reporting reliability. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
+WolfBot Community **v0.1.0-beta.16** is the latest Linux release of the free self-hosted trading platform. It fixes a KuCoin UTA TP/SL visibility gap, adds OKX to Account Connect, and improves Bitget daily ROI reporting reliability. Windows users can now install the **v0.1.0-beta.15 Public Preview**, which replaces the old beta.10 build.
 
 Highlights:
 
@@ -60,7 +60,7 @@ Highlights:
 - **MT5 self-serve symbol resolution** — continued groundwork on automatically resolving a broker's real suffixed symbol names (e.g. `AAPL.s`, `XAUUSD+`) against WolfBot's own canonical names.
 - **MCP AI Agent — continued groundwork** — broker-side support for an agent partially closing a position, adjusting TP/SL, or cancelling an order; read-only risk tools; an owner-approval workflow. Advanced, opt-in capability.
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
-- **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
+- **Windows & Linux installers** — signed beta.16 Linux `.deb` / `.run` packages plus the checksum-published beta.15 Windows Public Preview `.exe`.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor, outcome worker and translator images are pinned by SHA256 digest in the signed release manifest.
 - **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget, OKX and MT5 support in one dashboard.
 - **Simulation-first workflow** — test strategies, Smart Terminal orders and TradingView alerts before adding live keys.
@@ -71,8 +71,9 @@ Downloads:
 |---|---|
 | `WolfBot-Setup-linux-amd64.deb` | `d1104863bc7993c175140f56c665a06182b0f18e2bd0841bd908575052f61425` |
 | `WolfBot-Setup-0.1.0-beta.16-linux-amd64.run` | `6cee1973f9384149ed9d46698a96bd8bb3723d8cee1df730581d6698dce6a24d` |
+| `WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe` | `64f896b98688760b08491c6cb303e6dc3263b64d1c1c6f0df16a5776d8041083` |
 
-Windows: no new build this release — see the [v0.1.0-beta.10 release](https://github.com/wolfbot-io/wolfbot-community/releases/tag/v0.1.0-beta.10) for the current Windows `.exe` (same known market-data-reconnect issue as before).
+Windows: the beta.15 Public Preview fixes the beta.10 market-data reconnect packaging issue. It is not yet Authenticode-signed, so verify the SHA256 above before using SmartScreen's **More info → Run anyway** flow.
 
 Read the full release notes: **[v0.1.0-beta.16](https://community.wolfbot.io/releases/0.1.0-beta.16)**.
 
@@ -188,7 +189,7 @@ This is an advanced, opt-in capability (`WOLFBOT_MCP_ENABLED`) aimed at users co
 
 ## Install in Minutes
 
-### Windows (initial build — see known issue below)
+### Windows (v0.1.0-beta.15 Public Preview)
 ```powershell
 # 1. Download Setup.exe from community.wolfbot.io/download
 # 2. Double-click → "More info" → "Run anyway" (SmartScreen; not yet code-signed) → Install → Open WolfBot

@@ -24,7 +24,7 @@ export function LatestRelease({ copy, locale }: LocaleProps) {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'LATEST PUBLIC RELEASE'}</span>
           <span className="text-white font-bold">{RELEASE_TAG}</span>
         </div>
-        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'v0.1.0-beta.16 fixes a KuCoin UTA TP/SL visibility gap, adds OKX to Account Connect, and improves Bitget daily ROI reporting reliability. Signed Linux installers are available now; Windows users should keep the beta.10 installer until a corrected build ships. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
+        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'v0.1.0-beta.16 fixes a KuCoin UTA TP/SL visibility gap, adds OKX to Account Connect, and improves Bitget daily ROI reporting reliability. Signed Linux beta.16 installers and the Windows beta.15 Public Preview installer are available now. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={localizeHref('/download', locale ?? null)}

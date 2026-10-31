@@ -1,6 +1,6 @@
-# WolfBot Community v0.1.0-beta.15 — Free Self-Hosted Trading Platform for Linux
+# WolfBot Community v0.1.0-beta.15 — Free Self-Hosted Trading Platform for Windows & Linux
 
-WolfBot Community v0.1.0-beta.15 is the latest public release of the free, self-hosted WolfBot trading platform. This release **fixes an account-rename bug that could orphan a connected account's ROI/equity-curve history**, and carries forward every fix from v0.1.0-beta.14.
+WolfBot Community v0.1.0-beta.15 is a public release of the free, self-hosted WolfBot trading platform. Its Windows Public Preview asset was added on 2026-10-31; Linux users should use the newer v0.1.0-beta.16 release. Beta.15 **fixes an account-rename bug that could orphan a connected account's ROI/equity-curve history** and carries forward every fix from v0.1.0-beta.14.
 
 ## ✅ Fixes equity-curve history loss after renaming an account
 
@@ -12,9 +12,11 @@ Renaming a connected account (via its label/display name) previously started a b
 |---|---|---|---|
 | 🐧 Linux — Debian / Ubuntu (`.deb`) | `WolfBot-Setup-linux-amd64.deb` | ~86 MB | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-linux-amd64.deb)** |
 | 🐧 Linux — any distro (`.run`, self-extracting) | `WolfBot-Setup-0.1.0-beta.15-linux-amd64.run` | ~113 MB | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-0.1.0-beta.15-linux-amd64.run)** |
-| 🪟 Windows — 64-bit installer (`.exe`, unchanged from v0.1.0-beta.10) | `WolfBot-Setup-0.1.0-beta.10-windows-x64.exe` | ~457 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.10/WolfBot-Setup-0.1.0-beta.10-windows-x64.exe)** |
+| 🪟 Windows 10/11 — 64-bit Public Preview (`.exe`) | `WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe` | ~520 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe)** |
 
-Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the `SHA256SUMS` asset attached to this release.
+Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. Windows users should use the `.exe`. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the checksum assets attached to this release.
+
+> **Windows Public Preview:** the beta.15 Windows installer replaces beta.10 and contains the corrected market-data reconnect packaging plus the current Windows Community runtime. It is not yet Authenticode-signed, so verify its SHA256 before running it and expect Windows SmartScreen to show an unrecognized-publisher warning.
 
 ## What's new since v0.1.0-beta.14
 
@@ -64,12 +66,12 @@ The release manifest pins the runtime by immutable container image digests, incl
 
 Use v0.1.0-beta.15 if you want to:
 
-- run a free self-hosted trading platform on Ubuntu, Debian or a Linux VPS;
+- run a free self-hosted trading platform on Windows 10/11, Ubuntu, Debian or a Linux VPS;
 - rename a connected account without losing its equity-curve history on the Overview page;
 - upgrade an existing Community install that has a connected MT5 account, without the beta.13 data-corruption risk;
 - connect crypto/futures accounts and MT5 from one dashboard.
 
-Already running v0.1.0-beta.14 or earlier on Linux? Just install the new `.deb` or `.run` over your existing install — no need to uninstall first, and your data/config stay in place. On Windows, there is nothing new to install this release; keep your current v0.1.0-beta.10 install.
+Already running an earlier Community build? Install the matching beta.15 package over your existing installation — `.exe` on Windows, `.deb` or `.run` on Linux. You do not need to uninstall first, and your data/config stay in place.
 
 ## Install
 
@@ -92,6 +94,12 @@ After install, open:
 http://127.0.0.1:8080/portal/local/setup
 ```
 
+Windows:
+
+1. Download `WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe`.
+2. Verify its SHA256 below.
+3. Double-click it. Because this Public Preview is not yet Authenticode-signed, choose **More info → Run anyway** when SmartScreen appears.
+
 ## Verify before installing
 
 ```bash
@@ -99,10 +107,15 @@ sha256sum WolfBot-Setup-linux-amd64.deb
 sha256sum WolfBot-Setup-0.1.0-beta.15-linux-amd64.run
 ```
 
+```powershell
+Get-FileHash .\WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe -Algorithm SHA256
+```
+
 | File | SHA256 |
 |---|---|
 | `WolfBot-Setup-linux-amd64.deb` | `ca4822bc0c583f1fe45a446cfd0f5e979baa22d7546a5b4eeeb2c9099b19e3e7` |
 | `WolfBot-Setup-0.1.0-beta.15-linux-amd64.run` | `b5ae36342b8006094bbb3efe6d9e423ab970721e2ecf929cdd7b8d0eec91d245` |
+| `WolfBot-Setup-0.1.0-beta.15-windows-amd64.exe` | `64f896b98688760b08491c6cb303e6dc3263b64d1c1c6f0df16a5776d8041083` |
 
 Compare the values with the checksums above or the `SHA256SUMS` file attached to the GitHub release.
 
@@ -117,6 +130,7 @@ Verified directly against the published artifacts for this release:
 | Signed release manifest | verified against the WolfBot release Ed25519 public key |
 | Engine + translator container images | verified with `cosign verify` against the WolfBot release public key |
 | `.deb` / `.run` checksums | match the published `checksums.json` / `SHA256SUMS` byte-for-byte |
+| Windows `.exe` checksum | matches the published `SHA256SUMS-windows.txt`; Authenticode is not yet available |
 
 ## Security model
 
@@ -134,12 +148,12 @@ WolfBot Community is designed to be self-hosted and non-custodial:
 
 WolfBot Community is trading infrastructure, so the best first install flow is practical and controlled:
 
-- Install the signed Linux `.deb` or `.run` package from this release.
+- Install the signed Linux `.deb` / `.run`, or the checksum-published Windows Public Preview `.exe`, from this release.
 - Open the local setup wizard at `http://127.0.0.1:8080/portal/local/setup`.
 - Start with Simulation or a broker demo account to learn the workflow.
 - Use trade-only API keys for live exchanges and keep withdrawal permissions disabled.
 - Verify checksums before installing and keep the signed release files for auditability.
-- On Windows, keep using the v0.1.0-beta.10 installer until a corrected, code-signed build ships.
+- On Windows, verify the published SHA256 before running the unsigned Public Preview installer.
 
 ## Learn more
 
@@ -149,4 +163,4 @@ WolfBot Community is trading infrastructure, so the best first install flow is p
 - Telegram: https://t.me/wolfbot_community
 - Issues: https://github.com/wolfbot-io/wolfbot-community/issues
 
-WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers; the existing v0.1.0-beta.10 Windows build remains the current Windows option.
+WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers and a checksum-published Windows Public Preview installer.

@@ -265,7 +265,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'v0.1.0-beta.16 fixes a KuCoin UTA TP/SL visibility gap, adds OKX to Account Connect, and improves Bitget daily ROI reporting reliability. Signed Linux installers are available now; Windows users should keep the beta.10 installer until a corrected build ships. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'v0.1.0-beta.16 fixes a KuCoin UTA TP/SL visibility gap, adds OKX to Account Connect, and improves Bitget daily ROI reporting reliability. Signed Linux beta.16 installers and the Windows beta.15 Public Preview installer are available now. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -304,7 +304,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       },
       {
         q: 'How do I install it?',
-        a: 'Download the installer from the Download page and run it. The current release includes signed Linux .deb and .run installers; the Windows Setup.exe path is documented and planned for a follow-up release.',
+        a: 'Download the installer from the Download page and run it. Linux ships signed .deb and .run installers; Windows ships a Setup.exe Public Preview installer.',
       },
       {
         q: 'Do I need a VPS or a cloud server?',
@@ -442,7 +442,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
-      'v0.1.0-beta.16 sửa lỗi KuCoin UTA có thể hiện thiếu TP/SL, thêm OKX vào luồng kết nối tài khoản, và cải thiện độ ổn định báo cáo ROI hằng ngày của Bitget. Trình cài đặt Linux đã ký đã có sẵn; người dùng Windows nên tiếp tục dùng trình cài beta.10 cho đến khi có bản đã sửa lỗi. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
+      'v0.1.0-beta.16 sửa lỗi KuCoin UTA có thể hiện thiếu TP/SL, thêm OKX vào luồng kết nối tài khoản, và cải thiện độ ổn định báo cáo ROI hằng ngày của Bitget. Trình cài Linux beta.16 đã ký và trình cài Windows beta.15 Public Preview hiện đều có sẵn. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
     releaseDownload: 'Tải xuống',
     releaseGitHub: 'Bản phát hành GitHub',
     ghTitle: 'Tham gia Cộng đồng',
@@ -481,7 +481,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
       },
       {
         q: 'Tôi cài đặt như thế nào?',
-        a: 'Tải bộ cài từ trang Download và chạy nó. Linux cung cấp tệp .deb tự thiết lập Docker cho bạn; Windows Setup.exe đã được ghi lại và sẽ ra mắt trong bản kế tiếp. Không cần kinh nghiệm terminal hay Docker.',
+        a: 'Tải bộ cài từ trang Download và chạy nó. Linux có các gói .deb và .run đã ký; Windows có trình cài Setup.exe Public Preview. Trên Windows không cần kinh nghiệm terminal.',
       },
       {
         q: 'Tôi có cần VPS hoặc máy chủ cloud không?',
