@@ -27,7 +27,7 @@ const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/
 // Naming convention changed starting v0.1.0-beta.12: WolfBot-Setup-<version>-linux-amd64.run
 // (unified with the Windows installer's own naming; was wolfbot-oneclick-<version>.run before).
 const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-${RELEASE_VERSION_LABEL}-linux-amd64.run`
-// Windows ships on its own track: the Windows Public Preview is v0.1.0-beta.15
+// Windows ships on its own track: the Windows installer is v0.1.0-beta.15
 // (attached to that GitHub release) while Linux is on RELEASE_TAG above.
 // Never point /releases/latest at this -- it stays the Linux track.
 const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.15'
@@ -35,7 +35,7 @@ const WINDOWS_VERSION_LABEL = '0.1.0-beta.15'
 const WINDOWS_RELEASE_DATE = '2026-10-31'
 const WINDOWS_EXE_SHA256 = '64f896b98688760b08491c6cb303e6dc3263b64d1c1c6f0df16a5776d8041083'
 const WINDOWS_EXE_SIZE_MB = '~520'
-const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-amd64.exe`
+const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-x64.exe`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -62,12 +62,12 @@ export function DownloadCenter() {
             Download .exe ({WINDOWS_EXE_SIZE_MB} MB)
           </TrackedLink>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Release channel: Windows Public Preview v{WINDOWS_VERSION_LABEL} (Linux is on v{RELEASE_VERSION_LABEL})</p>
+            <p>Windows installer v{WINDOWS_VERSION_LABEL} (Linux is on v{RELEASE_VERSION_LABEL})</p>
             <p>Released: {WINDOWS_RELEASE_DATE}</p>
             <p className="break-all">SHA256: {WINDOWS_EXE_SHA256}</p>
           </div>
           <div className="mt-3 rounded-lg border p-3 text-xs space-y-1" style={{ borderColor: 'rgba(245,158,11,0.3)', background: 'rgba(245,158,11,0.06)', color: '#FCD34D' }}>
-            <p className="font-semibold">Public Preview — not code-signed</p>
+            <p className="font-semibold">Not code-signed</p>
             <p style={{ color: '#94A3B8' }}>This build is not yet code-signed, so Windows SmartScreen will show an unrecognized-publisher warning. Compare the SHA256 above with your download, then choose "More info" → "Run anyway" to continue.</p>
             <p style={{ color: '#94A3B8' }}>Windows is released on its own track and may lag the Linux release; updates are announced in the release notes.</p>
           </div>

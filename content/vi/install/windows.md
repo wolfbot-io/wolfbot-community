@@ -24,7 +24,7 @@ sitemap_priority: 0.9
 
 # Cài đặt WolfBot Community trên Windows
 
-**Đã kiểm thử với WolfBot Community v0.1.0-beta.15 (Windows Public Preview)** · Cập nhật lần cuối: 2026-10-31 · Windows 11 / Windows 10
+**Đã kiểm thử với WolfBot Community v0.1.0-beta.15** · Cập nhật lần cuối: 2026-10-31 · Windows 11 / Windows 10
 
 > ⚠️ **Bản build ban đầu:** file `.exe` Windows trên [trang download](/download) là bản build Windows đầu tiên, có một lỗi đã biết — kết nối dữ liệu thị trường chạy nền có thể không kết nối lại được, không ảnh hưởng đến việc đặt lệnh, TP/SL hay risk guard nhưng có thể khiến công cụ tín hiệu AI dùng giá cũ. Trình cài đặt cũng chưa được ký code, nên Windows SmartScreen sẽ cảnh báo về nhà phát hành không xác định. Một bản đã sửa lỗi và ký code dự kiến sẽ thay thế file này trên cùng bản phát hành trong thời gian tới. Xem [trang download](/vi/download) để biết tình trạng hiện tại và checksum.
 
@@ -46,7 +46,7 @@ Hướng dẫn này dành cho bất kỳ ai muốn cài WolfBot Community trên 
 
 1. Vào [community.wolfbot.io/download](https://community.wolfbot.io/download)
 2. Bấm **Download for Windows**
-3. Tệp `WolfBot-Setup-{version}-windows-amd64.exe` sẽ được tải về
+3. Tệp `WolfBot-Setup-{version}-windows-x64.exe` sẽ được tải về
 
 ## Bước 2: Cài đặt
 
