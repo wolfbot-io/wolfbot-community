@@ -27,19 +27,15 @@ const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/
 // Naming convention changed starting v0.1.0-beta.12: WolfBot-Setup-<version>-linux-amd64.run
 // (unified with the Windows installer's own naming; was wolfbot-oneclick-<version>.run before).
 const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-${RELEASE_VERSION_LABEL}-linux-amd64.run`
-// Windows: v0.1.0-beta.11 shipped Linux-only (no new Windows build), so the
-// Windows card intentionally keeps pointing at the v0.1.0-beta.10 asset/tag
-// instead of the current RELEASE_TAG above -- this is an initial build with
-// a known background market-data reconnect issue (websockets.legacy Nuitka
-// packaging gap) found right after it shipped; a corrected build is already
-// compiled and will replace this asset in a future release. Kept as a
-// distinct, honest note rather than silently implying it tracks RELEASE_TAG.
-const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.10'
-const WINDOWS_VERSION_LABEL = '0.1.0-beta.10'
-const WINDOWS_RELEASE_DATE = '2026-09-20'
-const WINDOWS_EXE_SHA256 = '85ec8b5f7062d0d05a7c3416105a5173d16ad7ea24d52e2c6c56f037271e3b79'
-const WINDOWS_EXE_SIZE_MB = '~457'
-const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-x64.exe`
+// Windows ships on its own track: the Windows Public Preview is v0.1.0-beta.15
+// (attached to that GitHub release) while Linux is on RELEASE_TAG above.
+// Never point /releases/latest at this -- it stays the Linux track.
+const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.15'
+const WINDOWS_VERSION_LABEL = '0.1.0-beta.15'
+const WINDOWS_RELEASE_DATE = '2026-10-31'
+const WINDOWS_EXE_SHA256 = '64f896b98688760b08491c6cb303e6dc3263b64d1c1c6f0df16a5776d8041083'
+const WINDOWS_EXE_SIZE_MB = '~520'
+const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-amd64.exe`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -51,7 +47,7 @@ export function DownloadCenter() {
       <MobileDownloadNotice />
       <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
-          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(245,158,11,0.15)', color: '#FBBF24' }}>INITIAL BUILD</span>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(245,158,11,0.15)', color: '#FBBF24' }}>PUBLIC PREVIEW</span>
           <h2 className="text-xl font-bold text-white mt-2 mb-1">Windows x64</h2>
           <p className="text-sm mb-4" style={{ color: '#94A3B8' }}>64-bit installer · v{WINDOWS_VERSION_LABEL}</p>
           <TrackedLink
@@ -66,15 +62,14 @@ export function DownloadCenter() {
             Download .exe ({WINDOWS_EXE_SIZE_MB} MB)
           </TrackedLink>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Release channel: v{WINDOWS_VERSION_LABEL} (unchanged in v{RELEASE_VERSION_LABEL})</p>
+            <p>Release channel: Windows Public Preview v{WINDOWS_VERSION_LABEL} (Linux is on v{RELEASE_VERSION_LABEL})</p>
             <p>Released: {WINDOWS_RELEASE_DATE}</p>
             <p className="break-all">SHA256: {WINDOWS_EXE_SHA256}</p>
           </div>
           <div className="mt-3 rounded-lg border p-3 text-xs space-y-1" style={{ borderColor: 'rgba(245,158,11,0.3)', background: 'rgba(245,158,11,0.06)', color: '#FCD34D' }}>
-            <p className="font-semibold">Known issue on this build (fix already built)</p>
-            <p style={{ color: '#94A3B8' }}>Background market-data connections used by the AI signal engine can fail to reconnect and retry continuously on Windows, visible as repeated warnings in the app logs and a slower Overview page. Order placement, TP/SL, and risk guards are not touched by this specific gap. A corrected build will replace this same file in a future release — no action needed from you.</p>
-            <p style={{ color: '#94A3B8' }}>This build is not yet code-signed, so Windows SmartScreen will show an unrecognized-publisher warning — choose "More info" → "Run anyway" to continue.</p>
-            <p style={{ color: '#94A3B8' }}>v{RELEASE_VERSION_LABEL} shipped Linux-only — this Windows file is unchanged since v{WINDOWS_VERSION_LABEL}.</p>
+            <p className="font-semibold">Public Preview — not code-signed</p>
+            <p style={{ color: '#94A3B8' }}>This build is not yet code-signed, so Windows SmartScreen will show an unrecognized-publisher warning. Compare the SHA256 above with your download, then choose "More info" → "Run anyway" to continue.</p>
+            <p style={{ color: '#94A3B8' }}>Windows is released on its own track and may lag the Linux release; updates are announced in the release notes.</p>
           </div>
         </div>
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
@@ -140,7 +135,7 @@ export function DownloadCenter() {
             </ul>
           </div>
           <div className="rounded-xl border p-5" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
-            <h3 className="text-sm font-semibold text-white mb-2">Windows (available now, initial build)</h3>
+            <h3 className="text-sm font-semibold text-white mb-2">Windows (available now, public preview)</h3>
             <ul className="space-y-1 text-sm" style={{ color: '#94A3B8' }}>
               <li>• Windows 10/11, 64-bit (x86-64)</li>
               <li>• At least 4 GB RAM and 4 GB free disk</li>
