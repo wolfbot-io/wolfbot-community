@@ -48,33 +48,34 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.16
+## Latest Release — v0.1.0-beta.18
 
-WolfBot Community **v0.1.0-beta.16** is the latest public release of the free self-hosted trading platform. It fixes a KuCoin UTA TP/SL visibility gap, adds OKX to the Account Connect flow, and improves Bitget's daily ROI reporting reliability. This release ships **Linux only** — Windows users should keep the v0.1.0-beta.10 installer for now.
+WolfBot Community **v0.1.0-beta.18** is the latest public release of the free self-hosted trading platform. It adds Gate account connection and hardened OKX/Gate TP/SL handling, counts BingX multi-asset collateral and Binance Portfolio Margin liabilities correctly in account equity, fixes a Binance timestamp-error crash in the outcome simulator, and adds Bitget UTA realized PnL. It also includes the changes prepared as v0.1.0-beta.17 (an internal build that was never published). The signed Linux installers are the new build; Windows users should keep the v0.1.0-beta.15 installer, which is attached to this release too.
 
 Highlights:
 
-- **KuCoin UTA TP/SL visibility — fixed** — the executor now reads both the NORMAL and ADVANCED UTA order lists explicitly (instead of the Classic stop-order endpoint), and places SL before TP with independent error handling, so a UTA position's protective orders no longer go silently missing.
-- **OKX added to Account Connect** — OKX joins Binance, Bybit, BingX, KuCoin and Bitget in the account-connection flow.
-- **Bitget daily ROI reporting — hardened** — the daily snapshot job now correctly handles a terminal "no more data" page returned after a valid cursor page, instead of treating it as an error.
-- **MT5 self-serve symbol resolution** — continued groundwork on automatically resolving a broker's real suffixed symbol names (e.g. `AAPL.s`, `XAUUSD+`) against WolfBot's own canonical names.
-- **MCP AI Agent — continued groundwork** — broker-side support for an agent partially closing a position, adjusting TP/SL, or cancelling an order; read-only risk tools; an owner-approval workflow. Advanced, opt-in capability.
+- **Gate — Account Connect** — read-only API-key permission inspector (read+trade, no withdraw) wired into the connect flow and CLI.
+- **OKX / Gate TP/SL hardening** — quantity re-read with retry after a fill, stop-loss placed before take-profit with independent error handling, throttled alerts.
+- **Correct account equity** — BingX Multi-Assets Margin collateral counted without double counting; Binance Portfolio Margin cross-margin liabilities tracked.
+- **Binance timestamp errors no longer crash the outcome simulator** — failed closes stay pending and retry; configurable `recvWindow` (`BINANCE_RECV_WINDOW_MS`).
+- **Bitget UTA realized PnL** in the executor and the daily ROI provider.
+- **KuCoin UTA TP/SL visibility fix, OKX Account Connect and Bitget daily-report resilience** (from v0.1.0-beta.16).
 - **TradingView webhook automation** — send `buy`, `sell`, `close_long` and `close_short` alerts into WolfBot's normal command ledger, dispatcher, execution layer and risk controls.
 - **Signed Linux installers** — Ubuntu/Debian `.deb` plus self-extracting `.run` installer.
 - **Digest-pinned runtime** — engine, control-api, gateway, webui, financial-publisher, periodic-jobs, worker-supervisor, outcome worker and translator images are pinned by SHA256 digest in the signed release manifest.
-- **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget, OKX and MT5 support in one dashboard.
+- **One self-hosted platform** — Binance, Bybit, BingX, KuCoin, Bitget, OKX, Gate and MT5 support in one dashboard.
 - **Simulation-first workflow** — test strategies, Smart Terminal orders and TradingView alerts before adding live keys.
 
 Downloads:
 
 | File | SHA256 |
 |---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `d1104863bc7993c175140f56c665a06182b0f18e2bd0841bd908575052f61425` |
-| `WolfBot-Setup-0.1.0-beta.16-linux-amd64.run` | `6cee1973f9384149ed9d46698a96bd8bb3723d8cee1df730581d6698dce6a24d` |
+| `WolfBot-Setup-linux-amd64.deb` | `5a64bdc8ab99d8a75b62bf0f29abfa2620d36c6e5b7eecfcda0ead5760767e3a` |
+| `WolfBot-Setup-0.1.0-beta.18-linux-amd64.run` | `15e3472f86210dff547b1a80c6fca447b713d12585004293599f0b2fd5c1b2f6` |
 
-Windows: no new build this release — see the [v0.1.0-beta.10 release](https://github.com/wolfbot-io/wolfbot-community/releases/tag/v0.1.0-beta.10) for the current Windows `.exe` (same known market-data-reconnect issue as before).
+Windows: no new build this release — use `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` (attached to this release; SHA256 `7c2d8e87fee79f922d96d69a0d5a5fd29e157a74e8c0de1ba126b3c5e98cc3ea`).
 
-Read the full release notes: **[v0.1.0-beta.16](https://community.wolfbot.io/releases/0.1.0-beta.16)**.
+Read the full release notes: **[v0.1.0-beta.18](https://community.wolfbot.io/releases/0.1.0-beta.18)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 
