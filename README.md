@@ -71,7 +71,7 @@ Downloads:
 | `WolfBot-Setup-linux-amd64.deb` | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
 | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
 
-Windows: no new build this release — use `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` (attached to this release; SHA256 `7c2d8e87fee79f922d96d69a0d5a5fd29e157a74e8c0de1ba126b3c5e98cc3ea`).
+Windows: no new build this release — use `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` (attached to this release; SHA256 `c645cfd2db6689c0446cc452d5ac1a104c79e0df61552dfda499b91560fe37d1`).
 
 Read the full release notes: **[v0.1.0-beta.20](https://community.wolfbot.io/releases/0.1.0-beta.20)**.
 

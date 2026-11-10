@@ -33,8 +33,8 @@ const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/
 const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.15'
 const WINDOWS_VERSION_LABEL = '0.1.0-beta.15'
 const WINDOWS_RELEASE_DATE = '2026-11-01'
-const WINDOWS_EXE_SHA256 = '7c2d8e87fee79f922d96d69a0d5a5fd29e157a74e8c0de1ba126b3c5e98cc3ea'
-const WINDOWS_EXE_SIZE_MB = '~564'
+const WINDOWS_EXE_SHA256 = 'c645cfd2db6689c0446cc452d5ac1a104c79e0df61552dfda499b91560fe37d1'
+const WINDOWS_EXE_SIZE_MB = '~587'
 const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-x64.exe`
 
 // Dark theme per prototypes/figma-make design language.

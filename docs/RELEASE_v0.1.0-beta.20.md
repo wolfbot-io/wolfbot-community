@@ -8,7 +8,7 @@ WolfBot Community v0.1.0-beta.20 is the latest public release of the free, self-
 |---|---|---|---|
 | 🐧 Linux — Debian / Ubuntu (`.deb`) | `WolfBot-Setup-linux-amd64.deb` | ~86 MB | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-linux-amd64.deb)** |
 | 🐧 Linux — any distro (`.run`, self-extracting) | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | ~113 MB | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-linux-amd64.run)** |
-| 🪟 Windows — 64-bit installer (`.exe`, unchanged from v0.1.0-beta.15) | `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` | ~564 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-0.1.0-beta.15-windows-x64.exe)** |
+| 🪟 Windows — 64-bit installer (`.exe`, unchanged from v0.1.0-beta.15) | `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` | ~587 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-0.1.0-beta.15-windows-x64.exe)** |
 
 Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the `SHA256SUMS` asset attached to this release.
 
