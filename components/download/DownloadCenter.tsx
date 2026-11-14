@@ -33,7 +33,7 @@ const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/
 const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.20'
 const WINDOWS_VERSION_LABEL = '0.1.0-beta.20'
 const WINDOWS_RELEASE_DATE = '2026-11-14'
-const WINDOWS_EXE_SHA256 = 'dde6f124aca03c9a2b16865a531647c90c4e5f9a7686397d4fea9d81f2de2988'
+const WINDOWS_EXE_SHA256 = 'dafe8822fb41fac4156b34dfde24f08709f7bb7145275e5243084201ee5ce092'
 const WINDOWS_EXE_SIZE_MB = '~87'
 const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-amd64.exe`
 

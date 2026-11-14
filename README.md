@@ -71,7 +71,7 @@ Downloads:
 | `WolfBot-Setup-linux-amd64.deb` | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
 | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
 
-Windows: new Docker-edition installer `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` (attached to this release; public beta, not code-signed yet; SHA256 `dde6f124aca03c9a2b16865a531647c90c4e5f9a7686397d4fea9d81f2de2988`). Uninstall the older Windows "Native" build first.
+Windows: new Docker-edition installer `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` (attached to this release; public beta, not code-signed yet; SHA256 `dafe8822fb41fac4156b34dfde24f08709f7bb7145275e5243084201ee5ce092`). Uninstall the older Windows "Native" build first.
 
 Read the full release notes: **[v0.1.0-beta.20](https://community.wolfbot.io/releases/0.1.0-beta.20)**.
 
