@@ -22,6 +22,8 @@ lang: "zh"
 translation_of: "install/windows"
 ---
 
+> **提示：** 本页介绍的是较早的 Windows“Native”版本，内容可能已过时。当前的 Windows 安装程序（Docker/WSL2 版本，公开测试版，尚未进行代码签名）请参阅[英文指南](/install/windows)。请仅从官方[下载页面](/download)获取文件。
+
 # 在 Windows 上安装 WolfBot Community
 
 **已在 WolfBot Community v0.1.0-beta.10 上测试** · 最后更新: 2026-08-15 · Windows 11 / Windows 10

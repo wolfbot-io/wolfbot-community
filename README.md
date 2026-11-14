@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/releases-signed-0e8a16" alt="Signed Releases" />
   <img src="https://img.shields.io/badge/checksums-SHA256%20published-0e8a16" alt="SHA256 published" />
   <img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux" alt="Linux" />
-  <img src="https://img.shields.io/badge/platform-Windows%20(initial%20build)-FCC624?logo=windows" alt="Windows (initial build)" />
+  <img src="https://img.shields.io/badge/platform-Windows%20(public%20beta)-FCC624?logo=windows" alt="Windows (public beta)" />
   <img src="https://img.shields.io/badge/markets-Crypto%20%2B%20Futures%20%2B%20MT5-orange" alt="Markets" />
   <a href="https://community.wolfbot.io/tools/live-translate"><img src="https://img.shields.io/badge/AI-Live%20Translate%20(52%20languages)-7C3AED" alt="Live Translate — real-time AI translation, 52 languages" /></a>
   <img src="https://img.shields.io/badge/AI-MCP%20Agent%20Interface-3B82F6" alt="MCP AI Agent interface — policy-controlled agent trading" />
@@ -71,7 +71,7 @@ Downloads:
 | `WolfBot-Setup-linux-amd64.deb` | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
 | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
 
-Windows: no new build this release — use `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` (attached to this release; SHA256 `c645cfd2db6689c0446cc452d5ac1a104c79e0df61552dfda499b91560fe37d1`).
+Windows: new Docker-edition installer `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` (attached to this release; public beta, not code-signed yet; SHA256 `dde6f124aca03c9a2b16865a531647c90c4e5f9a7686397d4fea9d81f2de2988`). Uninstall the older Windows "Native" build first.
 
 Read the full release notes: **[v0.1.0-beta.20](https://community.wolfbot.io/releases/0.1.0-beta.20)**.
 
@@ -187,11 +187,12 @@ This is an advanced, opt-in capability (`WOLFBOT_MCP_ENABLED`) aimed at users co
 
 ## Install in Minutes
 
-### Windows (initial build — see known issue below)
+### Windows (public beta, not yet code-signed)
 ```powershell
-# 1. Download Setup.exe from community.wolfbot.io/download
-# 2. Double-click → "More info" → "Run anyway" (SmartScreen; not yet code-signed) → Install → Open WolfBot
+# 1. Download WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe from community.wolfbot.io/download
+# 2. Double-click → "More info" → "Run anyway" (SmartScreen) → Install (first run ~30–60 min, mostly downloading) → Open WolfBot
 # 3. Connect a Demo account first — real market data, zero risk, no real funds
+# If your PC cannot run it (e.g. virtualization off/blocked) setup installs the older "Native" edition automatically.
 ```
 
 ### Linux (Ubuntu/Debian)
@@ -237,7 +238,7 @@ wolfbot                        # opens the local setup wizard
 | **Indices** | ✅ Stable | US30, NAS100, S&P 500, etc. |
 | **Stocks/CFDs** | ✅ Stable | Broker-dependent |
 
-> MT5 works on both platforms: natively on Windows, or via WolfBot's built-in MT5 terminal container (browser VNC access) on Linux — no separate Windows machine needed. See the [MT5 connect guide](https://community.wolfbot.io/brokers/mt5) for both paths.
+> MT5 works on both platforms through WolfBot's built-in MT5 terminal container (browser VNC access) — no separate Windows machine needed. On Windows the terminal container installs and starts in testing; signing in with a real MT5 account has not been verified on Windows yet (the older Native fallback edition runs MT5 natively). See the [MT5 connect guide](https://community.wolfbot.io/brokers/mt5) for both paths.
 
 ---
 

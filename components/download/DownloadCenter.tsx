@@ -27,15 +27,15 @@ const LINUX_DEB_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/
 // Naming convention changed starting v0.1.0-beta.12: WolfBot-Setup-<version>-linux-amd64.run
 // (unified with the Windows installer's own naming; was wolfbot-oneclick-<version>.run before).
 const LINUX_RUN_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${RELEASE_TAG}/WolfBot-Setup-${RELEASE_VERSION_LABEL}-linux-amd64.run`
-// Windows ships on its own track: the Windows installer is v0.1.0-beta.15
-// (attached to that GitHub release) while Linux is on RELEASE_TAG above.
-// Never point /releases/latest at this -- it stays the Linux track.
-const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.15'
-const WINDOWS_VERSION_LABEL = '0.1.0-beta.15'
-const WINDOWS_RELEASE_DATE = '2026-11-01'
-const WINDOWS_EXE_SHA256 = 'c645cfd2db6689c0446cc452d5ac1a104c79e0df61552dfda499b91560fe37d1'
-const WINDOWS_EXE_SIZE_MB = '~587'
-const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-x64.exe`
+// Windows is the Docker/WSL2 edition: one installer that runs the same signed Linux
+// components inside a private environment (docs/plans/WOLFBOT_WINDOWS_DOCKER_IMAGE_BASED_BUILD_PLAN.md).
+// It is attached to the same GitHub release as the Linux installer.
+const WINDOWS_RELEASE_TAG = 'v0.1.0-beta.20'
+const WINDOWS_VERSION_LABEL = '0.1.0-beta.20'
+const WINDOWS_RELEASE_DATE = '2026-11-14'
+const WINDOWS_EXE_SHA256 = 'dde6f124aca03c9a2b16865a531647c90c4e5f9a7686397d4fea9d81f2de2988'
+const WINDOWS_EXE_SIZE_MB = '~87'
+const WINDOWS_EXE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/download/${WINDOWS_RELEASE_TAG}/WolfBot-Setup-${WINDOWS_VERSION_LABEL}-windows-amd64.exe`
 
 // Dark theme per prototypes/figma-make design language.
 export function DownloadCenter() {
@@ -62,14 +62,14 @@ export function DownloadCenter() {
             Download .exe ({WINDOWS_EXE_SIZE_MB} MB)
           </TrackedLink>
           <div className="mt-4 space-y-1 text-xs" style={{ color: '#94A3B8' }}>
-            <p>Windows installer v{WINDOWS_VERSION_LABEL} (Linux is on v{RELEASE_VERSION_LABEL})</p>
+            <p>Windows installer v{WINDOWS_VERSION_LABEL} (same WolfBot version as Linux)</p>
             <p>Released: {WINDOWS_RELEASE_DATE}</p>
             <p className="break-all">SHA256: {WINDOWS_EXE_SHA256}</p>
           </div>
           <div className="mt-3 rounded-lg border p-3 text-xs space-y-1" style={{ borderColor: 'rgba(245,158,11,0.3)', background: 'rgba(245,158,11,0.06)', color: '#FCD34D' }}>
             <p className="font-semibold">Not code-signed</p>
             <p style={{ color: '#94A3B8' }}>This build is not yet code-signed, so Windows SmartScreen will show an unrecognized-publisher warning. Compare the SHA256 above with your download, then choose "More info" → "Run anyway" to continue.</p>
-            <p style={{ color: '#94A3B8' }}>Windows is released on its own track and may lag the Linux release; updates are announced in the release notes.</p>
+            <p style={{ color: '#94A3B8' }}>Setup installs everything itself (about 30–60 minutes the first time, mostly downloading). WolfBot only trades while your PC is on and awake — read the sleep note on the install page. An older Windows "Native" WolfBot must be uninstalled first. If your PC cannot run this edition (for example virtualization is off or blocked), setup installs the older Native edition for you automatically — do not download that file yourself.</p>
           </div>
         </div>
         <div className="rounded-xl p-8 border" style={{ background: 'rgba(0,201,232,0.06)', borderColor: 'rgba(0,201,232,0.28)' }}>
@@ -137,9 +137,9 @@ export function DownloadCenter() {
           <div className="rounded-xl border p-5" style={{ background: '#0F172A', borderColor: 'rgba(255,255,255,0.07)' }}>
             <h3 className="text-sm font-semibold text-white mb-2">Windows (available now, public preview)</h3>
             <ul className="space-y-1 text-sm" style={{ color: '#94A3B8' }}>
-              <li>• Windows 10/11, 64-bit (x86-64)</li>
-              <li>• At least 4 GB RAM and 4 GB free disk</li>
-              <li>• Docker Desktop is only required for the optional MT5 and Translator features</li>
+              <li>• Windows 11 (tested) or Windows 10 22H2+, 64-bit; virtualization enabled in BIOS</li>
+              <li>• At least 8 GB RAM and 50 GB free disk (this beta downloads all translation tiers)</li>
+              <li>• Docker, WSL and Ollama are set up for you inside a private environment</li>
               <li>• Not yet code-signed — Windows SmartScreen shows a warning, choose "Run anyway"</li>
               <li>• Join the <a href="https://github.com/wolfbot-io/wolfbot-community/discussions" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#00C9E8' }}>GitHub Discussions</a> for updates</li>
             </ul>

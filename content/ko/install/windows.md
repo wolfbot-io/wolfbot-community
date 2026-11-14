@@ -15,6 +15,8 @@ lang: "ko"
 translation_of: "install/windows"
 ---
 
+> **안내:** 이 페이지는 이전 Windows "Native" 에디션을 설명하며 최신 내용이 아닐 수 있습니다. 현재 Windows 설치 프로그램(Docker/WSL2 에디션, 공개 베타, 아직 코드 서명 없음)은 [영어 가이드](/install/windows)를 참고하세요. 파일은 공식 [다운로드 페이지](/download)에서만 받으세요.
+
 # Windows에 WolfBot Community 설치
 
 **WolfBot Community v0.1.0-beta.10에서 테스트됨** · 마지막 업데이트: 2026-08-15

@@ -21,7 +21,7 @@ sitemap_priority: 0.60
 | Website (community.wolfbot.io) | 🟢 Trực tuyến | Next.js 14, Cloudflare Pages |
 | Kho GitHub | 🟢 Hoạt động | github.com/wolfbot-io/wolfbot-community |
 | Bộ cài Linux | 🟢 Ổn định | Ubuntu 22.04+, Debian 12, .deb, v0.1.0-beta.20 |
-| Bộ cài Windows | 🟡 Khả dụng (v0.1.0-beta.15) | `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe`; chưa ký code nên Windows SmartScreen hiện cảnh báo nhà phát hành không xác định |
+| Bộ cài Windows | 🟡 Beta công khai (v0.1.0-beta.20, bản Docker) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe`; chưa ký code nên Windows SmartScreen hiện cảnh báo nhà phát hành không xác định; mới thử trên Windows 11, chưa thử trên máy sạch và Windows 10 |
 | MT5 Bridge (Linux) | 🟢 Ổn định | Container terminal tích hợp, truy cập VNC qua trình duyệt |
 
 ## Thị trường được hỗ trợ
@@ -43,7 +43,7 @@ sitemap_priority: 0.60
 | Chỉ số | 🟢 Ổn định | US30, NAS100, S&P 500 |
 | Cổ phiếu/CFD | 🟢 Ổn định | Tùy broker |
 
-> MT5 bridge khả dụng trên **cả Windows và Linux** — chạy native trên Windows, hoặc qua container terminal MT5 tích hợp của WolfBot (truy cập VNC qua trình duyệt) trên Linux.
+> MT5 bridge khả dụng trên **cả Windows và Linux** qua container terminal MT5 tích hợp của WolfBot (truy cập VNC qua trình duyệt). Trên Windows, container cài và khởi động được trong lúc kiểm thử; đăng nhập bằng tài khoản MT5 thật chưa được kiểm chứng trên Windows (bản Native dự phòng cũ chạy MT5 native).
 
 ## Tính năng
 
@@ -64,7 +64,7 @@ sitemap_priority: 0.60
 - **Kênh:** phát hành công khai
 - **Ngày phát hành:** 2026-11-10
 - **Ghi chú phát hành:** [v0.1.0-beta.20](/vi/releases/0.1.0-beta.20)
-- **Windows:** v0.1.0-beta.15 là trình cài Windows hiện hành (cũng đính kèm trong v0.1.0-beta.20) — xem [ghi chú phát hành v0.1.0-beta.15](/vi/releases/0.1.0-beta.15)
+- **Windows:** v0.1.0-beta.20 có trình cài bản Docker (cùng WolfBot với Linux) — xem [ghi chú phát hành v0.1.0-beta.20](/vi/releases/0.1.0-beta.20) và [hướng dẫn cài trên Windows](/vi/install/windows)
 
 ## Vấn đề đã biết
 

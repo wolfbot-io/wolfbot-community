@@ -22,6 +22,8 @@ lang: "hi"
 translation_of: "install/windows"
 ---
 
+> **सूचना:** यह पृष्ठ पुराने Windows "Native" संस्करण का वर्णन करता है और अद्यतन न हो सकता है। वर्तमान Windows इंस्टॉलर (Docker/WSL2 संस्करण, सार्वजनिक बीटा, अभी कोड-साइन नहीं) का वर्णन [अंग्रेज़ी गाइड](/install/windows) में है। फ़ाइलें केवल आधिकारिक [डाउनलोड पृष्ठ](/download) से ही डाउनलोड करें।
+
 # Windows पर WolfBot Community इंस्टॉल करें
 
 **टेस्ट किया गया संस्करण: WolfBot Community v0.1.0-beta.10** · आखिरी अपडेट: 2026-08-15 · Windows 11 / Windows 10

@@ -22,6 +22,8 @@ lang: "ru"
 translation_of: "install/windows"
 ---
 
+> **Внимание:** эта страница описывает более старую «Native»-версию для Windows и может быть неактуальной. Актуальный установщик для Windows (Docker/WSL2, публичная бета, пока без цифровой подписи) описан в [английском руководстве](/install/windows). Скачивайте файлы только со [страницы загрузки](/download).
+
 # Установка WolfBot Community на Windows
 
 **Протестировано с WolfBot Community v0.1.0-beta.10** · Последнее обновление: 2026-08-15 · Windows 11 / Windows 10

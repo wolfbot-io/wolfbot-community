@@ -19,7 +19,7 @@ sitemap_priority: 0.60
 | Website (community.wolfbot.io) | 🟢 Online | Next.js 14, Cloudflare Pages |
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
 | Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run`, v0.1.0-beta.20 |
-| Windows Installer | 🟡 Available (v0.1.0-beta.15) | `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe`; not yet code-signed, so Windows SmartScreen shows an unrecognized-publisher warning |
+| Windows Installer | 🟡 Public beta (v0.1.0-beta.20, Docker edition) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe`; not yet code-signed, so Windows SmartScreen shows an unrecognized-publisher warning; tested on Windows 11 only, clean-PC and Windows 10 testing pending |
 | MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
 ## Supported Markets
@@ -41,7 +41,7 @@ sitemap_priority: 0.60
 | Indices | 🟢 Stable | US30, NAS100, S&P 500 |
 | Stocks/CFDs | 🟢 Stable | Broker-dependent |
 
-> MT5 bridge available on **both Windows and Linux** — natively on Windows, or via WolfBot's built-in MT5 terminal container (browser VNC access) on Linux.
+> MT5 bridge available on **both Windows and Linux** through WolfBot's built-in MT5 terminal container (browser VNC access). On Windows the container installs and starts in testing; signing in with a real MT5 account is not yet verified on Windows (the older Native fallback edition runs MT5 natively).
 
 ## Features
 
@@ -62,7 +62,7 @@ sitemap_priority: 0.60
 - **Channel:** Public release
 - **Release Date:** 2026-11-10
 - **Release notes:** [v0.1.0-beta.20](/releases/0.1.0-beta.20)
-- **Windows:** v0.1.0-beta.15 is the current Windows installer (also attached to v0.1.0-beta.20) — see [v0.1.0-beta.15 release notes](/releases/0.1.0-beta.15)
+- **Windows:** v0.1.0-beta.20 introduces the Docker edition installer (same WolfBot as Linux) — see the [v0.1.0-beta.20 release notes](/releases/0.1.0-beta.20) and the [Windows install guide](/install/windows)
 
 ## Known Issues
 

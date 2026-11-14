@@ -22,6 +22,8 @@ lang: "pt-BR"
 translation_of: "install/windows"
 ---
 
+> **Aviso:** esta página descreve a edição "Native" mais antiga do Windows e pode estar desatualizada. O instalador atual do Windows (edição Docker/WSL2, beta público, ainda sem assinatura de código) está descrito no [guia em inglês](/install/windows). Baixe os arquivos somente na [página oficial de download](/download).
+
 # Instalar o WolfBot Community no Windows
 
 **Testado com WolfBot Community v0.1.0-beta.10** · Última atualização: 2026-08-15 · Windows 11 / Windows 10

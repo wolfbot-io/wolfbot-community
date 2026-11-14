@@ -8,7 +8,7 @@ WolfBot Community v0.1.0-beta.20 is the latest public release of the free, self-
 |---|---|---|---|
 | 🐧 Linux — Debian / Ubuntu (`.deb`) | `WolfBot-Setup-linux-amd64.deb` | ~86 MB | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-linux-amd64.deb)** |
 | 🐧 Linux — any distro (`.run`, self-extracting) | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | ~113 MB | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-linux-amd64.run)** |
-| 🪟 Windows — 64-bit installer (`.exe`, unchanged from v0.1.0-beta.15) | `WolfBot-Setup-0.1.0-beta.15-windows-x64.exe` | ~587 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.15/WolfBot-Setup-0.1.0-beta.15-windows-x64.exe)** |
+| 🪟 Windows — 64-bit installer (`.exe`, new Docker edition; not code-signed — SmartScreen will warn) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` | ~87 MB | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe)** |
 
 Not sure which Linux file to pick? Use `.deb` on Ubuntu/Debian for a normal `apt`-managed install, or `.run` on any other Linux distro. SHA256 checksums are in the [Verify before installing](#verify-before-installing) section below and in the `SHA256SUMS` asset attached to this release.
 
@@ -77,7 +77,7 @@ Use v0.1.0-beta.20 if you want to:
 - run Bitget UTA accounts with realized-PnL reporting;
 - connect crypto/futures accounts and MT5 from one dashboard.
 
-Already running v0.1.0-beta.18 or earlier on Linux? Install the new `.deb` or `.run` over your existing install — no need to uninstall first, and your data/config stay in place. On Windows there is nothing new to install this release; keep your current v0.1.0-beta.15 installer.
+Already running v0.1.0-beta.18 or earlier on Linux? Install the new `.deb` or `.run` over your existing install — no need to uninstall first, and your data/config stay in place. On Windows this release introduces a new installer (the Docker edition, same WolfBot as Linux). It cannot run next to the older Windows "Native" build (v0.1.0-beta.15): uninstall that one first. There is no automatic data transfer from the Native build yet.
 
 ## Install
 
@@ -154,4 +154,4 @@ WolfBot Community is designed to be self-hosted and non-custodial:
 - Telegram: https://t.me/wolfbot_community
 - Issues: https://github.com/wolfbot-io/wolfbot-community/issues
 
-WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers; the existing v0.1.0-beta.15 Windows build remains the current Windows option.
+WolfBot Community remains a Windows & Linux self-hosted trading platform. This release ships signed Linux installers and a new Windows installer (Docker edition, public beta, not code-signed yet) that replaces the v0.1.0-beta.15 Windows build.
