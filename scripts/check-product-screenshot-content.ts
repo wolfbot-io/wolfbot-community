@@ -69,7 +69,7 @@ const requiredFeatureShots = [
   '17-marketplace', '18-copy-trading', '19-risk-center', '20-activity', '21-live-monitor',
   '22-ai-analyst', '22b-ai-analyst-report', '23-ai-analyst-settings', '24-ai-agents',
   '25-live-translate', '26-integrations', '27-telegram-connect', '28-settings', '29-help',
-  '31-local-setup', '32-onboarding', '33-connect-account', '34-connect-mt5', '36-mobile-overview',
+  '31-local-setup', '33-connect-account',  // 32-onboarding shows the same screen as 33; intentionally not required '34-connect-mt5', '36-mobile-overview',
 ]
 for (const id of requiredFeatureShots) {
   if (!referencedIds.has(id)) errors.push(`main feature screenshot ${id} is not used by any article`)

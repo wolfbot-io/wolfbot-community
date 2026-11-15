@@ -22,7 +22,7 @@ sitemap_priority: 0.9
 
 WolfBot Community is a unified trading platform — one interface for crypto exchanges and MT5 brokers. Installing it doesn't create any exchange account or place any trade — nothing is connected until you add one. Follow these steps in order.
 
-![WolfBot Community onboarding screen for a new local installation](/images/product/0.1.0-beta.20/en/32-onboarding.webp "Onboarding introduces the local workspace before any broker is connected.")
+![WolfBot Community home page: Trade Every Market. From One Platform.](/images/product/0.1.0-beta.20/en/01-home.webp "The Community home page introduces one workspace for crypto exchanges and MT5 brokers.")
 
 > **One Platform. Every Market.** — Crypto + Futures + MT5, unified by WolfBot.
 
@@ -30,7 +30,7 @@ WolfBot Community is a unified trading platform — one interface for crypto exc
 
 ![WolfBot Community local setup and capability check](/images/product/0.1.0-beta.20/en/31-local-setup.webp "Local setup verifies the installation before account connection.")
 
-Launch WolfBot Community. You'll land on the **Capability Status** page — it shows which brokers and features are available on your install, and confirms nothing is connected yet.
+Launch WolfBot Community. The local setup screen checks that your install is ready: it reports the current mode (simulation), market-data and protection status, and it never saves keys, turns on live trading or places orders. Practice mode is available from the start; live trading stays off until you connect an account and complete the readiness steps.
 
 ## Step 2: Explore the Dashboard
 
@@ -42,7 +42,7 @@ Launch WolfBot Community. You'll land on the **Capability Status** page — it s
 | **Risk Controls** | Position limits, drawdown guards |
 | **Exchange Accounts** | Broker connections and API keys |
 
-![WolfBot Community dashboard overview showing the unified portfolio, connected accounts and quick links to Portfolio, Bots, Terminal and Risk](/screenshots/wolfbot-community-dashboard.webp)
+![WolfBot Community Overview with Demo and Live accounts shown separately](/images/product/0.1.0-beta.20/en/02-overview-demo.webp "The Overview keeps Demo and Live accounts visibly separate, with the main areas one click away in the sidebar.")
 
 ## Step 3: Connect a Demo Account — Zero Risk
 

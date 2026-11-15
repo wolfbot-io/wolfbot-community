@@ -24,7 +24,7 @@ sitemap_priority: 0.9
 
 WolfBot Community là một nền tảng giao dịch thống nhất — một giao diện cho các sàn crypto và broker MT5. Việc cài đặt nó không tạo bất kỳ tài khoản sàn nào hay đặt bất kỳ lệnh nào — không có gì được kết nối cho đến khi bạn thêm một tài khoản. Hãy làm theo các bước này theo thứ tự.
 
-![Màn hình onboarding WolfBot Community cho bản cài local mới](/images/product/0.1.0-beta.20/vi/32-onboarding.webp "Onboarding giới thiệu workspace local trước khi kết nối broker.")
+![Trang chủ WolfBot Community: Trade Every Market. From One Platform.](/images/product/0.1.0-beta.20/vi/01-home.webp "Trang chủ Community giới thiệu một workspace cho sàn crypto và broker MT5.")
 
 > **One Platform. Every Market.** — Crypto + Futures + MT5, thống nhất bởi WolfBot.
 
@@ -32,7 +32,7 @@ WolfBot Community là một nền tảng giao dịch thống nhất — một gi
 
 ![Thiết lập local và kiểm tra khả năng của WolfBot Community](/images/product/0.1.0-beta.20/vi/31-local-setup.webp "Local setup xác nhận bản cài trước khi kết nối account.")
 
-Khởi chạy WolfBot Community. Bạn sẽ đến trang **Capability Status** — nó cho thấy những broker và tính năng nào khả dụng trên bản cài của bạn, và xác nhận chưa có gì được kết nối.
+Khởi chạy WolfBot Community. Màn hình thiết lập local kiểm tra bản cài đã sẵn sàng chưa: hiển thị chế độ hiện tại (mô phỏng), trạng thái dữ liệu thị trường và bảo vệ, và không bao giờ lưu khóa, bật giao dịch thật hay đặt lệnh. Chế độ thực hành dùng được ngay từ đầu; giao dịch thật vẫn tắt cho đến khi bạn kết nối tài khoản và hoàn tất các bước kiểm tra sẵn sàng.
 
 ## Bước 2: Khám phá Dashboard
 
@@ -44,7 +44,7 @@ Khởi chạy WolfBot Community. Bạn sẽ đến trang **Capability Status** �
 | **Risk Controls** | Giới hạn vị thế, bảo vệ drawdown |
 | **Exchange Accounts** | Kết nối broker và API key |
 
-![Tổng quan dashboard WolfBot Community hiển thị danh mục thống nhất, các tài khoản đã kết nối và liên kết nhanh tới Portfolio, Bots, Terminal và Risk](/screenshots/wolfbot-community-dashboard.webp)
+![Màn hình Tổng quan WolfBot Community với tài khoản Demo và Live tách riêng](/images/product/0.1.0-beta.20/vi/02-overview-demo.webp "Tổng quan tách rõ tài khoản Demo và Live, các khu vực chính nằm ngay trên thanh bên.")
 
 ## Bước 3: Kết nối tài khoản Demo — Không rủi ro
 
