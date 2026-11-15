@@ -66,12 +66,13 @@ Highlights:
 
 Downloads:
 
-| File | SHA256 |
-|---|---|
-| `WolfBot-Setup-linux-amd64.deb` | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
-| `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
+| Platform | File | Download | SHA256 |
+|---|---|---|---|
+| 🐧 Linux — Debian / Ubuntu | `WolfBot-Setup-linux-amd64.deb` | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-linux-amd64.deb)** | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
+| 🐧 Linux — any distro | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-linux-amd64.run)** | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
+| 🪟 Windows 64-bit (Docker edition) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe)** | `dafe8822fb41fac4156b34dfde24f08709f7bb7145275e5243084201ee5ce092` |
 
-Windows: new Docker-edition installer `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` (attached to this release; public beta, not code-signed yet; SHA256 `dafe8822fb41fac4156b34dfde24f08709f7bb7145275e5243084201ee5ce092`). Uninstall the older Windows "Native" build first.
+Windows: public beta, not code-signed yet (SmartScreen will warn — compare the SHA256, then *More info → Run anyway*). Uninstall the older Windows "Native" build first.
 
 Read the full release notes: **[v0.1.0-beta.20](https://community.wolfbot.io/releases/0.1.0-beta.20)**.
 
