@@ -1,8 +1,8 @@
 ---
 title: "Cách đọc hiệu suất giao dịch một cách có trách nhiệm"
 description: "Một đường cong vốn đẹp mắt có thể che giấu survivorship bias, khung thời gian được chọn lọc, và drawdown không được báo cáo. Đây là cách đọc kết quả giao dịch mà không tự lừa mình."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-14"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
 difficulty: "beginner"
@@ -23,6 +23,8 @@ sitemap_priority: 0.75
 ---
 
 # Cách đọc hiệu suất giao dịch một cách có trách nhiệm
+
+![Portfolio Demo với lịch sử equity và position](/images/product/0.1.0-beta.20/vi/04b-portfolio-demo.webp "Đọc return cùng equity, timeframe, environment và context của position đang mở.")
 
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-14
 

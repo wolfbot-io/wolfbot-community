@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Troubleshooting — Common Problems & Solutions"
 description: "Fix common WolfBot Community issues. Installation errors, market connection problems, update failures, and error codes."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "intermediate"
@@ -14,7 +14,9 @@ sitemap_priority: 0.80
 
 # Troubleshooting Guide
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
+
+![WolfBot Community Help screen with support and diagnostic entry points](/images/product/0.1.0-beta.20/en/29-help.webp "Help provides a clear starting point before deeper log and service diagnosis.")
 
 ## Quick Diagnostic
 

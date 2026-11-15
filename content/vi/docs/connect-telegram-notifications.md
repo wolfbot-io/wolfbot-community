@@ -1,8 +1,8 @@
 ---
 title: "Cách kết nối Telegram với WolfBot Community — Hướng dẫn từng bước"
 description: "Tạo bot Telegram riêng bằng BotFather, lưu token an toàn trong WolfBot Community, liên kết cuộc trò chuyện và kiểm tra thông báo giao dịch."
-tested_version: "0.1.0-beta.11"
-last_updated: "2026-10-04"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "integrations"
 difficulty: "beginner"
@@ -19,6 +19,8 @@ sitemap_priority: 0.86
 # Kết nối thông báo Telegram với WolfBot Community
 
 WolfBot Community có thể gửi **thông báo ENTRY, trạng thái lệnh, chốt lời/cắt lỗ, trailing và cảnh báo an toàn** vào cuộc trò chuyện Telegram riêng. Bạn tự tạo và sở hữu bot Telegram; WolfBot lưu token của bot trong Vault cục bộ đã mã hóa và chỉ dùng token đó cho kết nối thông báo.
+
+![Màn hình kết nối Telegram với token và chat detail đã được bảo vệ](/images/product/0.1.0-beta.20/vi/27-telegram-connect.webp "Telegram setup giữ bot ownership, linking state và test workflow trong một màn hình.")
 
 Liên kết Telegram chỉ phục vụ thông báo. Thao tác này **không** cấp quyền giao dịch, không làm lộ API key của sàn, không bật chiến lược và không kích hoạt giao dịch live.
 

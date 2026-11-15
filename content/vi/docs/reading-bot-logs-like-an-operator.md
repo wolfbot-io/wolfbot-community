@@ -1,8 +1,8 @@
 ---
 title: "Đọc log bot như một người vận hành"
 description: "Log bot kể chuyện trước khi vấn đề trở nên nghiêm trọng. Học bốn mẫu log cần quét và cách xử lý từng loại."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-06"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "beginner"
@@ -23,6 +23,8 @@ sitemap_priority: 0.7
 ---
 
 # Đọc log bot như một người vận hành
+
+![Activity hiển thị timeline event vận hành](/images/product/0.1.0-beta.20/vi/20-activity.webp "Activity biến event của bot và integration thành timeline để operator điều tra.")
 
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-09-06
 

@@ -1,8 +1,8 @@
 ---
 title: "Khắc phục sự cố WolfBot Community — Vấn đề thường gặp & giải pháp"
 description: "Sửa các vấn đề thường gặp của WolfBot Community. Lỗi cài đặt, vấn đề kết nối thị trường, lỗi cập nhật, và mã lỗi."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "intermediate"
@@ -15,6 +15,8 @@ sitemap_priority: 0.80
 ---
 
 # Hướng dẫn khắc phục sự cố
+
+![Trang Help WolfBot Community với các điểm vào hỗ trợ và chẩn đoán](/images/product/0.1.0-beta.20/vi/29-help.webp "Help là điểm bắt đầu trước khi đi sâu vào log và service diagnosis.")
 
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-11
 

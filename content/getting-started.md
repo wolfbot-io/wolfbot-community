@@ -1,8 +1,8 @@
 ---
 title: "Getting Started with WolfBot Community"
 description: "First steps after installing WolfBot Community. Connect a Demo account, explore the Dashboard, and add your crypto exchanges or MT5 broker."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-12"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
 difficulty: "beginner"
@@ -16,15 +16,19 @@ sitemap_priority: 0.9
 
 # Getting Started with WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
 
 ## Welcome! 👋
 
 WolfBot Community is a unified trading platform — one interface for crypto exchanges and MT5 brokers. Installing it doesn't create any exchange account or place any trade — nothing is connected until you add one. Follow these steps in order.
 
+![WolfBot Community onboarding screen for a new local installation](/images/product/0.1.0-beta.20/en/32-onboarding.webp "Onboarding introduces the local workspace before any broker is connected.")
+
 > **One Platform. Every Market.** — Crypto + Futures + MT5, unified by WolfBot.
 
 ## Step 1: Open the Dashboard
+
+![WolfBot Community local setup and capability check](/images/product/0.1.0-beta.20/en/31-local-setup.webp "Local setup verifies the installation before account connection.")
 
 Launch WolfBot Community. You'll land on the **Capability Status** page — it shows which brokers and features are available on your install, and confirms nothing is connected yet.
 
@@ -41,6 +45,8 @@ Launch WolfBot Community. You'll land on the **Capability Status** page — it s
 ![WolfBot Community dashboard overview showing the unified portfolio, connected accounts and quick links to Portfolio, Bots, Terminal and Risk](/screenshots/wolfbot-community-dashboard.webp)
 
 ## Step 3: Connect a Demo Account — Zero Risk
+
+![WolfBot Community account connector showing available exchange paths](/images/product/0.1.0-beta.20/en/33-connect-account.webp "Choose an exchange or broker connection from one explicit setup screen.")
 
 WolfBot has no separate "Simulation mode" toggle. Instead, you connect a broker's own **Demo/testnet account** — real market data, virtual funds, the exact same interface and risk engine you'll use for live trading later.
 

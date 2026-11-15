@@ -1,8 +1,8 @@
 ---
 title: "Dịch Realtime Cuộc Họp & Livestream — Phá Rào Cản Ngôn Ngữ"
 description: "Dịch realtime miễn phí cho Teams, Google Meet, Zoom, YouTube, TikTok live: âm thanh trình duyệt được dịch ngay khi phát. Cục bộ, riêng tư, không tài khoản."
-tested_version: "0.1.0-beta.11"
-last_updated: "2026-09-27"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["linux"]
 category: "tools"
 difficulty: "beginner"
@@ -47,6 +47,8 @@ sitemap_priority: 0.85
 **Nghe hiểu bất kỳ ai. Đọc hiểu bất kỳ điều gì. Bằng chính ngôn ngữ của bạn.**
 
 Live Translate là công cụ dịch realtime (thời gian thực) miễn phí, chạy hoàn toàn cục bộ, được tích hợp thẳng vào WolfBot Community. Nó dịch giọng nói và văn bản theo thời gian thực — trên **52 ngôn ngữ** — hoàn toàn trên máy tính của chính bạn. Không cần tài khoản đám mây, không cần trả phí, giọng nói hay văn bản của bạn không bao giờ rời khỏi máy.
+
+![Giao diện Live Translate trong WolfBot Community](/images/product/0.1.0-beta.20/vi/25-live-translate.webp "Live Translate đưa speech, text và local translation workflow vào bản cài Community.")
 
 Đây cũng là công cụ đa nền tảng: cùng một công cụ dịch theo bạn vào Microsoft Teams, Google Meet, Zoom, YouTube, livestream, X và bất kỳ cuộc gọi hay livestream nào chạy trên trình duyệt — một công cụ dịch, mọi nền tảng, dịch trực tiếp ngay lập tức.
 

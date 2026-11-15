@@ -1,8 +1,8 @@
 ---
 title: "Realtime Translate for Meetings & Livestreams | WolfBot"
 description: "Free realtime translate for Teams, Google Meet, Zoom, YouTube and TikTok live: any browser audio, translated as it plays. Local, private, no account."
-tested_version: "0.1.0-beta.11"
-last_updated: "2026-09-27"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["linux"]
 category: "tools"
 difficulty: "beginner"
@@ -46,6 +46,8 @@ sitemap_priority: 0.85
 **Understand anyone. Read anything. In your language.**
 
 Live Translate is a free realtime translator — a local AI tool built directly into WolfBot Community. It translates speech and text in real time — across 52 languages — entirely on your own machine. No cloud account, no subscription, no audio or text ever leaves your computer.
+
+![WolfBot Community Live Translate interface](/images/product/0.1.0-beta.20/en/25-live-translate.webp "Live Translate brings speech, text and local translation workflows into the Community installation.")
 
 It's also platform-agnostic: the same tool follows you into Microsoft Teams, Google Meet, Zoom, YouTube, livestreams, X and any other browser-based call or stream — one translator, every platform, live.
 

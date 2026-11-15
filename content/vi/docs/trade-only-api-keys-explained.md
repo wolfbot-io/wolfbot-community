@@ -1,8 +1,8 @@
 ---
 title: "Giải thích API key chỉ cho phép giao dịch — Vì sao bot của bạn không bao giờ nên có thể rút tiền"
 description: "Thiết lập quan trọng nhất khi kết nối bất kỳ sàn nào với bot giao dịch: tắt quyền rút tiền. Đây là chính xác những gì một API key chỉ cho phép giao dịch có thể và không thể làm, và vì sao nó quan trọng."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-14"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "security"
 difficulty: "beginner"
@@ -22,6 +22,10 @@ sitemap_priority: 0.75
 ---
 
 # Giải thích API key chỉ cho phép giao dịch
+
+![Danh sách tài khoản đã kết nối trong WolfBot Community](/images/product/0.1.0-beta.20/vi/05-accounts.webp "Accounts giữ environment và connection state rõ ràng trong khi credential được bảo vệ.")
+
+![Chi tiết tài khoản và trading setting](/images/product/0.1.0-beta.20/vi/06-account-detail.webp "Account detail hiển thị permission và trading setting mà không lộ secret đã lưu.")
 
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-14
 

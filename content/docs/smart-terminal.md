@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Smart Terminal — Manual Trading Guide"
 description: "How to use the WolfBot Community Smart Terminal for manual trading. Place orders with automatic risk controls across all your connected crypto exchanges and MT5 brokers."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
 difficulty: "beginner"
@@ -16,11 +16,13 @@ sitemap_priority: 0.85
 
 # Smart Terminal Guide
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
 
 ## What is the Smart Terminal?
 
 The Smart Terminal is WolfBot Community's manual trading interface. Unlike a standard exchange trading UI, it automatically applies your risk settings — position limits, stop-losses, and take-profits — to every order you place. It works identically whether you're trading crypto on Binance, futures on Bybit, or gold via MT5.
+
+![WolfBot Community Smart Terminal with account, market and order controls](/images/product/0.1.0-beta.20/en/09-terminal.webp "The Smart Terminal keeps account context, market state and the order workflow in one risk-aware interface.")
 
 ## Key Concepts
 

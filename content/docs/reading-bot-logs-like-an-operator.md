@@ -1,8 +1,8 @@
 ---
 title: "Reading Bot Logs Like an Operator"
 description: "Bot logs tell you what happened before it ever becomes a problem. Learn the four log patterns to scan for and how to act on each one."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-09-06"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "troubleshooting"
 difficulty: "beginner"
@@ -22,7 +22,9 @@ sitemap_priority: 0.7
 
 # Reading Bot Logs Like an Operator
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-09-06
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
+
+![WolfBot Community Activity screen showing an operational event timeline](/images/product/0.1.0-beta.20/en/20-activity.webp "Activity turns bot and integration events into a timeline an operator can investigate.")
 
 ## Who this guide is for
 

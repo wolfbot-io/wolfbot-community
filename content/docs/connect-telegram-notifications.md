@@ -1,8 +1,8 @@
 ---
 title: "How to Connect Telegram to WolfBot Community — Step-by-Step"
 description: "Create a private Telegram bot with BotFather, save its token securely in WolfBot Community, link your chat, and test trading notifications."
-tested_version: "0.1.0-beta.11"
-last_updated: "2026-10-04"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "integrations"
 difficulty: "beginner"
@@ -17,6 +17,8 @@ sitemap_priority: 0.86
 # Connect Telegram Notifications to WolfBot Community
 
 WolfBot Community can send **ENTRY, order status, take-profit/stop-loss, trailing, and safety notifications** to a private Telegram chat. You create and own the Telegram bot; WolfBot stores its token in the encrypted local Vault and uses it only for the notification connection.
+
+![WolfBot Community Connect Telegram screen with token and chat details protected](/images/product/0.1.0-beta.20/en/27-telegram-connect.webp "Telegram setup keeps bot ownership, linking state and the test workflow in one screen.")
 
 Telegram linking is notification-only. It does **not** grant trading access, expose exchange API keys, enable a strategy, or turn on live trading.
 

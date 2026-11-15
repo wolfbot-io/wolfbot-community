@@ -1,8 +1,8 @@
 ---
 title: "Hướng dẫn cập nhật WolfBot Community — Tự cập nhật & kênh phát hành"
 description: "Cách cập nhật WolfBot Community hoạt động. Kênh Stable, Beta, và Dev Preview. Giữ nền tảng thống nhất của bạn luôn mới."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-12"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "updates"
 difficulty: "beginner"
@@ -22,6 +22,8 @@ sitemap_priority: 0.80
 ## Cách cập nhật hoạt động
 
 WolfBot Community phát hành theo kênh — bản phát hành nào bạn tải về quyết định bản build của bạn mới (và được kiểm thử) đến đâu.
+
+![Settings WolfBot Community với language và software update control](/images/product/0.1.0-beta.20/vi/28-settings.webp "Settings giữ installed version và update control hiển thị rõ cho operator local.")
 
 | Kênh | Mô tả | Tần suất cập nhật | Mức rủi ro |
 |---|---|---|---|

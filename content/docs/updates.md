@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Update Guide — Auto-Update & Channels"
 description: "How WolfBot Community updates work. Stable, Beta, and Dev Preview channels. Keep your unified platform current."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-12"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "updates"
 difficulty: "beginner"
@@ -15,11 +15,13 @@ sitemap_priority: 0.80
 
 # Update WolfBot Community
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-12
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
 
 ## How Updates Work
 
 WolfBot Community ships on channels — which release you download decides how fresh (and how tested) your build is.
+
+![WolfBot Community Settings with language and software update controls](/images/product/0.1.0-beta.20/en/28-settings.webp "Settings keeps the installed software and update controls visible to the local operator.")
 
 | Channel | Description | Update Frequency | Risk Level |
 |---|---|---|---|

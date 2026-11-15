@@ -1,8 +1,8 @@
 ---
 title: "Smart Terminal của WolfBot Community — Hướng dẫn giao dịch thủ công"
 description: "Cách dùng Smart Terminal của WolfBot Community để giao dịch thủ công. Đặt lệnh với kiểm soát rủi ro tự động trên tất cả sàn crypto và broker MT5 đã kết nối."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "smart-terminal"
 difficulty: "beginner"
@@ -21,6 +21,8 @@ sitemap_priority: 0.85
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-11
 
 ## Smart Terminal là gì?
+
+![Smart Terminal WolfBot Community với account, market và order control](/images/product/0.1.0-beta.20/vi/09-terminal.webp "Smart Terminal giữ account context, market state và order workflow trong một giao diện có risk control.")
 
 Smart Terminal là giao diện giao dịch thủ công của WolfBot Community. Khác với giao diện giao dịch sàn thông thường, nó tự động áp dụng thiết lập rủi ro của bạn — giới hạn vị thế, stop-loss, và take-profit — cho mọi lệnh bạn đặt. Nó hoạt động giống hệt dù bạn giao dịch crypto trên Binance, futures trên Bybit, hay vàng qua MT5.
 

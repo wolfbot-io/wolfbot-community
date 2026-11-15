@@ -1,8 +1,8 @@
 ---
 title: "Trade-Only API Keys Explained — Why Your Bot Should Never Be Able to Withdraw"
 description: "The single most important setting when connecting any exchange to a trading bot: disabling withdrawal permissions. Here's exactly what a trade-only API key can and can't do, and why it matters."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-14"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "security"
 difficulty: "beginner"
@@ -21,7 +21,11 @@ sitemap_priority: 0.75
 
 # Trade-Only API Keys Explained
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-14
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
+
+![WolfBot Community connected Accounts screen](/images/product/0.1.0-beta.20/en/05-accounts.webp "Accounts keeps environment and connection state visible while credentials remain protected.")
+
+![WolfBot Community account detail and trading settings](/images/product/0.1.0-beta.20/en/06-account-detail.webp "Account detail exposes permissions and trading settings without displaying stored secrets.")
 
 ## Who this guide is for
 

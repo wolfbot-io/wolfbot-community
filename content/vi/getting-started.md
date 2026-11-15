@@ -1,8 +1,8 @@
 ---
 title: "Bắt đầu với WolfBot Community"
 description: "Các bước đầu tiên sau khi cài WolfBot Community. Kết nối tài khoản Demo, khám phá Dashboard, và thêm các sàn crypto hoặc broker MT5 của bạn."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-12"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "getting-started"
 difficulty: "beginner"
@@ -24,9 +24,13 @@ sitemap_priority: 0.9
 
 WolfBot Community là một nền tảng giao dịch thống nhất — một giao diện cho các sàn crypto và broker MT5. Việc cài đặt nó không tạo bất kỳ tài khoản sàn nào hay đặt bất kỳ lệnh nào — không có gì được kết nối cho đến khi bạn thêm một tài khoản. Hãy làm theo các bước này theo thứ tự.
 
+![Màn hình onboarding WolfBot Community cho bản cài local mới](/images/product/0.1.0-beta.20/vi/32-onboarding.webp "Onboarding giới thiệu workspace local trước khi kết nối broker.")
+
 > **One Platform. Every Market.** — Crypto + Futures + MT5, thống nhất bởi WolfBot.
 
 ## Bước 1: Mở Dashboard
+
+![Thiết lập local và kiểm tra khả năng của WolfBot Community](/images/product/0.1.0-beta.20/vi/31-local-setup.webp "Local setup xác nhận bản cài trước khi kết nối account.")
 
 Khởi chạy WolfBot Community. Bạn sẽ đến trang **Capability Status** — nó cho thấy những broker và tính năng nào khả dụng trên bản cài của bạn, và xác nhận chưa có gì được kết nối.
 
@@ -43,6 +47,8 @@ Khởi chạy WolfBot Community. Bạn sẽ đến trang **Capability Status** �
 ![Tổng quan dashboard WolfBot Community hiển thị danh mục thống nhất, các tài khoản đã kết nối và liên kết nhanh tới Portfolio, Bots, Terminal và Risk](/screenshots/wolfbot-community-dashboard.webp)
 
 ## Bước 3: Kết nối tài khoản Demo — Không rủi ro
+
+![Màn hình chọn sàn hoặc broker để kết nối](/images/product/0.1.0-beta.20/vi/33-connect-account.webp "Chọn đường kết nối exchange hoặc broker từ một màn hình rõ ràng.")
 
 WolfBot không có nút "Simulation mode" riêng. Thay vào đó, bạn kết nối tài khoản **Demo/testnet** của chính broker — dữ liệu thị trường thật, tiền ảo, cùng đúng giao diện và bộ máy rủi ro mà sau này bạn sẽ dùng cho giao dịch live.
 

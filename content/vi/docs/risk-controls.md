@@ -1,8 +1,8 @@
 ---
 title: "Kiểm soát rủi ro WolfBot Community — Hướng dẫn đầy đủ"
 description: "Cấu hình kiểm soát rủi ro thống nhất trong WolfBot Community — giới hạn vị thế, bảo vệ drawdown, cooldown, và giới hạn lệnh hàng ngày áp dụng trên tất cả sàn crypto và broker MT5 đã kết nối."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
 difficulty: "intermediate"
@@ -21,6 +21,8 @@ sitemap_priority: 0.85
 **Đã kiểm thử với WolfBot Community v0.1.0-beta.10** · Cập nhật lần cuối: 2026-08-11
 
 ## Vì sao kiểm soát rủi ro quan trọng
+
+![Risk Center WolfBot Community với safeguard cấp portfolio](/images/product/0.1.0-beta.20/vi/19-risk-center.webp "Risk Center tập trung limit và safeguard áp dụng cho các account đã kết nối.")
 
 Kiểm soát rủi ro hoạt động như một tấm lưới an toàn trên toàn bộ môi trường giao dịch của bạn — chúng ngăn giao dịch quá mức, giới hạn thua lỗ, và bảo vệ tài khoản của bạn dù bạn giao dịch crypto trên Binance, futures trên Bybit, hay vàng qua MT5. Cùng các quy tắc rủi ro áp dụng nhất quán dù bạn giao dịch thị trường nào.
 

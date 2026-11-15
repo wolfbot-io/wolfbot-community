@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Risk Controls — Complete Guide"
 description: "Configure unified risk controls in WolfBot Community — position limits, drawdown guards, cooldowns, and daily trade limits that apply across all your connected crypto exchanges and MT5 brokers."
-tested_version: "0.1.0-beta.10"
-last_updated: "2026-08-11"
+tested_version: "0.1.0-beta.20"
+last_updated: "2026-11-15"
 platforms: ["windows", "linux"]
 category: "risk-controls"
 difficulty: "intermediate"
@@ -16,9 +16,11 @@ sitemap_priority: 0.85
 
 # Risk Controls Guide
 
-**Tested with WolfBot Community v0.1.0-beta.10** · Last updated: 2026-08-11
+**Tested with WolfBot Community v0.1.0-beta.20** · Last updated: 2026-11-15
 
 ## Why Risk Controls Matter
+
+![WolfBot Community Risk Center with portfolio-level safeguards](/images/product/0.1.0-beta.20/en/19-risk-center.webp "Risk Center centralizes the limits and safeguards that govern connected accounts.")
 
 Risk controls act as a safety net across your entire trading environment — they prevent over-trading, limit losses, and protect your account whether you're trading crypto on Binance, futures on Bybit, or gold via MT5. The same risk rules apply consistently no matter which market you're trading.
 

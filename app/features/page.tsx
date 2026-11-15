@@ -24,6 +24,7 @@ const FEATURES: { icon: string; title: string; desc: string; href?: string }[] =
     icon: '🖥️',
     title: 'One Interface',
     desc: 'Accounts, positions and orders across every connected market show up in a single dashboard, not one screen per broker.',
+    href: '/docs/community-dashboard-and-portfolio',
   },
   {
     icon: '🎯',
@@ -41,11 +42,37 @@ const FEATURES: { icon: string; title: string; desc: string; href?: string }[] =
     icon: '📊',
     title: 'One Portfolio',
     desc: 'A single portfolio view aggregates exposure and P&L over every connected market.',
+    href: '/docs/community-dashboard-and-portfolio',
   },
   {
     icon: '🤖',
     title: 'Automation',
     desc: 'Run multi-strategy bots, wire in TradingView signals, and chain pipelines without hand-managing each order.',
+    href: '/docs/strategy-builder-workflow',
+  },
+  {
+    icon: '📡',
+    title: 'Bot Control & Monitoring',
+    desc: 'Inspect bot scope, current state, activity history and live operations without losing the evidence trail.',
+    href: '/docs/bot-control-and-live-monitoring',
+  },
+  {
+    icon: '🧠',
+    title: 'AI Analyst',
+    desc: 'Review real trading history with deterministic metrics, bounded AI commentary and local-model support.',
+    href: '/docs/ai-analyst-trade-review',
+  },
+  {
+    icon: '🔌',
+    title: 'MCP AI Agents',
+    desc: 'Expose structured, auditable tools to assistants while keeping permissions and execution boundaries explicit.',
+    href: '/docs/mcp-ai-agents',
+  },
+  {
+    icon: '🧭',
+    title: 'Marketplace & Copy Trading',
+    desc: 'Discover automation and evaluate providers without bypassing your own Demo testing and portfolio limits.',
+    href: '/docs/marketplace-and-copy-trading',
   },
   {
     icon: '🧪',
