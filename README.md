@@ -48,13 +48,17 @@
 
 ---
 
-## Latest Release — v0.1.0-beta.20
+## Latest Release — v0.1.0-beta.21
 
-WolfBot Community **v0.1.0-beta.20** is the latest public release of the free self-hosted trading platform. It adds per-account Trading settings (Model Type, Trailing, Account Profit Lock) to the dashboard for every broker, fixes missing stop-loss on small Binance Portfolio Margin LONG positions, and adds OKX spot-gold (`PAXGUSDT`) symbol aliasing. It also includes the changes prepared as v0.1.0-beta.19 (an internal build that was never published). The signed Linux installers are the new build; Windows users should keep the v0.1.0-beta.15 installer, which is attached to this release too.
+WolfBot Community **v0.1.0-beta.21** is the latest public release of the free self-hosted trading platform. It adds the **AI Analyst** (a read-only review of your own trade history), makes the Linux installer download only the Live Translate images your machine can run, installs a safe bridge from containers to a local Ollama, fills missing daily ROI days, and fixes a Live Translate restart loop on machines without a GPU. The Windows installer is unchanged from v0.1.0-beta.20.
 
 Highlights:
 
-- **Account Trading settings** — Accounts → Details, all brokers including MT5: Model Type, Trailing and Account Profit Lock with validated, rollback-safe writes.
+- **AI Analyst** — a read-only review of your own trade history: final result, win rate versus break-even, long/short mix, drawdown and a short AI commentary. Numbers are computed by code; it never places or changes an order. Runs on a local Ollama model or your own API key.
+- **Smarter Linux installer** — downloads only the Live Translate images your hardware can run, and installs a safe container-to-Ollama bridge (`WOLFBOT_ONECLICK_PULL_ALL_TIERS=1` / `WOLFBOT_OLLAMA_BRIDGE=0` restore the old behavior).
+- **Daily ROI gap fill** — days missed while the PC was off are recovered from the exchange (`WOLFBOT_ROI_GAP_FILL=0` disables).
+- **Live Translate** — no more restart loop on machines without an NVIDIA GPU.
+- **Account Trading settings** (from v0.1.0-beta.20) — Accounts → Details, all brokers including MT5: Model Type, Trailing and Account Profit Lock with validated, rollback-safe writes.
 - **Binance Portfolio Margin stop-loss fix** — SL clamped to the symbol's minimum price (`-4502`), and API rejections are retried and alerted instead of logged as success.
 - **OKX spot-gold aliasing** — `PAXGUSDT` maps to `XAU/USDT:USDT` (`OKX_SYMBOL_ALIAS_ENABLED=0` disables).
 - **Gate Account Connect, OKX/Gate TP/SL hardening, correct BingX/Binance PM equity, Binance timestamp-error resilience, Bitget UTA realized PnL** (from v0.1.0-beta.18).
@@ -68,13 +72,13 @@ Downloads:
 
 | Platform | File | Download | SHA256 |
 |---|---|---|---|
-| 🐧 Linux — Debian / Ubuntu | `WolfBot-Setup-linux-amd64.deb` | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-linux-amd64.deb)** | `f8dcaeabf658987ef78095e2aa375477b8cc2406dd631e76c06499a34692acb1` |
-| 🐧 Linux — any distro | `WolfBot-Setup-0.1.0-beta.20-linux-amd64.run` | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-linux-amd64.run)** | `4b448ec8a5741a98736ee2c5166f4592f6b46d23d2c76d0f4f1b8567cdca533e` |
+| 🐧 Linux — Debian / Ubuntu | `WolfBot-Setup-linux-amd64.deb` | **[⬇️ Download .deb](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.21/WolfBot-Setup-linux-amd64.deb)** | `f8767fcd6c88954090ea6bed902f51f66a55189d6500722d397e970412d5ea7e` |
+| 🐧 Linux — any distro | `WolfBot-Setup-0.1.0-beta.21-linux-amd64.run` | **[⬇️ Download .run](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.21/WolfBot-Setup-0.1.0-beta.21-linux-amd64.run)** | `795748c328064f8b4669479b652d6ab020fa5c954c08d2cf04c97a4f32178124` |
 | 🪟 Windows 64-bit (Docker edition) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe` | **[⬇️ Download .exe](https://github.com/wolfbot-io/wolfbot-community/releases/download/v0.1.0-beta.20/WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe)** | `dafe8822fb41fac4156b34dfde24f08709f7bb7145275e5243084201ee5ce092` |
 
 Windows: public beta, not code-signed yet (SmartScreen will warn — compare the SHA256, then *More info → Run anyway*). Uninstall the older Windows "Native" build first.
 
-Read the full release notes: **[v0.1.0-beta.20](https://community.wolfbot.io/releases/0.1.0-beta.20)**.
+Read the full release notes: **[v0.1.0-beta.21](https://community.wolfbot.io/releases/0.1.0-beta.21)**.
 
 Recommended first run: install the signed package, open the local setup wizard, start with Simulation or a broker demo account, then add live trade-only API keys when you are ready.
 

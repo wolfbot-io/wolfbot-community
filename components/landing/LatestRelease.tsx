@@ -10,7 +10,7 @@ import { localizeHref } from '@/lib/localized-links'
 // NOT `prerelease: true` (so the in-app updater's `/releases/latest` alias
 // dependency works) -- update RELEASE_TAG here on each new release since
 // this static export has no server-side lookup to do it dynamically.
-const RELEASE_TAG = 'v0.1.0-beta.20'
+const RELEASE_TAG = 'v0.1.0-beta.21'
 const GITHUB_RELEASE_URL = `https://github.com/wolfbot-io/wolfbot-community/releases/tag/${RELEASE_TAG}`
 
 // Dark theme per prototypes/figma-make design language.
@@ -24,7 +24,7 @@ export function LatestRelease({ copy, locale }: LocaleProps) {
           <span className="text-xs font-semibold px-2 py-0.5 rounded" style={{ background: 'rgba(0,201,232,0.15)', color: '#67E8F9' }}>{c.releasePublicPreview || 'LATEST PUBLIC RELEASE'}</span>
           <span className="text-white font-bold">{RELEASE_TAG}</span>
         </div>
-        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'v0.1.0-beta.20 adds per-account Trading settings (Model Type, Trailing, Account Profit Lock) for every broker, fixes missing stop-loss on small Binance Portfolio Margin LONG positions, and adds OKX spot-gold symbol aliasing. Signed Linux installers are available now; Windows users should keep the beta.15 installer. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
+        <p className="text-sm mb-6" style={{ color: '#94A3B8' }}>{c.releaseBody || 'v0.1.0-beta.21 adds the AI Analyst (a read-only review of your own trade history), makes the Linux installer download only the Live Translate images your machine can run, adds a safe container-to-Ollama bridge, fills missing daily ROI days and fixes a Live Translate restart loop on machines without a GPU. Signed Linux installers are available now; the Windows installer is unchanged from beta.20. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.'}</p>
         <div className="flex flex-wrap gap-4">
           <Link
             href={localizeHref('/download', locale ?? null)}

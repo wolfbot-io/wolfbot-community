@@ -1,8 +1,8 @@
 ---
 title: "Trạng thái WolfBot Community"
 description: "Trạng thái hiện tại của WolfBot Community — thị trường được hỗ trợ, khả dụng nền tảng, vấn đề đã biết, và lộ trình."
-tested_version: "0.1.0-beta.20"
-last_updated: "2026-11-10"
+tested_version: "0.1.0-beta.21"
+last_updated: "2026-11-17"
 category: "status"
 difficulty: "beginner"
 lang: "vi"
@@ -20,7 +20,7 @@ sitemap_priority: 0.60
 |---|---|---|
 | Website (community.wolfbot.io) | 🟢 Trực tuyến | Next.js 14, Cloudflare Pages |
 | Kho GitHub | 🟢 Hoạt động | github.com/wolfbot-io/wolfbot-community |
-| Bộ cài Linux | 🟢 Ổn định | Ubuntu 22.04+, Debian 12, .deb, v0.1.0-beta.20 |
+| Bộ cài Linux | 🟢 Ổn định | Ubuntu 22.04+, Debian 12, .deb, v0.1.0-beta.21 |
 | Bộ cài Windows | 🟡 Beta công khai (v0.1.0-beta.20, bản Docker) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe`; chưa ký code nên Windows SmartScreen hiện cảnh báo nhà phát hành không xác định; mới thử trên Windows 11, chưa thử trên máy sạch và Windows 10 |
 | MT5 Bridge (Linux) | 🟢 Ổn định | Container terminal tích hợp, truy cập VNC qua trình duyệt |
 
@@ -60,11 +60,11 @@ sitemap_priority: 0.60
 
 ## Phiên bản hiện tại
 
-- **Bản phát hành công khai mới nhất:** v0.1.0-beta.20 (Linux)
+- **Bản phát hành công khai mới nhất:** v0.1.0-beta.21 (Linux)
 - **Kênh:** phát hành công khai
-- **Ngày phát hành:** 2026-11-10
-- **Ghi chú phát hành:** [v0.1.0-beta.20](/vi/releases/0.1.0-beta.20)
-- **Windows:** v0.1.0-beta.20 có trình cài bản Docker (cùng WolfBot với Linux) — xem [ghi chú phát hành v0.1.0-beta.20](/vi/releases/0.1.0-beta.20) và [hướng dẫn cài trên Windows](/vi/install/windows)
+- **Ngày phát hành:** 2026-11-17
+- **Ghi chú phát hành:** [v0.1.0-beta.21](/vi/releases/0.1.0-beta.21)
+- **Windows:** trình cài bản Docker ra từ v0.1.0-beta.20 (cùng WolfBot với Linux) giữ nguyên trong v0.1.0-beta.21 — xem [ghi chú phát hành v0.1.0-beta.20](/vi/releases/0.1.0-beta.20) và [hướng dẫn cài trên Windows](/vi/install/windows)
 
 ## Vấn đề đã biết
 
@@ -73,7 +73,7 @@ sitemap_priority: 0.60
 | Windows: kết nối dữ liệu thị trường không kết nối lại được (ghi nhận trên v0.1.0-beta.10) | 🟡 Chưa kiểm chứng lại trên v0.1.0-beta.15 | Đặt lệnh, TP/SL và risk guard không bị ảnh hưởng; nếu thấy cảnh báo kết nối lại lặp lại trong log, hãy báo qua GitHub Issues |
 | Chưa có ứng dụng di động | ℹ️ Không có kế hoạch | Dùng trình duyệt trên di động |
 
-Lỗi đã biết của v0.1.0-beta.13 về việc hỏng dữ liệu khi cài đè MT5 đã được sửa kể từ v0.1.0-beta.14, v0.1.0-beta.15 đã sửa lỗi mất lịch sử đường cong lợi nhuận khi đổi tên tài khoản, và v0.1.0-beta.16 sửa lỗi KuCoin UTA có thể hiện thiếu TP/SL cùng cải thiện độ ổn định báo cáo ROI hằng ngày của Bitget, và v0.1.0-beta.18 sửa lỗi sập outcome simulator khi Binance báo lỗi timestamp cùng tính đúng equity BingX đa tài sản và Binance Portfolio Margin, và v0.1.0-beta.20 sửa lỗi thiếu stop-loss ở vị thế LONG nhỏ trên Binance Portfolio Margin; không mục nào trong số này còn nằm trong danh sách trên.
+Lỗi đã biết của v0.1.0-beta.13 về việc hỏng dữ liệu khi cài đè MT5 đã được sửa kể từ v0.1.0-beta.14, v0.1.0-beta.15 đã sửa lỗi mất lịch sử đường cong lợi nhuận khi đổi tên tài khoản, và v0.1.0-beta.16 sửa lỗi KuCoin UTA có thể hiện thiếu TP/SL cùng cải thiện độ ổn định báo cáo ROI hằng ngày của Bitget, và v0.1.0-beta.18 sửa lỗi sập outcome simulator khi Binance báo lỗi timestamp cùng tính đúng equity BingX đa tài sản và Binance Portfolio Margin, và v0.1.0-beta.20 sửa lỗi thiếu stop-loss ở vị thế LONG nhỏ trên Binance Portfolio Margin, và v0.1.0-beta.21 sửa lỗi Live Translate khởi động lại liên tục trên máy không có GPU cùng tự bù các ngày ROI bị thiếu; không mục nào trong số này còn nằm trong danh sách trên.
 
 ## Lộ trình
 

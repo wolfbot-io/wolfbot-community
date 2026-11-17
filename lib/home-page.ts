@@ -265,7 +265,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Latest Release',
     releasePublicPreview: 'LATEST PUBLIC RELEASE',
     releaseBody:
-      'v0.1.0-beta.20 adds per-account Trading settings (Model Type, Trailing, Account Profit Lock) for every broker, fixes missing stop-loss on small Binance Portfolio Margin LONG positions, and adds OKX spot-gold symbol aliasing. Signed Linux installers are available now; Windows users should keep the beta.15 installer. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
+      'v0.1.0-beta.21 adds the AI Analyst (a read-only review of your own trade history), makes the Linux installer download only the Live Translate images your machine can run, adds a safe container-to-Ollama bridge, fills missing daily ROI days and fixes a Live Translate restart loop on machines without a GPU. Signed Linux installers are available now; the Windows installer is unchanged from beta.20. Includes TradingView long/short/close webhooks, multi-broker crypto/futures support and the self-hosted MT5 bridge.',
     releaseDownload: 'Download',
     releaseGitHub: 'GitHub Release',
     ghTitle: 'Join the Community',
@@ -442,7 +442,7 @@ export const HOME_COPY: Record<string, HomeCopy> = {
     releaseTitle: 'Bản phát hành mới nhất',
     releasePublicPreview: 'BẢN XEM TRƯỚC CÔNG KHAI',
     releaseBody:
-      'v0.1.0-beta.20 thêm cài đặt Trading settings theo từng tài khoản (Model Type, Trailing, Account Profit Lock) cho mọi broker, sửa lỗi thiếu stop-loss ở vị thế LONG nhỏ trên Binance Portfolio Margin, và thêm ánh xạ symbol vàng spot của OKX. Trình cài đặt Linux đã ký đã có sẵn; người dùng Windows nên tiếp tục dùng trình cài beta.15. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
+      'v0.1.0-beta.21 thêm AI Analyst (xem lại lịch sử giao dịch của chính bạn, chỉ đọc), giúp bộ cài Linux chỉ tải các image Live Translate mà máy chạy được, thêm cầu nối an toàn từ container tới Ollama, tự bù các ngày ROI bị thiếu và sửa lỗi Live Translate khởi động lại liên tục trên máy không có GPU. Trình cài đặt Linux đã ký đã có sẵn; trình cài Windows giữ nguyên như beta.20. Bao gồm webhook TradingView long/short/close, hỗ trợ đa sàn crypto/futures và cầu nối MT5 tự host.',
     releaseDownload: 'Tải xuống',
     releaseGitHub: 'Bản phát hành GitHub',
     ghTitle: 'Tham gia Cộng đồng',

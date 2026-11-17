@@ -1,8 +1,8 @@
 ---
 title: "WolfBot Community Status"
 description: "Current status of WolfBot Community — supported markets, platform availability, known issues, and roadmap."
-tested_version: "0.1.0-beta.20"
-last_updated: "2026-11-10"
+tested_version: "0.1.0-beta.21"
+last_updated: "2026-11-17"
 category: "status"
 difficulty: "beginner"
 sitemap_priority: 0.60
@@ -18,7 +18,7 @@ sitemap_priority: 0.60
 |---|---|---|
 | Website (community.wolfbot.io) | 🟢 Online | Next.js 14, Cloudflare Pages |
 | GitHub Repository | 🟢 Active | github.com/wolfbot-io/wolfbot-community |
-| Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run`, v0.1.0-beta.20 |
+| Linux Installer | 🟢 Available now | Ubuntu 22.04+, Debian 12, `.deb` and `.run`, v0.1.0-beta.21 |
 | Windows Installer | 🟡 Public beta (v0.1.0-beta.20, Docker edition) | `WolfBot-Setup-0.1.0-beta.20-windows-amd64.exe`; not yet code-signed, so Windows SmartScreen shows an unrecognized-publisher warning; tested on Windows 11 only, clean-PC and Windows 10 testing pending |
 | MT5 Bridge (Linux) | 🟢 Stable | Built-in terminal container, browser VNC access |
 
@@ -58,11 +58,11 @@ sitemap_priority: 0.60
 
 ## Current Version
 
-- **Latest Public Release:** v0.1.0-beta.20 (Linux)
+- **Latest Public Release:** v0.1.0-beta.21 (Linux)
 - **Channel:** Public release
-- **Release Date:** 2026-11-10
-- **Release notes:** [v0.1.0-beta.20](/releases/0.1.0-beta.20)
-- **Windows:** v0.1.0-beta.20 introduces the Docker edition installer (same WolfBot as Linux) — see the [v0.1.0-beta.20 release notes](/releases/0.1.0-beta.20) and the [Windows install guide](/install/windows)
+- **Release Date:** 2026-11-17
+- **Release notes:** [v0.1.0-beta.21](/releases/0.1.0-beta.21)
+- **Windows:** the Docker edition installer introduced in v0.1.0-beta.20 (same WolfBot as Linux) is unchanged in v0.1.0-beta.21 — see the [v0.1.0-beta.20 release notes](/releases/0.1.0-beta.20) and the [Windows install guide](/install/windows)
 
 ## Known Issues
 
@@ -71,7 +71,7 @@ sitemap_priority: 0.60
 | Windows: market-data connections failing to reconnect (reported on v0.1.0-beta.10) | 🟡 Not yet re-verified on v0.1.0-beta.15 | Order placement, TP/SL and risk guards were not affected; report any repeated reconnect warnings in the logs via GitHub Issues |
 | No mobile app | ℹ️ Not planned | Use browser on mobile |
 
-v0.1.0-beta.13's known MT5 upgrade-install data-corruption issue is fixed as of v0.1.0-beta.14, v0.1.0-beta.15 fixed an account-rename bug that could reset equity-curve history, and v0.1.0-beta.16 fixed a KuCoin UTA TP/SL visibility gap and improved Bitget daily ROI reporting reliability, v0.1.0-beta.18 fixed a Binance timestamp-error crash in the outcome simulator and corrected BingX multi-asset and Binance Portfolio Margin equity, and v0.1.0-beta.20 fixed missing stop-loss on small Binance Portfolio Margin LONG positions; none of these are listed above.
+v0.1.0-beta.13's known MT5 upgrade-install data-corruption issue is fixed as of v0.1.0-beta.14, v0.1.0-beta.15 fixed an account-rename bug that could reset equity-curve history, and v0.1.0-beta.16 fixed a KuCoin UTA TP/SL visibility gap and improved Bitget daily ROI reporting reliability, v0.1.0-beta.18 fixed a Binance timestamp-error crash in the outcome simulator and corrected BingX multi-asset and Binance Portfolio Margin equity, v0.1.0-beta.20 fixed missing stop-loss on small Binance Portfolio Margin LONG positions, and v0.1.0-beta.21 fixed a Live Translate restart loop on machines without a GPU and recovers missing daily ROI days; none of these are listed above.
 
 ## Roadmap
 
