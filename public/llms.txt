@@ -12,6 +12,7 @@ WolfBot Community is the free, self-hosted edition of WolfBot by [WolfBot.io](ht
 - [Features](https://community.wolfbot.io/features): Full feature list
 - [Academy](https://community.wolfbot.io/academy): All tutorials and guides
 - [Security](https://community.wolfbot.io/security): Non-custodial design, signed releases
+- [Privacy Policy](https://community.wolfbot.io/privacy): What stays on your computer and what the software connects to
 - [FAQ](https://community.wolfbot.io/faq): Frequently asked questions
 - [Community vs Cloud](https://community.wolfbot.io/community-vs-cloud): Comparison of the two editions
 - [Tiếng Việt (Vietnamese)](https://community.wolfbot.io/vi): Tiếng Việt localized homepage of WolfBot Community

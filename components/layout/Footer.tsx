@@ -102,7 +102,7 @@ export function Footer() {
         </div>
         <div className="mt-6 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
           <p className="text-sm text-wolf-text3">WolfBot Community — <span className="text-wolf-accent">{t.tagline}</span> · by <a href="https://wolfbot.io" className="text-wolf-accent hover:underline">WolfBot.io</a></p>
-          <p className="text-xs text-wolf-text3">{t.footerMeta}</p>
+          <p className="text-xs text-wolf-text3"><Link href="/privacy" className="hover:text-wolf-text2 transition-colors">Privacy Policy</Link> · {t.footerMeta}</p>
         </div>
       </div>
     </footer>

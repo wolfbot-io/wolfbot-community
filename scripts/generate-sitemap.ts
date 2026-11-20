@@ -91,6 +91,7 @@ function generate(): string {
     ['/community-vs-cloud', '2026-08-11', 'monthly', 0.8],
     ['/faq', '2026-08-11', 'monthly', 0.8],
     ['/security', '2026-08-11', 'monthly', 0.7],
+    ['/privacy', '2026-11-19', 'yearly', 0.3],
     ['/brokers', '2026-08-11', 'weekly', 0.8],
     ['/about', '2026-08-16', 'monthly', 0.6],
     ['/support', '2026-08-16', 'monthly', 0.6],

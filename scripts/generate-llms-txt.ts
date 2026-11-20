@@ -82,6 +82,7 @@ function generate(): string {
     ['/features', 'Features', 'Full feature list'],
     ['/academy', 'Academy', 'All tutorials and guides'],
     ['/security', 'Security', 'Non-custodial design, signed releases'],
+    ['/privacy', 'Privacy Policy', 'What stays on your computer and what the software connects to'],
     ['/faq', 'FAQ', 'Frequently asked questions'],
     ['/community-vs-cloud', 'Community vs Cloud', 'Comparison of the two editions'],
   ]
